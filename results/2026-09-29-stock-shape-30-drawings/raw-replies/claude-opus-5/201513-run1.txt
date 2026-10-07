@@ -1,0 +1,21 @@
+## Bounding Stock — Rectangular (Cuboid)
+
+**Part:** Clamp Spacer Block 200868 (DWG 201513, Rev 1) — AISI A2
+
+| Axis | Millimeters | Inches |
+|------|-------------|--------|
+| Thickness | **75.8** | 2.984 |
+| Width | **78.0** | 3.071 |
+| Length | **85.0** | 3.346 |
+
+**Bounding envelope: 75.8 × 78.0 × 85.0 mm (2.98 × 3.07 × 3.35 in)**
+
+**Basis:**
+- 78.00 [3.071] — overall across the top view (face with the 2 × Ø5.8 / Ø6.0 c'bore holes)
+- 75.8 [2.984] — overall depth in the top view
+- 85.0 [3.346] — overall in the view containing the 2 × Ø6.6 THRU / Ø11.0 c'bores
+- All other callouts (77.87, 69.00, 68.8, 64.8, 63.5, 57.8, 50.80, 43.80, etc.) are feature/hole locations that fall inside this envelope; the chamfered corner with the Ø19.05 bore and 5/16‑18 UNC tap removes material from the block, so no dimension exceeds the above.
+
+**Sanity check:** Envelope volume ≈ 503 cm³ (≈ 8.7 lb in tool steel) vs. listed part weight 5.82 lb — about 67 % of the block remains, consistent with the corner chamfer, bore, and counterbores.
+
+**Suggested purchase stock (with machining allowance):** ~80 × 82 × 89 mm (≈ 3.15 × 3.25 × 3.50 in) A2 flat/block, ground or rough‑sawn oversize for finishing all six faces.

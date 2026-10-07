@@ -1,0 +1,17 @@
+## Bounding Stock — Round
+
+**Dia × L = Ø0.125 in × E in**
+
+| Item | Value |
+|---|---|
+| Stock form | Round bar (cylindrical) |
+| Diameter | 0.1250 in (max OD on the drawing, Ø0.1250 ±0.0002) |
+| Length | E, where **E = A – 2.8821** per Note 3 / JRE DOC X |
+
+**Rationale**
+
+- The part is a slender, essentially axisymmetric rod: the only features are the Ø0.1250 ground body, a 45° chamfer/point at one end, a 30° point with a 0.063 flat at the other end, and a small local flat/relief 0.050 deep located between 0.563 and 0.801 from the left end. Every feature lies within the Ø0.1250 envelope, so no rectangular blank is needed.
+- Maximum radial envelope = the body diameter, 0.1250 in. (The 0.050-deep flat and the end points only remove material.)
+- Maximum axial envelope = the overall length callout "E ±0.0001," which is defined parametrically as A – 2.8821, with A being the configuration (20 mm gauge) dimension from the referenced JRE document.
+
+**Practical note:** For actual purchasing, order centerless-ground drill-rod/HSS blank slightly oversize — e.g., Ø0.1265–0.130 × (E + 0.06) — to allow for finish grinding to the ±0.0002 diameter and ±0.0001 length tolerances; the values above are the true part bounding dimensions.

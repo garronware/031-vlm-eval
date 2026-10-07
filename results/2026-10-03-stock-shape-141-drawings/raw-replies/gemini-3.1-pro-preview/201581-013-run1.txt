@@ -1,0 +1,4 @@
+Based on the engineering drawing, the part is cylindrical. The bounding dimensions for round stock are:
+
+**Dia:** 101.60 [4.000]
+**L:** 38.1 [1.50]

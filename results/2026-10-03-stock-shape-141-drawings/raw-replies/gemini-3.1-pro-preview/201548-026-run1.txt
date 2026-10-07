@@ -1,0 +1,5 @@
+Based on the engineering drawing, the part is a cylindrical pin made from round stock (Reamer Blank). The bounding dimensions are:
+
+**Cylindrical Bounding Dimensions:**
+*   **Dia (Diameter):** 8.000 mm [0.3150 in]
+*   **L (Length):** 114.3 mm [4.50 in]

@@ -1,0 +1,8 @@
+**Bounding stock: round (cylindrical)**
+
+| Dimension | Value |
+|---|---|
+| Diameter | **Ø4.00 in** (largest OD on the part — the Ø4.00 flange/body; Ø3.6200 push‑fit pilot and Ø2.875 diameters are smaller) |
+| Length | **6.72 in** (overall end‑to‑end length; 6.472 is the "at assembly" length, 6.253/5.409/5.154 are intermediate) |
+
+So the part would be turned from round stock approximately **Ø4.00 × 6.72** finished (order ~Ø4.25 × 7.00 A2 tool steel bar to allow cleanup, before harden/grind to Rc 60‑63 and black oxide).

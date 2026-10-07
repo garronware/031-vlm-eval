@@ -1,0 +1,9 @@
+**Rectangular stock — cuboid bounding dimensions:**
+
+| Dimension | Value |
+|---|---|
+| Thickness (Thk) | 0.75 in |
+| Width (W) | 6.00 in |
+| Length (L) | 12.00 in |
+
+The part ("TOP PLATE," A‑2 tool steel, hardened Rc 58‑60, black oxide) is a flat rectangular plate, so it would be cut from rectangular bar stock of nominally **0.75 × 6.00 × 12.00 in** (plus stock allowance for grinding/finishing).

@@ -1,0 +1,6 @@
+Based on the mechanical drawing, the part (Crown Puck Shaft) is cylindrical and would be made from round stock. 
+
+Here are the cylindrical bounding dimensions (in millimeters with inches in brackets):
+
+*   **Diameter (Dia):** 25.400 [1.0000] 
+*   **Length (L):** 88.90 [3.500]

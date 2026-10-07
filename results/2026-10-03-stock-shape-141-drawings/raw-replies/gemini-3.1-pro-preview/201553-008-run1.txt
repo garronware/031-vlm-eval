@@ -1,0 +1,7 @@
+Based on the engineering drawing, the part is a turned cylindrical component, so it would be made from round stock. 
+
+The primary dimensions are in millimeters, with inch equivalents in brackets `[ ]`.
+
+**Cylindrical Bounding Dimensions:**
+* **Dia:** 83.955 mm [3.3053 in]
+* **L:** 56.900 mm [2.2402 in]

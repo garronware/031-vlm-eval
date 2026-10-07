@@ -1,0 +1,17 @@
+## Bounding Stock — Rectangular
+
+This part (VEE BLOCK, DWG 201548, DET 014) is a flat plate‑type component with a 90° included vee notch, chamfered corners, and through/dowel/SHCS holes — it would be cut from rectangular (plate/bar) stock.
+
+| Dimension | Metric | Inch |
+|---|---|---|
+| **Thickness (Thk)** | 25.4 mm | 1.00 in |
+| **Width (W)** | 123.8 mm | 4.88 in |
+| **Length (L)** | 228.6 mm | 9.00 in |
+
+**Stock callout:** 1.00" × 4.88" × 9.00" — A/2‑T.S. (tool steel), harden 60‑63 HRC, ground, black oxide.
+
+*Notes:*
+- Thickness taken from the side view (25.4 [1.00]).
+- Width is the overall height in the front view (123.8 [4.88]), which spans the 104.78 [4.125] hole location plus remaining material.
+- Length is the overall 228.6 [9.00] dimension.
+- Add stock allowance (typically +0.030–0.060" per ground face) if grinding after heat treat is required.

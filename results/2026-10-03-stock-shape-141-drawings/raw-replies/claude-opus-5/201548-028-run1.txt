@@ -1,0 +1,10 @@
+**Round stock (cylindrical bounding envelope)**
+
+| Dimension | Metric | Inch |
+|---|---|---|
+| Diameter (max OD — the Ø.313 ball/head end) | Ø7.94 mm | Ø0.313 in |
+| Length (overall) | 64.29 mm | 2.531 in |
+
+**Bounding size: Ø7.94 × 64.29 mm [Ø.313 × 2.531 in]**
+
+Rationale: the part is a turned/ground pin — Ø6.35 [.250] body stepping down to a Ø3.969 [.1563] tip, with the largest feature being the Ø7.94 [.313] end. All features are concentric about one axis, so round bar stock of at least Ø.313 (practically Ø3/8 to allow cleanup) and ~2.60 in long (to allow facing/cutoff) would be used.

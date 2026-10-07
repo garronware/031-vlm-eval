@@ -1,0 +1,6 @@
+Based on the engineering drawing, the part is a "VEE BLOCK" machined from rectangular stock. 
+
+Here are the cuboid bounding dimensions extracted from the outermost ordinate dimensions:
+*   **Thk:** 18.8 [.74]
+*   **W:** 28.6 [1.13]
+*   **L:** 69.9 [2.75]

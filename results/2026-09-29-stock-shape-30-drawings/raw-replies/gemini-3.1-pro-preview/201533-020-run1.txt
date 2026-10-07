@@ -1,0 +1,7 @@
+Based on the technical drawing provided, the part is a flat plate (MIC-6 Bottom Plate) made from rectangular stock. 
+
+Here are the cuboid bounding dimensions (dual dimensions are given in millimeters [inches]):
+
+* **Thickness (Thk):** 12.7 mm [0.50 in] *(deduced from the 6.35 mm [0.250 in] centerline dimension of the edge holes and standard tooling plate thickness)*
+* **Width (W):** 184.2 mm [7.25 in]
+* **Length (L):** 215.9 mm [8.50 in]

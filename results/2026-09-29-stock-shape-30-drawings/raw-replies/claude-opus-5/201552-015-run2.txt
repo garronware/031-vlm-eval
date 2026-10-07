@@ -1,0 +1,20 @@
+## Bounding Stock — Rectangular (Plate/Bar)
+
+**Part:** DELRIN RAIL, DWG 201552 Rev A (Det 015)
+
+| Dimension | Inch | Metric |
+|---|---|---|
+| **Thickness** | 0.75 | 19.1 mm |
+| **Width** | 3.15 | 80.0 mm |
+| **Length** | 4.65 | 118.1 mm |
+
+**Basis:**
+- **Thk = 0.75 in [19.1]** — taken directly from the side/edge view, which shows a constant plate thickness (the 1.5 [.06] × 45° chamfer is within this thickness).
+- **Width = 3.15 in [80.0]** — the part is widest at the bottom, where the 20°/10° angled face runs out to the 80.0 [3.15] "S.C." (sharp‑corner) dimension. The 40.64 [1.600] S.C. is only the width at the top end, so it does not govern.
+- **Length = 4.65 in [118.1]** — overall height from the 0 datum at the top to the bottom end (bottom hole at 105.44 [4.151] plus remaining material).
+
+**Rectangular, not round:** the part is a flat, plate‑like rail with a flat back, two parallel faces, a straight‑line angled edge profile, and a 3‑hole/2‑dowel pattern on a single centerline — no rotational symmetry, so it would be cut from flat Delrin plate/bar stock.
+
+Suggested purchase size (with machining allowance): **0.75 in thick × 3.25 in × 4.75 in** Delrin plate (0.75 plate typically used as‑is on the thickness, cleaned up only if flatness requires it).
+
+*Note: the 1.22 lbmass on the title block does not correlate with the finished Delrin volume of this envelope (≈0.55 lb at 1.41 g/cc); it appears to be carried over from a steel version of the part (previously 90‑100042). Verify with engineering if mass is critical.*

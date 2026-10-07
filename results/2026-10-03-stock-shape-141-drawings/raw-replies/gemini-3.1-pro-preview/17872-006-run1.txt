@@ -1,0 +1,8 @@
+Based on the technical drawing, the part is a rectangular base plate. 
+
+The bounding dimensions are:
+**1.00 x 27.00 x 33.00** (Thk, W, L)
+
+*   **Thickness:** 1.00 (shown in the right-side profile view as `1.00 TYP`)
+*   **Width:** 27.00 (from the Y-axis ordinate dimension at the bottom edge `27.00 TYP`)
+*   **Length:** 33.00 (from the X-axis ordinate dimension at the right edge `33.00 O.A.L.`)

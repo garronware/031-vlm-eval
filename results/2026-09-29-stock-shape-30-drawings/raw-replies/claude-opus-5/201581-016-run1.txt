@@ -1,0 +1,16 @@
+## Bounding Stock Determination
+
+**Part configuration:** The part is a cylindrical "mean master" gage body — Ø83.570 [3.2902] O.D. with two milled flats (29.4 [1.16] each side of centerline) and a Ø30.042 cross‑bore. The dominant feature is the turned outside diameter, so this would be made from **round stock**.
+
+### Bounding Cylinder
+
+| | Metric | Inch |
+|---|---|---|
+| **Dia.** | 83.570 mm (max O.D.) | 3.2902 in |
+| **L** | 56.9 mm (overall axial length) | 2.24 in |
+
+**Bounding dimensions ≈ Ø83.6 mm × 56.9 mm long (Ø3.290 in × 2.24 in long)**
+
+*Notes:*
+- The flats reduce the across‑flats envelope to ≈58.8 mm (2×29.4), but they do not reduce the required stock diameter.
+- For ordering, add machining/heat‑treat (carb‑harden 58‑62 HRC + grind) allowance — e.g., Ø3.50 in × 2.50 in cut length of 8620 bar.

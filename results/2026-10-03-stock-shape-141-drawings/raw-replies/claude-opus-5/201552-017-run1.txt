@@ -1,0 +1,14 @@
+## Bounding Stock – Round
+
+This detail (#017, MIN/MAX MASTER‑1) is a disc‑shaped gage plate (Ø83.57 [Ø3.290] outer profile), so it would be cut from **round stock**.
+
+| Dimension | Metric | Inch |
+|---|---|---|
+| **Diameter** | Ø83.57 mm | Ø3.290 in |
+| **Length (thickness)** | 6.60 mm | 0.260 in |
+
+**Basis:**
+- Outside diameter taken directly from the Ø83.57 [Ø3.290] callout (alike with Det. #020).
+- Overall thickness is the stacked height of the body plus the raised boss: 5.000 ±0.005 [.1969] max‑side pad + 1.6000 +0.0075/−0.0000 [.06299] step ≈ 6.600 [.2598] (shown as the REF overall on the section view). The 4.985 [.1963] min‑side pad is the shorter of the two gaging steps and does not control the envelope.
+
+**Bounding cylinder: Ø3.290 × 0.260 in** (add normal saw/grind stock, e.g. Ø3.40 × 0.38 in bar, for finishing and the carburize/harden‑and‑grind operations).

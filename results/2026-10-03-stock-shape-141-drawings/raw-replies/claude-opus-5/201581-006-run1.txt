@@ -1,0 +1,14 @@
+## Bounding Stock — Round
+
+**Ø76.2 mm [3.00 in] × 146.1 mm [5.75 in] long**
+
+**Basis:**
+
+| Dimension | Driving Feature |
+|---|---|
+| Diameter | Largest OD on the part — the ⌀76.2 [3.00] flange (other ODs: ⌀50.800 [2.0000] ground journal, ⌀38.1 [1.50], ⌀30.037 [1.1826] ground diameter) |
+| Length | Overall length callout 146.1 [5.75] from the flange face datum to the nose end |
+
+**Notes:**
+- This is a concentric turned/ground body (all features are diameters, cross‑holes, keyway/slot and a hex/60° feature machined off the axis), so round bar stock is the correct raw form.
+- Finished part is quench & tempered to 58–62 HRC and ground, so add stock for heat‑treat distortion and grind allowance — practically, order **⌀82.6 [3.25] × 152.4 [6.00]** bar to have clean‑up on the flange OD and both ends.

@@ -1,0 +1,16 @@
+## Bounding Stock — Rectangular (Cuboid)
+
+**Part:** BLOCK (CLAMP), DWG 201551, Det. 016, Material 1018
+
+| Dimension | Inch | mm | Source |
+|---|---|---|---|
+| **Thickness** | 0.75 | 19.1 | Top‑view part depth (19.1 [.75]) |
+| **Width** | 1.00 | 25.4 | Front‑view overall height (25.4 [1.00]) |
+| **Length** | 2.50 | 63.5 | Top‑view overall length (63.5 [2.50]) |
+
+**Bounding stock: 0.75 × 1.00 × 2.50 in (19.1 × 25.4 × 63.5 mm)**
+
+**Rationale / notes**
+- The part is a prismatic block with a milled central notch (20.6 [.81] from end, 22.2 [.88] wide, leaving 14.2 [.56] web) and two Ø10.1 [.40] thru holes with ¼" SHCS counterbores — all internal removals, so none extend past the outer envelope.
+- Nothing is round or turned, so rectangular bar stock is appropriate; nearest standard size would be 3/4" × 1" flat bar, cut to ~2.60" to allow facing to 2.500".
+- Finish: black oxide (per note); allow for 63 µin Ra max surfaces.

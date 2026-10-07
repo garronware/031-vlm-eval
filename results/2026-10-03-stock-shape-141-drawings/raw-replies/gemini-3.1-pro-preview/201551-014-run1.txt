@@ -1,0 +1,5 @@
+Based on the engineering drawing, the part is cylindrical and would be made from round stock. 
+
+Here are the cylindrical bounding dimensions:
+*   **Diameter (Dia):** 19.1 mm [0.75 in]
+*   **Length (L):** 19.1 mm [0.75 in]

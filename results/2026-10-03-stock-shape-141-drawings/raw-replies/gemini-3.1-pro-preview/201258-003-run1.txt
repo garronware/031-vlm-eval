@@ -1,0 +1,8 @@
+Based on the engineering drawing, the part would be machined from rectangular stock. 
+
+The bounding dimensions (cuboid) are:
+* **Length (L):** 44.4 mm [1.75 in]
+* **Width (W):** 12.7 mm [0.50 in]
+* **Thickness/Height (Thk):** 15.7 mm [0.62 in]
+
+**(15.7 x 12.7 x 44.4 mm)**

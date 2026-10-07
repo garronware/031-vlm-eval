@@ -1,0 +1,5 @@
+Based on the drawing, the part is a rectangular benchtop. The cuboid bounding dimensions are:
+
+*   **Thickness (Thk):** 50.8 [2.00]
+*   **Width (W):** 914.4 [36.00]
+*   **Length (L):** 1828.8 [72.00]

@@ -1,0 +1,18 @@
+## Bounding Stock — Rectangular
+
+This part (201533, "LH BLOCK") is a prismatic block with an angled/chamfered end, tapped and reamed holes, and a counterbored face — clearly made from rectangular (flat/plate) stock, not round stock.
+
+| Dimension | Inch | Metric |
+|---|---|---|
+| **Thickness (Thk)** | 1.25 | 31.8 mm |
+| **Width (W)** | 1.92 | 48.9 mm |
+| **Length (L)** | 4.62 | 117.3 mm |
+
+**Bounding box: 1.25 × 1.92 × 4.62 in (31.8 × 48.9 × 117.3 mm)**
+
+Basis:
+- **1.25 [31.8]** – overall block thickness from the end view.
+- **1.92 [48.9]** – overall width at the top of the front view.
+- **4.62 [117.3]** – overall height/length from datum 0 to the bottom of the front view (the 15° angled face and 0.50 × 45° chamfer fall inside this envelope).
+
+Material: A/2 tool steel, hardened 60–63 HRC, ground, black oxide — so add appropriate grind/heat-treat stock allowance if ordering material (e.g., ~1.30 × 2.00 × 4.75 in nominal oversize).

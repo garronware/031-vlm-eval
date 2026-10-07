@@ -1,0 +1,16 @@
+## Bounding Stock — Rectangular (Cuboid)
+
+This part is a flat blade‑type detail, so it would be cut from rectangular (flat) bar stock.
+
+| Dimension | Metric | Inch |
+|---|---|---|
+| **Thickness** | 4.0 mm | 0.16 in |
+| **Width** | 10.0 mm | 0.39 in |
+| **Length** | 23.0 mm | 0.91 in |
+
+**Basis:**
+- **Length (23.0 [.91])** – overall dimension in the top/front view.
+- **Width (10.0 [.39])** – overall dimension in the right‑hand end view (the 5.00 [.197] is the half‑width/centerline location).
+- **Thickness (4.0 [.16])** – maximum body height shown in the side/section view; the 1.555 ⁺⁰·⁰⁰⁰/₋₀.₀₀₅ and 1.22 dimensions are the reduced blade‑tip features, not the stock size.
+
+Material is O1 tool steel, hardened 60‑64 HRC and ground, so actual stock would be ordered oversize for grind/heat‑treat allowance (e.g., ~5 × 11 × 25 mm).

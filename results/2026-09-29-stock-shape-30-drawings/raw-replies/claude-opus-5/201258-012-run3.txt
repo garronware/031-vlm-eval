@@ -1,0 +1,15 @@
+## Bounding Envelope — Round Stock
+
+This is a turned, flanged post (all features concentric about one axis), so it would be made from round bar/slug.
+
+| Dimension | Metric | Inch |
+|---|---|---|
+| **Diameter** (flange O.D., ø90.4) | **≈ 90.4 mm** | **≈ 3.56 in** |
+| **Length** (overall: 7.9 flange thk + 57.15 body/post projection) | **≈ 65 mm** | **≈ 2.56 in** |
+
+**Bounding cylinder: Ø90.4 × 65 mm (Ø3.56 in × 2.56 in)**
+
+Notes:
+- Largest O.D. driving the stock size is the ø90.4 [3.56] mounting flange; all other diameters (ø65.0, ø58.095, ø49.290, ø31.179) are smaller and are turned down from it.
+- Overall length is set by the 7.9 [.31] flange thickness plus the 57.150 [2.2500] REF stack to the gaging end.
+- For actual stock, add cleanup allowance — e.g., ~Ø3.75 in × 2.75 in of 8620 bar (carburize/harden 58‑62 HRC, grind gaging surfaces).

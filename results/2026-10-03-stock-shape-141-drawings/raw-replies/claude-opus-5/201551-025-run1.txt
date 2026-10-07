@@ -1,0 +1,12 @@
+## Bounding Stock — Round
+
+This part is a turned ring/sleeve (circular profile with a through bore, radial dowel/tap holes, and a slot), so it would be made from **round stock**.
+
+| Dimension | Metric | Inch |
+|---|---|---|
+| **Diameter** (max OD, Ø83.57) | **83.57 mm** | **3.290 in** |
+| **Length** (overall height, 33.750 REF) | **33.75 mm** | **1.329 in** |
+
+**Bounding cylinder ≈ Ø3.290 in × 1.329 in long**
+
+*Note: the Ø83.57 [3.290] is the outside diameter envelope; the Ø81.000 ±0.020 [3.1890] is the finished gage diameter at the smaller step, and Ø73.03 [2.875] is the through bore. For procurement, round stock of Ø3.50 in × 1.50 in would provide typical machining allowance.*

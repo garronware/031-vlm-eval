@@ -1,0 +1,21 @@
+## Bounding Stock — Rectangular
+
+This part is a rectangular "bushing block," so it would be cut from rectangular (plate/bar) stock.
+
+**Cuboid bounding dimensions (Thk × W × L):**
+
+| Dimension | Metric | Imperial |
+|---|---|---|
+| Thickness | 25.4 mm | 1.000 in |
+| Width | 38.1 mm | 1.500 in |
+| Length | 62.7 mm | 2.468 in |
+
+### How these were derived
+- **Length 62.7 mm** – overall length called out in the front view ([2.468] 62.7), which also contains the Ø10 × 46 deep counterbore.
+- **Width (height in front view) 38.1 mm** – from the end view, 22.5 mm above + 15.6 mm below the datum‑B hole centerline (0.884 + 0.616 = 1.500 in). This envelopes the hole pattern at +16.45 / –9.65.
+- **Thickness 25.4 mm** – the [1.000] 25.4 dimension on the plan view, confirming the end‑view block depth (which carries the 16.760 mm hole‑center location from datum A).
+
+### Sanity check
+60.7 cm³ envelope × 2.70 g/cm³ (6061‑T6) ≈ 0.36 lb; subtracting the drilled/counterbored holes gives ≈ 0.33 lb, matching the weight block on the drawing.
+
+*Note: add your normal machining allowance (e.g., ~1.5–3 mm per side) if ordering saw‑cut stock — e.g., 1" × 1.5" bar × ~2.6 in cut length, since the 1.000 in thickness can be held from standard plate.*

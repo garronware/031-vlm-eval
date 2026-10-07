@@ -1,0 +1,16 @@
+## Bounding Stock — Rectangular (Plate)
+
+This part is a flat plate with a hole pattern, so it would be cut from rectangular (flat) stock.
+
+| Dimension | Metric (mm) | Inch |
+|---|---|---|
+| **Thk** | 25.4 | 1.00 |
+| **W** | 228.6 | 9.00 |
+| **L** | 241.3 | 9.50 |
+
+**Basis:**
+- **Width (9.00)** — from the overall top-view horizontal dimension 228.6 [9.00], with the hole pattern running 0 → 209.55 [8.250].
+- **Length (9.50)** — from the overall top-view vertical dimension 241.3 [9.50], with the hole pattern running 0 → 228.60 [9.000].
+- **Thickness (1.00)** — from the bottom/edge view, 25.4 [1.00] overall (with the 12.70 [.500] mid-plane reference and the 12.7 [.50] deep 1/4-20 tapped holes in that face).
+
+**Sanity check:** 1.00 × 9.00 × 9.50 = 85.5 in³ of 4140 (≈0.284 lb/in³) ≈ 24.3 lb solid; the drawing's finished weight of 20.95 lb is consistent after the Ø3.000, Ø.75, and numerous tapped/dowel holes plus the four 12.7 [.50] × 45° corner chamfers are removed.

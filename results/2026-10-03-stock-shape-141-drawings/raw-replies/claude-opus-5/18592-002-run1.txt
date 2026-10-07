@@ -1,0 +1,20 @@
+## Bounding Stock Determination
+
+**Stock Type:** Rectangular (flat plate / base plate)
+
+This part is a flat rectangular gage base plate (HRS, stress relieved, black oxide) with a large array of drilled, tapped, bored, and press-fit holes — clearly machined from rectangular plate stock, not round bar.
+
+### Dimensions taken from the drawing
+| Feature | Value | Source |
+|---|---|---|
+| Thickness | **1.25** | Side (edge) view dimension |
+| Width | **14.00** | Overall horizontal dimension, front view |
+| Length | **16.00** | Overall vertical dimension, front view |
+
+*(Consistency check: the 15.500 + .500 edge hole locations confirm the 16.00 overall; the 13.500 + .500 + 1.250-ish edge references confirm the 14.00 overall. The .38 × 45° corner breaks are within the envelope.)*
+
+### Bounding Cuboid
+
+**Thk × W × L = 1.25 × 14.00 × 16.00 in**
+
+With a typical machining allowance, order plate approximately **1.375 (or 1.50) × 14.25 × 16.25** to clean up all six faces.

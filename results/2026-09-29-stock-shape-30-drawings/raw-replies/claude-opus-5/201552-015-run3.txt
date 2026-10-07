@@ -1,0 +1,9 @@
+**Rectangular (plate/bar) stock — cuboid bounding box**
+
+| Dimension | Value |
+|---|---|
+| **Thickness** | 19.1 mm [0.75 in] — from the side view |
+| **Width** | 40.64 mm [1.600 in] — max. width at the angled (S.C.) face |
+| **Length** | 118.1 mm [4.65 in] — overall height in the front view |
+
+So the part cleans up out of a rectangular Delrin blank of approximately **0.75 × 1.60 × 4.65 in (19.1 × 40.6 × 118.1 mm)**, plus whatever machining stock allowance you normally add (e.g., ~0.06–0.12 in on the width/length faces).

@@ -1,0 +1,4 @@
+**Cylindrical bounding dimensions (round stock):**
+
+- **Dia:** 0.5000 in (12.7 mm)  
+- **L:** 5.00 in (127.0 mm)

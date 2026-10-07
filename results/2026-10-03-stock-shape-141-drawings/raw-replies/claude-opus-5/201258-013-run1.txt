@@ -1,0 +1,14 @@
+## Bounding Stock — Round
+
+This part is a circular flange/plate (Mean Master Plate), so it would be cut from round bar/disc stock.
+
+| Dimension | Metric | Inch |
+|---|---|---|
+| **Diameter (Dia)** | Ø108.0 mm | Ø4.25 in |
+| **Length / Thickness (L)** | 14.9 mm | 0.58 in |
+
+**Basis:**
+- Largest OD on the drawing is Ø108.0 [Ø4.25] (outer rim of plate).
+- Overall height is the full section thickness 14.9 [.58]; the 10.570 [.4161] is a reference gaging dimension within that stack, and Ø95.021 and Ø60.0 THRU are internal features.
+
+*Practical stock callout (with machining allowance): ≈ Ø112 mm (4.40 in) × 17 mm (0.67 in) long, material 8620, carb-hardened 58–62 HRC.*

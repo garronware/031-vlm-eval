@@ -1,0 +1,4 @@
+Based on the technical drawing, this part is cylindrical (a contact tip with a spherical end) and would be made from round stock. The bounding dimensions are:
+
+*   **Dia:** 7.94 [.313] (Maximum diameter at the spherical end)
+*   **L:** 64.29 [2.531] (Overall length)

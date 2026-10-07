@@ -1,0 +1,9 @@
+Based on the technical drawing provided, the part is a rectangular block (U-shaped storage block), so it would be made from rectangular stock. 
+
+Here are the bounding dimensions (Thk, W, L) based on the overall maximums from the zero-coordinate axes:
+
+*   **Thickness:** 50.8 mm [2.00 in]
+*   **Width:** 63.5 mm [2.50 in]
+*   **Length:** 101.6 mm [4.00 in]
+
+**Cuboid Bounding Dimensions:** 50.8 x 63.5 x 101.6 mm (or 2.00 x 2.50 x 4.00 in)

@@ -1,0 +1,16 @@
+## Bounding Stock — Rectangular (Plate)
+
+This is a flat, octagonal MIC‑6 aluminum plate, so it would be cut from rectangular plate stock.
+
+| Dimension | Inch | Metric |
+|---|---|---|
+| **Thickness** | 0.500 in | 12.7 mm |
+| **Width** | 7.25 in | 184.2 mm |
+| **Length** | 8.50 in | 215.9 mm |
+
+**Bounding cuboid: 0.50 × 7.25 × 8.50 in (12.7 × 184.2 × 215.9 mm)**
+
+Notes:
+- The 8.50 × 7.25 envelope is the overall rectangle before the four 2.25 × 45° corner cuts that form the octagon.
+- Thickness is confirmed by the 0.50 deep tapped holes and the 2.43 lb part mass (≈0.098 lb/in³ × ~24.8 in³ net).
+- For finished stock, order 0.500 in cast tooling plate (MIC‑6 is supplied precision‑flat, no thickness allowance needed); add ~0.25 in on the width/length if the perimeter is to be machined all around.

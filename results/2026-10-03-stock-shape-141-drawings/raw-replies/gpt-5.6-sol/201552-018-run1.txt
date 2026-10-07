@@ -1,0 +1,6 @@
+**Cylindrical bounding dimensions (Dia × L):**
+
+- **Ø83.57 mm × 4.060 mm**
+- **[Ø3.290 in × 0.1598 in]**
+
+The part is predominantly round; the flats lie within the cylindrical envelope.

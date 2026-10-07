@@ -1,0 +1,1 @@
+Cuboid bounding dimensions (Thk × W × L): **2.00 × 10.00 × 32.00 in**.

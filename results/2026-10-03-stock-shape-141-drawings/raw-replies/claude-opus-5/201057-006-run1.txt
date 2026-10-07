@@ -1,0 +1,8 @@
+**Round stock (cylindrical bounding envelope)**
+
+| Dimension | Metric | Inch |
+|---|---|---|
+| Diameter | Ø15.9 mm | Ø0.63 in |
+| Length | 75.0 mm | 2.95 in |
+
+**Rationale:** The part (DET 006, "JIG FOOT," 1018 steel) is a simple turned cylinder — a Ø15.9 mm bar, 75.0 mm long, with a 0.8 × 45° chamfer on one end and an M5 × 0.8 tapped hole 10.0 mm deep on axis at the other end. Since no feature extends beyond the outer diameter or the overall length, the bounding envelope equals the finished OD and length (add typical machining allowance if ordering bar stock, e.g. Ø5/8″ or Ø16 mm × ~3.1″ cut length).

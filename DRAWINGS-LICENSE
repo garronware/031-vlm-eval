@@ -1,0 +1,270 @@
+JUS-RITE ENGINEERING RESEARCH-USE MATERIALS LICENSE
+Version 1.0
+
+Copyright (c) 1987-2021 Jus-Rite Engineering Inc.
+Copyright (c) 2026 Garron Ware
+All rights reserved except as expressly granted in this License.
+
+IMPORTANT SCOPE NOTICE
+
+This license applies to all engineering drawings, scans, images, datasets,
+annotations, and other drawing-derived materials contained in the `drawings/`
+directory and its subdirectories (collectively, the "Engineering Materials").
+
+Engineering Materials are not licensed under the repository-level MIT License,
+regardless of file type or location within `drawings/`. If there is any
+conflict between this license and the MIT License, this license controls for
+the Engineering Materials.
+
+1. PURPOSE
+
+This License permits access to and use of Engineering Materials for research
+and experimental development, including artificial-intelligence and
+machine-learning research, while reserving rights for production,
+manufacturing, operational engineering, and other non-research uses.
+
+2. DEFINITIONS
+
+"Licensor" means Jus-Rite Engineering Inc. and/or Garron Ware, each solely
+to the extent that party owns or is authorized to license the applicable
+rights.
+
+"Engineering Materials" means all engineering drawings, scans, images,
+datasets, annotations, drawing-derived documentation, and other content in
+`drawings/` and its subdirectories that Licensor owns or is authorized to
+license.
+
+Engineering Materials do not include the repository's source code, scripts,
+configuration, or other software materials, except to the extent such content
+contains, reproduces, or embeds Engineering Materials.
+
+Unless a file within `drawings/` is expressly identified as subject to
+separate terms, Engineering Materials include all content located in
+`drawings/` and its subdirectories.
+
+"Research and Experimental Development" means non-production investigation,
+analysis, evaluation, experimentation, benchmarking, reproduction of research
+results, prototype development, model development, and related technical work.
+It includes commercially funded, corporate, academic, independent, and
+governmental research.
+
+"Production Use" means use of Engineering Materials, or engineering content
+derived from Engineering Materials, to manufacture, fabricate, construct,
+operate, maintain, repair, certify, approve, quote, or otherwise support
+real-world production, operational engineering, or commercial delivery of
+products or services.
+
+"Derived Materials" means modifications, annotations, labels, extracted data,
+transformations, crops, excerpts, datasets, or other material that contains,
+reproduces, is based substantially on, or discloses protected content from
+Engineering Materials.
+
+3. OWNERSHIP AND LICENSING AUTHORITY
+
+The Engineering Materials are the intellectual property of Jus-Rite
+Engineering Inc., formerly located at:
+
+56977 Elk Ct
+Elkhart, IN 46516-1460
+United States
+
+Ownership remains with Jus-Rite Engineering Inc. or any successor that
+lawfully acquires the applicable rights.
+
+This License is issued by Garron Ware on behalf of Jus-Rite Engineering Inc.,
+as its 100% owner, President, and Chief Executive Officer, and individually
+only to the extent he personally owns or is authorized to license applicable
+rights.
+
+Nothing in this License transfers ownership of Engineering Materials or
+resolves, creates, or alters ownership rights between Jus-Rite Engineering
+Inc. and Garron Ware.
+
+Licensor grants permissions only to the extent of rights Licensor owns or is
+authorized to license. Licensor makes no representation that third-party
+materials, if any, are free of third-party rights.
+
+4. RESEARCH-USE GRANT
+
+Subject to this License, Licensor grants each recipient a worldwide,
+nonexclusive, royalty-free license to:
+
+(a) Access, download, reproduce, store, organize, and analyze Engineering
+    Materials;
+
+(b) Annotate, classify, label, index, crop, transform, modify, and create
+    Derived Materials for Research and Experimental Development;
+
+(c) Use Engineering Materials and Derived Materials for academic,
+    independent, corporate, governmental, and commercially funded research;
+
+(d) Use Engineering Materials and Derived Materials to train, fine-tune,
+    validate, benchmark, evaluate, and test machine-learning and
+    artificial-intelligence models;
+
+(e) Publish or share research findings, methods, research software,
+    annotations, derived datasets, and trained model weights, subject to
+    Sections 5 and 6; and
+
+(f) Redistribute Engineering Materials and Derived Materials, subject to
+    Sections 5 and 6.
+
+Eligibility does not depend on nonprofit status, academic affiliation,
+public release of findings, or the possibility that research may inform future
+commercial development.
+
+5. RESTRICTED USES
+
+The permissions in Section 4 are limited to Research and Experimental
+Development.
+
+Without Licensor's prior written permission, you may not use Engineering
+Materials or Derived Materials directly for:
+
+(a) Production manufacturing, fabrication, construction, installation,
+    repair, maintenance, or operation;
+
+(b) Engineering, design, quotation, certification, compliance, safety, or
+    operational decisions concerning real-world products, facilities,
+    equipment, structures, or processes;
+
+(c) Providing production engineering, manufacturing, fabrication,
+    operational, or commercial services to a customer or third party;
+
+(d) Including, selling, licensing, distributing, or making available
+    Engineering Materials or Derived Materials as content in a commercial
+    product, service, database, platform, model, or offering beyond Research
+    and Experimental Development; or
+
+(e) Representing that any Engineering Material is current, verified, safe,
+    suitable, complete, approved, or fit for manufacturing or operational use.
+
+For clarity, commercially funded research, internal research, proof-of-
+concept work, benchmarking, model training, fine-tuning, evaluation, and
+prototype development are permitted while they remain Research and
+Experimental Development. A future intent to commercialize does not by itself
+make research use prohibited.
+
+6. REDISTRIBUTION, ATTRIBUTION, AND NOTICE
+
+When sharing, publishing, redistributing, or making available Engineering
+Materials or Derived Materials, you must:
+
+(a) Include this License;
+
+(b) Retain applicable copyright, ownership, provenance, and safety notices;
+
+(c) Clearly identify modifications, annotations, transformations, or other
+    changes;
+
+(d) Preserve these Engineering Materials terms for all included Engineering
+    Materials and Derived Materials;
+
+(e) Not grant recipients rights to underlying Engineering Materials broader
+    than those granted by this License; and
+
+(f) Include the following acknowledgment, or a substantially equivalent
+    credit, in publications, presentations, dataset documentation, model
+    cards, repositories, or other public disclosures that reproduce,
+    redistribute, or materially rely on Engineering Materials:
+
+    "Engineering drawings and research materials provided by
+    Jus-Rite Engineering Inc. / Garron Ware under the
+    Jus-Rite Engineering Research-Use Materials License, Version 1.0."
+
+Each recipient who receives Engineering Materials or Derived Materials in
+compliance with this License receives permission directly from Licensor under
+this License, subject to its terms.
+
+You may license independently created contributions separately, provided that
+your separate license does not grant additional rights to underlying
+Engineering Materials or Derived Materials.
+
+7. RESEARCH OUTPUTS AND AI MODELS
+
+Licensor claims no ownership of independently created research findings,
+methods, software, model architectures, parameters, model weights,
+annotations, or datasets merely because Engineering Materials were used in
+their creation.
+
+However, an output that reproduces, contains, reveals, reconstructs, or
+includes a substantial portion of protected content from Engineering Materials
+remains subject to these Engineering Materials terms.
+
+If you publicly release a model, model weights, dataset, benchmark, or other
+research output materially trained on or derived from Engineering Materials,
+you must include the attribution required by Section 6 and must not represent
+that the output may be used for Production Use of Engineering Materials
+without separate written permission from Licensor.
+
+8. THIRD-PARTY MATERIALS AND SEPARATE TERMS
+
+Files expressly identified as subject to a separate license, notice, or
+agreement remain governed by those terms.
+
+Third-party materials are not licensed under this License unless Licensor has
+authority to grant the stated permissions.
+
+Nothing in this License limits fair use, public-domain rights, or other rights
+available under applicable law without permission.
+
+9. NO PATENT, TRADEMARK, OR ENDORSEMENT RIGHTS
+
+No patent, trademark, trade-secret, certification, regulatory approval, or
+other right is granted except the limited permissions expressly stated in this
+License.
+
+You may not state or imply endorsement, sponsorship, approval, certification,
+or affiliation by Jus-Rite Engineering Inc. or Garron Ware without prior
+written permission.
+
+10. DISCLAIMER
+
+TO THE MAXIMUM EXTENT PERMITTED BY LAW, ENGINEERING MATERIALS ARE PROVIDED
+"AS IS" AND "AS AVAILABLE," WITHOUT WARRANTIES, REPRESENTATIONS, OR
+CONDITIONS OF ANY KIND, WHETHER EXPRESS, IMPLIED, STATUTORY, OR OTHERWISE,
+INCLUDING WARRANTIES OF ACCURACY, COMPLETENESS, MERCHANTABILITY, FITNESS FOR
+A PARTICULAR PURPOSE, NON-INFRINGEMENT, SAFETY, CURRENTNESS, OR SUITABILITY
+FOR MANUFACTURING OR OPERATIONAL USE.
+
+ENGINEERING MATERIALS ARE HISTORICAL RESEARCH MATERIALS AND HAVE NOT BEEN
+VERIFIED FOR CURRENT MANUFACTURING, SAFETY, REGULATORY, ENGINEERING, OR
+OPERATIONAL REQUIREMENTS.
+
+11. LIMITATION OF LIABILITY
+
+TO THE MAXIMUM EXTENT PERMITTED BY LAW, LICENSOR SHALL NOT BE LIABLE FOR ANY
+CLAIM, LOSS, LIABILITY, DAMAGE, COST, OR EXPENSE ARISING FROM OR RELATED TO
+ENGINEERING MATERIALS, DERIVED MATERIALS, THIS LICENSE, OR THEIR USE OR
+INABILITY TO BE USED, INCLUDING DIRECT, INDIRECT, INCIDENTAL, SPECIAL,
+CONSEQUENTIAL, PUNITIVE, OR EXEMPLARY DAMAGES.
+
+12. TERM AND TERMINATION
+
+These Engineering Materials permissions continue for the duration of the
+applicable intellectual-property rights, subject to compliance with this
+License and applicable law.
+
+Your permissions to Engineering Materials terminate automatically if you
+materially violate these Engineering Materials terms. Termination of one
+recipient's rights does not terminate rights of other recipients who remain
+in compliance.
+
+13. GOVERNING LAW AND SEVERABILITY
+
+This License shall be governed by the laws of the State of Indiana, United
+States of America, without regard to conflict-of-law principles, except where
+applicable law requires otherwise.
+
+If any provision is held unenforceable, that provision shall be enforced to
+the maximum extent permitted and the remaining provisions shall remain in
+effect.
+
+14. CONTACT
+
+For additional permissions, production-use licensing, or questions regarding
+Engineering Materials, contact:
+
+Garron Ware
+Jus-Rite Engineering Inc.
+garron.ware@jrecorp.com

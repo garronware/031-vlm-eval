@@ -1,0 +1,8 @@
+Based on the provided technical drawing, the part is prismatic (rectangular stock). By analyzing the overall dimensions from the orthographic views, we can determine its maximum bounding box:
+
+*   **Overall Width:** Found at the bottom of the front view (top-middle), marked as **127.0 [5.00]**.
+*   **Overall Height:** Found on the left side of the front view, going from the bottom `0` datum to the top edge, marked as **157.2 [6.19]**. 
+*   **Overall Depth (Thickness):** Found at the top of the left side view, measuring from the right `0` datum to the far-left edge, marked as **138.113 [5.4375]**.
+
+**Cuboid bounding dimensions (Thk, W, L):**
+127.0 x 138.113 x 157.2 mm  [5.00 x 5.4375 x 6.19 in]

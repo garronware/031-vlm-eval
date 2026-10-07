@@ -1,0 +1,14 @@
+## Bounding Stock — Round
+
+This part is a turned, axially‑symmetric pin (stepped shaft with a shoulder/flange near one end), so it would be made from **round stock**.
+
+| Dimension | Metric | Inch |
+|---|---|---|
+| **Diameter** | **Ø12.00 mm** | Ø0.472 in |
+| **Length** | **145.0 mm** | 5.709 in |
+
+**Basis:**
+- **Diameter** is driven by the largest feature on the part, the Ø12.00 mm head/shoulder shown in the end view (all other diameters — Ø10.000 ±0.005, Ø9.80, Ø8.500 +0.050/‑0.000 — are smaller).
+- **Length** is the overall dimension from the 0 datum at the right‑hand end face to the left end face, 145.0 mm (5.709 in).
+
+*Note: this is the finished bounding envelope. For actual bar stock, add the usual machining allowance (e.g., Ø12.7 mm / ½" bar × ~150 mm cut length) to permit cleanup of the OD and facing of both ends, especially given the DLC‑coated, 1.6 Ra finish and the ±0.005 mm gage diameter.*

@@ -1,0 +1,9 @@
+**Rectangular stock — cuboid bounding dimensions:**
+
+| Dimension | Size |
+|---|---|
+| Thickness (Thk) | 0.75 in |
+| Width (W) | 6.00 in |
+| Length (L) | 12.00 in |
+
+**0.75 × 6.00 × 12.00 in** (A‑2 tool steel plate, hardened Rc 58‑60, black oxide) — the 0.09 × 45° chamfer all around and the full‑radius corners fall within this envelope.

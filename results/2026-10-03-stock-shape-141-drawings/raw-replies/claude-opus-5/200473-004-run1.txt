@@ -1,0 +1,19 @@
+## Bounding Stock Determination
+
+**Stock type:** Rectangular (flat plate/bar) — the part is a flat triangular gusset with a 30° cut corner, so it would be cut from plate stock.
+
+### Bounding Dimensions (Cuboid)
+
+| Dimension | Metric | Inch |
+|---|---|---|
+| **Thickness** | 12.7 mm | 0.50 in |
+| **Width** | 101.6 mm | 4.00 in |
+| **Length** | 152.4 mm | 6.00 in |
+
+**Stock callout:** 0.50 × 4.00 × 6.00 in, 1018 steel plate
+
+**Basis:**
+- Thickness taken from the 12.7 [.50] plate thickness shown in the side/edge views.
+- Width (101.6 [4.00]) is the overall base length of the gusset.
+- Length (152.4 [6.00]) is the overall upright height of the gusset.
+- The 30° angled face and the 12.7 [.50] land at the toe fall within this envelope, so no additional stock allowance is required beyond saw/cut-off margin.

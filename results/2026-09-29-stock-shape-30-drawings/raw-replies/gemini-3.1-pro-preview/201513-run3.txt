@@ -1,0 +1,10 @@
+Based on the provided engineering drawing, the part is a "Clamp Spacer Block" machined from rectangular stock. We can determine the overall bounding box by looking at the maximum ordinate dimensions in the three primary axes across the main orthographic views:
+
+1.  **Width (X-axis):** In the top-left view (View 1), the horizontal ordinate dimensions start at `0` on the rightmost edge and end at the leftmost edge with a maximum dimension of **75.8 mm [2.984 in]**.
+2.  **Depth (Y-axis):** In the top-left view (View 1), the vertical ordinate dimensions start at `0` on the bottom-most edge and end at the top right corner with a maximum dimension of **78.00 mm [3.071 in]**.
+3.  **Height (Z-axis):** In the bottom-left view (View 3), the vertical ordinate dimensions start at `0` on the top edge and extend down to the bottom-most edge with a maximum dimension of **85.0 mm [3.346 in]**. 
+
+The auxiliary views (showing true lengths of the slanted faces, e.g., 77.87 mm and 68.8 mm) are internal to these overall extreme outer boundaries. 
+
+**Cuboid Bounding Dimensions (Thk, W, L):**
+**75.8 x 78.0 x 85.0 mm** (or 2.984" x 3.071" x 3.346")

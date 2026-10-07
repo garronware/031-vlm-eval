@@ -1,0 +1,10 @@
+Based on the engineering drawing provided, the part would be made from rectangular stock. 
+
+By analyzing the maximum dimensions across the different views (the front/side profile and top face), the overall bounding dimensions are:
+
+**101.6 × 127.0 × 279.4 mm**  
+**(4.00 × 5.00 × 11.00 in)**
+
+*   **Thickness / Depth:** 101.6 mm [4.00 in] (from the lower side-profile view)
+*   **Width:** 127.0 mm [5.00 in] (from the top face view)
+*   **Length / Height:** 279.4 mm [11.00 in] (from the lower side-profile view)

@@ -1,0 +1,13 @@
+## Bounding Envelope — Rectangular Stock
+
+**Part:** 201581‑D012, Vee Block (Det. 012), 1018 carburized/hardened, black oxide
+
+| Dimension | mm | inch |
+|---|---|---|
+| **Thickness** | 18.8 | 0.74 |
+| **Width** | 28.6 | 1.13 |
+| **Length** | 69.9 | 2.75 |
+
+**Basis:** The part is a prismatic block with a 120° included vee ground into one face plus a Ø3.175 dowel hole and a Ø9.525 clearance hole — all features fall inside the rectangular outline, so no feature projects beyond the 18.8 × 28.6 × 69.9 mm envelope.
+
+**Note for stock ordering:** since all faces are ground (58–62 HRC, 63 RA max finish), add grind/heat‑treat allowance — e.g., start from ~0.87 × 1.25 × 2.88 in (22 × 32 × 73 mm) bar.

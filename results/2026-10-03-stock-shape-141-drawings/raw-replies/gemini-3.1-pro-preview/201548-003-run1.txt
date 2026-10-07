@@ -1,0 +1,4 @@
+Based on the drawing, the part is a "CYLINDER PIN" and would be made from round stock. 
+
+The bounding dimensions are:
+**Dia 15.9, L 73.76** (or Dia .63, L 2.904 in inches)

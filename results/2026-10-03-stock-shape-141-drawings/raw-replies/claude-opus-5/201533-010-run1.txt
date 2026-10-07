@@ -1,0 +1,15 @@
+## Bounding Stock — Round Stock
+
+This is an axisymmetric ring/flange‑type master gage (turned/ground on all gaging diameters), so it would be produced from **round bar/tube stock**.
+
+| Envelope Dimension | Metric | Inch |
+|---|---|---|
+| **Diameter (Dia)** | Ø92.0 mm | Ø3.622 in |
+| **Length / Thickness (L)** | 16.0 mm | 0.630 in |
+
+**Basis:**
+- Largest outside feature = Ø92.000 ±0.010 [Ø3.6220] (outer rim diameter) — governs stock diameter.
+- Overall axial height = 16.000 ±0.010 [0.6299] (full section height per Section A‑A) — governs cut‑off length.
+- Smaller features (Ø86.000, Ø72.000, Ø56.0, Ø41.890 bore, 4.000 and 2.830 steps) all fall inside this envelope.
+
+**Note:** Add typical machining allowance (≈ +0.100–0.125 in on diameter and length) for finish grinding after carburize/harden, i.e. roughly Ø3.75 in × 0.75 in cut length of 8620.

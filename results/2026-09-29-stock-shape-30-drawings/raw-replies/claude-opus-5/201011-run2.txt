@@ -1,0 +1,10 @@
+**Round stock (cylindrical bounding envelope)**
+
+| Dimension | Value |
+|---|---|
+| Diameter | **Ø8.00 mm** (Ø8.000 / −0.005 ≈ 0.315 in) |
+| Length | **90.00 mm** (≈ 3.543 in) |
+
+**Rationale:** The part is a guide pin — an axisymmetric turned component. The largest diameter feature is the Ø8.000 −0.005 pin body (the Ø7.80 is a relieved/undercut section, and the two 1.00 mm deep flats/slots at 3.65–10.00 mm and 74.45–80.8 mm cut inward), so the controlling envelope diameter is 8.00 mm. The overall length dimension is 90.00 mm.
+
+Bar stock callout would typically be Ø10 mm (next standard size) × ~95 mm to allow for cleanup and facing, but the finished-part bounding cylinder is **Ø8 × 90 mm**.

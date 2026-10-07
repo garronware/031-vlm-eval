@@ -1,0 +1,6 @@
+Based on the technical drawing, the part is a "BUSHING BLOCK" and would be manufactured from rectangular stock. 
+
+The bounding dimensions (with both metric and imperial [in brackets] units as shown on the print) are:
+*   **Thk:** 50.8 [2.00] 
+*   **W:** 76.2 [3.00]
+*   **L:** 95.3 [3.75]

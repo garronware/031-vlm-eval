@@ -1,0 +1,6 @@
+Based on the technical drawing, the part is a flat plate and would be made from rectangular stock. 
+
+Here are the cuboid bounding dimensions:
+* **Thickness**: 12.7 mm [0.50 in] *(deduced from the 6.35 mm [.250 in] centerline dimension in the edge views, and confirmed by the 2.43 lbmass weight)*
+* **Width**: 215.9 mm [8.50 in]
+* **Length**: 184.2 mm [7.25 in]

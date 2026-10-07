@@ -1,0 +1,15 @@
+## Bounding Stock — Round
+
+This part is a flat, circular plate (disc) with a bolt‑hole pattern, so it would be produced from **round stock**.
+
+| Parameter | Metric | Inch |
+|---|---|---|
+| **Diameter** | Ø83.570 mm (max OD, +0.025 tol → Ø83.595) | Ø3.2902 in (→ 3.2912) |
+| **Length (thickness)** | 2.485 mm | 0.0978 in |
+
+**Bounding cylinder: Ø83.60 mm × 2.49 mm  (Ø3.291 in × 0.098 in)**
+
+Notes:
+- The Ø83.570 ±0.025 outside diameter is the largest feature; the Ø76.2 circle and the 1.505 mm dimension are internal/step features, not bounding.
+- The 2.485 mm face-to-face dimension is the maximum overall thickness (the 1.505 mm is a REF step depth per assembly).
+- For actual cut stock, add finish allowance for the ground faces and OD — e.g., ~Ø88.9 mm (3.5 in) bar cut to ~6 mm (0.25 in) slugs, since the part is carburized/hardened 58‑62 HRC and ground.

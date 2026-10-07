@@ -1,0 +1,18 @@
+## Bounding Stock — Rectangular (Plate)
+
+This part is a flat octagonal plate machined from MIC‑6 cast aluminum tooling plate, so it would be cut from rectangular stock.
+
+| Dimension | Metric | Inch |
+|---|---|---|
+| **Thickness** | 12.7 mm | 0.500 in |
+| **Width** | 184.2 mm | 7.25 in |
+| **Length** | 215.9 mm | 8.50 in |
+
+**Basis:**
+- **Length/Width:** Taken directly from the overall envelope dims in the front (plan) view — 215.9 [8.50] across and 184.2 [7.25] high. The 57.2 [2.25] × 45° corner breaks (4 places) fall inside this envelope, so they don't affect stock size.
+- **Thickness:** The two edge views are ordinate‑dimensioned from the mid‑plane datum (0), showing 6.35 [.250] to the face → 0.500 in total. This is corroborated by:
+  - The [1/4‑20] and [#10‑32] blind holes at 12.7 [.50] deep,
+  - The 9.5 [.38] deep counterbores from the far side,
+  - The listed mass of 2.43 lb (≈51.5 in² octagon × 0.50 in × 0.098 lb/in³ ≈ 2.5 lb before hole removal).
+
+**Suggested stock:** 0.500 in MIC‑6 plate, ~7.50 in × 8.75 in blank (allowing trim/clamping margin on the finished 7.25 × 8.50 perimeter).

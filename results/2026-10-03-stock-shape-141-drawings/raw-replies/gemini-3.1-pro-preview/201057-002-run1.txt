@@ -1,0 +1,10 @@
+Based on the technical drawing, this part is a flat plate (labeled "MASTER PLATE") and would be made from rectangular stock. 
+
+Here are the cuboid bounding dimensions:
+
+*   **Thickness (Thk):** 12.7 mm [0.50 in] (Explicitly called out in the left side view)
+*   **Width (W):** 301.1 mm [11.86 in] (Calculated by adding the distance from the leftmost edge to the zero-datum line, 276.2 mm, and the distance from the zero-datum line to the rightmost edge, 24.9 mm)
+*   **Length (L):** 304.8 mm [12.00 in] (Explicitly called out on the right side of the main view as the overall height)
+
+**Bounding Dimensions (Thk, W, L):** 
+12.7 mm × 301.1 mm × 304.8 mm  *(0.50" × 11.86" × 12.00")*

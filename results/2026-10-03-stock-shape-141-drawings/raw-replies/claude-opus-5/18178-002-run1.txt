@@ -1,0 +1,18 @@
+## Stock Form: Rectangular (Plate/Bar)
+
+This part is a flat rectangular base plate (HRSBO — hot rolled steel, blanchard ground/oversize), so it would be cut from rectangular plate stock.
+
+### Bounding Dimensions (Thk × W × L)
+
+| Dimension | Value |
+|---|---|
+| Thickness | 2.00 in |
+| Width | 10.00 in |
+| Length | 32.00 in |
+
+**Basis:**
+- **Thickness 2.00** — from the side (edge) view, overall plate thickness; only features cut into it are the .44‑deep relief/pockets, tapped holes (.62 deep), reamed dowel holes (.75 deep), counterbores, and a .12 × 45° edge chamfer — none exceed the 2.00 envelope.
+- **Width 10.00** — overall vertical dimension in the plan view (hole pattern runs 1.00 to 8.625 from the 0 datum edge).
+- **Length 32.00** — overall horizontal dimension in the plan view (hole locations run 1.00 to 31.00 from the 0 datum end).
+
+No feature projects beyond the prismatic block, so the raw stock envelope equals the finished envelope (plus whatever machining allowance you add for the normalize/stress‑relieve and finish‑grind operations — typically order ~2.25 × 10.25 × 32.25 for cleanup before black oxide).

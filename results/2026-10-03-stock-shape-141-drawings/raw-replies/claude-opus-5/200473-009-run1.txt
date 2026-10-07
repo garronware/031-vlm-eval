@@ -1,0 +1,19 @@
+## Bounding Stock — Rectangular (Cuboid)
+
+**Part:** STORAGE BLOCK (1.313) — P/N 200473, UHMW
+
+| Dimension | Inches | Millimeters |
+|---|---|---|
+| **Thickness** | 2.00 | 50.8 |
+| **Width** | 2.50 | 63.5 |
+| **Length** | 4.00 | 101.6 |
+
+**Rationale**
+
+- The upper (end) view establishes the cross‑section: 63.5 mm [2.50"] wide × 50.8 mm [2.00"] deep (hole centers at 1.250" from edge, 0.375"/1.625" up).
+- The lower (side) view establishes the overall length: 101.6 mm [4.00"], with the 33.3 mm [1.31"] wide slot (15.1→48.4 mm) cut 19 mm [0.75"] deep from the top (82.6 mm [3.25"] to slot floor) — this slot width is the "(1.313)" in the part name.
+- No turned/round features exist; the part is a prismatic block with a milled slot and two cross‑drilled, counterbored holes → rectangular bar stock is appropriate.
+
+**Check:** 2.00 × 2.50 × 4.00 = 20.0 in³; less slot (~1.31 × 0.75 × 2.00 ≈ 1.97 in³) ≈ 18.0 in³ × 0.0335 lb/in³ (UHMW) ≈ 0.60–0.64 lb, consistent with the 0.64 lbmass noted on the drawing.
+
+*Suggested purchase size:* 2" × 2‑1/2" UHMW bar, cut ~4‑1/4" long to allow for facing/clean‑up.

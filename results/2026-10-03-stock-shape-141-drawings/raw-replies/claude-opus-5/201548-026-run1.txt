@@ -1,0 +1,16 @@
+## Bounding Dimensions — Round Stock
+
+**Part:** TRANSFER PIN‑2 (DET 026, DWG 201548, Rev 1)
+
+| Dimension | Metric | Inch |
+|---|---|---|
+| **Diameter (Dia)** | Ø8.000 mm | Ø0.3150 in |
+| **Length (L)** | 114.3 mm | 4.50 in |
+
+**Bounding envelope: Ø0.3150 in × 4.50 in (Ø8.000 mm × 114.3 mm)**
+
+**Rationale / notes:**
+- The part is a straight, constant‑diameter pin (reamer blank), so a cylindrical envelope is the correct bounding form — rectangular stock would be wasteful.
+- The outside diameter Ø8.000 mm [Ø.3150] is the only cross‑sectional dimension; the dashed centerline and single end view confirm no flats, steps, or features that would increase the envelope.
+- Overall length 114.3 mm [4.50] is measured end‑to‑end, with "G" (grind) symbols at both ends — if specifying purchased bar stock, add cut‑off/facing allowance (typically +0.06–0.12 in) since **no centers are permissible on both ends**.
+- Material is a reamer blank; stock would normally be ordered slightly oversize on diameter if the Ø.3150 is a finished ground size (L.S.F. in Det. #063 indicates a line‑to‑line/select fit at assembly).

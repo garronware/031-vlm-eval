@@ -1,0 +1,12 @@
+## Bounding Stock — Round
+
+**Round stock: Ø12.00 mm × 145.0 mm long**
+
+| Item | Value | Source |
+|---|---|---|
+| Max diameter | Ø 12.00 mm (0.472 in) | Largest feature — the flange/head shown in the end view |
+| Overall length | 145.0 mm (5.709 in) | Overall length dimension from datum "0" at the right end |
+
+**Reasoning:** The part is a turned, axisymmetric pin (stepped shaft with diameters Ø8.500, Ø9.80, Ø10.000, and Ø12.00), so it would be produced from round bar. The bounding cylinder is set by the largest OD (Ø12.00) and the full 145.0 mm length.
+
+*Note: add cut‑off/facing and workholding allowance to the length (e.g., ~150–155 mm bar) and use the next standard bar size up (e.g., 12.7 mm / ½ in A2 drill rod) for cleanup stock on the Ø12.00 feature.*

@@ -1,0 +1,10 @@
+Based on the engineering drawing, the part is flat and features a block base with a reduced-width blade section, which indicates it would be manufactured from rectangular stock. 
+
+The primary dimensions are in millimeters with bracketed dimensions in inches (mm [in]).
+
+*   **Thickness (Thk):** 5.00 [.197] (Vertical dimension in the front and right views)
+*   **Width (W):** 10.0 [.39] (Horizontal dimension in the right side view)
+*   **Length (L):** 23.0 [.91] (Overall horizontal length in the front view)
+
+**Cuboid bounding dimensions (Thk, W, L):**
+5.00 x 10.0 x 23.0 mm [.197 x .39 x .91 in]

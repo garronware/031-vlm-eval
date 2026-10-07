@@ -1,0 +1,4 @@
+Based on the engineering drawing, the part is a circular plate and would be made from round stock. Its cylindrical bounding dimensions are:
+
+* **Diameter (Dia):** 108.0 mm [4.25 in]
+* **Length (L):** 14.9 mm [0.58 in]

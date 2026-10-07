@@ -1,0 +1,15 @@
+## Bounding Stock — Round
+
+**Part:** 019 — POST (PROBE), 1018 steel, Dwg. 201551 Rev A
+
+| Dimension | Metric | Inch |
+|---|---|---|
+| **Diameter** | 31.75 mm | 1.250 in |
+| **Length** | 47.36 mm | 1.865 in |
+
+**Rationale:**
+- The part is a turned post with an integral flange; all features are revolved about a single axis, so **round stock** is appropriate.
+- Largest diameter = the flange, dimensioned 31.75 [1.250] across the front view (the 7.9 [.31] "FLAT" is a secondary milled flat on that same Ø1.250 flange, so it does not reduce the required bar size).
+- Overall length = 47.36 [1.865] from the flange face to the end of the 10° tapered nose.
+
+**Suggested purchase size:** Ø1.375 in (1-3/8") 1018 round bar × ~2.00 in cut length to allow for facing/cut-off and chucking.

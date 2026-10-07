@@ -1,0 +1,12 @@
+## Bounding Stock — Round
+
+| Parameter | Metric | Inch |
+|---|---|---|
+| **Diameter** | Ø8.000 mm | Ø0.3150 in |
+| **Length** | 92.1 mm | 3.63 in |
+
+**Form:** Cylindrical (round stock) — "TRANSFER PIN‑1," a plain straight reamer blank with no steps, flats, or features that would require rectangular stock.
+
+**Notes:**
+- Finished size is the bounding size here; raw bar stock would be ordered slightly oversize (e.g., ~Ø3/8 in × 3.75 in) to allow for grinding to the Ø.3150 L.S.F. (line-to-line/select fit in Det. #063) and facing both ends.
+- "NO CENTERS PERMISSIBLE BOTH ENDS" means the blank must be ground without leaving center holes, so the length allowance should account for removing any centers used during manufacture.

@@ -1,0 +1,6 @@
+Based on the technical drawing provided, the part is a plate made from rectangular stock (MIC-6). 
+
+The cuboid bounding dimensions (Thickness x Width x Length) are:
+*   **Thk:** 12.7 mm [0.500 in]
+*   **W:** 184.2 mm [7.25 in]
+*   **L:** 215.9 mm [8.50 in]

@@ -1,0 +1,10 @@
+Based on the engineering drawing, the part is a rectangular block (LH BLOCK) with angled cuts and holes. Therefore, it would be made from rectangular stock. 
+
+The bounding dimensions extracted from the outermost coordinate dimensions (Primary in mm [Secondary in inches]) are:
+
+*   **Thickness (Thk):** 31.8 [1.25] (from the left side view)
+*   **Width (W):** 48.9 [1.92] (from the top horizontal dimension of the main front view)
+*   **Length (L):** 117.3 [4.62] (from the overall vertical dimension of the main front view)
+
+**Bounding Dimensions (Thk, W, L):**
+31.8 x 48.9 x 117.3 mm  (or 1.25 x 1.92 x 4.62 inches)

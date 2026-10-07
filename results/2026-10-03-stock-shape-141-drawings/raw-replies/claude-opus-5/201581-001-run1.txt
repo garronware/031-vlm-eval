@@ -1,0 +1,15 @@
+## Bounding Stock — Rectangular (Plate)
+
+This part is a flat rectangular **BASE PLATE**, so it would be cut from rectangular (plate) stock.
+
+| Dimension | Metric | Inch | Source |
+|---|---|---|---|
+| **Thickness (Thk)** | 19.1 mm | 0.75 in | Side/edge view thickness |
+| **Width (W)** | 304.8 mm | 12.00 in | Overall vertical dimension, front view |
+| **Length (L)** | 355.6 mm | 14.00 in | Overall horizontal dimension, front view |
+
+**Bounding box: 19.1 × 304.8 × 355.6 mm  (0.75 × 12.00 × 14.00 in)**
+
+Notes:
+- The four 12.7 [.50] × 45° corner breaks and the 3.2 [.13] × 45° edge chamfer all around fall inside this envelope, so they don't increase the bounding size.
+- Add normal machining allowance (e.g., ~0.12–0.25 in on width/length and thickness) if ordering saw-cut stock to be finished on all faces; material is 1020 steel, black oxide and stress relieved.

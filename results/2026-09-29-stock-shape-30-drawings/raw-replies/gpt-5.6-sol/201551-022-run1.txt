@@ -1,0 +1,5 @@
+**Cylindrical bounding dimensions (Dia × L):**  
+**Ø83.570 mm × 3.640 mm**  
+(**Ø3.2902 in × 0.1433 in**)
+
+OD tolerance: **±0.025 mm (±0.0010 in)**.

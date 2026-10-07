@@ -1,0 +1,14 @@
+## Bounding Stock — Round
+
+This is a turned/ground body (concentric diameters, keyway/slot features on the O.D.), so it would be made from **round stock**.
+
+| Dimension | Metric | Inch | Source |
+|---|---|---|---|
+| **Diameter** | ⌀76.2 mm | ⌀3.00 in | Largest O.D. — the flange/head diameter ("⌀76.2 [3.00]") |
+| **Length** | 146.1 mm | 5.75 in | Overall length datum-to-end dimension |
+
+**Bounding cylinder: ⌀76.2 × 146.1 mm (⌀3.00 × 5.75 in)**
+
+Notes for ordering raw material:
+- All other diameters (⌀50.800 [2.0000], ⌀38.1 [1.50], ⌀31.7 [1.25], 30.037 [1.1826]) fall inside the ⌀3.00 envelope.
+- Since the part is quench & tempered to 58–62 HRC and ground, add cleanup stock — typically ⌀79.4 (3-1/8 in) bar × ~152 mm (6.00 in) cut length.

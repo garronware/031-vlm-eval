@@ -1,0 +1,11 @@
+**Rectangular (plate) stock**
+
+| Dimension | mm | in |
+|---|---|---|
+| Thickness | 25.4 | 1.00 |
+| Width | 228.6 | 9.00 |
+| Length | 241.3 | 9.50 |
+
+**Basis:** The part is a flat 4140 locator plate. The front view establishes the overall face envelope of 228.6 mm [9.00 in] wide × 241.3 mm [9.50 in] tall, and the bottom/edge view gives the plate thickness of 25.4 mm [1.00 in] (with the 1/4‑20 edge holes on the 12.70 [.500] centerline, i.e., mid‑thickness).
+
+**Sanity check on weight:** 9.00 × 9.50 × 1.00 = 85.5 in³ solid → ≈24.3 lb of steel (0.284 lb/in³). Removing the Ø3.000 bore, Ø.75 hole and the many tapped/clearance holes and corner chamfers readily accounts for the stated 20.95 lb finished mass, confirming a 1 in thick rectangular blank rather than round stock.

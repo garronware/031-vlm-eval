@@ -1,0 +1,18 @@
+## Bounding Stock Size — Rectangular (Cuboid)
+
+This part (DET 001, "BENCHTOP," P/N 200473, hardwood) is a flat rectangular plank, so it would be cut from rectangular stock.
+
+| Dimension | Metric (mm) | Inch |
+|---|---|---|
+| **Thickness (Thk)** | 50.8 | 2.00 |
+| **Width (W)** | 914.4 | 36.00 |
+| **Length (L)** | 1828.8 | 72.00 |
+
+**Stock callout:** 2.00 × 36.00 × 72.00 in hardwood (50.8 × 914.4 × 1828.8 mm)
+
+**Basis / notes:**
+- Overall length taken from the 1828.8 [72.00] dimension across the top view; the farthest feature location (1778.00 [70.000]) falls inside this envelope.
+- Overall width taken from the 914.4 [36.00] dimension; the highest ordinate feature (625.48 [24.625]) is within it.
+- Thickness taken from the side/edge view, 50.8 [2.00].
+- All features are holes (Ø13.46 × 13.5 deep P.F. for Det. #019, and Ø2.4 × 25.4 deep pilot holes, 32 places) — no outside profile cuts — so the bounding box equals the finished outside dimensions plus any machining allowance you choose to add.
+- Sanity check on mass: 2 × 36 × 72 in = 5184 in³; at 125.47 lbm this implies ~0.0242 lb/in³ (~0.67 g/cm³), consistent with a typical hardwood, confirming the solid rectangular envelope.

@@ -1,0 +1,11 @@
+Based on the provided engineering drawing, the part is cylindrical (a pin). 
+
+To find the bounding dimensions:
+1. **Length (L):** The overall length is explicitly dimensioned from the rightmost face (datum `0`) to the leftmost face as **75.0** mm `[2.953 in]`.
+2. **Diameter (Dia):** While the main stepped sections of the pin have turned diameters of 8.500, 8.000, and 7.80, the right side end view explicitly dimensions the outermost bounding diameter (likely the raw stock size from which the pin is made) as **10.0** mm `[0.394 in]`. 
+
+**Cylindrical Bounding Dimensions:**
+* **Dia:** 10.0
+* **L:** 75.0
+
+*(Note: The maximum finished/machined diameter dimensioned in the front profile view is 8.500, but the absolute cylindrical bounding envelope provided by the drawing's end view is Ø 10.0).*

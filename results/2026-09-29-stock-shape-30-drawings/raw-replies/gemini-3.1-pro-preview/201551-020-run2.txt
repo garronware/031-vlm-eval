@@ -1,0 +1,8 @@
+Based on the provided engineering drawing, the part is a circular disk (flange/plate with a step) and would be made from round stock. 
+
+The cylindrical bounding dimensions (in millimeters, as indicated by the primary dimensions) are:
+
+*   **Dia (Diameter):** 83.570
+*   **L (Length/Thickness):** 6.615
+
+*(Note: The drawing uses dual dimensioning with primary dimensions in millimeters and secondary dimensions in inches enclosed in brackets [ ]. In inches, the bounding dimensions are Dia 3.2902, L .2604)*

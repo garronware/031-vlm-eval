@@ -1,0 +1,5 @@
+Based on the provided engineering drawing, the part is a "BLOCK" and would be made from rectangular stock. The bounding dimensions are:
+
+**Thk, W, L:** 38.1 [1.50] x 69.9 [2.75] x 69.9 [2.75] 
+
+*(Note: Dimensions are in millimeters with inches in brackets [ ]).*

@@ -1,0 +1,6 @@
+Based on the engineering drawing, the part is machined from rectangular stock. The bounding dimensions are:
+
+**Cuboid Bounding Dimensions (Thk, W, L):**
+*   **Thickness (Thk):** 19.1 mm [0.75 in] 
+*   **Width (W):** 40.64 mm [1.600 in]
+*   **Length (L):** 118.1 mm [4.65 in]

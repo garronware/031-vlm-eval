@@ -1,0 +1,18 @@
+## Bounding Stock — Rectangular (Bar/Plate)
+
+This is an L‑shaped bracket machined from flat rectangular stock (1018 steel), so cuboid bounding dimensions apply.
+
+| Dimension | Metric | Inch |
+|---|---|---|
+| **Thickness** | 6.0 mm | 0.24 in |
+| **Width (height of part)** | 20.0 mm | 0.79 in |
+| **Length** | 25.0 mm | 0.98 in |
+
+**Bounding block ≈ 6.0 × 20.0 × 25.0 mm (0.24 × 0.79 × 0.98 in)**
+
+Basis:
+- Side view gives the plate thickness envelope: 6.0 [.24]
+- Front view gives overall height: 20.0 [.79] (datum "0" at top edge)
+- Front view gives overall length: 25.0 [.98] (datum "0" at right edge)
+
+*Note: add stock allowance for the GRIND operation and black oxide finish if sizing raw material.*

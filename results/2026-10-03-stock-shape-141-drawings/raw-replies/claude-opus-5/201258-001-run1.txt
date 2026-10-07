@@ -1,0 +1,15 @@
+## Bounding Stock — Rectangular (Plate)
+
+**Part:** DET 001 – BASE PLATE (Dwg 201258, Rev A), Material 1020 Steel
+
+| Dimension | Metric | Imperial | Source |
+|---|---|---|---|
+| **Thickness (Thk)** | 19.1 mm | 0.75 in | Side view thickness callout 19.1 [.75] |
+| **Width (W)** | 254.0 mm | 10.00 in | Overall vertical dim 254.0 [10.00] |
+| **Length (L)** | 330.2 mm | 13.00 in | Overall horizontal dim 330.2 [13.00] |
+
+**Bounding stock size: 19.1 × 254.0 × 330.2 mm  (0.75" × 10.00" × 13.00")**
+
+Notes:
+- Rectangular stock is appropriate — the part is a flat plate with a rectangular footprint (corners broken with 25.4 [1.00] × 45° typ. chamfers, which fall inside the bounding box).
+- Add machining allowance as required (e.g., 0.88" thick plate stock finished to 0.75", and ~13.25 × 10.25 blank) since all surfaces are specified 63 µin finish with black oxide and stress relieve.

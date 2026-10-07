@@ -1,0 +1,18 @@
+## Bounding Stock — Rectangular (Cuboid)
+
+This part (DET 015, "RAIL," Delrin, DWG 201552) is a flat, plate‑like part with an angled/stepped gaging edge, holes drilled through the 0.75 face — it would be cut from rectangular (plate/bar) stock, not round.
+
+**Finished‑part envelope:**
+
+| Direction | Dimension (in) | Dimension (mm) | Source |
+|---|---|---|---|
+| Thickness | **0.75** | 19.1 | Side‑view width 19.1 [.75] |
+| Width | **1.60** | 40.6 | Max. X to sharp corner, 40.64 [1.600] S.C. from the 0 datum face |
+| Length | **4.65** | 118.1 | Overall Y, 118.1 [4.65] from the 0 datum |
+
+**Bounding box ≈ 0.75 × 1.60 × 4.65 in (19.1 × 40.6 × 118.1 mm)**
+
+Notes for ordering stock:
+- Delrin (acetal) plate/bar at 3/4 in thickness is standard, so thickness can be left as‑supplied if flatness/finish (63 RA) permits; otherwise buy 7/8 in and machine.
+- Add ~0.06–0.12 in on the width and length for cleanup/squaring → e.g., **0.75 × 1.75 × 4.80 in** cut blank.
+- Note the two tolerenced gaging thicknesses (.339 −.002 and .470 −.002) and the 20°/10° angled faces lie inside this envelope, so no extra stock beyond the 1.600 width is required.

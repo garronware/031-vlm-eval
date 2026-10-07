@@ -1,0 +1,15 @@
+## Bounding Stock — Round
+
+This part is a turned/bored cylindrical cup, so it would be made from **round stock**.
+
+| Dimension | Metric | Imperial |
+|---|---|---|
+| **Diameter** | Ø101.60 mm | Ø4.000 in |
+| **Length (height)** | 38.1 mm | 1.50 in |
+
+**Bounding size: Ø101.60 × 38.1 mm (Ø4.000 × 1.50 in)**
+
+**Basis:**
+- Largest OD on the drawing is Ø101.60 [4.000] (the outer flange/body diameter); the Ø87.00 [3.425] is the internal bore, and the 31.75 [1.250] dimensions locate the two 1/4" SHCS holes on a bolt circle — all within the OD.
+- Overall height from the side view is 38.1 [1.50]; the 28.6 [1.13] is the internal pocket depth.
+- Material is UHMW, so for actual cutting you'd order the next standard round stock size up (e.g., 4-1/4" dia. × 1-5/8" long) to allow cleanup on the OD and both faces.

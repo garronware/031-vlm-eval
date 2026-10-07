@@ -1,0 +1,16 @@
+## Bounding Stock — Rectangular
+
+This is a rectangular block (bushing block), so it would be cut from rectangular bar stock.
+
+| Dimension | Metric | Imperial |
+|---|---|---|
+| **Thickness** | 25.4 mm | 1.000 in |
+| **Width** | 38.1 mm | 1.500 in |
+| **Length** | 62.7 mm | 2.468 in |
+
+**Basis:**
+- **Length (62.7 mm)** – overall dimension shown in the front view (2.468 [62.7]).
+- **Width (38.1 mm)** – from the side (right) view: 22.5 above + 15.6 below the Ø7.5 bore centerline.
+- **Thickness (25.4 mm)** – overall depth shown in the top view (1.000 [25.4]).
+
+**Sanity check:** 25.4 × 38.1 × 62.7 = 60.7 cm³ of 6061‑T6 (2.70 g/cm³) ≈ 0.36 lb solid; less the two Ø4.5 c'bored holes, two Ø3.8 c'bored holes and the Ø7.5/Ø10 bore, this agrees with the 0.33 lb listed on the drawing.

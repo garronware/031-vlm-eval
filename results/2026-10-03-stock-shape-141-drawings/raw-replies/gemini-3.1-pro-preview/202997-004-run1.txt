@@ -1,0 +1,9 @@
+Based on the engineering drawing, the part is a "FLEXURE BLOCK" made from 6061-T6 Aluminum, which would be machined from rectangular stock. 
+
+The overall bounding dimensions are taken from the provided orthographic views:
+*   **Thickness (Depth):** .75 (from the right side view)
+*   **Width:** 1.25 (from the front view)
+*   **Length (Height):** 1.50 (from the front view)
+
+**Cuboid bounding dimensions (Thk, W, L):**
+(0.75, 1.25, 1.50)

@@ -1,0 +1,15 @@
+## Bounding Stock — Round
+
+**Part:** DET 006, SHAFT (Dwg 201258, Sheet 008 of 025)
+
+| Dimension | Metric | Inch |
+|---|---|---|
+| **Diameter** | Ø6.350 mm | Ø0.2500 in |
+| **Length** | 131.24 mm | 5.167 in |
+
+**Basis:**
+- The part is a turned/ground shaft — a single cylindrical body, so round stock applies.
+- **Diameter:** The largest OD on the part is Ø6.350 [.2500]; the only other diameters (5.842 [.2300] ground journal, 0.74 [.029] feature in Detail A, M2.5 tapped hole) are smaller/internal.
+- **Length:** Overall end-to-end dimension is 131.24 [5.167] from the "0" datum at the left end face; the 127.3 [5.01] and 25.4 [1.00] / 19.1 [.75] are intermediate feature locations.
+
+*Note: raw bar would typically be ordered slightly oversize (e.g., 1/4″ or 7 mm dia × ~5.3″) to allow for cutoff, facing, and the grind/black-anodize operations called out.*

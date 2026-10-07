@@ -1,0 +1,15 @@
+## Bounding Stock — Round
+
+**Part:** Cylinder Pin, DWG 201548 (Det 003), A2 tool steel
+
+| Dimension | Inch | Metric |
+|---|---|---|
+| **Diameter** | Ø0.63 | Ø15.9 mm |
+| **Length** | 2.904 | 73.76 mm |
+
+**Basis / reasoning:**
+- The part is a turned, axisymmetric pin — round bar stock is the obvious raw form.
+- Largest outside diameter is Ø15.9 [Ø0.63]; nothing on the part exceeds this (the 45° chamfer, the 0.8 [.03] flat, the 7/16‑20 tapped hole, and the stepped/undercut features are all internal to that envelope).
+- Overall length is the single 73.76 [2.904] dimension.
+
+**Practical note:** For actual ordering you'd bump up to the next standard bar size (e.g., Ø0.6875 / 11⁄16" A2 drill rod or Ø16 mm) and add ~0.06–0.12" to length for facing/cut-off, since the OD is ground after hardening (58–62 HRC) and needs grind stock.

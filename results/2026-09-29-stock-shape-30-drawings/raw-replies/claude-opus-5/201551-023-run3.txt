@@ -1,0 +1,14 @@
+## Bounding Stock — Round
+
+**Ø3.2902 in × 0.0978 in long (Ø83.57 mm × 2.485 mm)**
+
+**Basis:**
+
+| Feature | Value | Source |
+|---|---|---|
+| Max outside diameter | Ø83.570 ±0.025 mm (Ø3.2902 ±.0010 in) | Plate OD |
+| Max overall thickness | 2.485 mm (.0978 in) | Thickest section (hub/land); 1.505 mm [.0593] is the reduced web thickness, REF per assembly |
+
+**Why round stock:** The part is an axisymmetric disc (Ø83.57 plate with a Ø76.2 relief, four Ø5.5 thru holes and two Ø6.350 dowel holes on a bolt pattern) — no rectangular envelope features.
+
+*Note: this is the finished-part envelope. For actual material purchase, add grind/finish stock — e.g., ~Ø3.40 in bar × 0.15 in thick slice — since the part is carburize-hardened 58‑62 HRC and ground.*

@@ -1,0 +1,7 @@
+Based on the engineering drawing, the part is a stepped pin turned from round stock. 
+
+Here are the cylindrical bounding dimensions:
+*   **Diameter (Dia):** 12.00 mm (identified by the largest diameter section or collar shown in the right-side end view)
+*   **Length (L):** 145.0 mm (identified by the overall length dimension from the right to the left edge)
+
+**Bounding Dimensions:** Dia 12.00 x L 145.0

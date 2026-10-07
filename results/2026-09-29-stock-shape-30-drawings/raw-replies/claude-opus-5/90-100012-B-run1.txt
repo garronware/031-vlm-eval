@@ -1,0 +1,14 @@
+## Bounding Stock — Round
+
+This is a turned/cylindrical part (body of a modular hand gauge), so it would be made from **round bar stock**.
+
+| Parameter | Value | Source |
+|---|---|---|
+| **Diameter** | **Ø1.124 in** (≈ Ø28.5 mm) | Largest feature dia. = Ø1.1240 ±0.0005 (flange/hex-body OD in end view) |
+| **Length** | **6.50 in** (≈ 165 mm) | Overall length from 0 datum at right end to 6.50 at ball nose |
+
+**Bounding cylinder: Ø1.124 × 6.50 in**
+
+Supporting check of other diameters (all smaller): Ø0.7866, Ø0.680, Ø0.4625, Ø0.4375, Ø0.3120, Ø0.335, Ø0.250, and the M22×1.5 thread (≈Ø0.866). None exceed Ø1.1240.
+
+For practical procurement you'd order the next standard size up with machining allowance, e.g. **Ø1.25 × 6.75 in AISI 4140 HR Q&T** bar (≈0.06 in radial and ~0.25 in length cleanup stock).

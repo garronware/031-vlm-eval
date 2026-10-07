@@ -1,0 +1,18 @@
+## Bounding Stock — Rectangular
+
+**Detail 004 — Bushing Block (RH), P/N 201581, Material 1018**
+
+| Dimension | Metric | Inch |
+|---|---|---|
+| **Thickness** | 50.8 mm | 2.00 in |
+| **Width** | 76.2 mm | 3.00 in |
+| **Length (height)** | 95.3 mm | 3.75 in |
+
+**Stock callout:** 2.00" × 3.00" × 3.75" rectangular bar, 1018 carbon steel (plus machining allowance).
+
+**Rationale / check:**
+- Plan (bottom) view establishes the footprint: 76.2 [3.00] wide × 50.8 [2.00] deep (dowel/tapped hole pattern at 6.35–69.85 and 6.35–44.45 falls inside this envelope).
+- Front view establishes the 95.3 [3.75] overall height.
+- Volume check: 2 × 3 × 3.75 = 22.5 in³; less the Ø2.000 thru bore (π × 1² × 2 = 6.28 in³) ≈ 16.2 in³ × 0.283 lb/in³ ≈ 4.6 lb, which agrees with the 4.46 lb mass shown on the drawing — confirming the cuboid envelope.
+
+Round stock would require ≥ Ø4.83" (diagonal of the 3.00 × 3.75 face), so rectangular bar is the correct/economical stock form.

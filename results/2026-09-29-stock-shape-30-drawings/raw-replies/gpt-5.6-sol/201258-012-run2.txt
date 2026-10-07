@@ -1,0 +1,4 @@
+**Cylindrical bounding stock dimensions:**
+
+- **Diameter:** Ø90.4 mm **[3.56 in]**
+- **Length:** 57.15 mm **[2.250 in]**

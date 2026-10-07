@@ -1,0 +1,12 @@
+## Bounding Dimensions — Round Stock
+
+**Part:** DET 017 — BASE LEG (Dwg 201258, Qty 4, Material 1018)
+
+| Parameter | Metric | Imperial |
+|---|---|---|
+| Diameter (Dia) | Ø25.4 mm | Ø1.00 in |
+| Length (L) | 127.0 mm | 5.00 in |
+
+**Rationale:** The part is a plain cylindrical bar (solid round) with tapped features only — a [3/8‑16] × 19.1 mm [.75] deep hole on each end (near side and far side), plus broken sharp edges. No off‑axis or non‑round features exist, so the raw stock envelope is simply the outside diameter by the overall length.
+
+**Stock callout:** Ø1.00 in × 5.00 in long, 1018 steel (4 pcs), finish: black anodize per drawing note.

@@ -1,0 +1,20 @@
+## Bounding Stock — Rectangular
+
+This part is a solid rectangular block (bushing block), so it would be cut from **rectangular bar stock**.
+
+| Dimension | mm | in |
+|---|---|---|
+| **Thickness** | 25.4 | 1.000 |
+| **Width** | 38.1 | 1.500 |
+| **Length** | 62.7 | 2.468 |
+
+**Bounding box: 25.4 × 38.1 × 62.7 mm (1.000 × 1.500 × 2.468 in)**
+
+How this is derived from the views:
+- **Length 62.7 mm (2.468")** — overall dimension shown on the front/plan views.
+- **Width 38.1 mm (1.500")** — end view: 22.5 mm above + 15.6 mm below the Ø7.5/Ø10 c'bore axis (also required to contain the 26.1 mm vertical hole spread of the 9.649/16.451 dimensions).
+- **Thickness 25.4 mm (1.000")** — height shown on the middle elevation view.
+
+Sanity check: 62.7 × 38.1 × 25.4 = 60.7 cm³ of 6061‑T6 ≈ 0.36 lb solid, which agrees with the 0.33 listed weight after the through/counterbored holes are removed.
+
+*Note: material would typically be ordered as 1" × 1‑1/2" 6061‑T6 bar, cut ~2.6–2.7" long, or oversized slightly (e.g., 1.05 × 1.55 × 2.6) if all six faces are to be machined.*

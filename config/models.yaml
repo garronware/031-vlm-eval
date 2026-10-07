@@ -1,0 +1,118 @@
+# The models under test. Edit freely: switch makers or models on and off,
+# change the default thinking level, update prices.
+#
+# enabled         whether runs use it. A model only runs if its maker is enabled too.
+# role            default = the model normally tested (one tier below the maker's top);
+#                 top = the maker's best model, used only by the top-model retest (Chunk 11)
+# thinking        what to send. "maker default" sends nothing and lets the maker decide;
+#                 maker_default says what that turns out to be, and levels lists what
+#                 else the model accepts.
+# price_per_million_tokens   US dollars. Thinking tokens are billed as output.
+#
+# Checked against each maker's live docs and price page on 2026-09-18.
+
+makers:
+  anthropic:
+    enabled: true
+    key: ANTHROPIC_API_KEY
+    models:
+      - id: claude-opus-5
+        name: Claude Opus 5
+        role: default
+        enabled: true
+        thinking: maker default
+        maker_default: adaptive thinking, effort high
+        levels: [low, medium, high, xhigh, max]
+        price_per_million_tokens: {input: 5.00, output: 25.00}
+      - id: claude-fable-5-1
+        name: Claude Fable 5.1
+        role: top
+        enabled: false
+        thinking: maker default
+        maker_default: adaptive thinking (always on), effort high
+        levels: [low, medium, high, xhigh, max]
+        price_per_million_tokens: {input: 10.00, output: 50.00}
+
+  openai:
+    enabled: true
+    key: OPENAI_API_KEY
+    models:
+      - id: gpt-5.6-sol
+        name: GPT-5.6 Sol
+        role: default
+        enabled: true
+        thinking: maker default
+        maker_default: reasoning effort medium
+        levels: [none, low, medium, high, xhigh, max]
+        # Promotional price, "at least through November 21, 2026".
+        price_per_million_tokens: {input: 4.00, output: 20.00}
+      - id: gpt-6-astra
+        name: GPT-6 Astra
+        role: top
+        enabled: false
+        thinking: maker default
+        maker_default: not documented by OpenAI; set a level before using
+        levels: [low, medium, high, xhigh, max]
+        price_per_million_tokens: {input: 10.00, output: 50.00}
+
+  google:
+    enabled: true
+    key: GOOGLE_API_KEY
+    models:
+      # Google's best released Pro model, and still a preview: Google can retire it
+      # (Gemini 3 Pro Preview was). Gemini 3.5 Pro is announced but not released.
+      # Has no free tier, so the key's project needs billing turned on.
+      - id: gemini-3.1-pro-preview
+        name: Gemini 3.1 Pro (preview)
+        role: default
+        enabled: true
+        thinking: maker default
+        maker_default: thinking level high
+        levels: [low, medium, high]
+        price_per_million_tokens: {input: 2.00, output: 12.00}
+      # A cheaper speed tier, listed for reference.
+      - id: gemini-3.8-flash
+        name: Gemini 3.8 Flash
+        role: other
+        enabled: false
+        thinking: maker default
+        maker_default: thinking level medium
+        levels: [low, medium, high]
+        price_per_million_tokens: {input: 0.75, output: 3.75}
+
+  xai:
+    # Off: xAI's API can't look at a PDF. It takes pictures only as PNG or JPG; an
+    # attached PDF is turned into text on xAI's servers and searched with a tool, so
+    # Grok never sees the drawing. Sending it images would break the "PDF as-is" rule.
+    # Garron's decision, 2026-09-18: leave Grok out until xAI accepts PDFs.
+    # No connection is built for it yet.
+    enabled: false
+    key: XAI_API_KEY
+    models:
+      - id: grok-4.5
+        name: Grok 4.5
+        role: default
+        enabled: false
+        thinking: maker default
+        maker_default: reasoning effort high
+        levels: [low, medium, high]
+        price_per_million_tokens: {input: 2.00, output: 6.00}
+      - id: grok-4.6
+        name: Grok 4.6
+        role: top
+        enabled: false
+        thinking: maker default
+        maker_default: reasoning effort high
+        levels: [low, medium, high, xhigh]
+        price_per_million_tokens: {input: 2.00, output: 6.00}
+
+# Not a tested model. Reads each saved reply as text (never the drawing) and copies
+# its numbers into the answer form the scorer reads (SPEC 2.12). Pinned to one
+# snapshot so every extraction in a study comes from the same model. Each
+# extraction is saved once and reused, so changing this never changes a saved score.
+extractor:
+  maker: anthropic
+  key: ANTHROPIC_API_KEY
+  id: claude-haiku-4-5-20251001
+  name: Claude Haiku 4.5
+  price_per_million_tokens: {input: 1.00, output: 5.00}

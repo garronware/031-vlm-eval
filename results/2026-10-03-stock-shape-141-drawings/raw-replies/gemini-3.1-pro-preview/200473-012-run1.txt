@@ -1,0 +1,7 @@
+Based on the engineering drawing provided, the part would be made from rectangular stock. 
+
+Here are the cuboid bounding dimensions (in millimeters with inches in brackets, as shown on the drawing):
+
+*   **Thickness (Thk):** 50.8 [2.00]
+*   **Width (W):** 76.2 [3.00]
+*   **Length (L):** 101.6 [4.00]

@@ -1,0 +1,6 @@
+Based on the engineering drawing, the part is made from rectangular stock (a plate). 
+
+The cuboid bounding dimensions (Thickness x Width x Length) are:
+**19.1 x 304.8 x 355.6**  (in millimeters)
+or 
+**0.75 x 12.00 x 14.00** (in inches)

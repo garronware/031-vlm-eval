@@ -1,0 +1,9 @@
+## Bounding Stock — Round
+
+**Ø76.2 mm × 120.7 mm long  (Ø3.00 in × 4.75 in long)**
+
+**Basis:**
+- **Diameter:** The largest feature on the part is the flange/head at **ø76.2 [3.00]** (all other diameters — ø50.800 [2.0000] S.F.N.S., ø30.037 [1.1826], ø4.763 [.1875] — are smaller).
+- **Length:** The overall dimension from the flange face to the nose end is **120.7 [4.75]** (101.6 [4.00], 82.6 [3.25], 73.0 [2.88], etc. are intermediate stations).
+
+Since the part is a turned body (concentric diameters, ground surfaces called out concentric & square), it would be produced from **round bar stock**, e.g., 3-1/4″ dia. × 5″ cut length to allow for facing/cleanup and chucking.

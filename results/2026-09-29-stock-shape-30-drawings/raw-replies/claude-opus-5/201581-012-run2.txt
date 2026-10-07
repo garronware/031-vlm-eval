@@ -1,0 +1,17 @@
+## Bounding Stock — Rectangular
+
+**Part:** 201581‑D012, Vee Block (Det. 012), 1018 carb. hardened, ground
+
+Since this is a prismatic V‑block (flat sides, rectangular footprint with a 120° vee ground into the top face), it would be cut from **rectangular (bar/plate) stock**.
+
+| Axis | Metric | Inch | Source dimension |
+|---|---|---|---|
+| **Thickness** | 18.8 mm | 0.74 in | 18.8 [.74] overall in plan view |
+| **Width (Height)** | 28.6 mm | 1.13 in | 28.6 [1.13] overall in front view |
+| **Length** | 69.9 mm | 2.75 in | 69.9 [2.75] overall |
+
+**Bounding envelope: 18.8 × 28.6 × 69.9 mm (0.74 × 1.13 × 2.75 in)**
+
+Notes:
+- The 120° incl. vee, the Ø3.175 [.1250] dowel hole, and the Ø9.525 [.3750] thru hole are all internal/subtractive features and do not increase the envelope.
+- Add grind/finish stock (typ. ~0.8–1.6 mm / .030–.060 in per side) to the above for the as‑purchased blank, since gaging surfaces are ground after hardening to 58‑62 HRC.

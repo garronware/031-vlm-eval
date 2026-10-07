@@ -1,0 +1,9 @@
+shape,model,drawings,replies_graded,passed,pass_rate_percent,range_low_percent,range_high_percent
+CUBE,Claude Opus 5,16,16,15,94,70,100
+CUBE,GPT-5.6 Sol,16,16,15,94,70,100
+CUBE,Gemini 3.1 Pro (preview),16,16,13,81,54,96
+CUBE,All three models,16,48,43,90,,
+CYL,Claude Opus 5,14,14,11,79,49,95
+CYL,GPT-5.6 Sol,14,14,14,100,77,100
+CYL,Gemini 3.1 Pro (preview),14,14,13,93,66,100
+CYL,All three models,14,42,38,90,,

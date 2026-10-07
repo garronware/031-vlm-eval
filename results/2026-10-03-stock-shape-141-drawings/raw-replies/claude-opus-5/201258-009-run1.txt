@@ -1,0 +1,11 @@
+**Rectangular (block) stock — this is a machined housing/C‑frame, so it would be cut from plate/bar stock.**
+
+| | mm | in |
+|---|---|---|
+| Thickness (depth) | 76.2 | 3.00 |
+| Width | 127.0 | 5.00 |
+| Length (height) | 157.2 | 6.19 |
+
+**Bounding size ≈ 76.2 × 127.0 × 157.2 mm (3.00 in × 5.00 in × 6.19 in)**
+
+Basis: the top view gives the 76.2 [3.00] overall depth, the front view gives the 127.0 [5.00] overall width (confirmed by the 117.475 [4.6250] dowel/screw pattern plus 9.525 [.375] edge distances in the bottom view), and the front view's 157.2 [6.19] is the overall height. A finished-stock callout would be about 3‑1/8 × 5‑1/8 × 6‑1/4 in to allow cleanup on all faces.

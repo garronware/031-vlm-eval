@@ -1,0 +1,5 @@
+Based on the technical drawing provided, the part is a cylindrical handle/gauge, so it would be made from round stock.
+
+Here are the cylindrical bounding dimensions:
+*   **Maximum Diameter (Dia):** 1.500" (indicated by the `Ø 1.5000 ±0.0015` dimension in the end view)
+*   **Maximum Length (L):** 4.96" (calculated from the primary side profile view by adding the maximum left-side distance of `3.83` and the maximum right-side distance of `1.13` from the `0` datum shoulder)

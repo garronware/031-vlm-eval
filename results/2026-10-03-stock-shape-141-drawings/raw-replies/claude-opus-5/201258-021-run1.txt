@@ -1,0 +1,15 @@
+## Stock Form: Rectangular (cuboid)
+
+This is an L‑shaped indicator block machined from 1018 steel bar — a rectangular blank is required.
+
+**Bounding dimensions (max envelope):**
+
+| Direction | Metric | Inch | Source dimension |
+|---|---|---|---|
+| **Thk** (depth, front‑to‑back) | 28.6 mm | 1.13 in | 28.6 [1.13] in top/plan view |
+| **Width** | 34.93 mm | 1.375 in | 34.93 [1.375] overall in front view |
+| **Length** (height) | 68.0 mm | 2.68 in | 68.0 [2.68] overall in front view |
+
+**Bounding block ≈ 1.13 × 1.375 × 2.68 in (28.6 × 34.9 × 68.0 mm)**
+
+Note: finished part weight is listed at 0.69 lb, versus ~1.18 lb for the full solid envelope, consistent with the L‑shaped (stepped) geometry. Add typical machining/grind stock (e.g., 1.25 × 1.50 × 2.75 in blank) since gaging surfaces are ground.

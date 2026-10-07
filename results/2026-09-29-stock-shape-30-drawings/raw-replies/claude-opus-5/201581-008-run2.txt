@@ -1,0 +1,12 @@
+## Bounding Stock — Round
+
+This part (201581‑D008, "PIN," made from a reamer blank) is a turned/ground cylindrical part, so it bounds to round stock.
+
+| Dimension | Metric | Inch |
+|---|---|---|
+| **Dia.** | **9.525 mm** | **Ø0.375 in** |
+| **Length** | **≈178 mm** | **≈7.00 in** |
+
+**Basis:**
+- **Diameter:** The largest feature on the part is the Ø9.525 [.3750] ground shank body; everything else (the 4.50 [.177] dia. nose, the R2.25 end radius, the 1.5 [.06] flat) is contained inside that envelope.
+- **Length:** Overall length isn't explicitly dimensioned from the "0" datum at the nose end, but scaling the 2:1 view against the 109.8 [4.32] reference dimension gives ~177–178 mm, consistent with a standard 3/8" × 7" reamer blank.

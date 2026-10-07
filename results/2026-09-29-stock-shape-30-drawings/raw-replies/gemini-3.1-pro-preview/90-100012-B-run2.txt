@@ -1,0 +1,11 @@
+Based on the engineering drawing provided, the part is cylindrical and would be turned from round stock. 
+
+Here are the bounding dimensions:
+*   **Diameter (Dia):** 1.124" (indicated by the maximum outer diameter `Ø1.1240 ±0.0005` in the end view)
+*   **Length (L):** 7.80" 
+
+**Length Calculation:**
+*   From the main datum `0` in the bottom view, the part extends **1.00"** to the rightmost flat face.
+*   To the left of the datum `0`, the main body extends **6.50"** to a flat face.
+*   Detail B (left end) shows a rounded tip that protrudes an additional **0.300"** beyond that 6.50" flat face.
+*   Total Length = 1.00" + 6.50" + 0.300" = **7.80"**

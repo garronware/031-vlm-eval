@@ -1,0 +1,7 @@
+Based on the engineering drawing, the part would be manufactured from rectangular stock. Here are the cuboid bounding dimensions extracted from the primary (metric) and secondary [inch] measurements:
+
+*   **Thickness (Thk):** 19.1 mm [.75 in]
+*   **Width (W):** 40.64 mm [1.600 in] 
+*   **Length (L):** 118.1 mm [4.65 in]
+
+**Bounding Box:** 19.1 x 40.64 x 118.1 mm (or .75 x 1.600 x 4.65 inches)

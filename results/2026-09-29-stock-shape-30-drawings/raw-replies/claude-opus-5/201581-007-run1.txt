@@ -1,0 +1,14 @@
+## Bounding Stock — Round
+
+This is a turned, axisymmetric body (flange/head with stepped shaft and drive tang), so it would be produced from **round bar stock**.
+
+| Parameter | Metric | Inch |
+|---|---|---|
+| **Diameter** | Ø76.2 mm | Ø3.00 in |
+| **Length** | 120.7 mm | 4.75 in |
+
+**Basis:**
+- **Diameter** — governed by the largest feature on the part, the flange/head noted as ⌀76.2 [3.00] (all other diameters, e.g. Ø50.800 [2.0000] ground journal, are smaller).
+- **Length** — governed by the overall dimension 120.7 [4.75], taken from the rear face of the flange to the end of the tang (101.6 [4.00], 82.6 [3.25], 73.0 [2.88], etc. are intermediate stations within this envelope).
+
+**Note:** Add cut-off/facing and grind allowance (typically ~3 mm [0.12 in] on length and ~1.5–3 mm [0.06–0.12 in] on diameter) if specifying purchase stock, since several surfaces are finish-ground to ±0.0002 in and the part is carburize-hardened 58–62 HRC before grinding.

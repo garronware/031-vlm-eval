@@ -1,0 +1,18 @@
+## Bounding Stock Determination
+
+**Stock type:** Rectangular (cuboid) — the part is a flat rectangular block ("BLOCK (LOCATOR POST)") with through/counterbored holes on multiple faces.
+
+### Bounding Dimensions (Thk × W × L)
+
+| Dimension | Inch | Millimeter | Source on drawing |
+|---|---|---|---|
+| **Thickness** | **1.25 in** | 31.8 mm | Side view overall height, 31.8 [1.25] |
+| **Width** | **1.75 in** | 44.5 mm | Front view overall height, 44.5 [1.75] |
+| **Length** | **7.00 in** | 177.8 mm | Front view overall length, 177.8 [7.00] |
+
+### Sanity Check vs. Listed Mass
+- Solid block volume = 1.25 × 1.75 × 7.00 = 15.31 in³
+- 1018 steel density ≈ 0.284 lb/in³ → ≈ 4.35 lb solid
+- Listed part weight = 3.92 lbmass → ~0.43 lb removed by the drilled/tapped/counterbored holes, which is consistent.
+
+**Answer: 1.25 in × 1.75 in × 7.00 in (31.8 × 44.5 × 177.8 mm) rectangular 1018 bar stock** — add saw/grind allowance (e.g., 1.25 × 1.75 bar cut ~7.06–7.12 in long) since the part calls for GRIND and black oxide finish.

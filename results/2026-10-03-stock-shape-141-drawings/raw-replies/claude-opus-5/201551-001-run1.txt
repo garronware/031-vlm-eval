@@ -1,0 +1,18 @@
+## Bounding Stock — Rectangular (Plate)
+
+**Part:** 001 — BASE PLATE (P/N 201551), Material 1020
+
+| Dimension | Inches | Millimeters |
+|---|---|---|
+| **Thickness (Thk)** | 1.50 | 38.1 |
+| **Width (W)** | 10.00 | 254.0 |
+| **Length (L)** | 14.00 | 355.6 |
+
+**Stock size:** 1.50″ × 10.00″ × 14.00″ (38.1 × 254.0 × 355.6 mm)
+
+**Basis / Notes**
+- Overall plan envelope is given directly on the front view: 355.6 [14.00] horizontal × 254.0 [10.00] vertical.
+- Thickness taken from the side (edge) view: 38.1 [1.50] overall; the 27.0 [1.06] dimension is the counterbore depth datum, not an overall height.
+- The four 50.8 [2.00] × 45° corner clips and the R6.4 [.25] slot are internal removals — they do not reduce the bounding box.
+- The 3.2 [.13] × 45° edge break all around and 1.6 [.06] × 45° chamfers are also within the envelope.
+- Rectangular (flat plate) stock is appropriate rather than round stock, since the part is an octagonal plate with a 14 × 10 footprint; round bar would require a Ø≈17.2″ blank (14² + 10² diagonal) and waste substantial material.

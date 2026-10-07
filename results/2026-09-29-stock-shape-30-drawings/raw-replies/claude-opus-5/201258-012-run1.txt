@@ -1,0 +1,14 @@
+## Stock Form
+
+This is a turned, flanged post (all features are concentric about one axis, with a bolt circle of secondary drilled holes) — it would be made from **round stock**.
+
+## Bounding Dimensions (finished part envelope)
+
+| | Metric | Inch |
+|---|---|---|
+| **Diameter** (flange OD, Ø90.4) | **90.4 mm** | **3.56 in** |
+| **Length** (7.9 flange thk + 57.15 post projection) | **≈ 65.1 mm** | **≈ 2.56 in** |
+
+**Envelope: Ø90.4 mm × 65.1 mm  (Ø3.56 in × 2.56 in)**
+
+Suggested raw bar size (with clean‑up allowance): **Ø95 mm × 70 mm** (≈ Ø3.75 in × 2.75 in) of 8620 carburizing steel.

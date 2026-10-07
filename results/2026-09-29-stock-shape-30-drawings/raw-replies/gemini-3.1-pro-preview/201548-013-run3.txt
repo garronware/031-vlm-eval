@@ -1,0 +1,10 @@
+Based on the provided engineering drawing, the part is a rectangular block (Locator Block). 
+
+Here are the cuboid bounding dimensions (Thickness, Width, Length) extracted from the views:
+
+*   **Thickness (Thk):** 85.7 mm [3.38 in] (from the side profile view on the right)
+*   **Width (W):** 228.6 mm [9.00 in] (from the overall horizontal dimension across the top of the main view)
+*   **Length (L):** 241.3 mm [9.50 in] (from the overall vertical dimension along the left edge of the main view)
+
+**Bounding Dimensions (Thk x W x L):**
+85.7 x 228.6 x 241.3 mm  [3.38 x 9.00 x 9.50 inches]

@@ -1,0 +1,13 @@
+## Bounding Stock — Rectangular
+
+This part is a flat, prismatic plate (Datum D Pad, P/N 201551) with a 90° included V‑notch machined into the top edge, so it would be cut from rectangular bar/plate stock.
+
+| Dimension | Inches | Millimeters |
+|---|---|---|
+| **Thickness** | 1.875 | 47.63 |
+| **Width** | 6.000 | 152.40 |
+| **Length** | 8.000 | 203.20 |
+
+**Bounding stock: 1.875 × 6.00 × 8.00 in (1018 steel)**
+
+**Check:** Full block volume = 1.875 × 6 × 8 = 90.0 in³ → ≈25.6 lb at 0.284 lb/in³. Finished weight is listed as 19.81 lb, the difference (~5.8 lb) being the V‑notch cutout, counterbores, and holes — consistent with this envelope.

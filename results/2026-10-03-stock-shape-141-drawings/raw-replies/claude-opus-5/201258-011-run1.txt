@@ -1,0 +1,14 @@
+## Bounding Stock — Round
+
+This part is a turned body (Ø57.2 flange with a concentric Ø30.0 post), so it would be made from **round stock**.
+
+| Dimension | Metric | Inch |
+|---|---|---|
+| **Diameter** | Ø57.2 mm | Ø2.25 in |
+| **Length (overall height)** | 44.4 mm | 1.75 in |
+
+**Basis:**
+- Diameter = largest feature, the Ø57.2 [2.25] base flange.
+- Length = post height 34.9 [1.38] + flange thickness 9.5 [.38] = 44.4 mm [1.76 in].
+
+*(For purchasing, you'd call out ~Ø2.25–2.50 in × 1.875–2.00 in long UHMW rod to allow cleanup on the OD and both faces.)*

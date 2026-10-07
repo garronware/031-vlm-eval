@@ -1,0 +1,7 @@
+Based on the technical drawing provided, the part ("RISER PLATE-3") would be made from rectangular stock. 
+
+Here are the cuboid bounding dimensions (Thk, W, L) in millimeters [with inches in brackets]:
+
+*   **Thickness (Thk):** 6.4 mm [0.25 in]
+*   **Width (W):** 20.0 mm [0.79 in]
+*   **Length (L):** 69.9 mm [2.75 in]

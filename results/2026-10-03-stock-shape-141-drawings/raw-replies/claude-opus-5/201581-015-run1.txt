@@ -1,0 +1,17 @@
+## Bounding Stock Determination
+
+**Stock type:** Rectangular (cuboid) — the part is a flat, prismatic block with a rectangular outline and four corner counterbored holes.
+
+### Envelope dimensions (max extents from the drawing)
+
+| Direction | Source dimension | Value |
+|---|---|---|
+| Thickness | Side view overall height | **19.1 mm [0.750 in]** |
+| Width | Top view vertical overall (0 → 38.1) | **38.1 mm [1.500 in]** |
+| Length | Top view horizontal overall (0 → 50.8) | **50.8 mm [2.000 in]** |
+
+### Result
+
+**Thk × W × L = 19.1 × 38.1 × 50.8 mm  (0.75 × 1.50 × 2.00 in)**
+
+*Notes:* All features — the 4× #8 SHCS counterbores (6.35/31.75 × 9.53/41.28 locations), the Ø12.7 × 19.1 deep flat-bottom hole with Ø9.525 thru, and the Ø9.53 side bore — fall inside this envelope, so no feature projects beyond the block outline. Since the part is carburize-hardened (58‑62 HRC) and ground, add typical grind/finish allowance (~0.8–1.5 mm per dimension) to the saw-cut blank, e.g. ≈ 20.6 × 39.7 × 52.4 mm.

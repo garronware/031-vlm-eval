@@ -1,0 +1,17 @@
+## Bounding Stock — Round
+
+This part (DET 014, "PUCK") is a flat disc, so it would be cut from round bar stock.
+
+| Dimension | Metric | Inch |
+|---|---|---|
+| **Diameter** | ⌀88.9 mm | ⌀3.50 in |
+| **Length (thickness)** | 12.7 mm | 0.50 in |
+
+**Bounding size: ⌀3.50 × 0.50 in (⌀88.9 × 12.7 mm)**
+
+**Basis:**
+- Outside diameter ⌀88.9 [⌀3.50] is the largest feature in the face view; the 1.5 [.06] × 45° chamfers are inside this envelope.
+- Overall thickness 12.7 [.50] from the side view; the knurl is on the OD and does not exceed ⌀3.50.
+- The three ¼" SHCS holes are internal features and do not affect the envelope.
+
+*Note: For actual ordering, add machining allowance — e.g., ⌀3.75 bar × 0.625 cut length — to permit cleanup of the OD/knurl and facing to size, especially since the part is carburize-hardened 58–62 HRC and ground.*

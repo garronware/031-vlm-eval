@@ -1,0 +1,14 @@
+## Bounding Stock: Round
+
+**Ø38.1 mm × 127.0 mm**  (Ø1.50 in × 5.00 in)
+
+**Rationale**
+
+| Dimension | Source | Value |
+|---|---|---|
+| Diameter | Ø38.1 [1.50] outside diameter of post | 38.1 mm (1.50 in) |
+| Length | 127.0 [5.00] overall length | 127.0 mm (5.00 in) |
+
+- The part is a turned cylindrical "STORAGE POST" in BLACK UHMW, so round bar stock is the natural starting material.
+- The 1.0 [.04] × 45° chamfer and the two #10‑32 × 9.5 [.38] deep tapped holes are removal features and do not increase the envelope.
+- The through/blind bore shown in the dashed section likewise lies inside the envelope.

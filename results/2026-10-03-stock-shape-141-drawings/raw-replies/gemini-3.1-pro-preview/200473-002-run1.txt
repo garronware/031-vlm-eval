@@ -1,0 +1,4 @@
+Based on the provided drawing, the part is a rectangular base plate. 
+
+The bounding dimensions (Thk, W, L) are:
+**12.7 x 304.8 x 711.2 mm** (or **0.50 x 12.00 x 28.00 inches**)

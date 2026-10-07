@@ -1,0 +1,6 @@
+Based on the engineering drawing, the part is a "BASE PLATE" and would be made from rectangular stock. 
+
+The cuboid bounding dimensions (Thk, W, L) are:
+* **Thickness (Thk):** 19.1 mm [0.75 in]
+* **Width (W):** 177.8 mm [7.00 in]
+* **Length (L):** 254.0 mm [10.00 in]

@@ -1,0 +1,4 @@
+Based on the engineering drawing, the part would be made from rectangular stock. The bounding dimensions are given in millimeters with inches in brackets [ ]:
+
+**Thickness x Width x Length:**
+46.0 [1.81] x 99.9 [3.94] x 168.28 [6.625]

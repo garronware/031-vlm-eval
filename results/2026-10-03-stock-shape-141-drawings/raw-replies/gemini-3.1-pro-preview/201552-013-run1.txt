@@ -1,0 +1,8 @@
+Based on the engineering drawing, the part is a turned adjustment knob and would be made from round stock. 
+
+Here are the cylindrical bounding dimensions:
+
+*   **Diameter (Dia):** 10.00 mm [0.394 in] (from the maximum diameter of the knurled head)
+*   **Length (L):** 80.50 mm [3.169 in] (from the overall length dimension)
+
+**Cylindrical Bounding Dimensions:** Dia 10.00 x L 80.50 mm

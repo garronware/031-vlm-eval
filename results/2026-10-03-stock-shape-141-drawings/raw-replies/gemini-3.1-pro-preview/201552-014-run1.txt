@@ -1,0 +1,8 @@
+Based on the engineering drawing, the part is a rectangular manifold block. The bounding dimensions (in the primary metric units) are:
+
+**Cuboid bounding dimensions (Thk, W, L):**
+*   **Thickness:** 4.0
+*   **Width:** 10.0
+*   **Length:** 15.0
+
+*(Note: The secondary dimensions in brackets are in inches: 0.16 x 0.39 x 0.59)*

@@ -1,0 +1,10 @@
+Based on the engineering drawing, the part is a rectangular block (as shown in the orthographic and isometric views), so it would be made from rectangular stock. 
+
+According to the title block, primary dimensions are in millimeters with inches in brackets `[ ]`. By reading the ordinate (zero-datum) dimensions across the views, we can determine the overall bounding dimensions:
+
+*   **Thickness (Thk):** 25.4 mm [1.000 in] (From the horizontal overall dimension of the top-left view)
+*   **Width (W):** 32.68 mm [1.287 in] (From the vertical overall dimension of the top-left view)
+*   **Length (L):** 62.7 mm [2.468 in] (From the vertical overall dimension on the far left of the bottom-left main view)
+
+**Cuboid bounding dimensions (Thk, W, L):**
+**25.4 x 32.68 x 62.7 mm** *(1.000 x 1.287 x 2.468 in)*

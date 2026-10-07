@@ -1,0 +1,16 @@
+## Bounding Stock — Rectangular (Block)
+
+This part is a machined block (LH BLOCK, P/N 201533), so it would be cut from rectangular bar stock.
+
+| Dimension | Metric (mm) | Inch |
+|---|---|---|
+| **Thickness** | 31.8 | 1.25 |
+| **Width** | 48.9 | 1.92 |
+| **Length** | 117.3 | 4.62 |
+
+**Basis:**
+- **Thickness (1.25″)** — overall width shown in the end/edge view (31.8 [1.25]), which is the stock thickness direction.
+- **Width (1.92″)** — overall across the front view (48.9 [1.92]); the 15° angled face and 12.7 [.50] × 45° chamfer are cut within this envelope.
+- **Length (4.62″)** — overall height in the front view (117.3 [4.62]), consistent with the 98.298 [3.8700] baseline dimension plus remaining material.
+
+**Note:** Add stock allowance for the HARDEN 60–63 HRC + GRIND operations called out in the detail callout table.

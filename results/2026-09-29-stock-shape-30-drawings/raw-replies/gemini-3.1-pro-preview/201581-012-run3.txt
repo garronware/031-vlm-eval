@@ -1,0 +1,8 @@
+Based on the engineering drawing provided, the part is a "Vee Block" made from rectangular stock. The overall bounding dimensions are derived from the maximum ordinal dimensions in each axis:
+
+*   **Length (L):** 69.9 [2.75]
+*   **Width/Height (W):** 28.6 [1.13] 
+*   **Thickness (Thk):** 18.8 [.74]
+
+**Cuboid bounding dimensions (Thk, W, L):**
+18.8 x 28.6 x 69.9 mm  *(or .74 x 1.13 x 2.75 inches)*

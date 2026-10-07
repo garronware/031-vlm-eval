@@ -1,0 +1,21 @@
+## Bounding Stock Assessment
+
+**Stock form: ROUND (cylindrical)**
+
+The part is a cylindrical "mean master" gage — its controlling outside feature is the Ø83.570 ±0.025 [3.2902] gaging diameter, with two flats (29.4 [1.16]) milled into the OD and a Ø30.042 [1.1828] cross‑bore. Since the full round OD is retained over most of the periphery, it must come out of round stock.
+
+### Cylindrical bounding dimensions (finished part)
+
+| | Metric | Inch |
+|---|---|---|
+| **Dia** | 83.57 mm | 3.290 in |
+| **L** | 56.9 mm | 2.240 in |
+
+*(Across the flats the envelope necks down to ≈58.8 mm [2.32 in], but the bounding envelope is still set by the 83.570 diameter.)*
+
+### Suggested rough stock
+Because the OD is a ground/gaged surface (58–62 HRC, carburize‑harden, grind) allow clean‑up on all faces:
+
+- **Ø 3.38 in (86 mm) × 2.38 in (60.5 mm) long** bar, 8620 steel
+
+*Note: this is a Rev A drawing with pink/green cloud markups (Green Line Change No. 8) — confirm the revised 83.570, 36.595, 0.600 and 23.60 values before cutting stock.*

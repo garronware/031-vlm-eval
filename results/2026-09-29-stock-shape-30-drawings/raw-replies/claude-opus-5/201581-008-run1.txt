@@ -1,0 +1,14 @@
+## Bounding Stock — Round
+
+This part (DET 008 "PIN," made from a hardened/ground **reamer blank**) is a turned, axially‑symmetric part, so it bounds to a cylinder.
+
+| Dimension | Metric | Inch |
+|---|---|---|
+| **Dia.** | **9.53 mm** | **0.375 in** |
+| **Length** | **≈ 178 mm** | **≈ 7.0 in** |
+
+**Basis:**
+- Largest diameter on the part is the Ø9.525 [.3750] slip‑fit shank (all other features — the 4.50 [.177] dia. nose, R2.25/R1.5 blends, and the 1.5 [.06] flat — are smaller/inside that envelope).
+- No overall length is dimensioned; the drawing stacks 109.8 [4.32] from the "0" datum at the nose end plus the additional shank shown to the left. Scaling the 2:1 view gives ≈ 175 mm, consistent with a standard 3/8" reamer blank OAL of 7.00 in (177.8 mm) — i.e., the blank is used at its as‑purchased length.
+
+**Stock call‑out:** 3/8 in dia. × 7 in long reamer blank (hardened 60‑64 HRC, ground), black oxide on all non‑gaging surfaces.

@@ -1,0 +1,7 @@
+Based on the drawing provided, the part is a pin made from round stock (noted as a "Reamer Blank").
+
+The bounding cylindrical dimensions are:
+*   **Diameter (Dia):** 9.525 (from the left end view dimension `9.525 [.3750]`)
+*   **Length (L):** 109.8 (from the overall length dimension `109.8 [4.32]` measured from the 0 datum at the right tip to the left end)
+
+**Bounding Dimensions:** (Dia, L) = (9.525, 109.8)

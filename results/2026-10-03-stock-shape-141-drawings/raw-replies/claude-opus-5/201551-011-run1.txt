@@ -1,0 +1,11 @@
+**Rectangular stock (plate) — MIC‑6 aluminum**
+
+| Dimension | mm | in |
+|---|---|---|
+| Thickness | 19.05 | 0.750 |
+| Width | 108.0 | 4.25 |
+| Length | 177.8 | 7.00 |
+
+**Bounding block: 19.05 × 108.0 × 177.8 mm (0.75 " × 4.25 " × 7.00 ")**
+
+Notes: the 0.750" plate thickness comes from the side view (surface‑finished in Det. #007); the 4.25" × 7.00" envelope comes from the face view — the 45° corner breaks (44.5 [1.75] × 45° and 6.4 [.25] × 45°) are removed from this rectangular blank, so they don't reduce the required stock size.

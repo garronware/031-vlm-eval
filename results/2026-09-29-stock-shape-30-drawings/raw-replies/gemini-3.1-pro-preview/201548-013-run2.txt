@@ -1,0 +1,9 @@
+Based on the engineering drawing provided, the part would be made from rectangular stock. 
+
+Here are the cuboid bounding dimensions (Thk, W, L) as indicated by the maximum coordinate dimensions in each view:
+
+*   **Thickness (Thk):** 25.4 mm [1.00 in] *(from the bottom profile view)*
+*   **Width (W):** 228.6 mm [9.00 in] *(from the horizontal axis of the main view)*
+*   **Length (L):** 241.3 mm [9.50 in] *(from the vertical axis of the main view)*
+
+**Bounding Dimensions:** 25.4 x 228.6 x 241.3 mm  (1.00" x 9.00" x 9.50")

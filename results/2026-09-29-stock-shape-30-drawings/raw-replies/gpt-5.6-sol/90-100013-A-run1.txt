@@ -1,0 +1,6 @@
+**Cylindrical bounding dimensions (round stock):**
+
+- **Diameter:** Ø1.500 in  
+- **Length:** 4.960 in  
+
+**Stock envelope:** **Ø1.500 × 4.960 in**

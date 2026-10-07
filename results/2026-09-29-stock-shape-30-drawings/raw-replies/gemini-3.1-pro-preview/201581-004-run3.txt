@@ -1,0 +1,7 @@
+Based on the technical drawing, the part is a rectangular block (Bushing Block). The cuboid bounding dimensions extracted from the orthographic views are:
+
+**Thk, W, L:** 50.8 x 76.2 x 95.3 mm (2.00 x 3.00 x 3.75 in)
+
+*   **Thickness (Thk):** 50.8 mm [2.00 in] - *Derived from the lower side profile view.*
+*   **Width (W):** 76.2 mm [3.00 in] - *Derived from the horizontal overall dimension of the main view.*
+*   **Length (L):** 95.3 mm [3.75 in] - *Derived from the vertical overall dimension of the main view.*

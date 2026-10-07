@@ -1,0 +1,13 @@
+## Bounding Stock — Rectangular Plate
+
+**Part:** 200473 — BASE PLATE (DET 002), Material 1018
+
+| Dimension | Inch | Metric |
+|---|---|---|
+| **Thickness** | 0.50 in | 12.7 mm |
+| **Width** | 12.00 in | 304.8 mm |
+| **Length** | 28.00 in | 711.2 mm |
+
+**Bounding stock: 0.50" × 12.00" × 28.00" (12.7 × 304.8 × 711.2 mm) rectangular plate**
+
+**Verification:** 0.50 × 12 × 28 = 168 in³ of 1018 steel (0.284 lb/in³) ≈ 47.7 lb; after removing the four 1.00 × 45° corner chamfers and the drilled/tapped holes, this agrees with the listed part weight of 47.02 lbmass.

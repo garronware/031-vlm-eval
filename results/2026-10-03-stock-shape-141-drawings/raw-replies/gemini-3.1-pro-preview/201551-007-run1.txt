@@ -1,0 +1,7 @@
+Based on the provided engineering drawing, the part is cylindrical ("Locator Post") and would be made from round stock. 
+
+Here are the bounding dimensions:
+* **Diameter (Dia):** $\emptyset$32.23 [$\emptyset$1.269] (This is the maximum outer diameter, given in the left view)
+* **Length (L):** 57.2 [2.25] (This is the overall length from the spherical tip to the right-most face, given in the side profile view)
+
+**Bounding Dimensions:** (Dia, L) = **$\emptyset$32.23 [$\emptyset$1.269], 57.2 [2.25]**

@@ -1,0 +1,7 @@
+Based on the engineering drawing, the part is cylindrical (turned part). 
+
+The bounding dimensions for round stock are:
+*   **Diameter:** 90.4 (from the outermost circle in the top view, dimensioned as Ø90.4 [Ø3.56])
+*   **Length:** 57.15 (from the overall height dimension in the section view, dimensioned as 57.150 [2.2500] REF.)
+
+**Cylindrical Bounding Dimensions:** Dia 90.4, L 57.15

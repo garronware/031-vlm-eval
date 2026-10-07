@@ -1,0 +1,8 @@
+Based on the technical drawing, the part is a rectangular block (made from rectangular stock). 
+
+The bounding dimensions (Thickness, Width, Length) are:
+**50.8 x 63.5 x 101.6 mm** (or **2.00 x 2.50 x 4.00 inches**)
+
+*   **Thickness (Thk):** 50.8 mm [2.00 in]
+*   **Width (W):** 63.5 mm [2.50 in] 
+*   **Length (L):** 101.6 mm [4.00 in]

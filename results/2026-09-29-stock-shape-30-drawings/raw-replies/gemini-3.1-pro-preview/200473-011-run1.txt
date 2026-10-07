@@ -1,0 +1,5 @@
+Based on the engineering drawing, the part is rectangular (cuboid) and the bounding dimensions are:
+
+*   **Thickness (Thk):** 50.8 mm [2.00 in]
+*   **Width (W):** 63.5 mm [2.50 in]
+*   **Length (L):** 101.6 mm [4.00 in]

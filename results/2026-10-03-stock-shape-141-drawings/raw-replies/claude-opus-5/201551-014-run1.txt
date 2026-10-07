@@ -1,0 +1,13 @@
+## Bounding Stock — Round Stock
+
+This is a turned, axisymmetric shouldered pad (Ø19.1 flange body with a Ø12.700 press‑fit boss), so it would be made from **round bar stock**.
+
+| Dimension | Metric | Inch |
+|---|---|---|
+| **Diameter** (max OD = flange Ø19.1) | **19.1 mm** | **Ø0.75 in** |
+| **Length** (overall, 8.60 flange + boss) | **19.1 mm** | **0.75 in** |
+
+**Bounding cylinder: Ø19.1 × 19.1 mm (Ø0.75 in × 0.75 in)**
+
+Notes for stock selection:
+- Material is A2 tool steel (A/2‑T.S.), hardened 60–63 HRC with ground features, so order the next commercial size up — typically **Ø7/8 in × ~1 in** blanks — to allow for cutoff, facing, and grind stock on the Ø.5000 press‑fit diameter.

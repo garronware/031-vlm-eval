@@ -1,0 +1,8 @@
+**Round stock (cylindrical blank)**
+
+| Dimension | Metric | Inch |
+|---|---|---|
+| Bounding Diameter (max OD Ø83.570) | **83.57 mm** | **3.2902 in** |
+| Bounding Length / Thickness (overall thk 6.615) | **6.62 mm** | **0.2604 in** |
+
+So the part envelopes into a disc of roughly **Ø83.6 mm × 6.6 mm thick (Ø3.290 in × 0.260 in)** — cut from round bar stock, e.g. Ø3.50 in 8620 bar, ~0.35 in slice, to allow grind/carburize stock.

@@ -1,0 +1,11 @@
+## Bounding Stock — Round
+
+**Ø25.4 mm [1.00 in] × 63.5 mm [2.50 in] long**
+
+| Parameter | Metric | Inch |
+|---|---|---|
+| Stock form | Round bar | Round bar |
+| Diameter | 25.4 mm | 1.00 in |
+| Length | 63.5 mm | 2.50 in |
+
+**Basis:** The detail (DET 004, "BASE LEG," 1018 steel, black oxide, qty 4) is shown as a plain cylinder — the end view is a circle at Ø25.4 [1.00] and the side view is 63.5 [2.50] long, with no flats or non-round features. The only secondary machining is a 3/8-16 tapped hole × 19.1 [.75] deep, one near side and one far side, which does not extend beyond the cylindrical envelope.

@@ -1,0 +1,11 @@
+**Rectangular (plate/block) stock**
+
+| Dimension | Inch | Metric |
+|---|---|---|
+| Thk | 2.00 | 50.8 mm |
+| W | 3.00 | 76.2 mm |
+| L (height) | 3.75 | 95.3 mm |
+
+**Bounding stock: 2.00" × 3.00" × 3.75" (50.8 × 76.2 × 95.3 mm), 1018 carb. harden**
+
+Check: 2 × 3 × 3.75 = 22.5 in³ solid ≈ 6.4 lb; less the Ø2.000 thru bore (≈6.3 in³ ≈ 1.8 lb) and the two 0.25 × 45° chamfers gives ≈ 4.5 lb, matching the 4.46 lb mass note.

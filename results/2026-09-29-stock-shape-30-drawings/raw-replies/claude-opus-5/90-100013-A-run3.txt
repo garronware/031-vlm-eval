@@ -1,0 +1,25 @@
+## Bounding Envelope — Round Stock
+
+**Part:** Handle, JRE Modular Hand Gauge (DWG 90‑100013 Rev A)
+
+| Bounding Dimension | Value |
+|---|---|
+| **Diameter (Dia)** | **Ø1.500 in** |
+| **Length (L)** | **4.96 in** |
+
+### Basis
+
+**Diameter** – Largest feature on the part is the knurled body OD, Ø1.5000 ±0.0015 (shown in the end view). All other diameters are smaller:
+- Ø1.368 (left end flange)
+- Ø1.1256 ±0.0005 (internal/step)
+- Ø0.938, Ø0.850, Ø0.807, Ø0.374 (pilot/thread journals)
+
+Since the knurl is a *raised* (displaced‑material) feature at 0.017 depth, the pre‑knurl turned diameter is under Ø1.500 — so Ø1.500 still governs the envelope.
+
+**Length** – Taken from the "0" datum face:
+- Left‑hand extreme: 3.83
+- Right‑hand extreme: 1.13
+- **Total = 3.83 + 1.13 = 4.96 in**
+
+### Practical Stock Callout
+6061‑T6 round bar, **Ø1.625 (1‑5/8") × 5.25 in** cut length, allowing cleanup on the OD and facing/parting stock on both ends.

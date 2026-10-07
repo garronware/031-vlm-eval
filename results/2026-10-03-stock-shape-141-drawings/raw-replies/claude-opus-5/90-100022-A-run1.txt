@@ -1,0 +1,13 @@
+## Bounding Dimensions — Round Stock
+
+| Dimension | Value |
+|---|---|
+| **Diameter (Dia)** | **Ø0.1870 in** (nominal 3/16" bar stock) |
+| **Length (L)** | **7.5300 in** |
+
+**Basis:**
+- The part is a plain cylindrical rod — the only cross‑sectional feature is the Ø0.1870 ±0.0002 outside diameter, with a R0.13 full radius (spherical/ball) end that does not exceed the OD.
+- The overall length is the 7.530 ±0.001 dimension taken from the 0 datum at the threaded end face (the 7.488 dim is to the tangent of the end radius).
+- The 4‑48 UNF × 0.224 deep tapped hole is internal and does not affect the envelope.
+
+**Practical stock callout:** 3/16 in (0.1875) dia × ~7.65 in long AISI 4140 CR bar, allowing facing/parting stock on the length.

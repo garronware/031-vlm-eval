@@ -1,0 +1,9 @@
+print_type,model,drawings,replies_graded,passed,pass_rate_percent,range_low_percent,range_high_percent
+dual,Claude Opus 5,27,27,24,89,71,98
+dual,GPT-5.6 Sol,27,27,26,96,81,100
+dual,Gemini 3.1 Pro (preview),27,27,23,85,66,96
+dual,All three models,27,81,73,90,,
+inch_only,Claude Opus 5,3,3,2,,,
+inch_only,GPT-5.6 Sol,3,3,3,,,
+inch_only,Gemini 3.1 Pro (preview),3,3,3,,,
+inch_only,All three models,3,9,8,,,

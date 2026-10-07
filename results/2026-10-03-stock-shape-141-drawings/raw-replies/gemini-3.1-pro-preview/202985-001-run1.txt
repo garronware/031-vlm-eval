@@ -1,0 +1,7 @@
+Based on the technical drawing, the part is a plate made from rectangular stock. The cuboid bounding dimensions are:
+
+*   **Thickness (Thk):** 0.75
+*   **Width (W):** 6.00
+*   **Length (L):** 12.00
+
+**Bounding Dimensions (Thk, W, L):** 0.75 x 6.00 x 12.00

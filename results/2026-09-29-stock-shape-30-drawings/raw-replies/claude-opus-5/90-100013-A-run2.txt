@@ -1,0 +1,8 @@
+**Round (bar) stock — cylindrical bounding envelope**
+
+| Dimension | Value |
+|---|---|
+| **Diameter** | **Ø1.500 in** (largest feature: Ø1.5000 ±0.0015 knurled body OD) |
+| **Length** | **4.96 in** (3.83 left of the 0 datum + 1.13 right of it) |
+
+So the part cleans up out of nominal Ø1½ in × ~5 in 6061‑T6 round bar (add ~0.03–0.06 in on the diameter and ~0.1 in on length for facing/cleanup stock).

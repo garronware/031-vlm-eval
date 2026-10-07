@@ -1,0 +1,17 @@
+## Stock Type: **Rectangular (cuboid) block**
+
+The part is a vee block with a 45° chamfered corner, flat faces, and drilled/counterbored/tapped holes — all machined from a rectangular blank.
+
+## Bounding Dimensions
+
+| Dimension | Inches | Millimeters |
+|---|---|---|
+| **Thickness** | 2.750 | 69.85 |
+| **Width** | 3.19 | 81.0 |
+| **Length (Height)** | 4.00 | 101.6 |
+
+**Stock size: 2.750 × 3.19 × 4.00 in (69.85 × 81.0 × 101.6 mm)**
+
+Notes for stock selection:
+- Material is A/2 tool steel, hardened 58–60 HRC after rough machining, then ground — so add grind stock on finished faces.
+- The 45° corner cut (with the 23.88 [.940] / 3.18 [.125] flat) is machined away from the full rectangular envelope, so it does not reduce the required blank size.

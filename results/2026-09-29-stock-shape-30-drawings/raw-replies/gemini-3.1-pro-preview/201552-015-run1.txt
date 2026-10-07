@@ -1,0 +1,7 @@
+Based on the provided engineering drawing, the part is designed from rectangular stock. Here are the cuboid bounding dimensions (Thickness, Width, Length):
+
+*   **Thickness (Thk):** 19.1 mm [0.75 in] (from the left side view)
+*   **Width (W):** 40.64 mm [1.600 in] (from the origin '0' to the rightmost vertical edge in the main view)
+*   **Length (L):** 118.1 mm [4.65 in] (from the origin '0' at the top to the bottommost edge in the main view)
+
+**Bounding Dimensions:** 19.1 mm x 40.64 mm x 118.1 mm (0.75" x 1.600" x 4.65")

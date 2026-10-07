@@ -1,0 +1,9 @@
+Based on the engineering drawing, the part is a rectangular block (made from rectangular stock). 
+
+The bounding dimensions extracted from the datum points are:
+*   **Thickness:** 50.8 mm [2.00 in] (from the top view)
+*   **Width:** 63.5 mm [2.50 in] (from the top view / front view width)
+*   **Length:** 101.6 mm [4.00 in] (from the front view height)
+
+**Cuboid Bounding Dimensions (Thk, W, L):**
+50.8 x 63.5 x 101.6 mm (2.00 x 2.50 x 4.00 in)

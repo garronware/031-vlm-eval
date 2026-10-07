@@ -1,0 +1,12 @@
+## Bounding Dimensions (round stock)
+
+**Ø 1.124 in × 7.50 in long**
+
+**Basis:**
+
+| Item | Value | Source |
+|---|---|---|
+| Max. diameter | Ø1.1240 ±0.0005 | Large collar/flange (end view) — larger than the Ø0.7866 (20 mm) gage shank and the M22×1.5 thread (≈Ø0.866) |
+| Overall length | 7.50 in | Ordinate stack off the "0" datum in the front view: 6.50 to the spherical nose end + 1.00 to the opposite (threaded‑shank) end face |
+
+**Practical stock call‑out:** Ø1.25 in × 7.62 in (≈1/8 in facing/cut‑off allowance) of AISI 4140 HR Q&T round bar.

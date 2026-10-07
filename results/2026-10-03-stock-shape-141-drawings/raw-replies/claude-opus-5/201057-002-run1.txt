@@ -1,0 +1,19 @@
+## Stock Form: Rectangular (Plate)
+
+This is a flat plate detail (Det. #002, "MASTER PLATE"), so it would be cut from rectangular plate stock.
+
+### Bounding Dimensions (Thk × W × L)
+
+| Dimension | Metric | Inch | Source |
+|---|---|---|---|
+| **Thickness** | 12.7 mm | 0.50 in | Plate thickness from side view (12.7 [.50]) |
+| **Width** | 276.2 mm | 10.88 in | Overall horizontal extent (276.2 [10.88]) |
+| **Length** | 304.8 mm | 12.00 in | Overall vertical extent (304.8 [12.00]) |
+
+**Bounding box: 0.50 in × 10.88 in × 12.00 in  (12.7 × 276.2 × 304.8 mm)**
+
+### Notes
+- The outline is a chamfered/angled pentagon-like profile (15° typ. 2 places, 12.7 [.50] × 45° typ. 4 places), but all features fall inside the 10.88 × 12.00 in envelope.
+- Both faces are ground (HEAT TREAT column: GRIND), so for ordering purposes a slightly thicker plate (e.g., 0.56–0.625 in) would be used to allow grinding to the 0.50 in finish thickness; the finished part envelope is as listed above.
+- Material: 8620 (drawing annotation suggests substituting 4140 prehard).
+- Part weight is given as 12.64 lbmass; a solid 0.50 × 10.88 × 12.00 in steel block would weigh ≈ 18.5 lb, consistent with the material removed by the Ø4.173 in through bore and the corner cuts.

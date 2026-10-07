@@ -1,0 +1,10 @@
+Based on the engineering drawing provided, the part is cylindrical (indicated by the "DIA" callouts and the overall shape in the isometric view). Therefore, it would be made from round stock.
+
+Here are the cylindrical bounding dimensions based on the primary (metric) units:
+
+*   **Diameter (Dia):** 83.57 mm 
+    *(Derived from the maximum outer diameter dimension: 83.570±0.025 DIA)*
+*   **Length (L):** 47.20 mm 
+    *(Calculated from the two end faces referenced from the center "0" line: 23.60 + 23.60)*
+
+**Bounding Dimensions:** Dia 83.57 mm x L 47.20 mm (or Dia 3.290" x L 1.858")

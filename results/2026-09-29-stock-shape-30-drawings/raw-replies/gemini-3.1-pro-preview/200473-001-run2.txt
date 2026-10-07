@@ -1,0 +1,3 @@
+Based on the engineering drawing, the part is a "BENCHTOP" made of hardwood, which would be made from rectangular stock. Its cuboid bounding dimensions (Thickness x Width x Length) are:
+
+**50.8 [2.00] x 914.4 [36.00] x 1828.8 [72.00]**

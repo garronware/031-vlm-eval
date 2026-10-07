@@ -1,0 +1,14 @@
+## Bounding Stock: Round
+
+This part is a **gauge collar** — a body of revolution (concentric bores Ø0.789/20.05 mm and Ø1.489, outer diameters Ø1.489 and Ø1.609, with chamfers, a cross‑drilled hole, and a small notch/detail feature). It would be made from **round bar stock**.
+
+| Dimension | Value |
+|---|---|
+| **Diameter** | **Ø1.609 in** (largest OD on the drawing) |
+| **Length** | **0.750 in** (overall height, 0 → 0.750 datum stack) |
+
+**Bounding cylinder ≈ Ø1.609 × 0.750 in**
+
+Notes:
+- The 0.729 dimension and Ø1.489 are internal/intermediate features, so they don't drive the envelope.
+- For actual purchase, you'd round up to the next standard size — e.g., **1‑3/4 in dia × 0.875 in** long (4140) — to allow cleanup on the OD and both faces before nitriding.

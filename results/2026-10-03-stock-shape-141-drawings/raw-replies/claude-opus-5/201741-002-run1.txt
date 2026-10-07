@@ -1,0 +1,11 @@
+**Rectangular (plate) stock**
+
+| Dimension | mm | in |
+|---|---|---|
+| Thickness | 19.05 | 0.750 |
+| Width | 158.8 | 6.25 |
+| Length | 203.2 | 8.00 |
+
+**Bounding stock ≈ 0.75" × 6.25" × 8.00" (19.05 × 158.8 × 203.2 mm)**
+
+The octagonal corner breaks (28.6 [1.12] × 45° typ.) are machined from the full rectangular blank, so the rough stock is the full cuboid.

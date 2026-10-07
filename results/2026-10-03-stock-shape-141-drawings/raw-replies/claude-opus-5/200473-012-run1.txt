@@ -1,0 +1,18 @@
+## Bounding Stock Size — Rectangular
+
+**Part:** STORAGE BLOCK (2.000), P/N 200473, UHMW
+
+| Dimension | Inches | Millimeters |
+|---|---|---|
+| **Thickness (Thk)** | 2.00 | 50.8 |
+| **Width (W)** | 3.00 | 76.2 |
+| **Length (L)** | 4.00 | 101.6 |
+
+**Stock callout:** 2.00" × 3.00" × 4.00" UHMW rectangular bar
+
+**Basis:**
+- The 4.00 [101.6] overall height is the largest dimension (side view) → length
+- The 3.00 [76.2] overall width (front view) → width
+- The 2.00 [50.8] overall depth (front view height) → thickness
+
+All part features fall inside this envelope — the U‑shaped slot (0.50 and 2.50 locating dims, 3.25 slot depth) is a removal from the top of the block, and the (2) 0.25 THRU / 0.44 counterbored holes pass through the 2.00 thickness.

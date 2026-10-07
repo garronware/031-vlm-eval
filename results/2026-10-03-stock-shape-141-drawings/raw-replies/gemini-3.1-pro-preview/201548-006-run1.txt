@@ -1,0 +1,6 @@
+Based on the drawing, the part is cylindrical (made from round stock). 
+
+Here are the cylindrical bounding dimensions as specified on the print (formatted as primary [secondary] units):
+
+*   **Dia:** Ø15.9 [Ø.63]
+*   **L:** 97.23 [3.828]

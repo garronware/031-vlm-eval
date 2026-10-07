@@ -1,0 +1,3 @@
+**Cylindrical bounding dimensions:**  
+- **Dia:** 8.000 mm [0.3150 in]  
+- **L:** 50.8 mm [2.00 in]

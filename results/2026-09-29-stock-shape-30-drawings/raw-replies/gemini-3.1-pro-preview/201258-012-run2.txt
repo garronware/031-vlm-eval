@@ -1,0 +1,5 @@
+Based on the engineering drawing, the part is rotationally symmetric and would be made from round stock. 
+
+The cylindrical bounding dimensions are:
+* **Dia:** 90.4 mm [3.56 in] (outermost diameter of the top flange)
+* **L:** 57.150 mm [2.2500 in] (overall length/height from the top surface to the bottom face)

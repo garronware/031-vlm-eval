@@ -1,0 +1,16 @@
+## Bounding Stock — Round
+
+This part is a turned body (knurled handle grip transitioning to a stepped gage pin), so it would be made from **round stock**.
+
+| Dimension | Metric | Inch |
+|---|---|---|
+| **Diameter** | Ø34.9 mm | Ø1.38 in |
+| **Length** | 146.1 mm | 5.75 in |
+
+**Basis:**
+- **Diameter** is driven by the largest feature, the Ø34.9 [1.38] knurled body/head.
+- **Length** is driven by the overall dimension 146.1 [5.75] from the back face to the tip of the pin (the 5° chamfered nose end).
+
+All other features (Ø15.875 [.6250] gage diameter, Ø12.73 [.501] bore, Ø7.94 [.313] holes, #10-32 cross-drilled/tapped holes, undercut) fall inside this envelope.
+
+*Note: for actual purchasing you'd add cleanup stock — e.g., 1-1/2 in dia × 6 in long bar of 8620 to allow for facing and turning before carburize/harden to 58–62 HRC.*

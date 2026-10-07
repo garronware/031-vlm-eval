@@ -1,0 +1,4 @@
+Based on the engineering drawing, the part is a rectangular block ("BLOCK (CLAMP)"). Therefore, it would be made from rectangular stock. 
+
+The bounding dimensions (Thickness x Width x Length) are:
+**25.4 x 19.1 x 63.5 mm** (or **1.00 x 0.75 x 2.50 inches**)

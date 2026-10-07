@@ -1,0 +1,6 @@
+Based on the provided engineering drawing, the part is a circular plate/disk and would be made from round stock. The primary bounding dimensions (in millimeters, as they are the primary units given before brackets) are:
+
+**Dia:** 83.570  
+**L:** 6.615  
+
+*(Note: In inches, these correspond to Dia: 3.2902 and L: 0.2604)*

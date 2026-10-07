@@ -1,0 +1,8 @@
+Based on the engineering drawing, the part is an "Indicator Block" and would be manufactured from rectangular stock. The bounding dimensions are as follows:
+
+*   **Thickness (Thk):** 30.16 mm [1.188"] (derived from the overall depth shown in the bottom view)
+*   **Width (W):** 34.93 mm [1.375"] (derived from the overall width shown in the top/front views)
+*   **Length (L):** 68.0 mm [2.68"] (derived from the overall height shown in the front view)
+
+**Cuboid bounding dimensions (Thk x W x L):**
+30.16 x 34.93 x 68.0 mm (1.188 x 1.375 x 2.68 inches)

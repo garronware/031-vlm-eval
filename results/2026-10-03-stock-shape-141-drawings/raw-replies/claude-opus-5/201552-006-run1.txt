@@ -1,0 +1,19 @@
+## Bounding Stock Determination
+
+**Stock type:** Rectangular (cuboid) — the part is a flat blade with a rectangular body, flats, cross holes, and a stepped/thinned nose.
+
+### Governing dimensions from drawing
+
+| Axis | Source | Value |
+|---|---|---|
+| Length | Front view overall "23.0 [.91]" (hole pattern dimensioned from 0 datum to 21.60 [.850]) | **23.0 mm [0.91 in]** |
+| Width | End view "10.0 [.39]" (centerline at 5.00 [.197]) | **10.0 mm [0.39 in]** |
+| Thickness | Side/section view "4.0 [.16]" (nose reduced to 1.595/1.20) | **4.0 mm [0.16 in]** |
+
+### Bounding Box (Thk × W × L)
+
+**4.0 mm × 10.0 mm × 23.0 mm**
+
+**[0.16 in × 0.39 in × 0.91 in]**
+
+*Note: Add typical saw/grind stock allowance (~0.5–1 mm per face) if ordering raw material, since all surfaces are ground after hardening (Rc 60–64).*

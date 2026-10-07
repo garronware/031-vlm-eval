@@ -1,0 +1,17 @@
+## Bounding Stock — Detail 7, "Flexure Block" (6061‑T6 Aluminum)
+
+**Stock type:** Rectangular (the part is a machined L‑shaped block, not a turned part)
+
+**Bounding cuboid:**
+
+| Dimension | Size |
+|---|---|
+| Thickness (depth, from side view) | **0.75 in** |
+| Width (front view overall) | **1.25 in** |
+| Length (front view overall height) | **1.50 in** |
+
+**Rough stock callout:** 0.75 × 1.25 × 1.50 in. 6061‑T6 aluminum (two required) — add ~0.03–0.06 in. per face for cleanup, e.g. cut blanks at 0.81 × 1.31 × 1.56 in.
+
+**Basis:**
+- Front (L‑shaped) view: 1.25 overall width (0.62 upright leg + base), 1.50 overall height (0.88 + 0.62 step).
+- Side view: 0.75 overall thickness (0.531 + 0.219 references), with the 1.25 height applying to the stepped/lower portion.

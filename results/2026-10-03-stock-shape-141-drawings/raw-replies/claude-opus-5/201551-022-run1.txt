@@ -1,0 +1,14 @@
+## Bounding Stock — Round
+
+This part is a flat, circular gage master (disc with a bolt/dowel hole pattern), so it would be made from **round stock**.
+
+| Dimension | Metric | Inch |
+|---|---|---|
+| **Diameter (Dia)** | Ø83.570 mm (±0.025) | Ø3.2902 in (±.0010) |
+| **Length / Thickness (L)** | 3.640 mm | 0.1433 in |
+
+**Bounding cylinder: Ø83.57 mm × 3.64 mm (Ø3.290 in × 0.143 in)**
+
+Notes for stock selection:
+- The Ø83.570 ±0.025 OD and the faces are ground (carburize/harden 58‑62 HRC, then grind), so add finish stock — typically start from ~Ø88.9 mm (3.5 in) bar, ~5 mm (0.200 in) thick slices.
+- Ø76.2 [3.00] is an internal gage-surface circle, and 1.605 [.0632] is a reference (assembly) dimension — neither increases the envelope.

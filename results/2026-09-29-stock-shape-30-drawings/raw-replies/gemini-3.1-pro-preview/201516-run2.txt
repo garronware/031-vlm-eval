@@ -1,0 +1,9 @@
+Based on the engineering drawing, the part is a rectangular block. The primary dimensions are given in millimeters (with inches in brackets). 
+
+Here are the cuboid bounding dimensions (Thickness x Width x Length):
+
+*   **Thickness (Height):** 22.5 mm [0.884 in] (from the right side view vertical ordinate)
+*   **Width (Depth):** 25.4 mm [1.000 in] (from the top view vertical ordinate)
+*   **Length:** 62.7 mm [2.468 in] (from the front view horizontal ordinate)
+
+**Bounding Dimensions (Thk, W, L):** 22.5 x 25.4 x 62.7 mm

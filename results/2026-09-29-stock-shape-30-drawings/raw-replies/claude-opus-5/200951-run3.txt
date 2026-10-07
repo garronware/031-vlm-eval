@@ -1,0 +1,18 @@
+## Bounding Envelope — Rectangular Stock
+
+This part (Bushing Block Bottom #6, P/N 200951) is a rectangular block with a through‑bore and mounting/bushing holes, so it would be cut from **rectangular bar stock**, not round.
+
+| Bounding Dimension | mm | in |
+|---|---|---|
+| **Thickness** (end‑view width) | **40.64** | **1.600** |
+| **Width** (block height, 0.250 + 2.620 ordinates) | **72.90** | **2.870** |
+| **Length** (dimensioned 91.000 ±0.010) | **91.00** | **3.583** |
+
+**How these were derived**
+- **Length:** directly toleranced overall dimension 91.000 ±0.010 mm [3.58268 ±0.00039 in] in the side view.
+- **Width (2.870 in):** ordinate dimensions 0.250 [6.4] above and 2.620 [66.6] below the 0 datum line, confirmed by the reference dimension (2.870) [72.91].
+- **Thickness (1.600 in):** ordinate extremes 0.250 [6.35] and 1.350 [34.29] about the hole‑pattern datum (0.250 in edge distance each side of the 1.100 [27.94] hole spacing).
+
+**Sanity check:** 40.64 × 72.90 × 91.00 = ~270 cm³ solid; subtracting the Ø19/Ø12.5 through bore, the two Ø19.05 counterbores, the 5/16‑18 tapped hole and the four corner holes leaves ~234 cm³ of 6061‑T6 (2.70 g/cm³) ≈ 1.39 lb, matching the 1.40 weight shown in the title block.
+
+*Suggested stock:* 1.75 in × 3.00 in (or 45 × 75 mm) bar, cut ~95 mm long, to allow cleanup on all faces.

@@ -1,0 +1,2 @@
+**Cuboid bounding dimensions (Thk × W × L): 2.00 × 36.00 × 72.00 in**  
+Metric: **50.8 × 914.4 × 1828.8 mm**

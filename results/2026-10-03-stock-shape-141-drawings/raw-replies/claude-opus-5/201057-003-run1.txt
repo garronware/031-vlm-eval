@@ -1,0 +1,15 @@
+## Bounding Stock — Round
+
+This part is a solid disc/puck (turned cylindrical body with a 15° chamfer at the top O.D. and drilled/tapped holes in the face), so it would be made from **round stock**.
+
+| Dimension | Metric | Inch |
+|---|---|---|
+| **Diameter** | 105.50 mm (max Ø) | 4.154 in |
+| **Length (height)** | 50.8 mm | 2.00 in |
+
+**Bounding cylinder: Ø105.5 mm × 50.8 mm long (Ø4.154 in × 2.00 in)**
+
+Notes:
+- The 15° × 6.4 mm [.25] chamfer is contained within the O.D./length envelope, so it does not increase the bounding size.
+- Features (Ø5.000 dowel S.F. hole and three M5 × 0.8 holes) are internal and do not affect the envelope.
+- Finished Ø is toleranced 105.50 ⁺⁰·⁰⁰/₋₀.₀₅; add typical machining allowance (e.g., ~3–6 mm on dia. and ~3 mm on length) when ordering bar stock — a Ø4.25 in (or Ø110 mm) bar cut ~2.25 in long is a practical purchase size.

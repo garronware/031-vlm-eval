@@ -1,0 +1,8 @@
+Based on the engineering drawing provided:
+
+1. **Part Shape**: The part is an "MMC Pin", which is cylindrical (as seen in the isometric view and section/end views) and would be made from round stock.
+2. **Maximum Diameter (Dia)**: The largest diameter on the part is the outer head, dimensioned in the right-side end view as **10.0 mm** (`[0.394]` inches).
+3. **Overall Length (L)**: The total overall length of the pin is dimensioned on the main side view as **75.0 mm** (`[2.953]` inches).
+
+**Bounding Dimensions:**
+**(Dia 10.0, L 75.0)** *(in millimeters)*

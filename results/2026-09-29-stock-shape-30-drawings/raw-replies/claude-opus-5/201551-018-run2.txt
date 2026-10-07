@@ -1,0 +1,18 @@
+## Bounding Stock — Rectangular
+
+This part (MOUNTING BLOCK (PROBES), DWG 201551, DET 018) is a flat rectangular plate with drilled/counterbored holes, dowel holes, and milled spot‑faces — so it would be cut from rectangular bar/plate stock.
+
+| Bounding Dimension | Inch | Metric |
+|---|---|---|
+| **Thickness (Thk)** | 0.63 in | 15.9 mm |
+| **Width (W)** | 2.50 in | 63.5 mm |
+| **Length (L)** | 3.00 in | 76.2 mm |
+
+**Bounding box: 0.63 × 2.50 × 3.00 in (15.9 × 63.5 × 76.2 mm)**
+
+**Basis:**
+- Thickness from the top (edge) view: `15.9 [.63]`
+- Width from the front view overall height: `63.5 [2.50]`
+- Length from the top view overall: `76.2 [3.00]`
+
+*Note: Material is 1018 steel, ground, with black oxide finish — allow typical stock oversize (e.g., ~0.75 × 2.75 × 3.25 in) for grinding/cleanup if ordering raw material.*

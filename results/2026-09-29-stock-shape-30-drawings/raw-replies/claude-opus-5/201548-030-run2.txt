@@ -1,0 +1,14 @@
+## Bounding Stock — Round
+
+**Part:** Crown Puck Shaft (DET 030, DWG 201548, A/2‑T.S.)
+
+| Dimension | Metric | Inch |
+|---|---|---|
+| **Diameter** | ⌀25.400 mm | ⌀1.0000 in |
+| **Length** | 96.52 mm | 3.800 in |
+
+**Basis:**
+- **Dia:** Largest feature on the part is the ⌀25.400 [⌀1.0000] shaft body (surface‑finished in Det. #064). All other features (⌀19.050 journal, ⌀18.5 relief, 12.01 flat, 0.9 × 45° chamfers) are internal to this envelope.
+- **Length:** Ordinate dimensions from the "0" datum plane: 88.90 [3.500] to the left end + 7.62 [.300] to the right end = **96.52 [3.800]** overall.
+
+**Note:** Since the ⌀1.0000 and ⌀0.7500 diameters are ground/finished surfaces, order round bar at the next size up (e.g., ⌀1‑1/16 or ⌀1‑1/8) with ~0.06–0.12 in facing stock on length to allow for grind cleanup and heat‑treat (60‑63 HRC) distortion.

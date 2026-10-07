@@ -1,0 +1,6 @@
+**Cylindrical bounding dimensions (inches):**
+
+- **Diameter:** Ø1.1240 in  
+- **Length:** 7.500 in  
+
+The length is derived from 6.50 in left of datum plus 1.00 in right of datum.

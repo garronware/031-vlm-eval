@@ -1,0 +1,20 @@
+## Bounding Stock — Rectangular
+
+This part is a rectangular prism (indicator block), so it would be cut from bar/plate stock.
+
+| Dimension | Metric | Inch |
+|---|---|---|
+| **Thk** | 25.4 mm | 1.00 in |
+| **W** | 28.6 mm | 1.12 in |
+| **L** | 85.0 mm | 3.35 in |
+
+**Bounding box: 25.4 × 28.6 × 85.0 mm (1.00" × 1.12" × 3.35")**
+
+Basis:
+- 25.4 [1.00] — overall depth, from the side elevation view
+- 28.6 [1.12] — overall width, from the top/front elevation view
+- 85.0 [3.35] — overall length/height, from the side elevation view
+
+All other callouts (Ø12.73 gage bore at 71.00 from the base, #10‑32 threads, Ø6.350 dowel S.F. holes, 4.763/23.812 dowel locations) are internal features that fall inside this envelope.
+
+Material is 1018 steel, black anodize on non‑gaging surfaces (per note), so add roughly 1.5–3 mm per side on the sawn blank if ordering stock for grinding.

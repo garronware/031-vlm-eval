@@ -1,0 +1,15 @@
+## Bounding Stock — Round
+
+This part is a flat, circular plate (Ø83.57 mm [Ø3.290"] overall, with a stepped face 4.060 mm / 2.500 mm thick), so it would be made from **round stock**.
+
+| Dimension | Metric | Inch |
+|---|---|---|
+| **Diameter (Dia)** | 83.57 mm | 3.290 in |
+| **Length / Thickness (L)** | 4.06 mm | 0.160 in |
+
+**Bounding cylinder: Ø3.290 in × 0.160 in thick**
+
+Notes:
+- Diameter driven by the Ø83.57 [Ø3.290] outside diameter ("alike with Det. #020").
+- Length driven by the maximum overall thickness of 4.06 [.160] (the 2.500 [.0984] and 1.5600 [.06142] features are steps/recesses within that envelope).
+- For actual purchase, add grind/finish stock — e.g., ~Ø3.50" × 0.25" thick 8620 bar to allow for carburize, harden (58‑62 HRC) and finish grinding of the gaging surfaces.

@@ -1,0 +1,20 @@
+## Bounding Stock — Rectangular (Cuboid)
+
+**Part:** 201551 — "A/2‑T.S. VEE BLOCK" (Det 003)
+
+This part is a rectangular prism with a 45° vee/chamfer cut along one corner, plus drilled/tapped/counterbored holes — so it would be sawn from rectangular (plate/bar) stock, not round stock.
+
+| Dimension | Inch | Metric |
+|---|---|---|
+| **Thickness (Thk)** | 2.750 in | 69.85 mm |
+| **Width (W)** | 3.19 in | 81.0 mm |
+| **Length (L)** | 4.00 in | 101.6 mm |
+
+**Bounding block: 2.750 × 3.19 × 4.00 in (69.85 × 81.0 × 101.6 mm)**
+
+Notes on derivation:
+- **Length 101.6 mm [4.00]** — overall height called out in the front view (largest dimension; also consistent with the 88.90 [3.500] hole location plus edge distance).
+- **Width 81.0 mm [3.19]** — overall width in the front view.
+- **Thickness 69.85 mm [2.750]** — overall depth shown in the side view (also consistent with the 50.8 [2.00] deep Ø12.7 counterbore and 38.1 [1.50] deep C'bores being blind).
+- The 45° vee corner is a removal cut inside this envelope, so it does not reduce the bounding box.
+- Add saw/grind stock as required — part is hardened 58‑60 HRC and ground on the surfaces marked **G**, so consider ~0.030–0.060 in extra per ground face if buying finish‑size stock.

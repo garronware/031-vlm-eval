@@ -1,0 +1,4 @@
+**Cylindrical bounding dimensions (Dia × L):**  
+**Ø0.1870 in × 7.530 in**
+
+Maximum tolerance envelope: **Ø0.1872 in × 7.531 in**.

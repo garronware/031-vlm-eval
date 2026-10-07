@@ -1,0 +1,15 @@
+## Bounding Stock — Rectangular (Cuboid)
+
+This part is an L‑shaped bracket machined from 1018 bar, so it requires rectangular stock.
+
+| Dimension | Inch | mm | Source |
+|---|---|---|---|
+| **Thickness** | 1.00 | 25.4 | Top view depth, 25.4 [1.00] |
+| **Width** | 1.75 | 44.45 | Side view overall height, 44.5 [1.75] (also 44.45 [1.750] hole datum extent) |
+| **Length** | 2.00 | 50.8 | Top view overall, 50.8 [2.00] |
+
+**Bounding box: 1.00 × 1.75 × 2.00 in (25.4 × 44.45 × 50.8 mm)**
+
+Notes:
+- The two views (top at 2:1/1:1 and front) confirm no feature extends beyond these extents — all holes (Ø6.350 THRU, M3×0.5 THRU, dowel/SHCS holes) lie within.
+- Add stock allowance for the grind operation called out in the detail callout (DET 012) and for black‑oxide finishing.

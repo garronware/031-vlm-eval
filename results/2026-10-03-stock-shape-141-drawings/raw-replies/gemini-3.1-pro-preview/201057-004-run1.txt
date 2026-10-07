@@ -1,0 +1,4 @@
+Based on the engineering drawing, the part is a "Diamond Locator" made from round stock. The cylindrical bounding dimensions are:
+
+*   **Diameter (Dia):** 25.4 mm [1.00 in]
+*   **Length (L):** 50.8 mm [2.00 in]

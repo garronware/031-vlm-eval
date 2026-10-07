@@ -1,0 +1,4 @@
+Based on the drawing, the part is a shaft and would be made from round stock. The cylindrical bounding dimensions are:
+
+*   **Diameter (Dia):** 25.400 mm [1.0000"]
+*   **Length (L):** 88.90 mm [3.500"]

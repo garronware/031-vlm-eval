@@ -1,0 +1,12 @@
+Based on the provided engineering drawing, the part is a "MOUNTING PLATE" made from rectangular stock. 
+
+Here is the breakdown of the maximum bounding dimensions derived from the views:
+*   **Thickness (Thk):** The side view on the right establishes the overall thickness from the datum as **6.0 mm** `[.24 in]`.
+*   **Width/Length (W):** The overall horizontal dimension in the front/left view from the zero datum to the furthest edge is **25.0 mm** `[.98 in]`.
+*   **Length/Height (L):** The overall vertical dimension can be calculated from the front/left view. From the top zero datum to the center of the lowest hole is `22.00 mm`. The distance from that hole's center to the bottom edge is `6.4 mm`. 
+    * *Calculation:* 22.00 mm + 6.4 mm = **28.4 mm** `[1.12 in]`.
+
+**Cuboid Bounding Dimensions:**
+*   **Thk:** 6.0 mm
+*   **W:** 25.0 mm
+*   **L:** 28.4 mm

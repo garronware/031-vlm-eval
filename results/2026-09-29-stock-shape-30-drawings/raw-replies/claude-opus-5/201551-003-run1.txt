@@ -1,0 +1,17 @@
+## Bounding Stock — Rectangular (Cuboid)
+
+**Part:** 201551 — VEE BLOCK, A/2‑T.S., DET 003
+
+| Dimension | Inches | Millimeters |
+|---|---|---|
+| **Thickness** | 2.750 | 69.85 |
+| **Width** | 3.19 | 81.0 |
+| **Length** | 4.00 | 101.6 |
+
+**Rectangular stock required: 2.750 × 3.19 × 4.00 in (69.85 × 81.0 × 101.6 mm)**
+
+**Basis / notes**
+- The block is a prismatic rectangular body; only a 45° corner is removed to form the vee flat (23.88 [.940] face with 3.2 [.13] × 45° break), so the bounding envelope remains the full rectangular block.
+- Thickness 69.85 [2.750] taken from the side view; width 81.0 [3.19] and length 101.6 [4.00] from the front view (all hole locations — max 68.26 [2.688] horizontal and 88.90 [3.500] vertical — fall inside this envelope).
+- Sanity check: 2.750 × 3.19 × 4.00 = 35.1 in³ ≈ 9.9 lb of tool steel as solid stock, consistent with the 8.15 lb finished part weight after the vee corner and hole removals.
+- Add grind/finish allowance as required — surfaces flagged "G" (ground) and heat treat to Rc 58‑60 will need stock left on; recommend ordering ≈ 2.88 × 3.31 × 4.12 in if starting from unground blank.

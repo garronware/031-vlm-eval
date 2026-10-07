@@ -1,0 +1,17 @@
+## Bounding Dimensions — Round Stock
+
+**Part:** MEAN MASTER‑2 (DET 021), Dwg 201551, Rev A — flat round gage plate, 8620 carburized/hardened 58‑62 HRC
+
+| Bounding Dimension | Metric | Inch |
+|---|---|---|
+| **Diameter (Dia)** | Ø83.57 mm | Ø3.290 in |
+| **Length / Thickness (L)** | 4.060 mm | 0.1598 in |
+
+**Result: Ø83.57 × 4.06 mm  (Ø3.290 × 0.160 in)**
+
+**Basis:**
+- The part is an axisymmetric disc — the largest feature is the Ø83.57 [3.290] outside diameter, so round (bar/plate) stock is the natural starting form.
+- Overall axial envelope is the 4.060 [.1598] plate thickness from the side view; the 2.485 [.0978] dimension is a REF (assembly) location, not an added projection, so it does not extend the envelope.
+- All other features (Ø76.2 bolt circle, 4× Ø5.5 thru, 2× Ø6.350 dowel holes) are internal and fall inside the envelope.
+
+*Note for ordering: add typical machining stock — e.g., ~Ø3.50 in bar × 0.25 in thick slice — to allow for grinding the gage faces and OD after carburize/harden.*

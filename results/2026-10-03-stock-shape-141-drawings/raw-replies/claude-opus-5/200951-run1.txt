@@ -1,0 +1,18 @@
+## Bounding Stock — Rectangular Block
+
+This part is a rectangular "bushing block," so it would be sawn from rectangular (plate/bar) stock of 6061‑T6.
+
+**Finished bounding envelope (Thk × W × L):**
+
+| | mm | inch |
+|---|---|---|
+| **Thickness** | 40.64 | 1.600 |
+| **Width** | 72.91 | 2.870 |
+| **Length** | 91.00 | 3.583 |
+
+**How it checks out:**
+- **40.64 mm (1.600")** – end‑face width: the 4 mounting holes are on a 27.940 mm basic pattern, 6.35 mm from each edge → 27.94 + 2(6.35) = 40.64
+- **72.91 mm (2.870")** – end‑face height: hole pattern 60.210 mm basic, 6.35 mm edge distance → 60.21 + 2(6.35) = 72.91 (shown as reference (2.870) in the side view, and as 6.4 + 66.6 ordinates)
+- **91.000 ±0.010 mm (3.58268")** – overall length, which accommodates the Ø12.50 THRU with Ø19.000 counterbore ↧74.5 mm
+
+**Suggested saw size (with machining allowance ~3 mm/0.12" per direction):** approximately **44 × 76 × 95 mm (1.75" × 3.00" × 3.75")** of 6061‑T6.

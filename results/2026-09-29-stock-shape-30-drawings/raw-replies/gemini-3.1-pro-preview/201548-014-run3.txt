@@ -1,0 +1,7 @@
+Based on the technical drawing provided, the part would be manufactured from rectangular stock. The bounding dimensions (in both millimeters and inches, as denoted on the drawing) are as follows:
+
+*   **Thickness (Thk):** 25.4 mm [1.00 in] *(from the side/end view)*
+*   **Width/Height (W):** 123.8 mm [4.88 in] *(overall vertical dimension from the '0' datum to the bottom flat edge)*
+*   **Length (L):** 228.6 mm [9.00 in] *(overall horizontal dimension from the '0' datum to the far right edge)*
+
+**Cuboid bounding dimensions:** 1.00" x 4.88" x 9.00" (25.4 x 123.8 x 228.6 mm)

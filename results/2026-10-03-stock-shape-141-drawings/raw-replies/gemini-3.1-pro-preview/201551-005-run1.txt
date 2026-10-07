@@ -1,0 +1,6 @@
+Based on the technical drawing provided, the part is a stepped rectangular block (Riser Block). Therefore, it would be made from rectangular stock. 
+
+Here are the cuboid bounding dimensions (Thickness x Width x Length):
+
+**63.5 mm x 127.0 mm x 330.2 mm**
+*(2.50" x 5.00" x 13.00")*

@@ -1,0 +1,630 @@
+{
+ "201258-001.pdf": {
+  "L": {
+   "inch_seen": "10.00",
+   "note": "",
+   "x": 239,
+   "y": 1008
+  },
+  "Thk": {
+   "inch_seen": ".75",
+   "note": "Edge view at bottom left of sheet; callout reads 19.1 [.75]",
+   "x": 376,
+   "y": 1966
+  },
+  "W": {
+   "inch_seen": "13.00",
+   "note": "",
+   "x": 1226,
+   "y": 106
+  }
+ },
+ "201258-002.pdf": {
+  "Dia": {
+   "inch_seen": "2.500",
+   "note": "Leader callout reads \u00f863.50 [\u00f82.500]",
+   "x": 2189,
+   "y": 1169
+  },
+  "L": {
+   "inch_seen": ".060",
+   "note": "Thickness of disk, edge view at left; callout reads 1.52 [.060]",
+   "x": 602,
+   "y": 480
+  }
+ },
+ "201258-003.pdf": {
+  "L": {
+   "inch_seen": ".62",
+   "note": "",
+   "x": 663,
+   "y": 1363
+  },
+  "Thk": {
+   "inch_seen": ".5000",
+   "note": "Callout reads 12.700 [.5000] with second line S.F. IN DET. #008",
+   "x": 910,
+   "y": 863
+  },
+  "W": {
+   "inch_seen": "1.75",
+   "note": "",
+   "x": 1393,
+   "y": 526
+  }
+ },
+ "201258-004.pdf": {
+  "Dia": {
+   "inch_seen": "1.38",
+   "note": "Callout reads \u00d834.9 [1.38] (no \u00f8 inside brackets on this sheet)",
+   "x": 1298,
+   "y": 1151
+  },
+  "L": {
+   "inch_seen": "5.75",
+   "note": "",
+   "x": 1816,
+   "y": 643
+  }
+ },
+ "201258-005.pdf": {
+  "Dia": {
+   "inch_seen": "1.50",
+   "note": "Callout reads \u00d838.1 [1.50]",
+   "x": 1366,
+   "y": 1181
+  },
+  "L": {
+   "inch_seen": "3.000",
+   "note": "",
+   "x": 1973,
+   "y": 729
+  }
+ },
+ "201258-006.pdf": {
+  "Dia": {
+   "inch_seen": ".2500",
+   "note": "Leader callout reads \u00f86.350 [.2500] with second line S.F. IN DET. #024",
+   "x": 2238,
+   "y": 934
+  },
+  "L": {
+   "inch_seen": "5.167",
+   "note": "",
+   "x": 1378,
+   "y": 654
+  }
+ },
+ "201258-008.pdf": {
+  "L": {
+   "inch_seen": "3.94",
+   "note": "Left-hand end view; 27.7 [1.09] sits immediately to its right, so crop tightly",
+   "x": 454,
+   "y": 572
+  },
+  "Thk": {
+   "inch_seen": "1.500",
+   "note": "Middle (plan) view of sheet; callout reads 38.10 [1.500]",
+   "x": 1154,
+   "y": 1152
+  },
+  "W": {
+   "inch_seen": "6.625",
+   "note": "",
+   "x": 1550,
+   "y": 969
+  }
+ },
+ "201258-009.pdf": {
+  "L": {
+   "inch_seen": "6.19",
+   "note": "",
+   "x": 1217,
+   "y": 1009
+  },
+  "Thk": {
+   "inch_seen": "3.00",
+   "note": "Top view of sheet; callout reads 76.2 [3.00]",
+   "x": 1267,
+   "y": 358
+  },
+  "W": {
+   "inch_seen": "5.00",
+   "note": "",
+   "x": 1543,
+   "y": 1264
+  }
+ },
+ "201258-010.pdf": {
+  "Dia": {
+   "inch_seen": ".5000",
+   "note": "RECORDED mm VALUE NOT PRINTED. The only diameter callout on this sheet is inch-only: \u00f8.5000 S.F. IN / DET. #025 & 026. No mm number and no bracketed pair. Coordinate points at that callout so the inch value .5000 can still be confirmed.",
+   "x": 865,
+   "y": 1490
+  },
+  "L": {
+   "inch_seen": "5.00",
+   "note": "",
+   "x": 1875,
+   "y": 975
+  }
+ },
+ "201258-011.pdf": {
+  "Dia": {
+   "inch_seen": "2.25",
+   "note": "Leader callout reads \u00f857.2 [\u00f82.25]",
+   "x": 1916,
+   "y": 999
+  },
+  "L": {
+   "inch_seen": "1.38",
+   "note": "Overall height in the lower side view; callout reads 34.9 [1.38]",
+   "x": 1232,
+   "y": 1450
+  }
+ },
+ "201258-012.pdf": {
+  "Dia": {
+   "inch_seen": "3.56",
+   "note": "Leader callout reads \u00f890.4 [\u00f83.56]",
+   "x": 995,
+   "y": 944
+  },
+  "L": {
+   "inch_seen": "2.2500",
+   "note": "Callout reads 57.150 [2.2500] with second line REF. SEE ASS'Y",
+   "x": 2022,
+   "y": 1429
+  }
+ },
+ "201258-013.pdf": {
+  "Dia": {
+   "inch_seen": "4.25",
+   "note": "Leader callout reads \u00f8108.0 [\u00f84.25]",
+   "x": 2002,
+   "y": 1042
+  },
+  "L": {
+   "inch_seen": ".58",
+   "note": "Thickness in SECTION A-A; callout reads 14.9 [.58]",
+   "x": 2205,
+   "y": 1625
+  }
+ },
+ "201258-014.pdf": {
+  "Dia": {
+   "inch_seen": "3.50",
+   "note": "Leader callout reads \u00f888.9 [\u00f83.50]",
+   "x": 1753,
+   "y": 1078
+  },
+  "L": {
+   "inch_seen": ".50",
+   "note": "Thickness in the lower edge view; callout reads 12.7 [.50]",
+   "x": 1005,
+   "y": 1553
+  }
+ },
+ "201258-015.pdf": {
+  "Dia": {
+   "inch_seen": "1.50",
+   "note": "Printed 'O38.1 [1.50]'. Ground truth Dia=38.1. Task brief asked for Dia 50.8, which is not on this drawing.",
+   "x": 2227,
+   "y": 1065
+  },
+  "L": {
+   "inch_seen": "5.00",
+   "note": "Printed '127.0 [5.00]'. Ground truth L=127.0. Task brief asked for L 63.5, which is not on this drawing.",
+   "x": 1701,
+   "y": 724
+  }
+ },
+ "201258-016.pdf": {
+  "Dia": {
+   "inch_seen": ".44",
+   "note": "Printed 'O11.1 [.44]'. Ground truth is CYL Dia=11.1, L=1.5 (a washer); the task brief listed CUBE Thk/W/L values that are not on this drawing.",
+   "x": 1108,
+   "y": 864
+  },
+  "L": {
+   "inch_seen": ".06",
+   "note": "Printed '1.5 [.06]'.",
+   "x": 670,
+   "y": 466
+  }
+ },
+ "201258-017.pdf": {
+  "Dia": {
+   "inch_seen": "1.00",
+   "note": "Printed 'O25.4 [1.00]'. Matches ground truth Dia=25.4; task brief said 19.1.",
+   "x": 1108,
+   "y": 1055
+  },
+  "L": {
+   "inch_seen": "5.00",
+   "note": "Printed '127.0 [5.00]' with '(4) ALIKE' beneath. Matches ground truth L=127.0; task brief said 25.4.",
+   "x": 1849,
+   "y": 724
+  }
+ },
+ "201258-018.pdf": {
+  "Dia": {
+   "inch_seen": "2.75",
+   "note": "Printed 'O69.9 [2.75]' in the side view. Matches ground truth Dia=69.9; task brief said 76.2.",
+   "x": 1683,
+   "y": 1506
+  },
+  "L": {
+   "inch_seen": ".500",
+   "note": "Printed '12.70 [.500]'. Matches ground truth L=12.70; task brief said 25.4.",
+   "x": 1200,
+   "y": 1487
+  }
+ },
+ "201258-019.pdf": {
+  "Dia": {
+   "inch_seen": "2.75",
+   "note": "Printed 'o69.8 [o2.75]' (diameter symbol inside the brackets too), lower left of the left end view. Ground truth is CYL Dia=69.8, L=148.65; the task brief listed CUBE values not on this drawing.",
+   "x": 346,
+   "y": 1396
+  },
+  "L": {
+   "inch_seen": "5.852",
+   "note": "Printed '148.65 [5.852]' with 'REF.' on the line below.",
+   "x": 1540,
+   "y": 777
+  }
+ },
+ "201258-020.pdf": {
+  "L": {
+   "inch_seen": "3.35",
+   "note": "Calibration drawing supplied in the task; coordinates confirmed against the render.",
+   "x": 1480,
+   "y": 946
+  },
+  "Thk": {
+   "inch_seen": "1.12",
+   "note": "Calibration drawing supplied in the task; coordinates confirmed against the render.",
+   "x": 1470,
+   "y": 480
+  },
+  "W": {
+   "inch_seen": "1.00",
+   "note": "Calibration drawing supplied in the task; coordinates confirmed against the render.",
+   "x": 1910,
+   "y": 670
+  }
+ },
+ "201258-021.pdf": {
+  "L": {
+   "inch_seen": "2.68",
+   "note": "Printed '68.0 [2.68]'.",
+   "x": 1312,
+   "y": 946
+  },
+  "Thk": {
+   "inch_seen": "1.13",
+   "note": "Printed '28.6 [1.13]' in the top view. Note the inch display differs from 201258-020's '28.6 [1.12]' for the same mm value.",
+   "x": 1536,
+   "y": 431
+  },
+  "W": {
+   "inch_seen": "1.375",
+   "note": "Printed '34.93 [1.375]'.",
+   "x": 2012,
+   "y": 551
+  }
+ },
+ "201258-022.pdf": {
+  "L": {
+   "inch_seen": "2.13",
+   "note": "Printed '54.0 [2.13]' in the lower right view.",
+   "x": 1642,
+   "y": 1452
+  },
+  "Thk": {
+   "inch_seen": "1.87",
+   "note": "Printed '47.6 [1.87]' - the vertical envelope dimension in the upper right view. CAUTION: a second '47.6 [1.88]' is printed at about (540,1546), but that one is a leader to a hole centre (hole location from datum 0), not the envelope. The two inch displays disagree (1.87 vs 1.88). Ground truth is CUBE 47.6/46.0/54.0; the task brief listed CYL values not on this drawing.",
+   "x": 1408,
+   "y": 765
+  },
+  "W": {
+   "inch_seen": "1.81",
+   "note": "Printed '46.0 [1.81]'.",
+   "x": 2183,
+   "y": 335
+  }
+ },
+ "201258-023.pdf": {
+  "Dia": {
+   "inch_seen": "1.496",
+   "note": "Printed 'O38.00 [O1.496]' (diameter symbol inside the brackets too). Ground truth is CYL Dia=38.00, L=50.8; the task brief listed CUBE values not on this drawing.",
+   "x": 1127,
+   "y": 683
+  },
+  "L": {
+   "inch_seen": "2.00",
+   "note": "Printed '50.8 [2.00]' in SECTION A-A.",
+   "x": 952,
+   "y": 1256
+  }
+ },
+ "201581-001.pdf": {
+  "L": {
+   "inch_seen": "12.00",
+   "note": "Printed '304.8 [12.00]' on the far left - crop will sit close to the left edge of the render.",
+   "x": 283,
+   "y": 950
+  },
+  "Thk": {
+   "inch_seen": ".75",
+   "note": "Printed '19.1 [.75]' on the edge view at the bottom. Ground truth is CUBE 19.1/355.6/304.8; the task brief listed CYL values not on this drawing.",
+   "x": 659,
+   "y": 1913
+  },
+  "W": {
+   "inch_seen": "14.00",
+   "note": "Printed '355.6 [14.00]' along the very top of the sheet - crop will sit close to the top edge of the render.",
+   "x": 1486,
+   "y": 92
+  }
+ },
+ "201581-002.pdf": {
+  "L": {
+   "inch_seen": "8.00",
+   "note": "LIKELY GROUND-TRUTH TYPO: ground truth records L=23.2, but no 23.2 is printed on this sheet. The long vertical envelope dimension is '203.2 [8.00]', located here. Please confirm whether ground truth should read 203.2.",
+   "x": 908,
+   "y": 1076
+  },
+  "Thk": {
+   "inch_seen": ".858",
+   "note": "Printed '21.79 [.858]'. Ground truth is CUBE 21.79/82.6/23.2; the task brief listed CYL values not on this drawing.",
+   "x": 831,
+   "y": 456
+  },
+  "W": {
+   "inch_seen": "3.25",
+   "note": "Printed '82.6 [3.25]' near the top of the sheet.",
+   "x": 1672,
+   "y": 131
+  }
+ },
+ "201581-003.pdf": {
+  "L": {
+   "inch_seen": "3.75",
+   "note": "Printed '95.3 [3.75]' in the upper view.",
+   "x": 781,
+   "y": 424
+  },
+  "Thk": {
+   "inch_seen": "2.00",
+   "note": "Printed '50.8 [2.00]' in the lower view. Ground truth is CUBE 50.8/76.2/95.3; the task brief listed CYL values not on this drawing.",
+   "x": 741,
+   "y": 1424
+  },
+  "W": {
+   "inch_seen": "3.00",
+   "note": "Printed '76.2 [3.00]'.",
+   "x": 1358,
+   "y": 1025
+  }
+ },
+ "201581-004.pdf": {
+  "L": {
+   "inch_seen": "3.75",
+   "note": "Printed '95.3 [3.75]' in the upper view.",
+   "x": 716,
+   "y": 422
+  },
+  "Thk": {
+   "inch_seen": "2.00",
+   "note": "Printed '50.8 [2.00]' in the lower view. Same part as 201581-003 mirrored (RH). Ground truth is CUBE 50.8/76.2/95.3; the task brief listed CYL values not on this drawing.",
+   "x": 741,
+   "y": 1424
+  },
+  "W": {
+   "inch_seen": "3.00",
+   "note": "Printed '76.2 [3.00]'.",
+   "x": 1358,
+   "y": 1025
+  }
+ },
+ "201581-005.pdf": {
+  "L": {
+   "inch_seen": "1.00",
+   "note": "",
+   "x": 680,
+   "y": 705
+  },
+  "Thk": {
+   "inch_seen": ".75",
+   "note": "Lower side view, SCALE 2:1",
+   "x": 905,
+   "y": 1335
+  },
+  "W": {
+   "inch_seen": "3.25",
+   "note": "",
+   "x": 1465,
+   "y": 245
+  }
+ },
+ "201581-006.pdf": {
+  "Dia": {
+   "inch_seen": "3.00",
+   "note": "Flange dia in side view, printed with diameter glyph (renders as 'n'): 'n76.2 [3.00]'. A separate vertical '76.2 [3.00]' higher on the same view is an axial location, not the diameter.",
+   "x": 1208,
+   "y": 1127
+  },
+  "L": {
+   "inch_seen": "5.75",
+   "note": "",
+   "x": 1760,
+   "y": 637
+  }
+ },
+ "201581-007.pdf": {
+  "Dia": {
+   "inch_seen": "3.00",
+   "note": "'n76.2 [3.00]' (diameter glyph) left of the side view",
+   "x": 1112,
+   "y": 1157
+  },
+  "L": {
+   "inch_seen": "4.75",
+   "note": "",
+   "x": 1482,
+   "y": 669
+  }
+ },
+ "201581-008.pdf": {
+  "Dia": {
+   "inch_seen": ".3750",
+   "note": "'9.525 [.3750] S.F. IN DET. #006', lower left leader",
+   "x": 862,
+   "y": 1309
+  },
+  "L": {
+   "inch_seen": "4.32",
+   "note": "",
+   "x": 1812,
+   "y": 766
+  }
+ },
+ "201581-012.pdf": {
+  "L": {
+   "inch_seen": ".74",
+   "note": "Lower (plan) view",
+   "x": 872,
+   "y": 1392
+  },
+  "Thk": {
+   "inch_seen": "1.13",
+   "note": "Upper (front) view",
+   "x": 902,
+   "y": 705
+  },
+  "W": {
+   "inch_seen": "2.75",
+   "note": "",
+   "x": 1565,
+   "y": 1780
+  }
+ },
+ "201581-013.pdf": {
+  "Dia": {
+   "inch_seen": "4.000",
+   "note": "Printed as 'o101.60 [o4.000]' - diameter symbol on both the mm and the inch number",
+   "x": 1130,
+   "y": 1027
+  },
+  "L": {
+   "inch_seen": "1.50",
+   "note": "Overall height in the lower section view",
+   "x": 1005,
+   "y": 1421
+  }
+ },
+ "201581-014.pdf": {
+  "Dia": {
+   "inch_seen": "1.25",
+   "note": "'31.8 [1.25] DIA.' on the left end view",
+   "x": 612,
+   "y": 1102
+  },
+  "L": {
+   "inch_seen": "5.56",
+   "note": "",
+   "x": 1872,
+   "y": 760
+  }
+ },
+ "201581-015.pdf": {
+  "L": {
+   "inch_seen": "1.50",
+   "note": "",
+   "x": 875,
+   "y": 837
+  },
+  "Thk": {
+   "inch_seen": ".75",
+   "note": "Two '19.1 [.75]' callouts exist on this sheet; this is the one on the lower side view (SCALE 2:1) giving part height. The other, in the top view at about (1096, 842), is a hole-position dimension.",
+   "x": 732,
+   "y": 1499
+  },
+  "W": {
+   "inch_seen": "2.00",
+   "note": "",
+   "x": 1515,
+   "y": 347
+  }
+ },
+ "201581-016.pdf": {
+  "Dia": {
+   "inch_seen": "3.2902",
+   "note": "Printed with tolerance: '83.570+/-0.025 [3.2902+/-.0010] DIA.' inside a revision cloud, upper left",
+   "x": 1620,
+   "y": 347
+  },
+  "L": {
+   "inch_seen": "2.24",
+   "note": "",
+   "x": 1812,
+   "y": 1310
+  }
+ },
+ "201741-002.pdf": {
+  "L": {
+   "inch_seen": "8.00",
+   "note": "Render is 1653x1342 px, not 3400x2200",
+   "x": 212,
+   "y": 729
+  },
+  "Thk": {
+   "inch_seen": ".7500",
+   "note": "'19.050 [.7500] / S.F. IN DET. #007' leader on the top edge view; coordinate is on the number line. Render is 1653x1342 px",
+   "x": 295,
+   "y": 30
+  },
+  "W": {
+   "inch_seen": "6.25",
+   "note": "Render is 1653x1342 px",
+   "x": 671,
+   "y": 252
+  }
+ },
+ "201741-003.pdf": {
+  "L": {
+   "inch_seen": "11.00",
+   "note": "Render is 1653x1342 px",
+   "x": 457,
+   "y": 817
+  },
+  "Thk": {
+   "inch_seen": "2.50",
+   "note": "Envelope depth in the top view prints as '63.5 [2.50]', not '63.500'. A different dimension on the same sheet, a hole location in the front view at about (719, 588), does print '63.50 [2.500]' - do not confuse them. Render is 1653x1342 px",
+   "x": 464,
+   "y": 245
+  },
+  "W": {
+   "inch_seen": "5.00",
+   "note": "Render is 1653x1342 px",
+   "x": 694,
+   "y": 104
+  }
+ },
+ "201741-004.pdf": {
+  "Dia": {
+   "inch_seen": "1.00",
+   "note": "'n25.4 [1.00]' - the 'n' is the diameter glyph. Render is 1653x1342 px",
+   "x": 702,
+   "y": 614
+  },
+  "L": {
+   "inch_seen": "2.50",
+   "note": "'63.5 [2.50] / (4) ALIKE'; coordinate is on the number line. Render is 1653x1342 px",
+   "x": 967,
+   "y": 455
+  }
+ }
+}

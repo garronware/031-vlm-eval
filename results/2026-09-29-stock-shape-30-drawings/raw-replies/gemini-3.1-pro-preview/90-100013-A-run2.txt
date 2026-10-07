@@ -1,0 +1,16 @@
+Based on the provided technical drawing, the part is manufactured from round stock (a turned cylindrical part). 
+
+To find the bounding dimensions, we look for the maximum diameter and the overall maximum length (sum of the maximum extents from the main datum `0`).
+
+1. **Maximum Diameter (Dia):** 
+   The largest diameter indicated on the main body of the handle is clearly dimensioned in the bottom-left elevation view as **Ø1.5000** (with a tolerance of ±0.0015). 
+
+2. **Maximum Length (L):**
+   The drawing uses a common `0` datum line (a shoulder on the right side of the main body) from which horizontal dimensions are taken.
+   * **Left Extent:** The furthest left dimension from the `0` datum is the left face, measured at **3.83** in the bottom view.
+   * **Right Extent:** The furthest right dimension from the `0` datum is the absolute tip, measured at **1.13** in the bottom view. 
+   * **Total Length:** 3.83 + 1.13 = **4.96**
+
+**Cylindrical Bounding Dimensions:**
+* **Dia:** 1.500
+* **L:** 4.96

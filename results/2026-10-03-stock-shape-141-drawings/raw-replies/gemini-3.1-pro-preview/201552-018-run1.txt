@@ -1,0 +1,21 @@
+Based on the engineering drawing provided, here is the analysis to determine the bounding dimensions:
+
+1.  **Shape and Stock Material**: 
+    The part has a main circular profile denoted by the diameter symbol (`Ø`), indicating it would be manufactured from round stock. It features horizontal flats milled on the top and bottom, but the bounding material is dictated by the outer diameter. 
+
+2.  **Diameter (Dia)**: 
+    The maximum outer diameter is explicitly called out on the circular view as **Ø83.57 mm** (or Ø3.290 inches).
+
+3.  **Length / Maximum Thickness (L)**:
+    To find the overall maximum bounding length, we must look at the cross-sectional side view and account for the step features between the top half ("MAX. SIDE") and the bottom half ("MIN. SIDE"):
+    *   The top half has a thickness of **4.06 mm** (from left face `DAT."P"` to right face `DAT."G"`).
+    *   The bottom half has a nominal thickness of **4.060 mm** (from left face `DAT."R"` to right face `DAT."H"`).
+    *   There is a step on the left side where `DAT."R"` protrudes **0.015 mm** further to the left than `DAT."P"`.
+    *   There is a shared internal reference plane (M). The distance from `DAT."R"` to this internal plane is **1.575 mm**, and the distance from this internal plane to `DAT."G"` is **2.500 mm**.
+    *   The absolute leftmost face is `DAT."R"` and the absolute rightmost face is `DAT."G"`. 
+    *   Adding these maximum extents together: `1.575 mm + 2.500 mm = 4.075 mm`. 
+    *(Alternatively: 4.06 mm top thickness + 0.015 mm left offset = 4.075 mm total max length).*
+
+**Cylindrical Bounding Dimensions:**
+*   **Dia:** 83.57 mm (3.290 in)
+*   **L:** 4.075 mm (0.1604 in)

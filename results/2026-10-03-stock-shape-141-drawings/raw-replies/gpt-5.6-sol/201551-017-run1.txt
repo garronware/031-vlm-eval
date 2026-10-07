@@ -1,0 +1,4 @@
+**Cuboid bounding dimensions (Thk × W × L):**  
+**57.2 × 87.8 × 114.3 mm** (**2.25 × 3.45 × 4.50 in**)
+
+Actual angle material thickness: **12.7 mm (0.50 in)**.

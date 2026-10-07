@@ -1,0 +1,5 @@
+Based on the provided drawing, the part is a rectangular slide plate. The bounding dimensions for the required rectangular stock are:
+
+**19.1 [.75] x 114.3 [4.50] x 139.7 [5.50]** (Thk x W x L)
+
+*Units are shown as Millimeters [Inches].*

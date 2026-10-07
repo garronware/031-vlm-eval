@@ -1,0 +1,14 @@
+## Bounding Stock Size — Round Stock
+
+**Part:** 201581‑D007, BODY
+
+| Dimension | Metric | Inch |
+|---|---|---|
+| **Diameter** | Ø76.2 mm | Ø3.00 in |
+| **Length** | 120.7 mm | 4.75 in |
+
+### Rationale
+- The part is a **body of revolution** (turned/ground part with a large flange, stepped shaft, Ø50.800 [2.0000] ground journal, and a slotted/tapered nose), so **round bar stock** is the appropriate raw form.
+- **Largest diameter feature:** the flange at **ø76.2 [3.00]**, which controls the required stock diameter (all other features — Ø50.800 [2.0000] journal, 30.037 [1.1826] dia., 4.763 [.1875] pins/holes — are smaller and machined within it).
+- **Overall length:** the **120.7 [4.75]** dimension spans from the flange face to the end of the nose, controlling required bar length.
+- Off‑the‑shelf, you'd order **3" dia. × ~4-7/8"–5" long** slugs to allow facing/cleanup stock (material 8620, carburize hardened 58‑62 HRC, black oxide non‑gaging surfaces).

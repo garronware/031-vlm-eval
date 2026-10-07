@@ -1,0 +1,20 @@
+## Stock Form: Rectangular (Plate)
+
+This part is a flat rectangular plate with counterbored through‑holes, so it would be cut from rectangular bar/plate stock.
+
+### Bounding Dimensions (Thk × W × L)
+
+| Dimension | Metric | Inch |
+|---|---|---|
+| **Thickness** | 6.4 mm | 0.25 in |
+| **Width** | 20.0 mm | 0.79 in |
+| **Length** | 34.0 mm | 1.34 in |
+
+**Overall:** 6.4 × 20.0 × 34.0 mm  [0.25 × 0.79 × 1.34 in]
+
+**Basis:**
+- Length taken from the 34.0 [1.34] overall width dimension on the front view.
+- Width taken from the 20.0 [.79] overall height dimension on the front view.
+- Thickness taken from the 6.4 [.25] dimension on the side/edge view.
+
+*Note: Material is 1018 steel; stock should be oversized to allow for the grind operation and black oxide finish on non‑gaging surfaces.*

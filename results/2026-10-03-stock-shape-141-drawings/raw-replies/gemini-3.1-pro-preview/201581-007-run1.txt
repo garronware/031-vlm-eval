@@ -1,0 +1,4 @@
+Based on the provided engineering drawing, the part is cylindrical. The bounding dimensions are:
+
+*   **Dia:** 82.6 [3.25] 
+*   **L:** 120.7 [4.75]

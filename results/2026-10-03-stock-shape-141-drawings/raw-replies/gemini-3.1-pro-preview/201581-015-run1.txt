@@ -1,0 +1,6 @@
+Based on the engineering drawing, the part is a rectangular block. 
+
+The primary dimensions are given in millimeters with inches in brackets `[ ]`.
+
+**Cuboid bounding dimensions (Thk, W, L):**
+19.1 x 38.1 x 50.8 mm  *[0.75 x 1.50 x 2.00 in]*

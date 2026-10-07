@@ -1,0 +1,8 @@
+**Round stock (cylindrical bounding envelope)**
+
+| Dimension | Value |
+|---|---|
+| Diameter | Ø8.00 mm (0.315 in) — largest feature dia. (the Ø7.80 flat/relief is contained within it) |
+| Length | 90.00 mm (3.543 in) — overall length |
+
+So the part fits in a **Ø8 mm × 90 mm cylinder** (bar stock would be ordered slightly oversize, e.g. Ø10 mm × ~95 mm, to allow cleanup of the ground Ø8.000/-0.005 diameter and the 1.00 mm deep flats).

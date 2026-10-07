@@ -1,0 +1,5 @@
+**Rectangular (cuboid) stock — Thk × W × L ≈ 2.000" × 14.000" × 14.000"**
+
+- The part is a flat, square base plate (1020 HRS, stress relieved & black oxide), so it would be cut from rectangular plate stock rather than round bar.
+- Plan view gives the outside envelope as 14.000 × 14.000 (with 1.00 × 45° corner breaks, which fall inside the square envelope).
+- Side (edge) view calls out the 2.000 "HOLD" overall plate thickness.

@@ -1,0 +1,7 @@
+Based on the engineering drawing, the part is a "Transfer Rod," which would be manufactured from round stock. 
+
+*   **Diameter (Dia):** The maximum diameter is given in the right-side profile view as **0.1250** (indicated by $\phi 0.1250 \pm0.0002$).
+*   **Length (L):** The overall length is defined by coordinate dimensioning in the middle view, starting from `0` on the right end to **E** ($\pm0.0001$) on the left end. Note 3 specifies that `E` is a variable length calculated as `E=A-2.8821`.
+
+**Bounding Dimensions:**
+**(Dia 0.1250, L E)**

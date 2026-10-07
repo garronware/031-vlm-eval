@@ -1,0 +1,16 @@
+## Bounding Stock — Rectangular
+
+This part is a flat, rectangular plate (A2, hardened 58‑62 HRC, ground) with a semicircular R41.79 [R1.645] relief notched into the top edge — all features fall inside a simple rectangular envelope, so rectangular (plate) stock applies.
+
+| Dimension | Metric | Inch |
+|---|---|---|
+| **Thickness (Thk)** | 31.75 mm | 1.250 in |
+| **Width (W)** | 135.46 mm | 5.333 in |
+| **Length (L)** | 152.40 mm | 6.000 in |
+
+**Bounding size: 31.75 × 135.46 × 152.40 mm  [1.250 × 5.333 × 6.000 in]**
+
+Notes:
+- Length is taken from the overall 152.4 [6.00] base dimension; width (height in the front view) from the 135.46 [5.333] overall from the 0 datum; thickness from the side view 31.75 [1.250].
+- The R41.79 [R1.645] top relief and all holes are internal to this envelope and do not increase it.
+- Add grind/finish stock as required since the part is hardened and ground after heat treat.

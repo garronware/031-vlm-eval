@@ -1,0 +1,14 @@
+## Bounding Stock Size — Round Stock
+
+This part (201581‑D014 HANDLE) is a turned, axially‑symmetric part (knurled grip, flange/collar, and ⌀9.525 [.375] ground gage pin), so it would be made from **round bar**.
+
+| Bounding Dimension | Metric | Inch |
+|---|---|---|
+| **Diameter** | **⌀31.8 mm** | **⌀1.25 in** |
+| **Length** | **141.3 mm** | **5.56 in** |
+
+**Basis:**
+- Largest cross‑section is the handle/flange end shown in the end view: 31.8 [1.25] DIA (with the 9.1 [.36] flat machined into it) — all other features (⌀12.7 knurl, ⌀9.525 pin) are smaller.
+- Overall length is the 141.3 [5.56] end‑to‑end dimension (84.14 [3.313] of that being the pin side of the flange).
+
+**Practical cut stock:** ⌀1.25 in bar × ~5.75 in (allowing facing/cut‑off and chucking stock), quench & tempered to 58–62 HRC, black oxide on non‑gaging surfaces.

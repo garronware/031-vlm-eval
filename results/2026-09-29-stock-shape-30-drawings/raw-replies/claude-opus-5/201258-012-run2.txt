@@ -1,0 +1,17 @@
+## Bounding Envelope — Round Stock
+
+This is a turned, rotationally‑symmetric part (flanged master post), so it would be made from round bar stock.
+
+| Dimension | Metric | Inch |
+|---|---|---|
+| **Diameter** | Ø90.4 mm (flange OD) | Ø3.56 in |
+| **Length** | ≈65.05 mm | ≈2.56 in |
+
+**Bounding cylinder: Ø90.4 × 65.05 mm (Ø3.56 × 2.56 in)**
+
+How the length is built up:
+- Flange thickness: 7.9 mm [.31]
+- Body/pilot length below flange face: 57.150 mm [2.2500] (REF, see ass'y)
+- Total ≈ 65.05 mm [≈2.56]
+
+Practical raw stock (8620, with cleanup allowance): roughly Ø3.625–3.75 in bar × ~2.75 in cut length.

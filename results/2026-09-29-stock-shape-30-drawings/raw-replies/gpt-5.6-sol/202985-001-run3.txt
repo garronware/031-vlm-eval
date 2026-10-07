@@ -1,0 +1,5 @@
+**Rectangular stock bounding dimensions (in):**
+
+- **Thk:** 0.75  
+- **W:** 6.00  
+- **L:** 12.00

@@ -1,0 +1,18 @@
+## Bounding Stock — Rectangular
+
+**Part:** STORAGE BLOCK (1.625), P/N 200473, UHMW
+
+| Dimension | Inches | mm |
+|---|---|---|
+| Thickness | 2.00 | 50.8 |
+| Width | 2.50 | 63.5 |
+| Length | 4.00 | 101.6 |
+
+**Bounding block: 2.00 × 2.50 × 4.00 in (50.8 × 63.5 × 101.6 mm)**
+
+**Basis:**
+- Overall height of 101.6 [4.00] from the front view (the 82.6 [3.25] slot floor and 19 mm deep U‑slot are internal features, so the 4.00 governs length).
+- Overall width 63.5 [2.50] from the plan/end view (slot legs at 11.1 [.44] and 52.4 [2.06] fall inside this).
+- Overall depth 50.8 [2.00] from the plan/end view (hole locations 41.28 [1.625] and 9.53 [.375] fall inside this).
+
+Rectangular (plate/bar) stock is appropriate since the part is a prismatic block with a milled U‑slot and two cross‑drilled 6.4 [.25] holes with 11.1 [.44] counterbores — no rotational symmetry to justify round stock.

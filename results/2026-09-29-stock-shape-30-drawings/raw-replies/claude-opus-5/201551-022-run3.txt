@@ -1,0 +1,15 @@
+## Bounding Envelope — Round Stock
+
+This part is a flat, circular master disc (gage plate), so it would be turned/ground from round bar or plate‑sawn round blank.
+
+| Bounding Dimension | Metric | Inch |
+|---|---|---|
+| **Diameter** | Ø83.570 mm (±0.025) | Ø3.2902 in (±.0010) |
+| **Length (axial thickness)** | 3.640 mm | 0.1433 in |
+
+**Bounding size: Ø83.57 mm × 3.64 mm thick (Ø3.290 in × .143 in thick)**
+
+### Notes on the envelope
+- The Ø83.570 ±0.025 OD is the largest feature and sets the diameter envelope; the Ø76.2 [Ø3.00] bolt‑circle/inner gage diameter and the Ø6.350 dowel and Ø5.5 thru holes are all internal to it.
+- The 3.640 [.1433] dimension is the full stack thickness; the 1.605 [.0632] REF is an assembly reference and lies within that thickness.
+- Suggested purchase stock (allowing grind/finish stock on OD and both faces, since the part is carburized, hardened 58‑62 HRC, and ground): approx. **Ø3.50 in × 0.25 in thick** 8620 round blank.

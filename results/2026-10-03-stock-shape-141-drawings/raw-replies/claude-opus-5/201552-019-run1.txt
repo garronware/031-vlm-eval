@@ -1,0 +1,17 @@
+## Bounding Stock — Round (Cylindrical)
+
+**Part:** MIN/MAX MASTER‑3, DWG 201552, DET #019
+
+| Dimension | Metric | Inch |
+|---|---|---|
+| **Diameter** | Ø83.57 mm | Ø3.290 in |
+| **Length (thickness)** | 3.640 mm | 0.1433 in |
+
+**Basis / reasoning**
+
+- The part is a thin, flat, circular master disc — clearly a turned/ground part from round bar or disc blank, so a cylindrical envelope applies.
+- **OD** is governed by the Ø83.57 [Ø3.290] gaging diameter (alike with Det. #020); no feature projects beyond it.
+- **Axial length** is set by the stepped plate thickness: the "MIN side" step of 1.620 ±0.005 [.0638] plus the 2.0200 +0.0075/−0.0000 [.07953] step = **3.640 [.1433]** overall, which is confirmed on the drawing as the REF overall thickness.
+- The Ø6.350 dowel holes and Ø5.0 clearance holes are through-features and do not affect the envelope.
+
+**Practical stock callout:** Ø3.38–3.50 in (Ø86–89 mm) × 0.22–0.25 in thick 8620 bar/disc, allowing cleanup for carburize-harden (58–62 HRC) and finish grinding of the gage faces.

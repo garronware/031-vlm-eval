@@ -1,0 +1,14 @@
+## Bounding Stock Size — Rectangular (Plate)
+
+This part is a flat, octagonal plate machined from MIC‑6 cast aluminum tooling plate, so it would be cut from rectangular stock.
+
+| | Inches | Millimeters |
+|---|---|---|
+| **Thickness** | 0.50 | 12.7 |
+| **Width** | 7.25 | 184.2 |
+| **Length** | 8.50 | 215.9 |
+
+**Basis:**
+- Overall plan dimensions are given directly on the top view: **215.9 [8.50]** × **184.2 [7.25]**, with the four 57.2 [2.25] × 45° corner breaks falling inside that envelope.
+- Thickness is set by the 12.7 [.50] deep tapped holes (#10‑32 and 1/4‑20) called out as blind from each face, which require a minimum 0.50 in. plate.
+- Check: (8.50 × 7.25 − 4 × ½ × 2.25²) × 0.50 ≈ 25.8 in³ → ~2.5 lb of aluminum, less hole volume ≈ **2.43 lb**, matching the drawing's stated mass.

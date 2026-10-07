@@ -1,0 +1,13 @@
+## Bounding Stock — Round
+
+| Item | Value |
+|---|---|
+| **Form** | Cylindrical (round bar) |
+| **Diameter** | **Ø10.0 mm (0.394 in)** |
+| **Length** | **75.0 mm (2.953 in)** |
+
+**Basis:**
+- **Diameter** — governed by the largest feature on the part, the Ø10.0 mm head shown in the end view (all other diameters — Ø8.5 +0.050/0, Ø8.000 ±0.005, Ø7.80 — are smaller).
+- **Length** — governed by the overall 75.0 mm dimension from end to end (sub-dimensions 45.0, 16.0, 4.0 all fall within it).
+
+**Note:** This is the finished-part envelope. For actual purchasing you'd typically step up to the next standard bar size (e.g., 12 mm or 1/2 in AISI A2 drill rod/bar) and add ~3–6 mm to length for facing/workholding, since the part carries a DLC coating and ±0.005 mm diameter tolerance requiring finish grinding.

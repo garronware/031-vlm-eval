@@ -1,0 +1,16 @@
+## Bounding Stock — Rectangular (Hardwood Benchtop, P/N 200473)
+
+| Dimension | Inches | Millimeters |
+|---|---|---|
+| **Thickness (Thk)** | 2.00 | 50.8 |
+| **Width (W)** | 36.00 | 914.4 |
+| **Length (L)** | 72.00 | 1828.8 |
+
+**Stock call‑out:** 2.00" × 36.00" × 72.00" hardwood slab (50.8 × 914.4 × 1828.8 mm)
+
+**Basis:**
+- Overall length taken from the 1828.8 [72.00] top‑view dimension (datum 0 to the 1778.00 [70.000] hole column plus edge margin).
+- Overall width taken from the 914.4 [36.00] top‑view dimension (datum 0 to 482.60 [19.000] hole row plus edge margin).
+- Thickness taken from the side/edge view, 50.8 [2.00].
+
+*Note:* All features are through/blind holes only — Ø13.46 [.530] × 13.5 [.53] DP (2 pl.) and Ø2.4 [.09] × 25.4 [1.00] DP pilot holes (32 pl.) — so no material is removed from the outer envelope; finished part = bounding stock size (less edge break per Note 1).

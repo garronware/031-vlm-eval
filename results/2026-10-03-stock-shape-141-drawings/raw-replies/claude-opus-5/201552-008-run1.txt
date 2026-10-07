@@ -1,0 +1,16 @@
+## Bounding Stock — Rectangular (Blade‑3, DWG 201552)
+
+This part is a flat blade/plate, so it would be cut from rectangular (bar/plate) stock.
+
+| Dimension | Metric | Inch |
+|---|---|---|
+| **Thickness** | 4.0 mm | 0.16 in |
+| **Width** | 10.0 mm | 0.39 in |
+| **Length** | 23.0 mm | 0.91 in |
+
+**Basis:**
+- **Length 23.0 [.91]** — overall length called out in the top/front view (hole pattern runs 3.00 → 21.60 from the 0 datum).
+- **Width 10.0 [.39]** — overall width shown in the end view (contains the 5.00 [.197] centerline).
+- **Thickness 4.0 [.16]** — overall thickness shown in the side/section view (with the 2.015 step and 0.99 feature contained within).
+
+**Note:** Add finish stock for the grind/harden operations (60‑64 HRC, ground, black oxide on non‑gaging surfaces) — typical raw stock would be ~4.5 × 10.5 × 24 mm before grinding to size.

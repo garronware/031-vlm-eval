@@ -1,0 +1,8 @@
+Based on the engineering drawing provided, the part (Vee Block) would be made from rectangular stock. 
+
+The bounding dimensions (Thickness, Width, Length) are:
+**(19.1, 25.4, 82.6) mm** or **(.75, 1.00, 3.25) inches**
+
+*   **Thickness (Thk):** 19.1 mm [.75 in] (Shown in the lower detail view)
+*   **Width (W):** 25.4 mm [1.00 in] (Shown by the baseline dimensioning on the left side of the top view)
+*   **Length (L):** 82.6 mm [3.25 in] (Shown by the baseline dimensioning across the top view)

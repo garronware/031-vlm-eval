@@ -1,0 +1,5 @@
+Based on the engineering drawing, the part is cylindrical (turned part).
+
+**Cylindrical Bounding Dimensions:**
+* **Diameter (Dia):** 90.4 mm [3.56 in]
+* **Length (L):** 57.150 mm [2.2500 in]

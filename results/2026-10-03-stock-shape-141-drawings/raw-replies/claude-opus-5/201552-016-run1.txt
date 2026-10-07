@@ -1,0 +1,16 @@
+## Bounding Stock — Rectangular (Plate/Bar)
+
+**Part:** 201552 — RAIL (RH), Delrin
+
+| Dimension | Inches | Millimeters | Source |
+|---|---|---|---|
+| **Thickness (Thk)** | 0.75 | 19.1 | Side‑view thickness 19.1 [.75] |
+| **Width (W)** | 1.60 | 40.6 | Max width from "0" vertical datum to left face, 40.6 [1.60] |
+| **Length (L)** | 4.65 | 118.1 | Overall length from top "0" datum, 118.1 [4.65] |
+
+**Bounding block: 0.75 × 1.60 × 4.65 in (19.1 × 40.6 × 118.1 mm)**
+
+Notes:
+- The angled faces (10° / 20°) and the 1.5 [.06] × 45° chamfer fall inside this envelope, so they don't drive stock size.
+- Rectangular stock is appropriate — the part is a flat, prismatic rail with a 0.75 in uniform thickness and through/C'bored holes on one face.
+- For machining, order nominal 3/4 × 2 × 5 in Delrin bar to allow cleanup on all six faces (≈0.10–0.35 in total stock allowance in W and L).

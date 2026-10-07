@@ -1,0 +1,4 @@
+Based on the drawing, the part is a pin made from round stock. The cylindrical bounding dimensions are:
+
+*   **Dia (Diameter):** 9.525 [.3750]
+*   **L (Length):** 109.8 [4.32]

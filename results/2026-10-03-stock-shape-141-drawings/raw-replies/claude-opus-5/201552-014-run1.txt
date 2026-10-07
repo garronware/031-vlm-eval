@@ -1,0 +1,15 @@
+## Stock Type: **Rectangular (cuboid)**
+
+The part is a flat rectangular plate with three through‑holes (one Ø4.200 press‑fit bore and two countersunk M2.5 clearance holes). No round features drive the outer profile, so it would be cut from rectangular bar stock.
+
+## Bounding Dimensions
+
+| Dimension | Metric | Inch |
+|---|---|---|
+| **Thickness (Thk)** | 4.0 mm | 0.16 in |
+| **Width (W)** | 10.0 mm | 0.39 in |
+| **Length (L)** | 15.0 mm | 0.59 in |
+
+**Bounding box: 4.0 × 10.0 × 15.0 mm  [0.16 × 0.39 × 0.59 in]**
+
+Notes for stock sizing: material is 1018 steel, black oxide finish, with a ground surface (datum G on the 4.0 mm thickness) — add typical grind/machining allowance to the 4.0 mm face and any finished sides when ordering stock.

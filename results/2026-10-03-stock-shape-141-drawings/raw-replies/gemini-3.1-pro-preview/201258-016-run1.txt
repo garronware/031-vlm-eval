@@ -1,0 +1,4 @@
+Based on the engineering drawing, the part is a washer and would be made from round stock. The cylindrical bounding dimensions are:
+
+* **Dia:** 11.1 [.44]
+* **L:** 1.5 [.06]

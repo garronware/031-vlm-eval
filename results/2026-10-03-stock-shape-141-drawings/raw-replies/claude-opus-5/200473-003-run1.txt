@@ -1,0 +1,17 @@
+## Bounding Stock — Rectangular (Plate)
+
+This part is a flat, plate‑style **UPRIGHT** (P/N 200473, 4140 pre‑heat treat), so it would be cut from rectangular bar/plate stock.
+
+| Dimension | Inch | Metric |
+|---|---|---|
+| **Thickness** | 0.50 in | 12.7 mm |
+| **Width (height of profile)** | 9.50 in | 241.3 mm |
+| **Length** | 27.00 in | 685.8 mm |
+
+**Bounding box: 0.50 × 9.50 × 27.00 in (12.7 × 241.3 × 685.8 mm)**
+
+**Basis / notes**
+- Length taken from the overall front‑view dimension 685.80 [27.000].
+- Width from the overall height dimension 241.3 [9.50] (profile runs 0 to 241.3 before the 25.4 × 45° corner breaks and R25.4 relief).
+- Thickness from the edge view: 12.7 [.50] overall (the 6.35 [.250] is the mid‑thickness locating dimension for the M6 × 12 deep edge-tapped holes).
+- No finish‑stock allowance included; add ~0.03–0.06 in on the thickness if the plate is to be ground (drawing calls out GRIND and 63 Ra max finish).

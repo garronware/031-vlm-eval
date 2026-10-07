@@ -1,0 +1,9 @@
+dimension_origin,model,drawings,replies_graded,passed,pass_rate_percent,range_low_percent,range_high_percent
+calculated_chain,Claude Opus 5,4,4,3,,,
+calculated_chain,GPT-5.6 Sol,4,4,4,,,
+calculated_chain,Gemini 3.1 Pro (preview),4,4,2,,,
+calculated_chain,All three models,4,12,9,,,
+explicitly_dimensioned,Claude Opus 5,26,26,23,88,70,98
+explicitly_dimensioned,GPT-5.6 Sol,26,26,25,96,80,100
+explicitly_dimensioned,Gemini 3.1 Pro (preview),26,26,24,92,75,99
+explicitly_dimensioned,All three models,26,78,72,92,,

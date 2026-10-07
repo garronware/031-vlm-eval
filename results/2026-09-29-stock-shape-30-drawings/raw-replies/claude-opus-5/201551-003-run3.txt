@@ -1,0 +1,15 @@
+## Bounding Stock — Rectangular
+
+This part is a prismatic vee block (flat faces, drilled/tapped holes, 45° vee relief cut on one corner), so it would be cut from **rectangular stock**.
+
+| Dimension | Inches | Millimeters | Source on drawing |
+|---|---|---|---|
+| **Thk** | 2.750 | 69.85 | Side view overall width 69.85 [2.750] |
+| **W** | 3.19 (≈3‑3/16) | 81.0 | Front view horizontal overall 81.0 [3.19] |
+| **L** | 4.00 | 101.6 | Front view vertical overall 101.6 [4.00] |
+
+**Bounding cuboid: 2.750 × 3.19 × 4.00 in (69.85 × 81.0 × 101.6 mm)**
+
+Notes for stock selection:
+- The 45° corner is a removed feature, so it does not reduce the bounding envelope.
+- Material is A/2 (A2) tool steel, hardened 58–60 HRC and ground, so add grind stock (typ. +0.030–0.060 in per side) if ordering as-sawn/decarb-free blanks; oversize blank ≈ 2.81 × 3.25 × 4.06 in.

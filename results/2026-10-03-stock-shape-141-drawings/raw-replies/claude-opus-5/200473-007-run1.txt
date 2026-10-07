@@ -1,0 +1,16 @@
+## Bounding Stock — Rectangular (Cuboid)
+
+**Part:** STORAGE BLOCK (1.125) — DWG 200473, DET 007, UHMW
+
+| Dimension | Inches | Millimeters |
+|---|---|---|
+| **Thickness (Thk)** | 2.00 | 50.8 |
+| **Width (W)** | 2.50 | 63.5 |
+| **Length (L)** | 4.00 | 101.6 |
+
+**Bounding size: 2.00 × 2.50 × 4.00 in (50.8 × 63.5 × 101.6 mm)**
+
+**Basis:**
+- Plan view establishes the 63.5 [2.50] face width and the 50.8 [2.00] depth (thickness).
+- Front/side view establishes the 101.6 [4.00] overall height, with the 82.6 [3.25] step and the 15.9/47.6 [.63/1.88] slot features all contained within that envelope.
+- Since this is a prismatic, slotted block (not axisymmetric), it would be cut from rectangular UHMW plate/bar rather than round stock. Add machining allowance per shop practice (e.g., ~0.06–0.125 in per side) if sawing from oversized plate.

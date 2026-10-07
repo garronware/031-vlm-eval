@@ -1,0 +1,16 @@
+## Bounding Stock — Rectangular
+
+This part is a flat, ground plate (6 M10 c'bore holes, 2 dowel holes, counterbored 1/4 SHCS holes, and a center slot), so it would be cut from rectangular bar/plate stock.
+
+| Dimension | Inch | Metric |
+|---|---|---|
+| **Thickness** | 0.75 | 19.1 mm |
+| **Width** | 4.00 | 101.6 mm |
+| **Length** | 5.50 | 139.7 mm |
+
+**Bounding block: 0.75 × 4.00 × 5.50 in (19.1 × 101.6 × 139.7 mm)**
+
+Notes:
+- Overall thickness is set by the 19.1 [.75] side‑view dimension; the 12.33 [.485] step at the bottom edge (with min. undercut) lies within that envelope.
+- Width 101.6 [4.00] and height 139.7 [5.50] are the overall plate face dimensions.
+- For purchased stock, add machining allowance (e.g., 0.875 × 4.25 × 5.75 in) since the faces are ground and the finish is black oxide.

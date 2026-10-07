@@ -1,0 +1,4 @@
+model,drawings_run_more_than_once,always_passed,always_failed,mixed,same_answer_every_run_percent
+Claude Opus 5,30,24,2,4,87
+GPT-5.6 Sol,30,27,1,2,93
+Gemini 3.1 Pro (preview),30,22,3,5,83

@@ -1,0 +1,18 @@
+## Bounding Stock — Rectangular (Cuboid)
+
+The part is a prismatic clamp block with milled slots, a stepped/relieved corner, and two counterbored through‑holes — all features are machined **into** a rectangular envelope, so it would be cut from rectangular bar stock.
+
+**Envelope taken from the extreme datum‑to‑edge dimensions:**
+
+| Direction | Governing Dimension | mm | in |
+|---|---|---|---|
+| Thickness (depth, side view) | 0 → 25.4 [1.000] | **25.4** | **1.000** |
+| Width (height, side view) | 0 → 31.8 [1.250] | **31.8** | **1.250** |
+| Length (front view) | 0 → 58.4 [2.300] | **58.4** | **2.300** |
+
+### Bounding Dimensions
+**Thk × W × L = 25.4 × 31.8 × 58.4 mm  (1.000 × 1.250 × 2.300 in)**
+
+Notes:
+- The 26.2 [1.032] and 3.3 [0.130] dims in the top view, and the 19.1/9.53/22.23 dims, are interior feature locations (step, slot, radii) that fall inside this envelope.
+- Material is Delrin (acetal); nearest common stock size would be 1" × 1‑1/4" bar, cut ≈ 2.40" long to allow facing to 2.300".

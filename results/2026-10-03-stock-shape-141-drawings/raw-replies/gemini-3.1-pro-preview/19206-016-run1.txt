@@ -1,0 +1,3 @@
+Based on the technical drawing, the part is a base plate made from rectangular stock. Its bounding dimensions are:
+
+**2.000 x 14.000 x 14.000** (Thk, W, L)

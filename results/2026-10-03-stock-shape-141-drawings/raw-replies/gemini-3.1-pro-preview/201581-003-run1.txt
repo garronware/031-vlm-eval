@@ -1,0 +1,8 @@
+Based on the technical drawing, the part is a block made from rectangular stock. The primary dimensions (in millimeters, with inches in brackets) give the maximum extents of the part using ordinate dimensioning:
+
+*   **Thickness (Depth):** 50.8 mm [2.00 in] 
+*   **Width:** 76.2 mm [3.00 in]
+*   **Length (Height):** 95.3 mm [3.75 in]
+
+**Cuboid bounding dimensions (Thk, W, L):**
+50.8 x 76.2 x 95.3

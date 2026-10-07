@@ -1,0 +1,47 @@
+{
+  "calls_folder": "main-stock-shape",
+  "prompt": [
+    "Return bounding dimensions for this part. If the part would be made from round stock, give cylindrical bounding dimensions (Dia, L). If it would be made from rectangular stock, give cuboid bounding dimensions (Thk, W, L)."
+  ],
+  "models": {
+    "claude-opus-5": {
+      "name": "Claude Opus 5",
+      "maker": "anthropic",
+      "versions": [
+        "claude-opus-5"
+      ],
+      "thinking": "maker default",
+      "what_the_maker_default_means": "adaptive thinking, effort high"
+    },
+    "gpt-5.6-sol": {
+      "name": "GPT-5.6 Sol",
+      "maker": "openai",
+      "versions": [
+        "gpt-5.6-sol"
+      ],
+      "thinking": "maker default",
+      "what_the_maker_default_means": "reasoning effort medium"
+    },
+    "gemini-3.1-pro-preview": {
+      "name": "Gemini 3.1 Pro (preview)",
+      "maker": "google",
+      "versions": [
+        "gemini-3.1-pro-preview"
+      ],
+      "thinking": "maker default",
+      "what_the_maker_default_means": "thinking level high"
+    }
+  },
+  "drawings": 141,
+  "most_runs_per_drawing": 1,
+  "replies": 423,
+  "dates": {
+    "first": "2026-09-20",
+    "last": "2026-10-03"
+  },
+  "extraction_model": [
+    "claude-haiku-4-5-20251001"
+  ],
+  "headline_tables_use": "run 1 of every drawing",
+  "scoring_rules": "docs/scoring-rules.md"
+}

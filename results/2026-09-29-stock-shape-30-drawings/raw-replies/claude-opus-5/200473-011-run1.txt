@@ -1,0 +1,9 @@
+**Rectangular stock — cuboid bounding size**
+
+| Dimension | Value |
+|---|---|
+| Thickness | 50.8 mm [2.00 in] |
+| Width | 63.5 mm [2.50 in] |
+| Length | 101.6 mm [4.00 in] |
+
+**Basis:** The front view establishes the 63.5 [2.50] width and 50.8 [2.00] depth/thickness, and the side view establishes the 101.6 [4.00] overall height. All other features (the 52.4 [2.06] wide × 18.0 [.71] deep top slot and the two Ø6.4 [.25] thru / Ø11.1 [.44] c'bored holes) are removals inside that envelope, so the UHMW blank would be a 2.00 × 2.50 × 4.00 in bar (plus any saw-cut/machining allowance your shop normally adds).

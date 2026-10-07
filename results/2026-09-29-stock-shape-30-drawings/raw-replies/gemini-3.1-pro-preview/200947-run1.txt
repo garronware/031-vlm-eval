@@ -1,0 +1,7 @@
+Based on the provided engineering drawing, the part is a cylindrical pin ("MMC Pin"), meaning it would be made from round stock. 
+
+The primary dimensions are given in millimeters (with inches in brackets). 
+
+**Cylindrical Bounding Dimensions:**
+*   **Diameter (Dia):** 12.00 mm [0.472"] (from the right-side end view)
+*   **Length (L):** 145.0 mm [5.709"] (from the overall length dimension in the main view)

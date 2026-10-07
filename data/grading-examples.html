@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Grading Examples</title>
+<style>
+:root { --ink:#1d2330; --soft:#5d6778; --line:#e3e6ec; --bg:#f7f8fa; --card:#fff;
+  --pass:#1f7a3f; --pass-bg:#e3f4e8; --fail:#b3261e; --fail-bg:#fbe5e3;
+  --flag:#8a5a00; --flag-bg:#fdf1d6; }
+* { box-sizing:border-box }
+body { margin:0; background:var(--bg); color:var(--ink);
+  font:16px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+main { max-width:1100px; margin:0 auto; padding:32px 16px 48px; }
+h1 { font-size:28px; margin:0 0 12px; }
+.intro { max-width:720px; color:var(--soft); margin:0 0 24px; }
+.intro b { color:var(--ink); }
+table { width:100%; border-collapse:collapse; background:var(--card);
+  border:1px solid var(--line); border-radius:10px; overflow:hidden; }
+th { text-align:left; font-size:13px; text-transform:uppercase; letter-spacing:.04em;
+  color:var(--soft); background:#fbfbfc; }
+th, td { padding:14px 16px; border-bottom:1px solid var(--line); vertical-align:top; }
+tr:last-child td { border-bottom:0; }
+.drawing { font-weight:600; white-space:nowrap; }
+.shape, .unit { font-weight:400; color:var(--soft); font-size:13px; }
+.inch { color:var(--soft); }
+.reply { font-size:17px; }
+.badge { display:inline-block; padding:4px 10px; border-radius:6px; font-weight:700;
+  font-size:14px; white-space:nowrap; }
+.pass { color:var(--pass); background:var(--pass-bg); }
+.fail { color:var(--fail); background:var(--fail-bg); }
+.not-graded { color:var(--flag); background:var(--flag-bg); }
+.found { color:var(--soft); font-size:14px; margin-top:6px; }
+.note { font-size:14px; margin-top:6px; padding:6px 8px; border-radius:6px;
+  background:var(--flag-bg); color:var(--flag); }
+footer { color:var(--soft); font-size:14px; margin-top:16px; }
+@media (max-width:760px) {
+  table, tbody, tr, td { display:block; width:100%; }
+  thead { display:none; }
+  tr { border-bottom:1px solid var(--line); padding:8px 0; }
+  td { border:0; padding:6px 16px; }
+}
+</style>
+</head>
+<body>
+<main>
+<h1>How replies will be graded</h1>
+<p class="intro">These are <b>pretend model replies</b> to real drawings from your set.
+The right answer is always <b>your own number</b> from ground-truth.md, shown in the
+“Your numbers” column. For each row, ask one question: <b>if a model replied this,
+would I grade it the same way?</b> If any row is wrong, tell Claude which one.</p>
+<table>
+<thead><tr><th>Drawing</th><th>Your numbers</th><th>Pretend reply</th><th>Result</th>
+<th>Why</th></tr></thead>
+<tbody>
+<tr><td class="drawing">201551-016<div class="shape">CUBE</div></td><td><b>Thk</b> 25.4 <span class="inch">[1.00 in]</span><br><b>W</b> 63.5 <span class="inch">[2.50 in]</span><br><b>L</b> 19.1 <span class="inch">[.75 in]</span><div class="unit">mm</div></td><td class="reply">“63.5 × 19.1 × 25.4 mm”</td><td><span class="badge pass">PASS</span></td><td>All three sizes are right. For a CUBE the order doesn&#x27;t matter, the same way flat stock is ordered.<div class="found">3 of 3 sizes found</div></td></tr>
+<tr><td class="drawing">201551-016<div class="shape">CUBE</div></td><td><b>Thk</b> 25.4 <span class="inch">[1.00 in]</span><br><b>W</b> 63.5 <span class="inch">[2.50 in]</span><br><b>L</b> 19.1 <span class="inch">[.75 in]</span><div class="unit">mm</div></td><td class="reply">“2.50 × .75 × 1.00 in”</td><td><span class="badge pass">PASS</span></td><td>The same sizes in inches. Either unit is fine.<div class="found">3 of 3 sizes found</div></td></tr>
+<tr><td class="drawing">201551-016<div class="shape">CUBE</div></td><td><b>Thk</b> 25.4 <span class="inch">[1.00 in]</span><br><b>W</b> 63.5 <span class="inch">[2.50 in]</span><br><b>L</b> 19.1 <span class="inch">[.75 in]</span><div class="unit">mm</div></td><td class="reply">“63.5 × 25.4 mm”</td><td><span class="badge fail">FAIL</span></td><td>Only two sizes given. The 19.1 is missing.<div class="found">2 of 3 sizes found; missed L (Y)</div></td></tr>
+<tr><td class="drawing">201551-016<div class="shape">CUBE</div></td><td><b>Thk</b> 25.4 <span class="inch">[1.00 in]</span><br><b>W</b> 63.5 <span class="inch">[2.50 in]</span><br><b>L</b> 19.1 <span class="inch">[.75 in]</span><div class="unit">mm</div></td><td class="reply">“63.5 × 19.0 × 25.4 mm”</td><td><span class="badge fail">FAIL</span></td><td>19.0 is a different number printed on the same sheet, not the 19.1.<div class="found">2 of 3 sizes found; missed L (Y)</div></td></tr>
+<tr><td class="drawing">201011<div class="shape">cylinder</div></td><td><b>Dia</b> 8.000 <span class="inch">[0.31496 in]</span><br><b>L</b> 90.0 <span class="inch">[3.543 in]</span><div class="unit">mm</div></td><td class="reply">“Ø8.000 × 90.0 mm long”</td><td><span class="badge pass">PASS</span></td><td>Diameter and length both right.<div class="found">2 of 2 sizes found</div></td></tr>
+<tr><td class="drawing">201011<div class="shape">cylinder</div></td><td><b>Dia</b> 8.000 <span class="inch">[0.31496 in]</span><br><b>L</b> 90.0 <span class="inch">[3.543 in]</span><div class="unit">mm</div></td><td class="reply">“Diameter 90.0 mm, length 8.000 mm”</td><td><span class="badge fail">FAIL</span></td><td>Diameter and length are swapped. On a cylinder they are not interchangeable.<div class="found">0 of 2 sizes found; missed Dia, L (X)</div></td></tr>
+<tr><td class="drawing">201011<div class="shape">cylinder</div></td><td><b>Dia</b> 8.000 <span class="inch">[0.31496 in]</span><br><b>L</b> 90.0 <span class="inch">[3.543 in]</span><div class="unit">mm</div></td><td class="reply">“8.000 × 90.0 mm”</td><td><span class="badge not-graded">NOT GRADED</span></td><td>The reply doesn&#x27;t say which number is the diameter, so it&#x27;s flagged for you to look at instead of guessed.</td></tr>
+<tr><td class="drawing">201011<div class="shape">cylinder</div></td><td><b>Dia</b> 8.000 <span class="inch">[0.31496 in]</span><br><b>L</b> 90.0 <span class="inch">[3.543 in]</span><div class="unit">mm</div></td><td class="reply">“Bounding box 8.000 × 8.000 × 90.0 mm. Cylindrical envelope Ø8.000 × 90.0 mm long.”</td><td><span class="badge pass">PASS</span></td><td>The reply gives the same envelope twice, as a box and as a cylinder. Both are right, so it passes; the extra wording isn&#x27;t counted against it.<div class="found">2 of 2 sizes found</div></td></tr>
+<tr><td class="drawing">201011<div class="shape">cylinder</div></td><td><b>Dia</b> 8.000 <span class="inch">[0.31496 in]</span><br><b>L</b> 90.0 <span class="inch">[3.543 in]</span><div class="unit">mm</div></td><td class="reply">“Bounding box 8.000 × 8.000 × 90.0 mm.”</td><td><span class="badge pass">PASS</span></td><td>A box for a round part. The prompt never asked for a shape, and this is the box that Ø8.000 × 90.0 fills, so it describes the same envelope.<div class="found">3 of 3 sizes found</div></td></tr>
+<tr><td class="drawing">201011<div class="shape">cylinder</div></td><td><b>Dia</b> 8.000 <span class="inch">[0.31496 in]</span><br><b>L</b> 90.0 <span class="inch">[3.543 in]</span><div class="unit">mm</div></td><td class="reply">“Bounding box 6.000 × 8.000 × 90.0 mm.”</td><td><span class="badge fail">FAIL</span></td><td>A box 6.000 wide could not hold a Ø8.000 part. A smaller number from a feature is not a bounding dimension.<div class="found">2 of 3 sizes found; missed Dia</div></td></tr>
+<tr><td class="drawing">200951<div class="shape">CUBE</div></td><td><b>Thk</b> 34.29 + 6.35 = 40.64 <span class="inch">[1.350 + 0.250 in]</span><br><b>W</b> 91.0 <span class="inch">[3.58268 in]</span><br><b>L</b> 72.91 <span class="inch">[2.870 in]</span><div class="unit">mm</div></td><td class="reply">“40.64 × 91.0 × 72.91 mm”</td><td><span class="badge pass">PASS</span></td><td>The model added up the chain 34.29 + 6.35 = 40.64 itself.<div class="found">3 of 3 sizes found</div></td></tr>
+<tr><td class="drawing">200951<div class="shape">CUBE</div></td><td><b>Thk</b> 34.29 + 6.35 = 40.64 <span class="inch">[1.350 + 0.250 in]</span><br><b>W</b> 91.0 <span class="inch">[3.58268 in]</span><br><b>L</b> 72.91 <span class="inch">[2.870 in]</span><div class="unit">mm</div></td><td class="reply">“34.29 × 91.0 × 72.91 mm”</td><td><span class="badge fail">FAIL</span></td><td>The model gave one part of the chain instead of adding both. The result notes that, so you can see it at a glance.<div class="found">2 of 3 sizes found; missed Thk (Z)</div><div class="note">Thk (Z) missed: gave 34.29 mm, one part of the chain 34.29 + 6.35 = 40.64</div></td></tr>
+</tbody>
+</table>
+<footer>Each result and count on this page comes from the scorer itself, not typed in
+by hand.</footer>
+</main>
+</body>
+</html>

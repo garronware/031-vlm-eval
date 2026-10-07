@@ -1,0 +1,15 @@
+## Bounding Stock — Round
+
+**Part:** DET #005, BUSHING (Dwg 201258, Rev A) — a stepped cylindrical bushing, so it would be turned from round bar stock.
+
+| Dimension | Metric | Inch |
+|---|---|---|
+| **Diameter (Dia)** | **38.1 mm** | **1.500 in** |
+| **Length (L)** | **76.20 mm** | **3.000 in** |
+
+**Basis:**
+- Largest outside feature is the Ø38.1 [1.50] flange/head — this governs the bounding diameter (the Ø25.400 [1.0000] press-fit journal is a smaller turned step).
+- Overall length is the 76.20 [3.000] dimension end-to-end (the 38.10 [1.500] is an intermediate step location).
+- Ø15.875 [.6250] thru bore does not affect the outside envelope.
+
+**Note:** This is the finished-part envelope. For actual bar stock purchase, add cleanup/facing allowance — e.g., Ø1.625–1.75 × 3.125 in (≈Ø41–44 mm × 79 mm) in 8620 — since the part is carburized, hardened 58–62 HRC, and ground.

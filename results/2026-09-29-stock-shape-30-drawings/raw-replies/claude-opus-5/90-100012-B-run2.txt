@@ -1,0 +1,12 @@
+## Bounding Stock: **Round (cylindrical)**
+
+The part is a turned, axisymmetric shaft (stepped diameters, ball nose, external M22×1.5 thread, internal M10×1.5 thread on centerline) — so it would be made from round bar.
+
+| Bounding Dimension | Value | Driving Feature |
+|---|---|---|
+| **Diameter** | **Ø1.1240 in** (≈28.55 mm) | Largest OD — the Ø1.1240 ±0.0005 flange/land shown in the end view |
+| **Length** | **6.50 in** (≈165.1 mm) | Overall length from datum 0 to the 6.50 end face (ball nose tip) |
+
+**Bounding cylinder ≈ Ø1.124 × 6.50 in**
+
+*Practical stock callout:* Ø1.25 in × 6.625 in AISI 4140 HR Q&T bar (next standard size up, with facing allowance).

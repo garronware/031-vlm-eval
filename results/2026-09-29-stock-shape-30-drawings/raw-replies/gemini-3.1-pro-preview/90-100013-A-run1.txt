@@ -1,0 +1,11 @@
+Based on the provided technical drawing, the part is cylindrical (indicated by diameters, knurling, and turned features) and would be machined from round stock. 
+
+To find the bounding dimensions:
+1. **Maximum Diameter (Dia):** The end view on the right clearly identifies the outermost major diameter of the main body as **$\varnothing$1.5000**.
+2. **Overall Length (L):** The longitudinal view (bottom left) uses ordinate baseline dimensioning from a datum (0) at the main shoulder. 
+   - The leftmost edge is dimensioned at **3.83**.
+   - The rightmost edge (end of the chamfered thread) is dimensioned at **1.13**.
+   - Adding these together gives the total overall length: $3.83 + 1.13 = 4.96$.
+
+**Bounding dimensions:**
+Dia 1.500, L 4.96

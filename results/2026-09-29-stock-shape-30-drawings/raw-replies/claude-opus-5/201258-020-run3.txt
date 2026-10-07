@@ -1,0 +1,19 @@
+## Bounding Stock Determination
+
+**Stock type:** Rectangular (cuboid) — the part is a prismatic "INDICATOR BLOCK" with flat faces, cross‑drilled holes, dowel holes and tapped holes on the end face.
+
+### Governing dimensions from the views
+
+| Direction | Callout on drawing | Value |
+|---|---|---|
+| Thickness (side view width) | 25.4 [1.00] | **25.4 mm (1.00 in)** |
+| Width (front view width) | 28.6 [1.12] | **28.6 mm (1.12 in)** |
+| Length (overall height) | 85.0 [3.35] | **85.0 mm (3.35 in)** |
+
+*Check:* the 71.00 [2.795] to the Ø12.73 bore, the 19.05 [.750] and 28.6 [1.12] locators, and the end‑face hole pattern (23.81 [.937] max) all fall inside this envelope.
+
+### Bounding Dimensions
+
+**Thk × W × L = 25.4 × 28.6 × 85.0 mm  (1.00 × 1.12 × 3.35 in)**
+
+Material: 1018 steel, black anodize/black oxide on non‑gaging surfaces — practical purchased stock would be 1.00 × 1.25 in bar cut ~3.50 in long to allow grind/clean‑up.

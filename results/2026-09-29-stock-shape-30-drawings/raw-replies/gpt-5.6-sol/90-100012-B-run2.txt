@@ -1,0 +1,6 @@
+**Round-stock cylindrical bounding dimensions:**
+
+- **Diameter:** Ø1.1240 in  
+- **Overall length:** 7.500 in  
+
+**Maximum tolerance envelope:** approximately **Ø1.1245 × 7.520 in**.

@@ -1,0 +1,9 @@
+pdf_type,model,drawings,replies_graded,passed,pass_rate_percent,range_low_percent,range_high_percent
+image_only,Claude Opus 5,9,9,7,78,40,97
+image_only,GPT-5.6 Sol,9,9,9,100,66,100
+image_only,Gemini 3.1 Pro (preview),9,9,8,89,52,100
+image_only,All three models,9,27,24,89,,
+text,Claude Opus 5,21,21,19,90,70,99
+text,GPT-5.6 Sol,21,21,20,95,76,100
+text,Gemini 3.1 Pro (preview),21,21,18,86,64,97
+text,All three models,21,63,57,90,,

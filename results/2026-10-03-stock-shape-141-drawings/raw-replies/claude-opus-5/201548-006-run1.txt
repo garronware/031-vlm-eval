@@ -1,0 +1,16 @@
+## Bounding Stock Determination
+
+**Stock Type:** Round (cylindrical) — the part is a turned post with a constant outside diameter and tapped holes on each end along the axis.
+
+### Bounding Dimensions
+
+| Dimension | Inch | Metric |
+|---|---|---|
+| **Diameter** | Ø0.63 in | Ø15.9 mm |
+| **Length** | 3.828 in | 97.23 mm |
+
+**Callout:** Ø0.63 × 3.828 LG (Ø15.9 × 97.23 mm) — 1018 steel round bar
+
+### Notes
+- No features extend beyond the Ø0.63 outer surface; the 1/4‑20 × .50 deep tapped holes are internal at both ends, so they do not affect the envelope.
+- Practical purchase stock would be Ø0.750 bar (next common size) if the OD is to be cleaned up in turning, with ~0.06–0.12 in extra length for facing/cutoff.

@@ -1,0 +1,15 @@
+## Bounding Stock — Round
+
+**Part:** DET 010, SHAFT (Dwg 201258, Sheet 012 of 025)
+
+| Dimension | Value (in) | Value (mm) |
+|---|---|---|
+| **Diameter** | Ø0.500 | Ø12.7 |
+| **Length** | 5.00 | 127.0 |
+
+**Basis / reasoning**
+- The part is a straight cylindrical shaft — round bar stock is the natural raw form.
+- Outside diameter is called out as **Ø.5000 S.F. IN** (the only diameter on the part, constant full length).
+- Overall length is the single controlling linear dimension, **127.0 [5.00]**.
+- The 5.4 [.21] FLAT (located 58.5–68.5 mm / 2.30–2.70 in from the end) is a local milled flat **into** the OD, so it does not increase the envelope — the Ø.500 cylinder still bounds the part.
+- Add stock allowance as needed for grinding/finish (part is harden + grind, 60–64 Rc) — e.g., order Ø.5625 (9/16) × ~5.25 in if finish-grinding the OD from bar.

@@ -1,0 +1,9 @@
+Based on the provided engineering drawing, the part is an L-shaped block and would be manufactured from rectangular stock. 
+
+The bounding dimensions can be extracted from the maximum outer dimensions shown in the primary orthogonal views:
+* **Thickness (Thk):** 1.00" / 25.4 mm (from the top view overall width)
+* **Width (W):** 1.75" / 44.5 mm (from the front view overall length)
+* **Length (L):** 2.00" / 50.8 mm (from the front view overall height)
+
+**Cuboid bounding dimensions (Thk, W, L):**
+1.00" x 1.75" x 2.00" (25.4 x 44.5 x 50.8 mm)

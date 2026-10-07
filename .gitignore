@@ -1,0 +1,11 @@
+_tmp/
+.DS_Store
+brainstorming-starter.md
+.env
+.venv/
+runs/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+CLAUDE.local.md

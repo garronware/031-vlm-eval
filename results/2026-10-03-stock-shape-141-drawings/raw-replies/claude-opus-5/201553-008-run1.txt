@@ -1,0 +1,26 @@
+## Bounding Stock Determination
+
+**Stock Type: ROUND (cylindrical)**
+
+The part is a solid cylindrical "Mean Master" gage body — the views show a circular end view and a rectangular side profile with concentric diameters (Cylinder G, Cylinder E) plus a cross‑drilled bore (Cylinder F, Ø30.052). All features are revolved about a single axis, so round bar stock is the natural starting material.
+
+### Governing Dimensions
+
+| Direction | Controlling Feature | Value (mm) | Value (in) |
+|---|---|---|---|
+| Diameter | Largest OD — Ø83.955 ±0.005 (Cylinder G) vs. Ø83.570 ±0.0125 (Cylinder E) | **83.955** | **3.3053** |
+| Length | Overall axial height 56.900 ±0.013 | **56.900** | **2.2402** |
+
+*Note: the 1.5 × 45° chamfers (TYP. 2) and the Ø30.052 cross-hole are internal to this envelope and do not increase it.*
+
+### Bounding Dimensions (finished part envelope)
+
+**Ø83.96 mm × 56.90 mm long  →  Ø3.306 in × 2.240 in long**
+
+### Suggested Purchase Stock (with machining allowance)
+
+Allowing ~3 mm (0.12 in) on the diameter for cleanup/grind stock and ~3 mm total on length:
+
+**8620 round bar, Ø87 mm (≈Ø3.50 in) × 60 mm (≈2.38 in) cut length**
+
+(Nearest common US size: 3‑1/2 in dia. bar, cut 2.375 in long.)

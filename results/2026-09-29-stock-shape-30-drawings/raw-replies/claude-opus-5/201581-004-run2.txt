@@ -1,0 +1,16 @@
+## Bounding Stock — Rectangular (Cuboid)
+
+**Part:** DET 004 – Bushing Block (RH), Dwg 201581, Material 1018
+
+| Dimension | Metric | Inch | Source |
+|---|---|---|---|
+| **Thickness** | 50.8 mm | **2.00 in** | Plan‑view depth (50.8 [2.00]) |
+| **Width** | 76.2 mm | **3.00 in** | Plan‑view width (76.2 [3.00]) |
+| **Length** | 95.3 mm | **3.75 in** | Front‑view height (95.3 [3.75]) |
+
+**Bounding box: 50.8 × 76.2 × 95.3 mm  (2.00" × 3.00" × 3.75")**
+
+Notes:
+- Rectangular stock is appropriate — the part is a prismatic block; the Ø50.800 [2.0000] thru bore and Ø6.350 dowel/ (4) 1/4‑20 tapped holes are internal features that do not extend the envelope.
+- The 6.4 [.25] × 45° chamfers (typ. 2) are removals only and do not affect the envelope.
+- Allow extra for grind stock (part is carburized/hardened 58‑62 Rc and ground) — typically add ~0.030–0.060 in per finished face, i.e. order roughly 2‑1/8" × 3‑1/8" × 3‑7/8".

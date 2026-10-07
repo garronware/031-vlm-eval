@@ -1,0 +1,16 @@
+## Bounding Stock — Round
+
+**Part:** BASE LEG (DWG 201551, DET 013), Material 1018, Black Oxide
+
+The part is a simple turned cylinder with a through-tapped hole on the axis, so it would be made from **round stock**.
+
+| Dimension | Value (in) | Value (mm) |
+|---|---|---|
+| **Diameter** | Ø1.50 | Ø38.1 |
+| **Length** | 2.00 | 50.8 |
+
+**Bounding cylinder: Ø1.50 × 2.00 in**
+
+Notes:
+- The 3/8‑16 THRU hole is internal and does not affect the bounding envelope.
+- For actual purchase, order the next nominal size up (e.g., Ø1.625 or Ø1.75 bar) with ~0.06–0.12 in length allowance per piece for facing/cut‑off; 3 pieces required.

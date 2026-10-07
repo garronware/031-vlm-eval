@@ -1,0 +1,15 @@
+## Bounding Envelope — Round Stock
+
+This part is a flat, circular gage plate (Mean Master‑5), so it would be cut from round bar/disc stock.
+
+| Dimension | Metric | Inch |
+|---|---|---|
+| **Diameter (Dia)** | Ø83.570 ±0.025 mm → **Ø83.60 mm** | Ø3.2902 ±.0010 in → **Ø3.291 in** |
+| **Length (L / thickness)** | **6.4 mm** | **0.25 in** |
+
+**Bounding cylinder: Ø83.6 mm × 6.4 mm (Ø3.291 in × 0.250 in)**
+
+Notes:
+- Ø83.570 is the largest feature on the part (OD of the disc); the 76.2 [3.00] DIA is an internal/gage-surface diameter and does not govern the envelope.
+- 6.4 mm [.25] is the full plate thickness; the 1.0 [.04] is a local relieved/stepped face within that thickness.
+- For machining, add stock allowance (e.g., ~Ø88 mm × 9.5 mm blank) to permit carburize-harden (58‑62 HRC) and finish grinding of the gage surfaces.

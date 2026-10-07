@@ -1,0 +1,18 @@
+## Bounding Envelope
+
+**Stock form: ROUND (cylindrical)**
+
+The part is a solid "puck"/master body whose largest cross‑section is the Ø83.570 ±0.025 [3.2902 ±.0010] gage diameter. The two 29.4 [1.16] flats, the 0.600 [.0236] grooves, the Ø30.042 [1.1828] cross bore and the 36.595 [1.4407] feature are all machined inside that circumscribing diameter, so a bar of round stock is the natural blank.
+
+| Bounding dimension | Metric | Inch |
+|---|---|---|
+| **Diameter (Dia)** | 83.57 mm | 3.290 in |
+| **Length (L)** | 56.9 mm | 2.24 in |
+
+**Bounding cylinder ≈ Ø83.6 × 56.9 mm (Ø3.29 × 2.24 in)**
+
+Suggested blank (allowing cleanup / grind stock on the carburized OD and both ends):
+
+- **Ø3.50 in × 2.38 in long** (≈ Ø89 × 60 mm) of 8620 bar
+
+Notes for planning: material 8620, carburize‑harden 58‑62 HRC, finish grind gaging surfaces, black oxide all non‑gaging surfaces (per drawing 202001 Rev A).

@@ -1,0 +1,5 @@
+Based on the engineering drawing, the part is cylindrical (disk-shaped). 
+
+The bounding dimensions are:
+**Dia 88.9 [3.50] x L 12.7 [.50]** 
+*(Primary dimensions are in millimeters, bracketed dimensions are in inches)*

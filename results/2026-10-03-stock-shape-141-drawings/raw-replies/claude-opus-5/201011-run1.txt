@@ -1,0 +1,15 @@
+## Bounding Stock: **Round (Cylindrical)**
+
+| Dimension | Value |
+|---|---|
+| **Diameter** | **Ø8.00 mm** (Ø0.315 in) |
+| **Length** | **90.00 mm** (3.543 in) |
+
+**Rationale**
+
+- The part is a guide pin — an axisymmetric turned component — so round bar stock is the appropriate raw form.
+- **Largest diameter feature:** Ø8.000 ‑0.005 mm pin body (the Ø7.80 relief/undercut is smaller and lies within this envelope).
+- **Overall length:** 90.00 mm datum-to-end dimension is the largest axial dimension on the drawing (48.00, 80.8, 74.45, 10.00 and 3.65 are all intermediate features).
+- The two small flats/slots shown near each end are cut into the Ø8 envelope and do not increase the bounding size.
+
+*Note:* For actual procurement you would order the next standard bar size up (e.g., Ø10 mm × ~95 mm) to allow for cleanup of the Ø8.000 ‑0.005 tolerance, the DLC coating stack-up, and facing/parting stock.

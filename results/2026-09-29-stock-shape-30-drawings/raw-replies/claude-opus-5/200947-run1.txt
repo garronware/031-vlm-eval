@@ -1,0 +1,17 @@
+## Bounding Stock — Round Stock
+
+**Part:** MMC Pin #5 11 mm × 2 mm TP (Dwg. 200947, Rev 1)
+
+| Parameter | Value (mm) | Value (in) |
+|---|---|---|
+| **Diameter** | Ø12.00 | Ø0.472 |
+| **Length** | 145.0 | 5.709 |
+
+**Bounding size: Ø12.00 mm × 145.0 mm**
+
+**Basis:**
+- The part is a turned, axially symmetric pin (round/cylindrical features only: Ø8.500, Ø9.80, Ø10.000, Ø12.00) — so round bar stock is the logical raw form.
+- Largest outside diameter is the Ø12.00 collar/head near the right end, which sets the bounding diameter.
+- Overall length is set by the 145.0 mm dimension from the 0 datum at the right end face to the left end face.
+
+*Note: this is the finished bounding envelope. For actual bar stock ordering you'd typically add cleanup/facing allowance — e.g., Ø12.7 (1/2 in) × ~148 mm cut length.*

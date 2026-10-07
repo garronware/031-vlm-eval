@@ -1,0 +1,5 @@
+Based on the engineering drawing, the part is a guide pin made from round stock. The primary dimensions are in millimeters (with inches in brackets). 
+
+The cylindrical bounding dimensions are:
+*   **Dia (Diameter):** 8.000 mm
+*   **L (Length):** 90.00 mm

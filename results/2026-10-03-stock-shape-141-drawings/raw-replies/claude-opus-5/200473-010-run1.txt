@@ -1,0 +1,11 @@
+**Rectangular stock — cuboid bounding box**
+
+| Dimension | Inches | mm |
+|---|---|---|
+| Thickness | 2.00 | 50.8 |
+| Width | 2.50 | 63.5 |
+| Length | 4.00 | 101.6 |
+
+**Stock callout:** UHMW, 2.00" × 2.50" × 4.00"
+
+*Basis:* The plan view establishes the 63.5 mm [2.50"] × 50.8 mm [2.00"] cross‑section, and the elevation view establishes the 101.6 mm [4.00"] overall height (the 82.6 mm [3.25"] slot and 50.8/12.7 mm shoulder cuts are all internal to this envelope).

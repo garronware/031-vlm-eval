@@ -1,0 +1,5 @@
+Based on the provided engineering drawing, the part is a rectangular block. Its bounding dimensions can be determined from the overall dimensions given in the orthographic views:
+
+*   **Thickness (Thk):** 15.9 [.63] *(from the top view)*
+*   **Width (W):** 63.5 [2.50] *(from the front view)*
+*   **Length (L):** 76.2 [3.00] *(from the top view)*

@@ -1,0 +1,5 @@
+Based on the drawing provided, the part would be made from rectangular stock. The bounding dimensions are as follows (given in millimeters with inches in brackets):
+
+*   **Thickness (Thk):** 31.8 [1.25]
+*   **Width (W):** 48.9 [1.92]
+*   **Length (L):** 117.3 [4.62]

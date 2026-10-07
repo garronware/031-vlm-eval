@@ -1,0 +1,2 @@
+**Rectangular stock bounding dimensions (Thk × W × L):**  
+**19.1 × 25.4 × 82.6 mm** (**0.75 × 1.00 × 3.25 in**)

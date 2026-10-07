@@ -1,0 +1,9 @@
+**Rectangular (cuboid) stock**
+
+| Dimension | Size |
+|---|---|
+| Thickness | 4.75 in |
+| Width | 19.00 in |
+| Length | 29.00 in |
+
+This is a flat fixture/profile‑gage base plate (rectangular with corner chamfers — 1.50 × 45° typ. and the large corner breaks), so it would be cut from rectangular plate/bar stock ≈ 4.75″ × 19.00″ × 29.00″ before machining the hole pattern and chamfers.

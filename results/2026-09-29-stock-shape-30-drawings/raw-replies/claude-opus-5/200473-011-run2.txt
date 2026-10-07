@@ -1,0 +1,18 @@
+## Bounding Stock — Rectangular (Cuboid)
+
+**Part:** 200473 — STORAGE BLOCK (1.625), UHMW
+
+| Dimension | Inches | Millimeters |
+|---|---|---|
+| **Thk** | 2.00 | 50.8 |
+| **W** | 2.50 | 63.5 |
+| **L** | 4.00 | 101.6 |
+
+**Basis:**
+- Top view establishes the cross‑section: 2.50 wide × 2.00 deep (63.5 × 50.8 mm)
+- Front view establishes overall height/length: 4.00 (101.6 mm), with the 3.25‑deep U‑slot (2.06 – 0.44 = 1.62 wide) machined into the top — an internal removal that doesn't affect the envelope
+- No round features drive the outline, so rectangular stock is appropriate
+
+**Sanity check:** 2.00 × 2.50 × 4.00 = 20.0 in³; UHMW at ~0.0335 lb/in³ ≈ 0.67 lb solid, dropping to ~0.62 lb after the slot — matches the drawing's stated 0.62 lb mass.
+
+*Note: add saw/facing allowance (typically 0.06–0.12 in per finished face) if ordering cut stock.*

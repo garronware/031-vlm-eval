@@ -1,0 +1,5 @@
+**Rectangular stock (cuboid):**
+
+- **Thk:** 50.8 mm (2.00 in)  
+- **W:** 76.2 mm (3.00 in)  
+- **L:** 95.3 mm (3.75 in)

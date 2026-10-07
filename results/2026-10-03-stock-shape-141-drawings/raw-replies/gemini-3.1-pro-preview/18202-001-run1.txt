@@ -1,0 +1,5 @@
+Based on the provided drawing, the part would be made from rectangular stock. The bounding dimensions are:
+
+*   **Thk:** 1.75
+*   **W:** 18.00
+*   **L:** 24.00

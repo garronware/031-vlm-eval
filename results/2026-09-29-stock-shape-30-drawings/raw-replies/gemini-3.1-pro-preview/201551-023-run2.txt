@@ -1,0 +1,5 @@
+Based on the engineering drawing, the part is a flat, circular disc (made from round stock). The primary bounding dimensions are given in millimeters (with inches in brackets). 
+
+**Cylindrical Bounding Dimensions:**
+* **Dia:** 83.570 mm [3.2902 in]
+* **L:** 2.485 mm [0.0978 in]

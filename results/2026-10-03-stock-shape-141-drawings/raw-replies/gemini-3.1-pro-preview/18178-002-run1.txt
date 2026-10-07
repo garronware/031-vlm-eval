@@ -1,0 +1,3 @@
+Based on the provided drawing, the part is made from rectangular stock. The cuboid bounding dimensions are:
+
+**Thk: 2.00, W: 10.00, L: 32.00**

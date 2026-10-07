@@ -1,0 +1,20 @@
+## Bounding Stock
+
+**Form:** Rectangular (cuboid) — the part is a prismatic block with faces machined on all sides, so it would be cut from rectangular bar stock.
+
+| | mm | in |
+|---|---|---|
+| **Thk** | 64.8 | 2.551 |
+| **W** | 75.8 | 2.984 |
+| **L** | 85.0 | 3.346 |
+
+**How these were derived (overall edges taken from the ordinate dimension sets):**
+- 85.0 (3.346) – outermost ordinate in the lower-left view (horizontal extent)
+- 75.8 (2.984) – outermost ordinate in the top view (vertical extent)
+- 64.8 (2.550) – outermost ordinate in the middle/front view (vertical extent)
+
+All other dimensions (7.00, 8.00, 43.80, 69.00, 77.87, 78.00, 57.8, 68.8, etc.) are feature/hole locations that fall inside this envelope.
+
+**Sanity check:** 64.8 × 75.8 × 85.0 = ~417 cm³ of AISI A2 (7.86 g/cc) ≈ 7.2 lb of solid stock, consistent with the 5.82 lb finished weight after the chamfer, bore and hole removals.
+
+*(Add your normal saw/facing allowance — e.g. 2–3 mm per side — if ordering material: ~68 × 79 × 88 mm.)*

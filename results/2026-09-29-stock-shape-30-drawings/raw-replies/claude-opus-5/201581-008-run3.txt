@@ -1,0 +1,15 @@
+## Bounding Stock — Round
+
+**Ø 9.525 mm (0.3750 in) × ≈ 178 mm (7.00 in) long**
+
+**Basis:**
+
+| Item | Value | Source |
+|---|---|---|
+| Max diameter | 9.525 [.3750] | Body OD called out ("S.F. IN DET. #006"); all other features (4.50 dia. tip, R2.25 ball end, R1.5 undercut, 1.5-deep flat) are *below* this envelope |
+| Length | ~178 mm (7.00 in) | 109.8 [4.32] from the "0" datum at the ball end back to the flat, plus the remaining shank shown to the left; scales to ≈ 7 in, which is the standard OAL of a 3/8" chucking-reamer blank |
+
+**Notes:**
+- Part is a pin of revolution → round stock (no rectangular envelope needed); the 1.5 [.06] flat is a local milled feature, not a stock-shape driver.
+- Per Green Line Change No. 4, material is a **3/8" reamer blank** (pre-hardened & ground, 60–64 HRC), so the blank OD is already the finished 9.525 dia. — stock diameter = part diameter, with only the length cut to size.
+- If the reamer blank is purchased in the standard 7 in length, no facing allowance exists; confirm the intended OAL on the mating detail #006 before cutting.

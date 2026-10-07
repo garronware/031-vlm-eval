@@ -1,0 +1,14 @@
+## Bounding Stock — Round
+
+**Part:** TRANSFER PIN‑3 (Det. 029, Dwg. 201548) — plain cylindrical reamer‑blank pin, no flats, flanges, or off‑axis features, so round stock applies.
+
+| Dimension | Value (mm) | Value (in) |
+|---|---|---|
+| **Diameter (Dia)** | Ø8.000 | Ø0.3150 |
+| **Length (L)** | 142.9 | 5.63 |
+
+**Bounding cylinder: Ø0.3150 in × 5.63 in long (Ø8.000 mm × 142.9 mm)**
+
+Notes:
+- The Ø8.000 [0.3150] is a finished/ground size (L.S.F. in Det. #063), so raw bar stock would typically be ordered slightly oversize (e.g., Ø0.330–0.375 in) with extra length for cutoff/facing — but the part's true bounding envelope is as listed above.
+- "No centers permissible, both ends" means both ends must be finished flat — no center‑drill remnants — which drives the need for length stock allowance.

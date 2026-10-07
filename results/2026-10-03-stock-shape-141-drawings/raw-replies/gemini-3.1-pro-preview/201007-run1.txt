@@ -1,0 +1,10 @@
+Based on the provided engineering drawing, the part is a "Locator Pin" and would be manufactured from round stock. 
+
+Here is the breakdown of the bounding dimensions from the coordinate dimensioning:
+*   **Maximum Diameter (Dia):** The end view explicitly calls out the largest outer diameter of the diamond head as **11.00 mm** (`[0.433]` inches).
+*   **Maximum Length (L):** The drawing uses a `0` datum line located at the shoulder of the head. The overall length is the sum of the distance from the left end to the `0` datum (**90.00 mm**) and the distance from the `0` datum to the rightmost tip (**1.0 mm**). 
+    *   `90.00 mm + 1.0 mm = 91.00 mm`
+
+**Cylindrical Bounding Dimensions:**
+*   **Dia:** 11.00 mm
+*   **L:** 91.00 mm

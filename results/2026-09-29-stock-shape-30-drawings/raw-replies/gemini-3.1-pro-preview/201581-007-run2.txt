@@ -1,0 +1,5 @@
+Based on the provided engineering drawing, the part is cylindrical (turned part) and would be made from round stock. 
+
+Here are the bounding dimensions:
+* **Dia:** 76.2 [3.00]
+* **L:** 120.7 [4.75]

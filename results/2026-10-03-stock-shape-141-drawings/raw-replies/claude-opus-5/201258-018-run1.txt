@@ -1,0 +1,14 @@
+## Bounding Stock — Round Stock
+
+This part is a circular "REST RING" (Det. #018), so it would be made from round bar/tube stock.
+
+| Dimension | Metric | Imperial |
+|---|---|---|
+| **Diameter** | Ø69.9 mm | Ø2.750 in |
+| **Length (thickness)** | 12.70 mm | 0.500 in |
+
+**Basis:**
+- **Diameter** — governed by the largest feature, the Ø69.9 [2.75] outside diameter of the flange (the Ø47.32 [1.863] is the raised boss/gaging face, and Ø33.337 [1.3125] is the through bore).
+- **Length** — governed by the overall stack height of 12.70 [.500] shown in the side/section view.
+
+*(Note: for actual ordering you'd typically bump to the next standard size, e.g. Ø2.875 in × 0.625 in long, to allow cleanup on the OD and both faces.)*

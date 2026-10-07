@@ -1,0 +1,15 @@
+## Bounding Stock — Rectangular (Plate)
+
+This part is a flat rectangular riser plate with no turned/round features, so it would be cut from rectangular bar/plate stock.
+
+| Dimension | Metric | Inch |
+|---|---|---|
+| **Thickness (Thk)** | 6.4 mm | 0.25 in |
+| **Width (W)** | 20.0 mm | 0.79 in |
+| **Length (L)** | 63.5 mm | 2.50 in |
+
+**Bounding stock: 0.25 × 0.79 × 2.50 in (6.4 × 20.0 × 63.5 mm) — 1018 steel**
+
+**Check:** 0.25 × 0.79 × 2.50 = 0.494 in³ × 0.283 lb/in³ ≈ 0.14 lb, which matches the 0.14 lbmass noted in the title block — confirming the 0.25 in thickness (the 3.18 [.125] in the end views is the hole centerline at mid-thickness).
+
+Recommended purchase size (allowing grind/finish stock): ~0.3125 × 1.00 × 2.75 in bar, finished to size, then black oxide per note.

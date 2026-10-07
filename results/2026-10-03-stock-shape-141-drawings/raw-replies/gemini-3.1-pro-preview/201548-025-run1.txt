@@ -1,0 +1,4 @@
+Based on the engineering drawing, the part is a cylindrical pin. The cylindrical bounding dimensions are:
+
+**Dia 8.000, L 92.1** 
+*(or Dia 0.3150, L 3.63 in inches)*

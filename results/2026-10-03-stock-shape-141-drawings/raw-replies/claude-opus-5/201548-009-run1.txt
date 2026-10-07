@@ -1,0 +1,11 @@
+## Bounding Stock — Round
+
+| Parameter | Value |
+|---|---|
+| **Form** | Cylindrical (round bar stock) |
+| **Diameter (Dia)** | Ø1.50 in (Ø38.1 mm) |
+| **Length (L)** | 8.00 in (203.2 mm) |
+
+**Basis:** The part is a plain cylindrical leg — a single outside diameter of Ø38.1 [Ø1.50] running the full 203.2 [8.00] length, with 3/8‑16 × .75 deep tapped holes on each end face (internal features only, so they don't affect the envelope). No off‑axis or non‑round features exist, so the minimum enclosing envelope is simply the OD × overall length.
+
+*Note: for actual procurement you'd order 1.50 in dia. 1018 bar in a cut length slightly over 8.00 in (e.g., 8.12–8.25 in) to allow for facing both ends, if the OD is left as‑drawn (cold-finished bar may be used at size).*

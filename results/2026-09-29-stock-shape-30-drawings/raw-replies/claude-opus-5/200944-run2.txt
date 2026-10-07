@@ -1,0 +1,16 @@
+## Stock Determination
+
+**Stock type: Round (cylindrical)** — the part is a stepped gage pin, rotationally symmetric about a single axis (only interruption is a small flat/relief notch that can be milled after turning).
+
+## Bounding Dimensions
+
+| Dimension | Metric | Inch (ref.) |
+|---|---|---|
+| **Diameter** | **Ø10.0 mm** | 0.394 in |
+| **Length** | **75.0 mm** | 2.953 in |
+
+**Basis:**
+- **Diameter** — governed by the largest feature, the Ø10.0 mm flange/head shown in the end view (all other diameters — Ø8.500 +0.050/0, Ø8.000 ±0.005, Ø7.80 — are smaller).
+- **Length** — governed by the overall 75.0 mm dimension from the datum end to the far end of the pin.
+
+**Recommended purchase stock:** Ø10.5–11 mm (or Ø7/16 in) × 78–80 mm cut length in AISI A2, allowing cleanup on the OD and facing stock on both ends prior to heat treat and DLC coating.

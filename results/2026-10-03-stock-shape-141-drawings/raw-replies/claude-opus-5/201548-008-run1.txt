@@ -1,0 +1,14 @@
+## Stock Form
+Rectangular (plate/bar) stock — the part is an L‑shaped riser block, not a turned part.
+
+## Bounding Cuboid (Thk × W × L)
+
+| Dimension | Metric | Inch | Source |
+|---|---|---|---|
+| **Thk** (depth) | 101.6 mm | **4.00 in** | Front view, 0 → 101.6 [4.00] |
+| **W** (width) | 127.0 mm | **5.00 in** | Top view, 127.0 [5.00] |
+| **L** (height) | 311.2 mm | **12.25 in** | Front view, 311.2 [12.25] |
+
+**Bounding stock: 4.00 in × 5.00 in × 12.25 in (101.6 × 127.0 × 311.2 mm), 1018 steel, black oxide finish.**
+
+Note: the tall column section is only ~2.50 in deep (63.5 mm) with the base foot projecting out to the full 4.00 in, so a sizeable amount of material is removed from the 4 × 5 × 12.25 envelope — consider a weldment or pre-stepped blank if machining time/material cost is a concern.

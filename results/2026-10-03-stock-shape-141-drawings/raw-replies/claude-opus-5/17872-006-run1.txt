@@ -1,0 +1,9 @@
+**Rectangular stock — Base Plate (H.R.S.), 1 req'd**
+
+| Dimension | Size |
+|---|---|
+| Thickness | 2.00 in |
+| Width | 29.62 in (O.A.W.) |
+| Length | 33.00 in (O.A.L.) |
+
+So the bounding block is approximately **2.00 × 29.62 × 33.00 in** (the corners are later cut at 45° typ., and all the holes/taps/push‑fit pin bores are machined from this blank).

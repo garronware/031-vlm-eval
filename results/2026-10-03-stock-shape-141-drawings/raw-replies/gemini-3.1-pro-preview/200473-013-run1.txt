@@ -1,0 +1,5 @@
+Based on the technical drawing, the part is a rectangular block. 
+
+The cuboid bounding dimensions (Thickness x Width x Length) for this part are:
+
+* **50.8 x 76.2 x 101.6 mm**  [2.00 x 3.00 x 4.00 inches]

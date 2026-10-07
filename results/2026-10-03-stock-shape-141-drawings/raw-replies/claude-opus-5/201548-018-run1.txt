@@ -1,0 +1,19 @@
+## Bounding Stock — Rectangular (Plate)
+
+This is a flat, grind‑finished plate, so it would be cut from rectangular (flat) stock.
+
+| Dimension | Metric (mm) | Inch |
+|---|---|---|
+| **Thickness (Thk)** | 6.10 | 0.240 |
+| **Width (W)** | 114.3 | 4.50 |
+| **Length (L)** | 123.8 | 4.88 |
+
+**Bounding size: 6.10 × 114.3 × 123.8 mm  [0.240 × 4.50 × 4.88 in]**
+
+**Basis:**
+- Thickness taken from the edge view dimension 6.10 [.240].
+- Width (vertical in the front view) is the overall 114.3 [4.50] dimension from the 0 datum.
+- Length (horizontal) is the overall 123.8 [4.88] dimension from the 0 datum.
+- The R38.1 [R1.50] slot, Ø15.9, Ø9.5, and the #8 SHCS counterbored holes are all interior features and do not extend beyond this envelope.
+
+*Note: If ordering material, add stock allowance (e.g., ~0.03–0.06 in on thickness for the GRIND callout and ~0.1 in on the plan dimensions) plus allowance for heat‑treat distortion (HARDEN 60–63 HRC).*

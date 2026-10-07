@@ -1,0 +1,22 @@
+## Bounding Stock Determination
+
+**Stock Type: Round (cylindrical)** — the part is a flat annular disk/washer, fully revolved about a single axis, so it would be turned/blanked from round bar or plate stock.
+
+### Governing Dimensions from Drawing
+| Feature | Metric | Inch |
+|---|---|---|
+| Outside diameter (max envelope) | ⌀63.50 | ⌀2.500 |
+| Inside bore (thru) | ⌀45.24 | ⌀1.781 |
+| Thickness (overall length along axis) | 1.52 | 0.060 |
+
+### Bounding Cylinder
+| | Metric | Inch |
+|---|---|---|
+| **Diameter** | **63.50 mm** | **2.500 in** |
+| **Length (axial)** | **1.52 mm** | **0.060 in** |
+
+**Result: ⌀2.500 in × 0.060 in long (⌀63.50 mm × 1.52 mm)**
+
+Notes:
+- The ⌀1.781 thru bore is internal material removal and does not affect the bounding envelope.
+- This is the *finished* envelope. For actual stock procurement, add grind/finish allowance (part is carburize-hardened 58–62 HRC and ground), e.g. ⌀2.56–2.62 in bar × 0.09–0.12 in thick slug, or cut from 1018 plate/sheet.

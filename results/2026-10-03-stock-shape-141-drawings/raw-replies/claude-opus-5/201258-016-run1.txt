@@ -1,0 +1,14 @@
+## Bounding Stock Determination
+
+**Stock Type: Round (cylindrical)** — the part is a flat washer, fully rotational about a single axis (Ø11.1 OD, Ø6.48 thru bore), so it would be produced from round bar/tube stock.
+
+### Bounding Dimensions
+
+| Dimension | Metric | Inch |
+|---|---|---|
+| Diameter | Ø11.1 mm | Ø0.44 in |
+| Length (thickness) | 1.5 mm | 0.06 in |
+
+**Bounding envelope: Ø11.1 × 1.5 mm (Ø0.44 × 0.06 in)**
+
+*Note: The Ø6.48 [.255] thru-hole is internal and does not affect the outer bounding envelope. For actual material purchase, add facing/cut-off allowance to the length and ~0.5–1 mm to the diameter for cleanup.*

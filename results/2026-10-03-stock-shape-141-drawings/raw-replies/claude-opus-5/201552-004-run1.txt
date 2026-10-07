@@ -1,0 +1,18 @@
+## Bounding Stock — Rectangular (Plate)
+
+This part is a flat rectangular plate (no round features defining the envelope), so it would be cut from rectangular bar/plate stock.
+
+| Dimension | Metric | Inch |
+|---|---|---|
+| **Thickness** | 3.18 mm | 0.125 in |
+| **Width** | 20.0 mm | 0.79 in |
+| **Length** | 71.7 mm | 2.82 in |
+
+**Bounding envelope: 0.125 in × 0.79 in × 2.82 in (3.18 × 20.0 × 71.7 mm)**
+
+Basis:
+- **Length (2.82")** – overall dimension in the front view.
+- **Width (0.79")** – overall height in the front view (holes located 0.144 / 0.644 from the 0 datum fall within it).
+- **Thickness (0.125")** – shown in both left and right end views.
+
+Note: material is 1018 steel, ground finish with black oxide, so raw stock would be ordered slightly oversize (e.g., ~0.14 × 0.88 × 3.00 in) to allow for grinding/cleanup.

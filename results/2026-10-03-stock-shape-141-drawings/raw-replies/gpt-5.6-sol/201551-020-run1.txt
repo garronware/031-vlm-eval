@@ -1,0 +1,3 @@
+**Cylindrical bounding dimensions (Dia × L):**  
+**Ø83.570 mm × 6.615 mm**  
+**[Ø3.2902 in × 0.2604 in]**

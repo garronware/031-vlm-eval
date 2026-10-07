@@ -1,0 +1,17 @@
+## Bounding (Cuboid) Stock Size
+
+This part is a machined prismatic "gage leg" – flat‑sided with milled steps, pockets and bored/dowel holes – so it would be cut from **rectangular (plate/bar) stock**, not round.
+
+**Finished‑part envelope (max. material limits taken from the three principal views):**
+
+| Direction | Metric | Inch |
+|---|---|---|
+| **Thickness** (end view, widest section) | **46.0 mm** | **1.81 in** |
+| **Width / Height** (end view overall) | **99.9 mm** | **3.94 in** |
+| **Length** (plan view overall) | **168.28 mm** | **6.625 in** |
+
+**Envelope ≈ 46.0 × 99.9 × 168.3 mm (1.81 × 3.94 × 6.63 in)**
+
+**Suggested saw‑cut blank** (allowing ~0.10–0.25 in clean‑up on all faces, since all non‑gaging surfaces get black anodize and the gaging faces are held to +0.13/–0.00 mm):
+
+- **2.00 in × 4.00 in × 6.88 in** (≈ 51 × 102 × 175 mm) aluminum plate/bar

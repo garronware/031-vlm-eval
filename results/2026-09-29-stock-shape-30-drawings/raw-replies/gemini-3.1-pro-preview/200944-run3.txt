@@ -1,0 +1,5 @@
+Based on the provided engineering drawing, the part is a pin and would be made from round stock. 
+
+The bounding dimensions (maximum outer boundaries) are:
+*   **Dia:** 10.0 mm [0.394"] (from the end view on the right)
+*   **L:** 75.0 mm [2.953"] (from the overall length dimension in the main view)

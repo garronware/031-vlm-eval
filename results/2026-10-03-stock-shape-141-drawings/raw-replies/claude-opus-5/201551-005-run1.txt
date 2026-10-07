@@ -1,0 +1,16 @@
+## Bounding Stock — Rectangular (Cuboid)
+
+**Part:** 201551 / DET 005 — RISER BLOCK, 1018 Steel, Black Oxide
+
+| Dimension | Inch | Metric |
+|---|---|---|
+| **Thk** | 2.50 | 63.5 mm |
+| **W** | 5.00 | 127.0 mm |
+| **L** | 13.00 | 330.2 mm |
+
+**Basis:**
+- **Length (13.00 in / 330.2 mm)** — overall height called out in the front view (0 datum to 330.2 [13.00]); tallest feature at 301.63 [11.875] falls inside this.
+- **Width (5.00 in / 127.0 mm)** — overall width from the top view (127.0 [5.00]), with the four Ø10.3 [.41] THRU mounting holes located at 12.70 [.500] and 114.30 [4.500] from the 0 datum.
+- **Thickness (2.50 in / 63.5 mm)** — overall depth from the top view (63.5 [2.50]), with hole centers at 12.70 [.500], 31.750 [1.2500], and 50.80 [2.000].
+
+**Note:** Stock volume ≈ 162.5 in³ (≈46 lb of 1018) vs. the 29.99 lb finished weight, consistent with the stepped/L-shaped riser geometry shown in the isometric (roughly 35% material removal).

@@ -1,0 +1,13 @@
+## Stock Form: Rectangular (flat bar / plate)
+
+**Bounding Box (Thk × W × L):**
+
+| Dimension | Metric | Inch |
+|---|---|---|
+| **Thickness** | 3.18 mm | 0.125 in |
+| **Width** | 20.0 mm | 0.79 in |
+| **Length** | 69.9 mm | 2.75 in |
+
+**Basis:** The part is a simple flat rectangular riser plate — the front view establishes the 69.9 mm [2.75"] overall length and 20.0 mm [.79"] height, while both end views show the 3.18 mm [.125"] plate thickness. All features (four M2 thru-holes on the face and two #4‑40 × 6.4 deep holes in each end) are internal to this envelope, so no feature projects beyond the prismatic outline.
+
+**Note:** Since the drawing calls for GRIND and black oxide finish, raw stock should be ordered slightly oversize (e.g., 0.135–0.150 in thick bar) to allow cleanup to the 0.125 in finished thickness.

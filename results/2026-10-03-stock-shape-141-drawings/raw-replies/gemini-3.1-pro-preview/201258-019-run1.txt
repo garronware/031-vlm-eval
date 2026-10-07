@@ -1,0 +1,5 @@
+Based on the engineering drawing, the part is cylindrical with a flange, so it would be made from round stock. 
+
+The cylindrical bounding dimensions are:
+*   **Dia:** 69.8 mm [2.75 in] (outer diameter of the flange, from the left view)
+*   **L:** 148.65 mm [5.852 in] (overall length, from the central profile view)

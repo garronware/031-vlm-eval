@@ -1,0 +1,4 @@
+Based on the technical drawing, the part is a flat rectangular plate (as seen in the isometric view and orthographic projections), so it would be made from rectangular stock. 
+
+The bounding dimensions are:
+**Thk, W, L:** 25.4 [1.00] x 228.6 [9.00] x 241.3 [9.50]

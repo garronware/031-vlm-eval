@@ -1,0 +1,15 @@
+## Bounding Stock — Rectangular
+
+This part is a flat rectangular rail (with a 10° angled corner clipped off one end and several through/dowel holes), so it would be cut from **rectangular (flat) stock**.
+
+| Dimension | Metric | Inch |
+|---|---|---|
+| **Thickness (Thk)** | 22.2 mm | 0.88 in |
+| **Width (W)** | 59.7 mm | 2.35 in |
+| **Length (L)** | 106.4 mm | 4.19 in |
+
+**Bounding block ≈ 0.88 × 2.35 × 4.19 in (22.2 × 59.7 × 106.4 mm)**
+
+**Check:** Solid envelope volume ≈ 8.66 in³; at ~0.283 lb/in³ for A2 tool steel that's ≈ 2.45 lb, consistent with the listed finished weight of 2.29 lbmass after the corner chamfer/angle and hole removals.
+
+*Note: stock should be ordered slightly oversize (e.g., 1.00 × 2.50 × 4.25 in) to allow for grinding, since the part is specified harden 58–60 HRC and ground.*

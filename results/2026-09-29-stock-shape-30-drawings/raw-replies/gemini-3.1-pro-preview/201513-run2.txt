@@ -1,0 +1,13 @@
+Based on the engineering drawing provided, the part is a block, so it would be made from rectangular stock. We need to find the absolute maximum dimensions across the three orthogonal axes (X, Y, Z) by checking the views:
+
+1.  **Length (L):** Looking at the bottom-left view (Front View), the horizontal ordinate dimensions start at `0` on the right edge and go to `85.0` on the far left edge.
+    *   Max Length = **85.0 mm**
+
+2.  **Width (W):** Looking at the top-left view (Top View), the vertical ordinate dimensions start at `0` on the top edge and end at `78.00` on the bottom edge.
+    *   Max Width = **78.0 mm**
+
+3.  **Thickness/Height (Thk):** Looking at the right side view (View 3), the vertical ordinate dimensions give the overall height of the profile. It starts at `0` at the top edge and steps down to a maximum depth of `57.8` at the bottom edge. (Note: The front view only shows a height of `43.80` for the frontmost face, but the right view reveals the full maximum height).
+    *   Max Thickness = **57.8 mm**
+
+**Cuboid bounding dimensions (Thk, W, L):**
+(57.8, 78.0, 85.0) mm

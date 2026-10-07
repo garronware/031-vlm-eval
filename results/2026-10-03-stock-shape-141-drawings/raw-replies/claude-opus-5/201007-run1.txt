@@ -1,0 +1,13 @@
+**Bounding stock: Round (cylindrical)**
+
+| Dimension | Metric | Inch |
+|---|---|---|
+| Diameter | **Ø11.00 mm** | 0.433 in |
+| Length | **90.00 mm** | 3.543 in |
+
+**Rationale:**
+- The part is a turned locator pin (concentric diameters Ø7.80, Ø8.000 ±0.005, tapers/chamfers at 7.5° and 45°), so round bar stock is the logical starting material.
+- Largest radial feature is the Ø11.00 head at the datum end (the 8.03 flats / 60° diamond form are machined within that Ø11.00 envelope), so Ø11.00 governs the bounding diameter.
+- Overall length is the 90.00 mm datum-to-end dimension (all other lengths — 47.49, 18.49, 15.495, 6.000, 1.0 — fall inside it).
+
+*Note: this is the finished-part envelope; for actual bar stock purchase add machining allowance, e.g. Ø12 mm × 95 mm.*

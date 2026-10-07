@@ -1,0 +1,4 @@
+Based on the technical drawing, the part is a flat base plate made from rectangular stock. 
+
+The bounding dimensions (Thk, W, L) are:
+**19.1 x 304.8 x 304.8** (or 0.75 x 12.00 x 12.00 in inches)

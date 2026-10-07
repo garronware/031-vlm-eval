@@ -1,0 +1,16 @@
+## Bounding Stock — Round
+
+This part is a turned, axisymmetric clamp knob (knurled Ø19.1 boss on a Ø38.0 flange), so it would be made from **round bar stock**.
+
+| Dimension | Metric | Inch |
+|---|---|---|
+| **Diameter** | Ø38.0 mm | Ø1.496 in |
+| **Length** | 50.8 mm | 2.000 in |
+
+**Bounding envelope: Ø38.0 × 50.8 mm (Ø1.496 × 2.00 in)**
+
+**Basis:**
+- Diameter driven by the largest feature, the Ø38.00 [1.496] flange OD.
+- Length driven by the overall stack: 50.8 [2.00] total (34.9 [1.38] knurled boss + 6.4 [.25] flange + 3.2 [.12] relief/pilot and threaded stud region).
+
+**Practical purchase note:** For a 1018 carburized/hardened part, you'd typically buy Ø1.50 in (or 40 mm) bar and cut blanks ~2.12–2.25 in long to allow facing and cutoff/chucking stock.

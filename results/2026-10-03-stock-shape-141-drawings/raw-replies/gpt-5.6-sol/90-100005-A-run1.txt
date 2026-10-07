@@ -1,0 +1,6 @@
+**Round-stock bounding dimensions (inches):**
+
+- **Dia:** Ø0.1250 in
+- **L:** **E = A − 2.8821 in**
+
+Drawing tolerances: Ø0.1250 ±0.0002 in and E ±0.0001 in. A numeric overall length cannot be determined because dimension **A** is defined in an external document.

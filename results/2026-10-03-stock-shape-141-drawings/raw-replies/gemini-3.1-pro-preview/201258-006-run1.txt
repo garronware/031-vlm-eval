@@ -1,0 +1,5 @@
+Based on the engineering drawing, the part (identified as a "SHAFT") is cylindrical and would be made from round stock. 
+
+Here are the bounding dimensions:
+*   **Dia:** 6.350 mm [0.2500 in] (derived from the largest diameter at the right end)
+*   **L:** 131.24 mm [5.167 in] (overall length of the part)

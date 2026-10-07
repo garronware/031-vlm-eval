@@ -1,0 +1,5 @@
+Based on the drawing, the part is cylindrical (indicated by the circular end view, the Ø symbol, and "3/16 OD" in the title block), so it would be made from round stock.
+
+**Cylindrical Bounding Dimensions:**
+*   **Dia:** 0.1870
+*   **L:** 7.530

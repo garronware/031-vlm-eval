@@ -1,0 +1,19 @@
+## Bounding Stock Determination
+
+**Stock form:** Rectangular (cuboid) — the part is a stepped prismatic block with a corner chamfer, cross‑drilled/tapped holes and a bored/tapped end feature. No round‑stock features dominate, so it would be cut from plate/flat bar.
+
+### Extreme dimensions taken from the views
+
+| Direction | Governing dimensions on drawing | Overall |
+|---|---|---|
+| Length (X) – shared axis of the three stacked views | Dowel holes at 7.000 / 78.00 (symmetric), thru‑holes at 8.00 / 69.00, edge at 85.0 | **85.0 mm (3.346 in)** |
+| Width (Y) – top view vertical chain (0 → 7.00 → 43.800 → 75.8) | 75.8 to far face (68.8 = stepped/relieved face) | **75.8 mm (2.984 in)** |
+| Thickness (Z) – front view vertical chain (0 → 6.68 → 28.88 → 64.8) | 64.8 to bottom face (57.8 = step face) | **64.8 mm (2.550 in)** |
+
+### Bounding dimensions (finished part envelope)
+
+**Thk × W × L = 64.8 × 75.8 × 85.0 mm  (2.550 × 2.984 × 3.346 in)**
+
+**Sanity check:** solid envelope = 417 cm³ ≈ 25.5 in³; at 0.284 lb/in³ (A2) = 7.24 lb versus the listed 5.82 lb part weight → ~80 % material remaining, consistent with the corner chamfer, step, bore and hole removals. (The 68.8 / 57.8 dims are the stepped faces, i.e. 7 mm in from the envelope, not the outer limits.)
+
+**Suggested saw/mill stock:** ~67 × 78 × 87 mm (2.63 × 3.07 × 3.43 in) to allow clean-up on all six faces.

@@ -1,0 +1,5 @@
+Based on the provided engineering drawing, the part is manufactured from rectangular stock. The bounding dimensions (Thickness, Width, Length) are:
+
+**(25.4 [1.00], 123.8 [4.88], 228.6 [9.00])** 
+
+*(Note: Dimensions are given as mm [inches] as denoted on the drawing)*

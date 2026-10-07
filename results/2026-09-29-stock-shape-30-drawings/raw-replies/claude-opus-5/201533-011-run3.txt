@@ -1,0 +1,15 @@
+## Bounding Stock — Rectangular Block
+
+This part (201533, "LH BLOCK") is a prismatic block with an angled/chamfered flank, so it would be cut from **rectangular bar stock**.
+
+| Dimension | Inches | Millimeters | Source on drawing |
+|---|---|---|---|
+| **Thickness (Thk)** | 1.25 | 31.8 | 31.8 [1.25] overall in end/left view |
+| **Width (W)** | 1.92 | 48.9 | 48.9 [1.92] overall across top of front view |
+| **Length (L)** | 4.62 | 117.3 | 117.3 [4.62] overall height of front view |
+
+**Bounding size: 1.25 × 1.92 × 4.62 in (31.8 × 48.9 × 117.3 mm)**
+
+Notes:
+- The 16.84 [.663] bottom width and 52.1 [2.05] S.C. reference relate to the 15° angled cut-away, which falls inside the 1.92 × 4.62 envelope.
+- Add stock allowance for the grind/harden operations (HRC 60–63, ground) — typically ~0.03–0.06 in per side over the values above.

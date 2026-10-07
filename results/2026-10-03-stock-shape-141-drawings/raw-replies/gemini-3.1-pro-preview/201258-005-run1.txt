@@ -1,0 +1,5 @@
+Based on the engineering drawing, the part is cylindrical (a stepped bushing) and would be made from round stock. 
+
+Here are the cylindrical bounding dimensions:
+*   **Dia (Maximum Diameter):** 38.1 mm [1.50 in]
+*   **L (Overall Length):** 76.20 mm [3.000 in]

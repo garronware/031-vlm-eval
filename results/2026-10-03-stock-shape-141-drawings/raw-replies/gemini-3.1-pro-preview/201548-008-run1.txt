@@ -1,0 +1,6 @@
+Based on the engineering drawing, the part is a "RISER BLOCK" made from rectangular stock. The drawing uses dual dimensions (millimeters with inches in brackets). 
+
+The cuboid bounding dimensions (Thk, W, L) are:
+*   **Thickness:** 63.5 mm [2.50 in]
+*   **Width:** 127.0 mm [5.00 in]
+*   **Length:** 311.2 mm [12.25 in]

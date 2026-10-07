@@ -1,0 +1,17 @@
+## Bounding Stock — Rectangular Block
+
+This part is a solid rectangular "bushing block" (machined from plate/bar, not round stock), so cuboid bounding dimensions apply:
+
+| Direction | Metric | Inch |
+|---|---|---|
+| **Thk** (hole‑pattern face width) | **40.64 mm** | 1.600 in |
+| **W** (height, 6.35 + 66.56) | **72.91 mm** | 2.870 in |
+| **L** (overall length, toleranced ±0.010) | **91.00 mm** | 3.583 in |
+
+**Bounding envelope: 40.64 × 72.91 × 91.00 mm (1.600 × 2.870 × 3.583 in)**
+
+Notes / cross‑check:
+- The 91.000 ±0.010 mm dimension in the side view is the overall length; it also accommodates the Ø19.000 C'bore ↧74.5 and the Ø12.50 THRU ALL.
+- Height is confirmed by the 0.250/2.620 in (6.4/66.6 mm) ordinate pair = 2.870 in (72.91 mm) reference.
+- Width is confirmed by the hole pattern (0.25 + 1.10 + 0.25 in = 1.600 in) and by the listed 1.40 lb weight — a 6061‑T6 block of this envelope less the bores computes to ≈1.4 lb.
+- For raw stock, add machining allowance, e.g. order ~1.75 × 3.00 × 3.75 in (45 × 76 × 95 mm) 6061‑T6 plate.

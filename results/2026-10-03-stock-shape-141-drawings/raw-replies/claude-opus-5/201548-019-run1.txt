@@ -1,0 +1,10 @@
+**Round stock (drill rod) — cylindrical bounding envelope:**
+
+| Dimension | Metric | Inch |
+|---|---|---|
+| Diameter | Ø8.00 mm | Ø0.315 in |
+| Length | 50.8 mm | 2.000 in |
+
+**Basis:** The largest outside diameter on the part is the Ø8.000 [Ø.3150] ground shank (L.S.F. in Det. #063) — the 3.6 [.14] flat, the Ø3.969 [.1563] cross hole, the #5‑40 tapped holes, and the 0.8 [.03] × 45° end chamfers are all material‑removal features lying inside that envelope. Overall length is the 50.8 [2.00] dimension from datum 0.
+
+So: **Ø0.315 in × 2.00 in** (nominal finished envelope); order drill rod one size up, e.g. Ø5/16 (0.3125 undersize ground rod won't clean up — use Ø0.3437/11⁄32 or oversize 0.316–0.320 stock) × ~2.06 in cut length to allow for facing/grinding.

@@ -1,0 +1,8 @@
+Based on the provided engineering drawing, the part is a rectangular plate (indicated by the isometric view and the title "TOP PLATE"). The bounding dimensions for the cuboid stock are:
+
+*   **Thickness (Thk):** 19.05 mm [0.750 in] (shown in the top-left edge view)
+*   **Width (W):** 108.0 mm [4.25 in] (shown on the far left side of the main plan view)
+*   **Length (L):** 177.8 mm [7.00 in] (shown across the top center of the main plan view)
+
+**Cuboid bounding dimensions (Thk, W, L):**
+19.05 x 108.0 x 177.8 mm (or 0.75" x 4.25" x 7.00")

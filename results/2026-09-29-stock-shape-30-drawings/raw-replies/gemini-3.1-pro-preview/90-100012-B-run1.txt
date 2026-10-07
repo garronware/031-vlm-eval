@@ -1,0 +1,12 @@
+Based on the provided engineering drawing, the part is a turned shaft-like component, so it would be made from round stock.
+
+Here are the bounding dimensions:
+
+*   **Overall Diameter (Dia): 1.1240** 
+    *(Derived from the largest outer diameter shown in the right-side end view as $\varnothing$1.1240 ±0.0005)*
+*   **Overall Length (L): 7.50** 
+    *(Calculated from the main baseline dimensioning scheme: the part extends 6.50 to the left of the '0' datum and 1.00 to the right of the '0' datum. 6.50 + 1.00 = 7.50)*
+
+**Cylindrical Bounding Dimensions:**
+*   **Dia:** 1.1240
+*   **L:** 7.50

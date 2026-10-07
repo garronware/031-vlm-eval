@@ -1,0 +1,12 @@
+## Bounding Envelope — Round Stock
+
+This part is a flat, round gage disc (mean master), so it would be turned/ground from round bar or plate‑cut round blank.
+
+| Dimension | Metric | Inch |
+|---|---|---|
+| **Diameter (Dia)** | Ø83.570 mm (max feature dia.) | Ø3.2902 in |
+| **Length / Thickness (L)** | 6.615 mm (overall stack of the 5.000 plate + raised Ø76.2 pad) | 0.2604 in |
+
+**Bounding cylinder: Ø83.57 mm × 6.62 mm  (Ø3.290 in × 0.260 in)**
+
+Suggested stock (with cleanup allowance for the ground gage faces and ±0.025 mm O.D. tolerance): **Ø88.9 mm (Ø3.50 in) bar × 9.5 mm (0.375 in) thick**, 8620 steel, carburize/harden 58‑62 HRC, finish grind.

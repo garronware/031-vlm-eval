@@ -1,0 +1,5 @@
+Based on the engineering drawing, the part is cylindrical (a contact tip) and would be manufactured from round stock. 
+
+The bounding dimensions are:
+* **Dia:** 8.310 mm [0.3272 in]
+* **L:** 42.3 mm [1.67 in]

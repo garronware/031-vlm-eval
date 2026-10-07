@@ -1,0 +1,9 @@
+Based on the engineering drawing, the part is a rectangular block ("BLOCK (LOCATOR POST)"). 
+
+Here are the cuboid bounding dimensions (Thk, W, L) in millimeters with inches in brackets:
+
+**31.8 [1.25] x 44.5 [1.75] x 177.8 [7.00]** 
+
+*   **Thickness (Thk):** 31.8 [1.25] (from the bottom front view)
+*   **Width (W):** 44.5 [1.75] (from the ordinate dimension on the top view)
+*   **Length (L):** 177.8 [7.00] (from the overall dimension across the top view)

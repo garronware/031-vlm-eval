@@ -1,0 +1,12 @@
+## Bounding Stock — Round
+
+**Part:** Rough Locator (DET 006), P/N 200473, Material 1018
+
+| Dimension | Metric | Inch |
+|---|---|---|
+| **Diameter** | Ø25.4 mm | Ø1.00 in |
+| **Length** | 53.98 mm | 2.125 in |
+
+**Rationale:** The part is a plain turned cylinder — the front view shows a constant Ø25.4 [1.00] outside diameter with no flats, bosses, or off-axis features. The only other features (1.5 × 45° chamfer at the top end and an M6×1 × 12.0 deep tapped hole on the center axis from the far side) are internal/edge features that remove material and do not extend the envelope.
+
+So the finished envelope = **Ø1.00 × 2.125 in** of round bar stock (nominal 1" dia. 1018 bar, cut to length plus facing/grind allowance — e.g., ~2.19 in cut length if you want clean-up stock for the ground ends, since the note calls for carburize/harden 58–62 HRC and GRIND).

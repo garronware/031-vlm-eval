@@ -1,0 +1,15 @@
+**Rectangular (plate) stock — cuboid bounding dimensions**
+
+| | Metric | Inch |
+|---|---|---|
+| Thickness | 25.4 mm | 1.00 in |
+| Width | 228.6 mm | 9.00 in |
+| Length | 241.3 mm | 9.50 in |
+
+**Reasoning / checks**
+
+- Front (face) view is dimensioned 228.6 [9.00] across and 241.3 [9.50] high — these are the overall plate outline dimensions (hole locations run 0 → 228.60 and 0 → 228.60/241.3 envelope).
+- The bottom/edge view gives the plate thickness as 25.4 [1.00], with the 1/4‑20 edge holes on the mid‑plane at 12.70 [.500]. The side view confirms a thin section (the 85.7 [3.38] and 3.8 [.15] dimensions locate the Ø9.5 [.38] cross‑drilled hole, not thickness).
+- Sanity check on mass: 9.00 × 9.50 × 1.00 = 85.5 in³ of 4140 (≈0.284 lb/in³) ≈ 24.3 lb of solid stock; removing the Ø3.000 bore, Ø.75 hole and ~30 small holes/chamfers brings it to the stated 20.95 lb — consistent.
+
+So it would be cut from 1 in thick 4140 plate, roughly 9-1/2 × 9 in blank (typically ordered ~1.00–1.12 × 9.25 × 9.75 to allow for finish grinding, since the part is ground and black oxided).

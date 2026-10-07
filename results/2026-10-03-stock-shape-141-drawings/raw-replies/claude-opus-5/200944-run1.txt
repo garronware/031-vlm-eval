@@ -1,0 +1,15 @@
+## Bounding Stock — Round
+
+**Ø10.0 mm × 75.0 mm long**
+
+**Basis:**
+
+| Driver | Value | Source |
+|---|---|---|
+| Largest OD | Ø10.0 | End‑view dimension [0.394] Ø10.0 (flange/head at one end) |
+| Other diameters (all smaller) | Ø8.500 ₊0.050/0, Ø8.000 ±0.005, Ø7.80 | Front view |
+| Overall length | 75.0 | Overall dim [2.953] 75.0 from datum end |
+
+**Rationale:** The part is a stepped, concentric pin (Ø7.80 → Ø8.000 → Ø8.500 → Ø10.0) with only a small flat/keyway‑type relief cut on one end — all features are turned about a common axis, so round bar stock is the natural raw form. The bounding cylinder is set by the largest diameter (Ø10.0) and the full overall length (75.0 mm).
+
+*Practical note:* for actual ordering you'd typically add machining allowance — e.g., Ø11–12 mm bar × ~78–80 mm long — to allow cleanup on the Ø10.0 surface and facing/parting at both ends.

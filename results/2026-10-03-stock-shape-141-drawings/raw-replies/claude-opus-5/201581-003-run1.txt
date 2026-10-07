@@ -1,0 +1,16 @@
+## Bounding Stock — Rectangular (Cuboid)
+
+**Part:** DET #003 — Bushing Block (Dwg 201581, 1018 carb. harden 58‑62)
+
+| Dimension | Inch | Metric |
+|---|---|---|
+| **Thickness** | 2.00 | 50.8 mm |
+| **Width** | 3.00 | 76.2 mm |
+| **Length (height)** | 3.75 | 95.3 mm |
+
+**Basis:**
+- Front view establishes overall height **95.3 [3.75]**
+- Plan/bottom view establishes overall width **76.2 [3.00]** (dowel/tap pattern at .250 and 2.750 centers) and depth **50.8 [2.00]** (hole rows at .250, 1.000, 1.750)
+- No feature projects beyond this envelope — the Ø50.800 [2.0000] bore, Ø6.350 dowel holes, and 1/4‑20 taps are all internal; the 6.4 [.25] × 45° chamfers (TYP 2) only remove material.
+
+**Stock callout:** 2" × 3" × 3‑3/4" rectangular bar (1018), plus grind/finish allowance as required (finishes 63 Ra max, black oxide all non‑gaging surfaces).

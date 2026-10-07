@@ -1,0 +1,15 @@
+## Bounding Stock — Rectangular (Riser Block, P/N 201741)
+
+This part is a prismatic riser/bracket (vertical column on a base pad) and would be cut from rectangular bar stock.
+
+| Dimension | Inch | Metric |
+|---|---|---|
+| **Thickness** | 2.50 in | 63.5 mm |
+| **Width** | 5.00 in | 127.0 mm |
+| **Length (height)** | 11.00 in | 279.4 mm |
+
+**Basis:**
+- Plan view establishes the footprint: 127.0 [5.00] across × 63.5 [2.50] deep (hole pattern at 12.70/114.30 and 12.70/50.80 confirms 0.500 edge margins).
+- Elevation view establishes the overall height of 279.4 [11.00].
+
+**Stock call‑out:** 2‑1/2″ × 5″ × 11″ bar, 1018 steel, black oxide per note.

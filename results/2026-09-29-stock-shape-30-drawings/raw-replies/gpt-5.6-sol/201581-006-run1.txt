@@ -1,0 +1,4 @@
+**Round stock bounding dimensions:**
+
+- **Dia:** 76.2 mm (3.00 in)  
+- **L:** 146.1 mm (5.75 in)

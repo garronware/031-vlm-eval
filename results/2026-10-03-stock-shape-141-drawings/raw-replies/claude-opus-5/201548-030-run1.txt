@@ -1,0 +1,14 @@
+## Bounding Stock — Turned Part (Round Stock)
+
+**Part:** DET 030 – Crown Puck Shaft, DWG 201548 Rev 1, A/2 Tool Steel, Hard 60‑63 Rc, ground
+
+This is a straight turned shaft (stepped journal diameters, tapped ends, dowel holes), so it would be cut from **round bar**.
+
+| Bounding Dimension | Inch | Metric |
+|---|---|---|
+| **Diameter** (largest feature: Ø25.400 S.F. in Det. #064) | **Ø1.000** | Ø25.40 mm |
+| **Length** (overall, 88.90) | **3.500** | 88.90 mm |
+
+**Bounding cylinder ≈ Ø1.000 × 3.500 in (Ø25.4 × 88.9 mm)**
+
+Practical cut‑stock note: since all O.D.'s are ground after hardening, order the next size up — e.g. **Ø1‑1/8 × 3.63 in** bar — to allow clean‑up on the Ø1.0000/Ø0.7500 ground diameters and facing stock on both ends.

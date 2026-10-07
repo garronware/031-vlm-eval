@@ -1,0 +1,12 @@
+## Stock Type: **Round (bar stock — turned/knurled part)**
+
+| Bounding Dimension | Metric | Inch |
+|---|---|---|
+| **Diameter (Dia)** | **Ø10.00 mm** | **Ø0.394 in** |
+| **Length (L)** | **80.50 mm** | **3.169 in** |
+
+### Basis
+- **Diameter:** The largest feature on the part is the knurled knob head at **Ø10.00 [Ø.394]**. All other diameters (Ø7.0, Ø4.5, Ø4.0, Ø3.80 groove, M4 thread) fall inside this envelope.
+- **Length:** The overall dimension from the 0 datum at the threaded end to the back face of the knob is **80.50 [3.169]**, which is the maximum axial extent (73.5 is the last intermediate station, with the knob extending to 80.50).
+
+*Note: For actual purchase, you'd typically specify the next size up of round bar (e.g., Ø11 mm or Ø7/16 in) plus facing/cutoff allowance on length.*

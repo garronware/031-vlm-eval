@@ -1,0 +1,14 @@
+## Bounding Stock: **Round**
+
+The part is an axisymmetric disc (circular plate with a bolt circle of counterbores and two dowel holes), so it would be made from round stock.
+
+| Dimension | Metric | Inch |
+|---|---|---|
+| **Diameter** (max OD) | **Ø83.570 mm** | **Ø3.2902 in** |
+| **Length** (overall thickness) | **6.615 mm** | **0.2604 in** |
+
+**Basis:**
+- Largest outside feature = Ø83.570 ±0.025 [Ø3.2902 ±.0010] — the Ø76.2 [Ø3.00] and 25.000/17.68 hole locations all fall inside this.
+- Overall axial envelope = 6.615 mm [.2604] (the 5.000 ±0.010 [.1969] is the thinner recessed/gage face step, contained within the 6.615 total).
+
+*Note: for actual purchasing, add machining/grind allowance — e.g., ~Ø3.50 in × 0.375 in bar of 8620 to allow cleanup on the ground gage surfaces.*

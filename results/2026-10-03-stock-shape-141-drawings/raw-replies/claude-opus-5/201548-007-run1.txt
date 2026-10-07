@@ -1,0 +1,17 @@
+## Bounding Stock — Rectangular (Plate)
+
+**Part:** 201548, DET 007 — SLIDE PLATE, 1018 Steel
+
+| Dimension | Metric | Inch |
+|---|---|---|
+| **Thickness** | 19.1 mm | 0.75 in |
+| **Width** | 114.3 mm | 4.50 in |
+| **Length** | 139.7 mm | 5.50 in |
+
+**Bounding size: 0.75 × 4.50 × 5.50 in (19.1 × 114.3 × 139.7 mm)**
+
+**Basis:**
+- Front view gives the plate face envelope: 114.3 [4.50] wide × 139.7 [5.50] tall.
+- Side (edge) view gives the maximum thickness of 19.1 [.75]; the 12.70 [.500] and 9.53 [.375] dimensions are the stepped/relieved rail portions machined down from that full thickness, and the 127.99 [5.039] / 97.23 [3.828] dims are interior feature locations within the 5.50 length.
+
+**Note:** Rectangular bar/plate stock is appropriate (part is a flat, stepped plate with a bolt-hole pattern, dowel holes, and through slots). Allow extra for cleanup — e.g., order 1.00 × 5.00 × 6.00 in 1018 flat bar. Finish per drawing: 63 Ra max, black oxide.

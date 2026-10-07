@@ -1,0 +1,6 @@
+Based on the technical drawing, the part is a "VEE BLOCK" made from rectangular stock. Its bounding dimensions are:
+
+**Cuboid Bounding Dimensions (Thk, W, L):**
+25.4 [1.00] x 123.8 [4.88] x 228.6 [9.00]
+
+*(Note: Dimensions are given in millimeters with inches in brackets [ ])*

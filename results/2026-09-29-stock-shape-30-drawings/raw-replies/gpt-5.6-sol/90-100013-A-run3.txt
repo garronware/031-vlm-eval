@@ -1,0 +1,6 @@
+**Cylindrical bounding dimensions (inches):**
+
+- **Dia:** Ø1.500  
+- **L:** 4.960  
+
+Overall length derived from **3.83 + 1.13 = 4.96 in**.

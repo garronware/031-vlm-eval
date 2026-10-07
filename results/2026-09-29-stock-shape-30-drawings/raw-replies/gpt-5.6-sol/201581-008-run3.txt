@@ -1,0 +1,3 @@
+**Cylindrical bounding stock:**  
+- **Dia:** 9.525 mm [0.3750 in]  
+- **L:** 109.8 mm [4.32 in]

@@ -1,0 +1,8 @@
+Based on the engineering drawing, the part would be made from rectangular stock. The bounding dimensions (maximum overall dimensions) can be found by looking at the outermost zero-datum dimensions on the principal views:
+
+*   **Thickness (Thk):** 31.8 [1.25] (from the left profile view)
+*   **Width (W):** 48.9 [1.92] (from the primary center view, left to right)
+*   **Length (L):** 117.3 [4.62] (from the primary center view, top to bottom)
+
+**Cuboid bounding dimensions (Thk, W, L):**
+31.8 [1.25] x 48.9 [1.92] x 117.3 [4.62]

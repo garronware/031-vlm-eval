@@ -1,0 +1,15 @@
+## Stock Form
+
+**Rectangular (plate/bar stock)** — the part is a prismatic mounting block machined from flat plate, with through holes, counterbores, dowel holes, and spot faces.
+
+## Bounding Dimensions (Thk × W × L)
+
+| Dimension | Metric | Inch |
+|---|---|---|
+| **Thickness** | 15.9 mm | 0.63 in |
+| **Width** | 63.5 mm | 2.50 in |
+| **Length** | 76.2 mm | 3.00 in |
+
+**Callout:** 0.63 × 2.50 × 3.00 in (15.9 × 63.5 × 76.2 mm) — 1018 steel, black oxide, ground finish.
+
+*Note: These are the finished envelope dimensions; add machining stock allowance (typ. +0.06–0.12 in on thickness/faces) when ordering raw plate.*

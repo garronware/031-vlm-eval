@@ -1,0 +1,10 @@
+Based on the technical drawing provided, the part is a stepped block with multiple holes, which would be manufactured from rectangular stock. 
+
+By analyzing the orthogonal views and their zero-datum origin points ('0'), we can determine the maximum bounding dimensions along the three principal axes:
+
+1. **Width (X-axis)**: In the Top View (top-left) and Front View (bottom-left), the dimension from the rightmost edge (origin 0) to the leftmost edge is **75.8 mm** [2.984 in].
+2. **Depth (Y-axis in Top View / Z-axis in part)**: In the Top View (top-left), the dimension from the topmost edge (origin 0) to the bottom-most extending face is **78.00 mm** [3.071 in].
+3. **Height (Y-axis in Front View)**: In the Front View (bottom-left), the overall vertical dimension from the top edge (origin 0) to the lowest point of the stepped profile is **85.0 mm** [3.346 in].
+
+**Cuboid Bounding Dimensions (Thk, W, L):**
+**75.8 mm x 78.0 mm x 85.0 mm** (or 2.984" x 3.071" x 3.346")

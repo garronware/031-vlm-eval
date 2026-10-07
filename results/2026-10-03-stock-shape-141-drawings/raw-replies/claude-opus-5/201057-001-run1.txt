@@ -1,0 +1,17 @@
+## Stock Type
+
+**Rectangular (plate) stock** — the part is a flat square plate with through/tapped holes, counterbores, dowel holes, and a 3.2 [.13] × 45° edge chamfer. No features suggest turning, so round stock is not appropriate.
+
+## Bounding Dimensions (Thk × W × L)
+
+| Dimension | Metric | Inch |
+|---|---|---|
+| Thickness | 19.1 mm | 0.75 in |
+| Width | 304.8 mm | 12.00 in |
+| Length | 304.8 mm | 12.00 in |
+
+**Bounding box: 19.1 × 304.8 × 304.8 mm  [0.75 × 12.00 × 12.00 in]**
+
+Notes:
+- The 3.2 [.13] × 45° chamfer "all around" lies within the 12.00 × 12.00 envelope, so it does not increase the bounding size.
+- Finished thickness is 19.1 [.75] with a GRIND callout, so saw-cut plate stock would typically be ordered slightly oversize (e.g., 7/8 in thick × 12-1/4 in square) to allow for grinding and edge cleanup.

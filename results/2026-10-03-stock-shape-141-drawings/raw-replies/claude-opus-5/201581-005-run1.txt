@@ -1,0 +1,11 @@
+**Rectangular stock — cuboid bounding dimensions**
+
+| Dimension | Metric | Inch |
+|---|---|---|
+| Thickness (Thk) | 19.1 mm | 0.75 in |
+| Width (W) | 25.4 mm | 1.00 in |
+| Length (L) | 82.6 mm | 3.25 in |
+
+**Bounding block ≈ 19.1 × 25.4 × 82.6 mm (0.75" × 1.00" × 3.25")**
+
+Basis: the plan view gives the overall footprint of 82.6 [3.25] long × 25.4 [1.00] wide, and the end/section view gives the overall height of 19.1 [.75]. All other callouts (hole positions at 6.35/12.7/19.05 and 66.675/76.20, the Ø6.350 dowel/SHCS holes, and the 30° vee) fall within this envelope, so a 0.75 × 1.00 × 3.25 in rectangular blank is the minimum stock size (add machining allowance as required for grinding the gaging surfaces).

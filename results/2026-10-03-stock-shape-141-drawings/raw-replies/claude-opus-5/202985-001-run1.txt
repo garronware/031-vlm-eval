@@ -1,0 +1,9 @@
+**Rectangular (plate) stock — cuboid bounding dimensions:**
+
+| Dimension | Size |
+|---|---|
+| Thickness | 0.75 in |
+| Width | 6.00 in |
+| Length | 12.00 in |
+
+**0.75 × 6.00 × 12.00 in** — "TOP PLATE," A‑2 tool steel, hardened Rc 58‑60, black oxide (corners shown as full radius, .09 × 45° chamfer all around, so stock is the 6 × 12 rectangle).

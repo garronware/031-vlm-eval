@@ -1,0 +1,13 @@
+Based on the engineering drawing, the part is manufactured from rectangular stock. The primary dimensions are in millimeters, with inch equivalents given in brackets `[ ]`. 
+
+Here are the cuboid bounding dimensions (Thickness x Width x Length) determined from the orthographic views:
+
+*   **Thickness (Depth):** 34.29 mm [1.350"] 
+    *(Found in the left view, dimensioned from the right edge `0` to the left outer edge).*
+*   **Width (Height):** 66.6 mm [2.620"] 
+    *(Found in the middle and right views, dimensioned from the top edge `0` to the bottom edge).*
+*   **Length:** 91.000 mm [3.583"] 
+    *(Found at the top of the middle view as the overall length `91.000 ±0.010`).*
+
+**Bounding Dimensions (Thk, W, L):**
+**34.29 mm x 66.6 mm x 91.000 mm** (or 1.350" x 2.620" x 3.583")

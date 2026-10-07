@@ -1,0 +1,8 @@
+Based on the engineering drawing, the part is a rectangular block (cuboid). 
+
+The bounding dimensions are:
+*   **Thickness (Thk):** 15.9 mm [0.63 in]
+*   **Width (W):** 63.5 mm [2.50 in]
+*   **Length (L):** 76.2 mm [3.00 in]
+
+**Bounding Box:** 15.9 x 63.5 x 76.2 mm [0.63 x 2.50 x 3.00 in]

@@ -1,0 +1,5 @@
+Based on the engineering drawing provided, the part is cylindrical (turned part) and would be made from round stock.
+
+Here are the bounding dimensions:
+*   **Dia:** 1.1240 (max diameter of the central body section)
+*   **L:** 7.50 (calculated from the baseline dimension `0`, with the left end at `6.50` and the right end at `1.00`)

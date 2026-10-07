@@ -1,0 +1,18 @@
+## Bounding Stock — Rectangular
+
+This part is a flat, plate‑like rail (rectangular outline with a 10° relieved corner, a chamfer, and drilled/counterbored holes), so it would be cut from **rectangular (flat bar) stock**.
+
+| Dimension | mm | inch |
+|---|---|---|
+| **Thickness (Thk)** | 22.2 | 0.88 |
+| **Width (W)** | 59.7 | 2.35 |
+| **Length (L)** | 106.4 | 4.19 |
+
+**Basis:**
+- Thickness taken from the edge view: 22.2 [.88]
+- Width taken from the overall front‑view dimension off the "0" vertical datum: 59.7 [2.35]
+- Length taken from the overall vertical dimension off the "0" horizontal datum: 106.4 [4.19] (consistent with hole locations .500 → 3.688 with ~.50 edge margins)
+
+**Check:** 0.88 × 2.35 × 4.19 = 8.67 in³ × 0.283 lb/in³ (A2 tool steel) ≈ 2.45 lb solid, vs. the 2.29 lbmass listed after the 10° cut‑off, chamfer, and holes — good agreement.
+
+*Note: add grind/clean‑up stock (typ. .030–.060 per side) to these finish dimensions when ordering material, since the part is hardened 58‑60 HRC and ground.*

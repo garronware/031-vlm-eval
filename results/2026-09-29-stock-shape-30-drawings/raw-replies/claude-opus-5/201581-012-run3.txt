@@ -1,0 +1,18 @@
+## Bounding Stock — Rectangular
+
+**Part:** 201581‑D012, Vee Block (Det. 012), Rev A2
+
+| Dimension | Metric | Inch |
+|---|---|---|
+| **Thickness (Thk)** | 18.8 mm | 0.74 in |
+| **Width (W)** | 28.6 mm | 1.13 in |
+| **Length (L)** | 69.9 mm | 2.75 in |
+
+**Bounding envelope: 18.8 × 28.6 × 69.9 mm (0.74 × 1.13 × 2.75 in)**
+
+**Basis / notes:**
+- Rectangular (cuboid) stock is appropriate — the part is a prismatic block with a 120° included vee notch, a Ø3.175 [.125] dowel press‑fit hole, and a Ø9.525 [.375] slip‑fit hole; no rotational features.
+- Length taken from the overall 69.9 [2.75] dimension on the plan view.
+- Width taken from the 28.6 [1.13] overall (the 15.9 [.62] and 4.76 [.188] are interior locations off the datum).
+- Thickness taken from the 18.8 [.74] overall in the elevation view.
+- Add grinding/finish allowance (part is carburize‑hardened 58–62 HRC and ground, 63 AARH max) — typ. +0.8–1.6 mm (0.03–0.06 in) per side on the saw‑cut blank.

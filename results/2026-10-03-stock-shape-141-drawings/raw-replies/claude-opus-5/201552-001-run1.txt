@@ -1,0 +1,15 @@
+## Bounding Stock — Rectangular (Plate)
+
+This is a flat **base plate** (1020 steel) with chamfered corners, slots, tapped holes and dowel holes — all features are machined from flat plate, so rectangular bar/plate stock applies.
+
+| Dimension | Inches | Millimeters | Source on drawing |
+|---|---|---|---|
+| **Thickness (Thk)** | **0.75** | 19.1 | Side/edge view height, 19.1 [.75] |
+| **Width (W)** | **7.00** | 177.8 | Overall vertical dim, 177.8 [7.00] |
+| **Length (L)** | **10.00** | 254.0 | Overall horizontal dim, 254.0 [10.00] |
+
+**Bounding box: 0.75 × 7.00 × 10.00 in (19.1 × 177.8 × 254.0 mm)**
+
+Notes for stock selection:
+- The 25.4 [1.00] × 45° corner chamfers (4 places) and the 3.2 [.13] × 45° edge break all-around are removed from the full rectangular envelope, so they don't increase the bounding size.
+- Add finish allowance if ordering as-rolled plate (e.g., ~0.81–0.88 in thick stock) since the part calls for GRIND on thickness and 63 µin max finish; black oxide and stress relieve are post-machining operations and don't affect stock size.

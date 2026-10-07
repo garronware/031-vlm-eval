@@ -1,0 +1,20 @@
+## Bounding Stock Determination
+
+**Stock Type: Rectangular (cuboid)** — the part is a flat hardwood benchtop slab with drilled pilot/pin holes, so it would be cut from rectangular plank/panel stock.
+
+### Bounding Dimensions
+
+| Dimension | Metric | Imperial |
+|---|---|---|
+| **Thickness (Thk)** | 50.8 mm | 2.00 in |
+| **Width (W)** | 914.4 mm | 36.00 in |
+| **Length (L)** | 1828.8 mm | 72.00 in |
+
+**Callout:** 2.00 in × 36.00 in × 72.00 in (50.8 × 914.4 × 1828.8 mm) hardwood
+
+**Basis:**
+- Length taken from overall dimension 1828.8 [72.00] on the plan view (hole pattern runs to 1778.00 [70.000], within envelope).
+- Width taken from overall dimension 914.4 [36.00] on the plan view (dimension origin 0 to 914.4; hole locations max 625.48 [24.625], within envelope).
+- Thickness taken from the edge/side view dimension 50.8 [2.00]; deepest feature is the Ø13.46 × 13.5 deep press-fit hole plus Ø2.4 × 25.4 deep pilot holes, both less than full thickness, so no added stock required.
+
+*Note: Stock volume ≈ 3.06 ft³; at the stated part weight of 125.47 lb, this is consistent with a solid hardwood blank of essentially full envelope size (minimal material removal).*

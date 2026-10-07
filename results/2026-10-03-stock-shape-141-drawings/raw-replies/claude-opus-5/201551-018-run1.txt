@@ -1,0 +1,15 @@
+## Bounding Stock — Rectangular
+
+This part is a flat rectangular mounting block (machined from plate/bar stock), so cuboid bounding dimensions apply.
+
+| Dimension | Inches | Millimeters | Source |
+|---|---|---|---|
+| **Thickness** | 0.63 | 15.9 | Top view overall depth "15.9 [.63]" |
+| **Width** | 2.50 | 63.5 | Front view overall height "63.5 [2.50]" |
+| **Length** | 3.00 | 76.2 | Front/top view overall "76.2 [3.00]" |
+
+**Bounding stock: 0.63 × 2.50 × 3.00 in (15.9 × 63.5 × 76.2 mm)**
+
+Notes:
+- All hole locations fall inside this envelope (max X = 67.01 mm < 76.2 mm; max Y = 57.41 mm < 63.5 mm), confirming the outline dimensions govern.
+- Material 1018 steel, ground, black oxide finish — allow extra stock on ground faces if starting from hot-rolled plate.

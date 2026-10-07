@@ -1,0 +1,5 @@
+model,drawings,replies_graded,passed,pass_rate_percent,range_low_percent,range_high_percent,criteria_correct,criteria_total,not_graded,no_reply
+Claude Opus 5,140,140,128,91,86,95,349,362,1,0
+GPT-5.6 Sol,140,140,137,98,94,100,359,362,1,0
+Gemini 3.1 Pro (preview),139,139,120,86,79,92,335,359,2,0
+All three models,140,419,385,92,,,1043,1083,4,0
