@@ -514,6 +514,14 @@ results/<date>-<run-name>/
   2510.07192); Lu et al., "The Assistant Axis" (arXiv 2601.10387). Also kept: Anthropic,
   "Measuring the persuasiveness of language models" (2024) and "Reasoning models don't
   always say what they think" (2025); MechVQA (arXiv 2605.30794).
+- **Built (2026-10-10):** both pages follow that layout. Title and subtitle; abstract;
+  1 Introduction; 2 Method (drawings and recorded sizes, models and prompt, grading, failure
+  labels); 3 Results (pass rate, consistency on the 30-drawing page only, missed sizes by
+  label, results by kind of drawing); 4 Limitations; 5 Data and code; Appendix A label
+  definitions, B one example per label, C tolerance audit. Code numbers every section,
+  table and figure, so none is typed, and the recompute check still demands the page byte
+  for byte. The page says "the evaluator" (Garron's choice over "we"). `every-run.csv`
+  gained a `recorded` column with the evaluator's sizes.
 - **Splits with fewer than 5 drawings show counts only**, never a rate: SPEC 2.2's
   chain rule applied to any small group (chains, 4 drawings; inch-only prints, 3 in
   the 30-set).

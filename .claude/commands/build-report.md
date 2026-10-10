@@ -20,6 +20,11 @@ folder holds only the runs every one of its drawings has. Every build rewrites t
 README's results section to list every folder in `results/`. If Garron's labels or ground
 truth changed, rebuild both.
 
+The results page is a research report (SPEC 2.10): abstract; numbered sections for the
+introduction, method, results, limitations, and data and code; appendices for the failure
+labels, one example of each, and the tolerance audit. Every number, including section,
+table and figure numbers, comes from code.
+
 It prints one line per check:
 - **recompute:** every table, chart and number on the results page, rebuilt from
   `every-run.csv`, matches.

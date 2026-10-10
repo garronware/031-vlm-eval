@@ -59,6 +59,7 @@ EVERY_RUN_COLUMNS = (
     "model",
     "model_version",
     "run",
+    "recorded",
     "values_returned",
     "result",
     "correct",
@@ -97,7 +98,7 @@ class Reply:
     model: str
     drawing: str  # file name without .pdf
     run: str
-    tags: dict[str, str]  # shape, print_type, pdf_type, dimension_origin
+    tags: dict[str, str]  # shape, print_type, pdf_type, dimension_origin, recorded
     labels: tuple[tuple[str, str, str], ...]  # (missed size, label, evidence)
 
     @property
@@ -121,7 +122,20 @@ class Reply:
         return PASS if self.passed else FAIL
 
 
+def _recorded(row: dict) -> str:
+    """The evaluator's sizes as recorded, e.g. `Thk (Z) 25.400 mm; W (X) 228.600 mm`."""
+    unit = "in" if row["units"] == "IN" else "mm"
+    sizes = []
+    for label in ("Dia", "Thk", "W", "L"):
+        value = row[label.lower()]
+        if value:
+            axis = row.get(f"{label.lower()}_axis", "")
+            sizes.append(f"{label} ({axis}) {value} {unit}" if axis else f"{label} {value} {unit}")
+    return "; ".join(sizes)
+
+
 def _tags() -> dict[str, dict[str, str]]:
+    """Per drawing: the tags the split tables use, and the recorded sizes."""
     with paths.GROUND_TRUTH_CSV.open(newline="") as fh:
         return {
             r["file"]: {
@@ -129,6 +143,7 @@ def _tags() -> dict[str, dict[str, str]]:
                 "print_type": r["print_type"],
                 "pdf_type": r["pdf_text_type"],
                 "dimension_origin": r["dimension_origin"],
+                "recorded": _recorded(r),
             }
             for r in csv.DictReader(fh)
         }
@@ -525,6 +540,7 @@ def _run_settings(all_rs: list[Reply], folder: str) -> dict:
         "prompt": sorted({c["prompt"] for c in calls}),
         "models": models,
         "drawings": len({r.drawing for r in all_rs}),
+        "drawings_in_repository": len(_tags()),
         "most_runs_per_drawing": max(int(r.run) for r in all_rs),
         "replies": len(all_rs),
         "dates": {"first": dates[0], "last": dates[-1]},
@@ -563,6 +579,12 @@ def _page(every_run, tables_, settings, review) -> str:
         pooled=ALL_MODELS,
         headline_run=HEADLINE_RUN,
         small_group=SMALL_GROUP,
+        label_definitions=[(label, unnamed(text)) for label, text in failure_labels()],
+        windows={
+            "dual_mm": str(scoring.DUAL_MM_TOLERANCE),
+            "inch": str(scoring.INCH_TOLERANCE),
+            "inch_only_mm": str(scoring.INCH_ONLY_MM_TOLERANCE),
+        },
     )
 
 

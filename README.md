@@ -69,7 +69,7 @@ The models answered between 2026-09-20 and 2026-09-29. The table counts each mod
 | GPT-5.6 Sol | 29 of 30 | 83% to 100% |
 | Gemini 3.1 Pro (preview) | 26 of 30 | 69% to 96% |
 
-[The results page](results/2026-09-29-stock-shape-30-drawings/) has every table and chart, and every reply.
+[The full report](results/2026-09-29-stock-shape-30-drawings/) has every table and figure, and every reply.
 
 ### 141 drawings, each answered once by each model
 
@@ -81,7 +81,7 @@ The models answered between 2026-09-20 and 2026-10-03. The table counts each mod
 | GPT-5.6 Sol | 138 of 140 | 95% to 100% |
 | Gemini 3.1 Pro (preview) | 121 of 139 | 80% to 92% |
 
-[The results page](results/2026-10-03-stock-shape-141-drawings/) has every table and chart, and every reply.
+[The full report](results/2026-10-03-stock-shape-141-drawings/) has every table and figure, and every reply.
 
 <!-- results:end -->
 

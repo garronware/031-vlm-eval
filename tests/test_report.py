@@ -337,6 +337,71 @@ def test_a_folder_run_once_has_no_consistency_section_or_chart(folder):
     assert not (folder / "charts" / "consistency-by-model.png").exists()
 
 
+def _numbers(page: str, pattern: str) -> list[str]:
+    import re
+
+    return re.findall(pattern, page, re.M)
+
+
+def test_the_page_is_a_report_with_numbered_sections_tables_and_figures(tmp_path, folder):
+    three_runs = [r for i in (1, 2, 3) for r in _thirty(run=str(i))]
+    again = report.write_folder(three_runs, "made-up-run", results=tmp_path / "three")
+    for out, consistency in ((folder, False), (again, True)):
+        page = (out / "README.md").read_text()
+        assert page.index("**Abstract.**") < page.index("## 1 Introduction")
+        assert _numbers(page, r"^## (\d+) ") == ["1", "2", "3", "4", "5"]
+        assert _numbers(page, r"^## (\D.*)$") == [
+            "Appendix A: Failure labels",
+            "Appendix B: One example of each failure label",
+            "Appendix C: Tolerance audit",
+        ]
+        subs = _numbers(page, r"^### (3\.\d+) ")
+        assert subs == [f"3.{i}" for i in range(1, len(subs) + 1)]  # no gap
+        assert ("Consistency across runs" in page) == consistency
+        for kind in ("Table", "Figure"):
+            found = _numbers(page, rf"\b{kind} (\d+)\.")
+            assert found == [str(i) for i in range(1, len(found) + 1)], kind
+        assert report.recompute_check(out) == []
+
+
+def test_the_abstract_states_the_pass_rate_tables_numbers(folder):
+    page = (folder / "README.md").read_text()
+    abstract = page.split("**Abstract.**")[1].split("\n")[0]
+    rows = list(csv.DictReader((folder / "tables" / "pass-rate-by-model.csv").open(newline="")))
+    for r in rows:
+        if r["model"] != report.ALL_MODELS:
+            assert (
+                f"{r['model']} passed {r['passed']} of {r['replies_graded']} drawings" in abstract
+            )
+
+
+def test_appendix_b_shows_one_example_per_label_with_the_recorded_sizes(tmp_path):
+    first = (("L (Y)", "Axis mapping", "made-up evidence one"),)
+    second = (("L (Y)", "Axis mapping", "made-up evidence two"),)
+    other = (("L (Y)", "Feature substitution", "made-up evidence three"),)
+    recorded = {"recorded": "Thk (Z) 1.0 mm; W (X) 2.0 mm; L (Y) 3.0 mm"}
+    replies = _thirty() + [
+        _reply("D01", model="Model B", passed=False, labels=first, tags=recorded),
+        _reply("D02", model="Model B", passed=False, labels=second, tags=recorded),
+        _reply("D03", model="Model B", passed=False, labels=other, tags=recorded),
+    ]
+    out = report.write_folder(replies, "made-up-run", results=tmp_path)
+    appendix = (out / "README.md").read_text().split("## Appendix B")[1].split("## Appendix C")[0]
+    assert appendix.count("**Axis mapping.**") == 1
+    assert appendix.count("**Feature substitution.**") == 1
+    assert "made-up evidence one" in appendix and "made-up evidence two" not in appendix
+    assert appendix.count("Recorded sizes: Thk (Z) 1.0 mm; W (X) 2.0 mm; L (Y) 3.0 mm") == 2
+    assert report.recompute_check(out) == []
+
+
+def test_every_run_carries_the_recorded_sizes():
+    row = {"units": "MM", "dia": "", "thk": "34.29 + 6.35 = 40.64", "thk_axis": "Z",
+           "w": "91.0", "w_axis": "X", "l": "72.91", "l_axis": "Y"}  # fmt: skip
+    assert report._recorded(row) == "Thk (Z) 34.29 + 6.35 = 40.64 mm; W (X) 91.0 mm; L (Y) 72.91 mm"
+    rod = {"units": "IN", "dia": "1.609", "thk": "", "w": "", "l": "0.750", "l_axis": "X"}
+    assert report._recorded(rod) == "Dia 1.609 in; L (X) 0.750 in"
+
+
 def test_unreviewed_labels_are_never_ranked(tmp_path):
     unreviewed = (("L (Y)", report.NOT_REVIEWED, ""),)
     labelled = (("L (Y)", "Axis mapping", "made"),)

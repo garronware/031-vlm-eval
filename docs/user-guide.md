@@ -208,9 +208,12 @@ Builds the results folder that gets published, and the private message for Cowor
 it reads saved replies and sends nothing.
 - The folder is `results/<date>-<run>/`, dated by the run's last reply. Rebuilding replaces
   it.
-- Its `README.md` is the results page: what was tested, the pass rate per model with its
-  95% range, how often each model gave the same verdict every run, why the models failed
-  (by your labels), splits by kind of drawing, and the limits on what the numbers show.
+- Its `README.md` is the results page, laid out as a research report: an abstract, then
+  numbered sections for the introduction, method, results, limitations, and data and code,
+  then appendices (the failure labels, one example of each, and the tolerance audit).
+  Tables and figures are numbered and captioned. The 30-drawing page has a section on
+  consistency across runs; the 141-drawing page doesn't.
+- `every-run.csv` carries your recorded sizes beside each reply.
 - It holds three charts, every table as CSV, `every-run.csv` (one row per reply), every
   model's full reply, and the run settings.
 - Every number on the page and in the charts is rebuilt from `every-run.csv` and must
