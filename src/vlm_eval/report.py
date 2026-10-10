@@ -896,10 +896,10 @@ PLAYBOOK = paths.ROOT / "docs" / "diagnosis-playbook.md"
 
 
 def failure_labels(playbook: Path = PLAYBOOK) -> list[tuple[str, str]]:
-    """(label, definition) from the playbook's label table, without the research-example tags.
+    """(label, definition) from the playbook's label table.
 
-    Only the table goes to Cowork: the playbook's worked examples come from earlier work with
-    other models and drawings, which the paper leaves out.
+    Only the table goes to Cowork: the playbook's worked examples are working notes for the
+    agent, not results.
     """
     text = playbook.read_text().partition("## The labels")[2]
     rows = []

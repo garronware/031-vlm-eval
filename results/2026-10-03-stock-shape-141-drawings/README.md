@@ -37,7 +37,7 @@ The 95% range is the span of true pass rates that could plausibly produce the co
 
 Source: [`tables/pass-rate-by-model.csv`](tables/pass-rate-by-model.csv).
 
-## Failure labels for run 1 are under review: 2 of 36 missed sizes don't have the evaluator's label yet
+## Failure labels for run 1 are under review: 1 of 36 missed sizes don't have the evaluator's label yet
 
 The evaluator gave each missed size one label that says why the model missed it. [The diagnosis playbook](../../docs/diagnosis-playbook.md) defines every label. Until the review is finished, the counts below are not a ranking of why the models failed.
 
@@ -46,9 +46,10 @@ The evaluator gave each missed size one label that says why the model missed it.
 | Label | Claude Opus 5 | GPT-5.6 Sol | Gemini 3.1 Pro (preview) | Total |
 |---|---|---|---|---|
 | Axis mapping | 3 | 0 | 16 | 19 |
+| Chain aggregation | 0 | 1 | 0 | 1 |
 | Datum reconstruction | 1 | 0 | 1 | 2 |
 | Feature substitution | 2 | 1 | 3 | 6 |
-| Not reviewed by the evaluator yet | 1 | 1 | 0 | 2 |
+| Not reviewed by the evaluator yet | 1 | 0 | 0 | 1 |
 | Over-aggregation | 4 | 0 | 2 | 6 |
 | Unclassified | 1 | 0 | 0 | 1 |
 
@@ -90,7 +91,7 @@ Each cell gives drawings passed in run 1, the pass rate and its 95% range. A gro
 
 - The All three models row has no 95% range. All the models answered the same drawings, so their answers are not independent tries, and a range that treated them as independent would be too narrow.
 - Only 4 drawings need a chain, so the chain results are counts, not rates.
-- Claude, an AI model made by Anthropic, proposed a label for each new kind of failure, including failures by Anthropic's own model. A failure that repeats an earlier one takes the evaluator's earlier label. The evaluator reviews every label Claude proposes, and 2 missed sizes still wait for a label: they read "Not diagnosed yet" or "Not reviewed by the evaluator yet" in the tables. The evaluator kept Claude's label on 30 of 32 (94%, 95% range 79% to 99%) and changed the rest. Every label published here is the evaluator's. [`tables/label-review.csv`](tables/label-review.csv) holds these counts. That table is the one table built from the evaluator's review record rather than from [`every-run.csv`](every-run.csv).
+- Claude, an AI model made by Anthropic, proposed a label for each new kind of failure, including failures by Anthropic's own model. A failure that repeats an earlier one takes the evaluator's earlier label. The evaluator reviews every label Claude proposes, and 1 missed sizes still wait for a label: they read "Not diagnosed yet" or "Not reviewed by the evaluator yet" in the tables. The evaluator kept Claude's label on 30 of 33 (91%, 95% range 76% to 98%) and changed the rest. Every label published here is the evaluator's. [`tables/label-review.csv`](tables/label-review.csv) holds these counts. That table is the one table built from the evaluator's review record rather than from [`every-run.csv`](every-run.csv).
 - Code could not grade 4 of 423 replies, because the small AI model that copies out numbers flagged those replies as unreadable. Those replies count as neither pass nor fail, and [`every-run.csv`](every-run.csv) marks them NOT GRADED.
 - No pass in run 1 relied on a model converting a printed number between millimetres and inches: every passing size matched a printed number.
 

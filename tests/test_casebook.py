@@ -236,10 +236,12 @@ def _casebook_part(text: str) -> str:
 
 def test_the_brief_lists_this_drawings_rulings_first():
     _ruling(group="201513-L-78", drawing=OTHER_DRAWING, missed="L (Y)", wrong="78")
-    _ruling(reason="A reason on this drawing.")
+    _ruling(reason="A reason on this drawing.", note="A made-up working thought.")
     part = _casebook_part(diagnosis.brief(NEW, _single()))
     assert part.index("| 201533-020 |") < part.index("| 201513 |")
-    assert "They outrank the playbook's general wording" in part
+    assert "Otherwise the playbook decides" in part
+    assert "A reason on this drawing." in part
+    assert "A made-up working thought." not in part  # notes are working thoughts, not rules
 
 
 def test_a_trial_brief_hides_the_groups_own_ruling():

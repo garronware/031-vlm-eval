@@ -156,10 +156,9 @@ def _cell(text: str) -> str:
 
 
 CASEBOOK_RULE = (
-    "These are Garron's rulings. They outrank the playbook's general wording. If this "
-    "group is on the same drawing with the same wrong number, use his label. Otherwise "
-    "follow his reasons as precedent, and if your case goes against one of them, say so "
-    "in the note."
+    "These are Garron's rulings. If this group is on the same drawing with the same wrong "
+    "number for the same missed size, use his label. Otherwise the playbook decides, and "
+    "his reasons are examples of how he applies it."
 )
 
 
@@ -184,9 +183,8 @@ def casebook_section(folder: str, group: Group, trial: bool = False) -> list[str
         label = e["garron_label"]
         if e["garron_label"] != e["agent_label"]:
             label += f" (changed from {e['agent_label']})"
+        # His one-line reason only: notes hold his working thoughts, not rules.
         reason = str(e.get("reason", "")).strip() or "Agreed with the agent's label."
-        if str(e.get("note", "")).strip():
-            reason += f" Note: {e['note'].strip()}"
         lines.append(
             f"| {_cell(e['drawing'][:-4])} | {_cell(e['missed'])} | {_cell(e['wrong_value'])} "
             f"| {_cell(label)} | {_cell(reason)} |"

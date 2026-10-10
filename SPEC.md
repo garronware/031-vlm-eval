@@ -237,10 +237,10 @@ that misses Thk for one reason and L for another gets two labels.
 
 | Label | Definition |
 |---|---|
-| Proximity association (research example 1A) | Found the right dimension line but took a nearby, unrelated number instead of the one that belongs to the line. |
-| Axis mapping (research example 1B) | Chose a dimension from the wrong axis. |
-| Chain aggregation (research example 2A) | Failed to chain dimensions, chained the wrong dimensions, or failed to subtract a dimension that overlapped. |
-| Datum reconstruction (research example 2B) | A chain aggregation failure that happened *because* the dimensions start from an internal datum instead of an outer part edge. The model missed the datum-to-edge segment on the other side of the datum. |
+| Proximity association | Found the right dimension line but took a nearby, unrelated number instead of the one that belongs to the line. |
+| Axis mapping | Chose a dimension from the wrong axis. |
+| Chain aggregation | Failed to chain dimensions, chained the wrong dimensions, or failed to subtract a dimension that overlapped. |
+| Datum reconstruction | A chain aggregation failure that happened *because* the dimensions start from an internal datum instead of an outer part edge. The model missed the datum-to-edge segment on the other side of the datum. |
 | Over-aggregation | Added a printed size to one that already includes it, so the size comes out too big (e.g. a flange thickness added to a length that already includes the flange). |
 | Feature substitution | Correctly read a real dimension in the right axis, but that dimension belongs to a feature, not the outer envelope (e.g. main-body Ø instead of a larger flange Ø, pocket depth, hole spacing). |
 | Unclassified | None fit, or the evidence is unclear. Goes to Garron. |
@@ -254,6 +254,17 @@ that misses Thk for one reason and L for another gets two labels.
   it covered 7 drawings (201258-012, 201548-030, 90-100012-B, 201007, 201057-002,
   201258-011, 18202-001), and every such case was relabelled. The agent's own proposals
   of Unclassified with that tag were relabelled too, since it followed the rule it had.
+- **One piece of a chain is a chain failure even when the overall is printed elsewhere.**
+  201551-017: GPT gave 87.8, one piece of 12.7 + 87.8 = 100.5 in the side view, while
+  100.5 is printed in the top view. It is Chain aggregation (Datum reconstruction when
+  the zero is internal).
+- **What the agent reads (audit).** The agent loads no CLAUDE.md, so neither SPEC's
+  history nor private notes reach it (`omitClaudeMd`). Its brief carries Garron's one-line
+  reasons, not his notes. His label decides a repeat of the same drawing, missed size and
+  wrong number; otherwise the playbook decides, and his reasons are examples. The
+  playbook's worked examples are his labelled cards in this repo, not the earlier
+  research page's, and claims not shown by the data were cut ("could this view show the
+  size?", "only a reference", "models most often fail").
 
 **Tie-breaks:**
 - Datum reconstruction beats chain aggregation.
@@ -266,7 +277,7 @@ that misses Thk for one reason and L for another gets two labels.
 - **Instructions:** a written diagnosis playbook covering how to set the part's
   X/Y/Z frame from the views, third-angle projection, tracing a dimension line
   to its number, chain and datum logic, reading dual `mm [in]` callouts, the
-  label definitions above, and Garron's four research examples as worked cases.
+  label definitions above, and worked examples from Garron's own labelled cards.
 - **Tools:** zoomed high-resolution crops of the drawing, the list of printed
   numbers with their positions (text PDFs), and a calculator.
 - **Output:** a short engineer's note with checkable evidence (e.g. "85.7 is
