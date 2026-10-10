@@ -878,10 +878,28 @@ def publish_check(out: Path) -> list[str]:
 # --- the Cowork message (private) ---------------------------------------------------
 
 COWORK_NOTES = paths.RUNS / "cowork-notes.md"  # Garron's answers, asked once (SPEC 2.10)
+# One line: the path to the paper Cowork should take as its model (private, not published).
+COWORK_MODEL_PAPER = paths.RUNS / "cowork-model-paper.txt"
+
+COWORK_STYLE = """\
+- **Layout.** Follow the model paper: a title and subtitle that name the evaluation's
+  design, an abstract, then numbered sections (task, models, evaluation pipeline, drawing
+  set, grading rules, results, failure analysis, label review, limitations), data
+  availability, and appendices. Number sub-sections like this: 1.1., 1.2.
+- **Headings name the topic** of their section ("Results", "Failure analysis"), as in the
+  model paper. This paper is a research report, so this overrides any instruction that a
+  heading should give away the section's conclusion.
+- **Tables and figures** are numbered in order and captioned, and each table names its
+  source file. Where a screenshot of a drawing would help, put a placeholder and I'll add it.
+- **Voice.** First person ("I evaluated..."), as in the model paper. Plain, declarative
+  sentences; state numbers flatly. No story, no scene-setting, no closing lesson.
+- **Detail.** Match the model paper's level of detail: say how the pipeline works and how
+  grading works, not only what the results are.
+"""
 
 COWORK_RULES = """\
 - Take every number from the attached files. Don't recompute a number a table already gives.
-- Pass rates count each drawing once per model, using its first answer (run 1). The later
+- Pass rates count each drawing once per model, using its first answer (run 1). Any later
   runs measure only whether a model gives the same verdict every time. Keep the two apart.
 - Give each pass rate with its 95% range. Call one model better than another only where
   their ranges don't overlap; the results page says whether they do.
@@ -894,9 +912,16 @@ COWORK_RULES = """\
 - Say who labelled the failures: Claude, an Anthropic model, proposed each label, and I
   reviewed every one. `tables/label-review.csv` shows how often I kept Claude's label. Say
   this plainly, because Claude labelled failures by Anthropic's own model.
-- Quote the question the models received word for word, and say that each model received
+- Quote the prompt the models received word for word, and say that each model received
   each drawing as a PDF with no other instructions.
 """
+
+
+def _model_paper(path: Path = COWORK_MODEL_PAPER) -> Path | None:
+    if not path.exists():
+        return None
+    model = Path(path.read_text().strip()).expanduser()
+    return model if model.exists() else None
 
 
 def _cowork_files(out: Path) -> list[tuple[Path, str]]:
@@ -934,24 +959,46 @@ def failure_labels(playbook: Path = PLAYBOOK) -> list[tuple[str, str]]:
     return rows
 
 
-def cowork_message(out: Path, notes: Path = COWORK_NOTES) -> str | None:
+def cowork_message(
+    out: Path, notes: Path = COWORK_NOTES, model_paper: Path = COWORK_MODEL_PAPER
+) -> str | None:
     """The message Garron pastes into Cowork, or None until his notes exist."""
     if not notes.exists():
         return None
     text = notes.read_text()
     background = text[text.index("\n## ") + 1 :] if "\n## " in text else text
     background = re.sub(r"(?m)^## ", "### ", background).strip()
-    files = "\n".join(f"- `{path}`: {what}" for path, what in _cowork_files(out))
+    model = _model_paper(model_paper)
+    attached = _cowork_files(out)
+    if model:
+        attached.append((model, "my earlier research note: the model for this paper's layout, "
+                         "voice and level of detail"))  # fmt: skip
+    files = "\n".join(f"- `{path}`: {what}" for path, what in attached)
+    ask = (
+        "Please write a research note from the results of an evaluation I ran. I'm the "
+        "author, Garron Ware."
+    )
+    if model:
+        ask += (
+            f" Attached is my earlier research note (`{model.name}`). Write this one the same "
+            'way, following the rules under "How to write it". That note is a model for '
+            "form only: don't compare with it, quote it or take numbers from it."
+        )
+    ask += " I'll design the layout myself, so give me the text and the tables, and say which "
+    ask += "figure goes where."
+    labels = [(label, unnamed(text)) for label, text in failure_labels()]
     return (
         "\n\n".join(
             [
                 f"# Message for Cowork: {out.name}",
                 "Paste everything below the line into Cowork, and attach the files it lists.",
                 "---",
-                "Please draft a research paper from the results of an evaluation I ran. I'm the "
-                "author, Garron Ware. I'll design the layout myself, so give me the text and the "
-                "tables, and say which chart goes where.",
-                "## Background, in my words",
+                ask,
+                "## How to write it",
+                COWORK_STYLE.strip(),
+                "## Background, for context",
+                "My answers below set the paper's scope and audience. They are context: don't "
+                "retell them in the paper.",
                 background,
                 "## Files to attach",
                 files,
@@ -959,7 +1006,7 @@ def cowork_message(out: Path, notes: Path = COWORK_NOTES) -> str | None:
                 "Each missed size has exactly one label. Datum reconstruction wins over Chain "
                 "aggregation; when any other two labels fit equally well, the label is "
                 "Unclassified.",
-                "\n".join(f"- **{label}:** {definition}" for label, definition in failure_labels()),
+                "\n".join(f"- **{label}:** {definition}" for label, definition in labels),
                 "## Rules for the paper",
                 COWORK_RULES.format(small=SMALL_GROUP).strip(),
             ]
@@ -968,9 +1015,14 @@ def cowork_message(out: Path, notes: Path = COWORK_NOTES) -> str | None:
     )
 
 
-def write_cowork_message(out: Path, notes: Path = COWORK_NOTES, runs: Path = paths.RUNS):
+def write_cowork_message(
+    out: Path,
+    notes: Path = COWORK_NOTES,
+    runs: Path = paths.RUNS,
+    model_paper: Path = COWORK_MODEL_PAPER,
+):
     """runs/cowork-message-<folder>.md; None, with nothing written, until the notes exist."""
-    message = cowork_message(out, notes)
+    message = cowork_message(out, notes, model_paper)
     if message is None:
         return None
     path = runs / f"cowork-message-{out.name}.md"

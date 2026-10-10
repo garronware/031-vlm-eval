@@ -475,15 +475,27 @@ def test_the_published_folder_never_names_the_evaluator(tmp_path, folder):
 
 
 def test_no_cowork_message_until_the_notes_exist(tmp_path, folder):
-    assert report.write_cowork_message(folder, tmp_path / "missing.md", tmp_path) is None
+    assert (
+        report.write_cowork_message(folder, tmp_path / "missing.md", tmp_path, tmp_path / "x")
+        is None
+    )
     assert not list(tmp_path.glob("cowork-message-*"))
 
 
 def test_the_cowork_message_carries_the_notes_and_names_every_file(tmp_path, folder):
     notes = tmp_path / "notes.md"
     notes.write_text("# Notes\n\nPrivate.\n\n## Who reads it\n\nMade-up readers.\n")
-    path = report.write_cowork_message(folder, notes, tmp_path)
+    model = tmp_path / "made-up-model-paper.pdf"
+    model.write_text("made-up")
+    pointer = tmp_path / "model-paper.txt"
+    pointer.write_text(str(model))
+    path = report.write_cowork_message(folder, notes, tmp_path, pointer)
     text = path.read_text()
+    assert f"`{model}`: my earlier research note" in text
+    assert "Headings name the topic" in text and "overrides any instruction" in text
+    assert "Goes to Garron" not in text
+    without = report.cowork_message(folder, notes, tmp_path / "missing.txt")
+    assert "made-up-model-paper" not in without
     assert path.name == f"cowork-message-{folder.name}.md"
     assert "### Who reads it\n\nMade-up readers." in text
     assert "Private." not in text

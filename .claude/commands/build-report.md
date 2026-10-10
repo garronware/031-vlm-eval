@@ -38,7 +38,9 @@ that missed sizes don't have Garron's label yet, say so in one line each.
 ## 2. The Cowork message
 
 If it printed `Cowork message: runs/cowork-message-<folder>.md`, that file is the private
-message Garron pastes into Cowork, naming the files to attach. If it printed "No Cowork
+message Garron pastes into Cowork, naming the files to attach. It tells Cowork to write a
+research note modelled on the paper named in `runs/cowork-model-paper.txt` (layout, voice,
+detail, topic headings); without that file it still sends the layout rules. If it printed "No Cowork
 message yet", ask Garron the Cowork questions one at a time (what the paper is for, who
 reads it, anything it must or must not say), save his answers in his own words, in the first
 person, to `runs/cowork-notes.md`, and run the build again.

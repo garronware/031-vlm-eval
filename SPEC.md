@@ -491,6 +491,12 @@ results/<date>-<run-name>/
   whitepaper to do; his answers are saved in `runs/cowork-notes.md`. Each
   `/build-report` then writes the message to paste into Cowork, naming the files to
   hand over, to `runs/cowork-message-<run>.md`. `runs/` is never uploaded.
+  **Reworked 2026-10-10:** Garron's Cowork project tells it that headings give away the
+  conclusion, and the old message never said the paper was a research report, so Cowork
+  wrote a story. The message now attaches a model paper (Garron's revised 30-drawing
+  research note; its path is in the private `runs/cowork-model-paper.txt`). It says to match
+  that paper's layout, first-person voice and detail, with topic headings that override the
+  conclusion-heading rule. It also marks Garron's answers as context, not text to retell.
 - **Headline pass rates count each drawing once** (run 1). The 30-set gets 3 runs and
   the other 111 drawings 1 (Chunk 10b), so pooling every reply would count the 30
   three times and make the ranges look tighter than they are. Later runs feed the
