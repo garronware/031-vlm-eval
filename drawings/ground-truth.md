@@ -18,7 +18,7 @@
 | File | Part No | Shape | Units | Dia | Thk | Thk Axis | W | W Axis | L | L Axis | Material | Orthographic Projection | Notes | Measured From |
 |------|---------|-------|-------|-----|-----|----------|---|--------|---|--------|----------|-------------------------|-------|---------------|
 | 90-100005-A.pdf | 90-100005 | CYL | IN | 0.1250 |  |  |  |  | 2.8821 | X | AISI M2 (HSS) | 3rd Angle Projection |  |  |
-| 90-100009-A.pdf | 90-100009 | CYL | IN | 1.489 |  |  |  |  | 0.750 | X | AISI 4140 | 3rd Angle Projection |  |  |
+| 90-100009-A.pdf | 90-100009 | CYL | IN | 1.609 |  |  |  |  | 0.750 | X | AISI 4140 | 3rd Angle Projection |  |  |
 | 90-100012-B.pdf | 90-100012 | CYL | IN | 1.1240 |  |  |  |  | 6.50 + 1.00 = 7.50 | X | AISI 4140 HR Q&T | 3rd Angle Projection |  | In-Between Edges |
 | 90-100013-A.pdf | 90-100013 | CYL | IN | 1.5000 |  |  |  |  | 3.83 + 1.13 = 4.96 | X | ADS 6061-T6 | 3rd Angle Projection |  | In-Between Edges |
 | 90-100022-A.pdf | 90-100022 | CYL | IN | 0.1870 |  |  |  |  | 7.530 | X | AISI 4140 CR | 3rd Angle Projection |  |  |

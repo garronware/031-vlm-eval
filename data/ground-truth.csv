@@ -136,7 +136,7 @@ file,part_no,shape,units,print_type,pdf_text_type,dimension_origin,datum_referen
 202985-001.pdf,202985-001,CUBE,IN,inch_only,image_only,explicitly_dimensioned,false,,,,0.75,Z,,12.00,X,,6.00,Y,,,3rd Angle Projection,
 202997-004.pdf,202997-004,CUBE,IN,inch_only,image_only,explicitly_dimensioned,false,,,,0.75,Z,,1.25,X,,1.50,Y,,,3rd Angle Projection,
 90-100005-A.pdf,90-100005,CYL,IN,inch_only,text,explicitly_dimensioned,false,,0.1250,,,,,,,,2.8821,X,,AISI M2 (HSS),3rd Angle Projection,
-90-100009-A.pdf,90-100009,CYL,IN,inch_only,text,explicitly_dimensioned,false,,1.489,,,,,,,,0.750,X,,AISI 4140,3rd Angle Projection,
+90-100009-A.pdf,90-100009,CYL,IN,inch_only,text,explicitly_dimensioned,false,,1.609,,,,,,,,0.750,X,,AISI 4140,3rd Angle Projection,
 90-100012-B.pdf,90-100012,CYL,IN,inch_only,text,calculated_chain,true,In-Between Edges,1.1240,,,,,,,,6.50 + 1.00 = 7.50,X,6.5|1.0,AISI 4140 HR Q&T,3rd Angle Projection,
 90-100013-A.pdf,90-100013,CYL,IN,inch_only,text,calculated_chain,true,In-Between Edges,1.5000,,,,,,,,3.83 + 1.13 = 4.96,X,3.83|1.13,ADS 6061-T6,3rd Angle Projection,
 90-100022-A.pdf,90-100022,CYL,IN,inch_only,text,explicitly_dimensioned,false,,0.1870,,,,,,,,7.530,X,,AISI 4140 CR,3rd Angle Projection,

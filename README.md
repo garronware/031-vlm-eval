@@ -77,9 +77,9 @@ The models answered between 2026-09-20 and 2026-10-03. The table counts each mod
 
 | Model | Drawings passed | 95% range |
 |---|---|---|
-| Claude Opus 5 | 128 of 140 | 86% to 95% |
-| GPT-5.6 Sol | 137 of 140 | 94% to 100% |
-| Gemini 3.1 Pro (preview) | 120 of 139 | 79% to 92% |
+| Claude Opus 5 | 129 of 140 | 86% to 96% |
+| GPT-5.6 Sol | 138 of 140 | 95% to 100% |
+| Gemini 3.1 Pro (preview) | 121 of 139 | 80% to 92% |
 
 [The results page](results/2026-10-03-stock-shape-141-drawings/) has every table and chart, and every reply.
 

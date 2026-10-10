@@ -34,9 +34,9 @@ DEFAULT_FOLDER = "main-stock-shape"  # the prompt in use from 2026-09-20 on (SPE
 LABELS = (
     "Proximity association",
     "Axis mapping",
-    "Section-view selection",
     "Chain aggregation",
     "Datum reconstruction",
+    "Over-aggregation",
     "Feature substitution",
     "Unclassified",
 )

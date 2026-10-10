@@ -148,12 +148,13 @@ def unnamed(text: str) -> str:
 
 
 def _evidence(entry: dict) -> str:
-    """The agent's note where Garron accepted its label; his own reason where he changed it.
+    """The agent's note where Garron's label matches the agent's; his own reason where not.
 
     A note written for a label he overruled argues for the wrong label, so it is never
-    published beside his.
+    published beside his. Labels are compared rather than the verdict, because a merged
+    label (2026-10-10) can make an old change agree with the agent.
     """
-    if entry["verdict"] == casebook.CHANGE:
+    if entry["garron_label"] != entry["agent_label"]:
         return str(entry["reason"]).strip()
     original = diagnosis._original(entry) or {}
     return str(original.get("note", "")).strip() or str(entry.get("reason", "")).strip()

@@ -62,9 +62,8 @@ The evaluator gave each missed size one label that says why the model missed it.
 | Axis mapping | 1 | 0 | 4 | 5 |
 | Datum reconstruction | 1 | 0 | 1 | 2 |
 | Feature substitution | 0 | 1 | 0 | 1 |
-| Unclassified | 2 | 0 | 0 | 2 |
-
-Run 3 also produced missed sizes labelled Section-view selection, which run 1 did not. [`every-run.csv`](every-run.csv) lists every reply's labels.
+| Over-aggregation | 1 | 0 | 0 | 1 |
+| Unclassified | 1 | 0 | 0 | 1 |
 
 Sources: [`tables/failures-by-label.csv`](tables/failures-by-label.csv); missed sizes by axis in [`tables/failures-by-axis.csv`](tables/failures-by-axis.csv) and by size name in [`tables/failures-by-dimension.csv`](tables/failures-by-dimension.csv).
 
@@ -105,7 +104,7 @@ Each cell gives drawings passed in run 1, the pass rate and its 95% range. A gro
 - The headline numbers use run 1 only, so each drawing counts once per model. Counting every run would count the drawings that ran more than once several times over, and make the ranges look narrower than the evidence supports. The later runs feed only the consistency numbers.
 - The All three models row has no 95% range. All the models answered the same drawings, so their answers are not independent tries, and a range that treated them as independent would be too narrow.
 - Only 4 drawings need a chain, so the chain results are counts, not rates.
-- Claude, an AI model made by Anthropic, proposed a label for each new kind of failure, including failures by Anthropic's own model. A failure that repeats an earlier one takes the evaluator's earlier label. The evaluator reviewed every label Claude proposed. The evaluator kept Claude's label on 18 of 23 (78%, 95% range 56% to 93%) and changed the rest. Every label published here is the evaluator's. [`tables/label-review.csv`](tables/label-review.csv) holds these counts. That table is the one table built from the evaluator's review record rather than from [`every-run.csv`](every-run.csv).
+- Claude, an AI model made by Anthropic, proposed a label for each new kind of failure, including failures by Anthropic's own model. A failure that repeats an earlier one takes the evaluator's earlier label. The evaluator reviewed every label Claude proposed. The evaluator kept Claude's label on 20 of 24 (83%, 95% range 63% to 95%) and changed the rest. Every label published here is the evaluator's. [`tables/label-review.csv`](tables/label-review.csv) holds these counts. That table is the one table built from the evaluator's review record rather than from [`every-run.csv`](every-run.csv).
 - Code could not grade 1 of 270 replies, because the small AI model that copies out numbers flagged that reply as unreadable. That reply counts as neither pass nor fail, and [`every-run.csv`](every-run.csv) marks it NOT GRADED.
 - No pass in run 1 relied on a model converting a printed number between millimetres and inches: every passing size matched a printed number.
 

@@ -3,7 +3,7 @@ calculated_chain,Claude Opus 5,4,4,3,,,
 calculated_chain,GPT-5.6 Sol,4,4,4,,,
 calculated_chain,Gemini 3.1 Pro (preview),4,4,2,,,
 calculated_chain,All three models,4,12,9,,,
-explicitly_dimensioned,Claude Opus 5,136,136,125,92,86,96
-explicitly_dimensioned,GPT-5.6 Sol,136,136,133,98,94,100
-explicitly_dimensioned,Gemini 3.1 Pro (preview),135,135,118,87,81,92
-explicitly_dimensioned,All three models,136,407,376,92,,
+explicitly_dimensioned,Claude Opus 5,136,136,126,93,87,96
+explicitly_dimensioned,GPT-5.6 Sol,136,136,134,99,95,100
+explicitly_dimensioned,Gemini 3.1 Pro (preview),135,135,119,88,81,93
+explicitly_dimensioned,All three models,136,407,379,93,,

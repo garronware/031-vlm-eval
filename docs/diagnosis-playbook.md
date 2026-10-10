@@ -27,21 +27,23 @@ check against the drawing.
 | Label | Definition |
 |---|---|
 | Proximity association (research example 1A) | Found the right dimension line but took a nearby, unrelated number instead of the one that belongs to the line. |
-| Axis mapping | Chose a dimension from the wrong axis. |
-| Section-view selection (research example 1B) | Chose the wrong section view. |
+| Axis mapping (research example 1B) | Chose a dimension from the wrong axis. |
 | Chain aggregation (research example 2A) | Failed to chain dimensions, chained the wrong dimensions, or failed to subtract a dimension that overlapped. |
 | Datum reconstruction (research example 2B) | A chain aggregation failure that happened *because* the dimensions start from an internal datum instead of an outer part edge. The model missed the datum-to-edge segment on the other side of the datum. |
+| Over-aggregation | Added a printed size to one that already includes it, so the size comes out too big (e.g. a flange thickness added to a length that already includes the flange). |
 | Feature substitution | Correctly read a real dimension in the right axis, but that dimension belongs to a feature, not the outer envelope (e.g. main-body Ø instead of a larger flange Ø, pocket depth, hole spacing). |
 | Unclassified | None fit, or the evidence is unclear. Goes to Garron. |
 
 **Tie-breaks**
 - Datum reconstruction beats Chain aggregation.
+- Chain aggregation is a chain the size needed, missed or built wrong. Over-aggregation
+  is a chain built where none was needed: one printed size already gave the answer.
 - If two other labels fit equally well, use Unclassified.
 - Give exactly one label per missed dimension.
 
 In `diagnosis.json`, write the label's name alone, without the "(research example …)"
-part: `Proximity association`, `Axis mapping`, `Section-view selection`,
-`Chain aggregation`, `Datum reconstruction`, `Feature substitution`, `Unclassified`.
+part: `Proximity association`, `Axis mapping`, `Chain aggregation`,
+`Datum reconstruction`, `Over-aggregation`, `Feature substitution`, `Unclassified`.
 
 Use only these labels. If several failures seem to need a label that doesn't exist,
 say so in the note; Garron decides any change to the list.
@@ -71,18 +73,15 @@ These questions stay inside the definitions above. Work through them in order.
 3. **What does the wrong number actually measure, and in which view did the model read
    it?** Find where it is printed, trace its dimension line or leader, and name the
    feature and the axis. Garron's tests (2026-09-29), in this order:
-   - **Right direction on the page, wrong view: Section-view selection.** The number
-     runs the way the missed size would run on the page, but in the view the model used
-     that direction is a different axis of the part; the size only runs that way in
-     another view. It covers any view, with or without a SECTION label. 201548-013:
-     85.7 runs up and down in the side view, which is Y there; the thickness runs up
-     and down only in the bottom view. Garron: "classic section view selection".
-   - **A different axis from the size it replaced: Axis mapping.** Includes rotated
-     text read in the wrong direction (201513's 78.00 and 201258-020's 19.05 run
-     along X), a position along the length given as a diameter (201581-007's 82.6), and
-     a diameter given as a length (201258-012's 65.0 [2.56]). A hole or feature position
-     that runs the same way as a size the model already found, used to fill a size it
-     couldn't find, is Axis mapping (Garron, 2026-09-24, on 201513 and 201516).
+   - **A different axis of the part from the size it replaced: Axis mapping.** This
+     includes a number that runs the right way on the page but in a view where that
+     direction is a different axis: 201548-013's 85.7 runs up and down in the side view,
+     which is Y there, while the thickness runs up and down only in the bottom view. It
+     also includes rotated text read in the wrong direction (201513's 78.00 and
+     201258-020's 19.05 run along X) and a position along the length given as a
+     diameter (201581-007's 82.6). A hole or feature position that runs the same way as
+     a size the model already found, used to fill a size it couldn't find, is Axis
+     mapping (Garron, 2026-09-24, on 201513 and 201516).
    - **The same axis, in a view that could show the size but doesn't dimension it, and
      the number belongs to a feature: Feature substitution.** The test is "could the
      missed size be shown in this view?" If yes, the model substituted a feature's
@@ -90,8 +89,6 @@ These questions stay inside the definitions above. Work through them in order.
      smaller than the flange). 201533-020: the top edge view could show the thickness,
      and the model gave the 6.35 hole-centreline position. 201513: the right-side view
      could show the 64.8 height, and the model gave the 57.8 chamfer-corner position.
-   - If Section-view selection and Feature substitution fit equally, use
-     **Unclassified** and say why in the note.
    - It isn't the dimension of any line near the one the model meant; it is a
      neighbouring callout that sits closer to that line than the line's own number:
      **Proximity association**. The tell is that the correct dimension line is right
@@ -100,15 +97,15 @@ These questions stay inside the definitions above. Work through them in order.
    digits). Explain what it seems to have done. Use a label only if one of the
    definitions truly fits; otherwise **Unclassified**.
 
-**Watch list.** Two kinds of failure are filed under an existing label for now, until
-Garron sees enough to decide on a label of their own. When one fits, end the note with
-the tag exactly as shown, so every case can be found and reclassified together:
-- The model added a printed size to one that already includes it, e.g. a flange
-  thickness added to a length that already includes the flange (201258-012, 201548-030),
-  or a detail size added to a chain part that already contains it (90-100012-B's 0.300
-  on top of 6.50 + 1.00). This is not a Chain aggregation failure: the model built a
-  chain it didn't need. Label it **Unclassified** and end the note with
-  `Watch list: over-aggregation` (Garron, 2026-09-28 and 2026-09-29).
+5. **The model added a printed size to one that already includes it: Over-aggregation.**
+   A flange thickness added to a length that already includes the flange (201258-012,
+   all three Opus runs; 201548-030), or a detail size added to a chain part that already
+   contains it (90-100012-B's 0.300 on top of 6.50 + 1.00). The model built a chain it
+   didn't need, so it is not Chain aggregation (Garron, 2026-10-10).
+
+**Watch list.** One kind of failure is filed under Unclassified for now, until Garron
+sees enough to decide on a label of its own. When it fits, end the note with the tag
+exactly as shown, so every case can be found and reclassified together:
 - The number comes from outside the drawing, such as the catalogue length of a stock
   blank named in the material note. Label it **Unclassified** and end the note with
   `Watch list: stock-size substitution`.
@@ -197,13 +194,13 @@ an inch-only print (the brief says "inch only") as inch values.
 research page gave 201533-020 (bottom plate) as its Proximity association example:
 GPT-5.5 gave 6.35 mm for the 12.7 mm Z-axis thickness. Garron has since found he misread
 the sheet: 6.35 [.250] is printed on its own in the top edge view, as the position of
-the tapped holes' centreline, not between the thickness arrows. On 2026-09-28 he called
-it Section-view selection; on 2026-09-29 he settled on Feature substitution: "Not the
+the tapped holes' centreline, not between the thickness arrows. On 2026-09-29 he
+labelled it Feature substitution: "Not the
 wrong view. Thickness could be displayed in this view and it would appear roughly where
 6.35 appears ... the model is substituting a hole position for a thickness value." The
 Proximity association definition stands; this drawing is no longer its example.
 
-**1B: Section-view selection, 201548-013 (locator block).** Opus 4.6 gave 85.7 mm for
+**1B: Axis mapping, 201548-013 (locator block).** Opus 4.6 gave 85.7 mm for
 the 25.4 mm Z-axis thickness. The model took the side-section view's vertical Y-axis
 dimension for the part's Z thickness, "because it does not consistently maintain a
 global part-coordinate frame across orthographic views."

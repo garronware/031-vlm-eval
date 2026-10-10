@@ -220,10 +220,23 @@ def test_test_runs_and_small_runs_are_refused(tmp_path):
 
 def test_a_changed_label_publishes_garrons_reason_not_the_agents_note(monkeypatch):
     monkeypatch.setattr(diagnosis, "_original", lambda entry: {"note": "the agent's note"})
-    changed = {"verdict": "change", "reason": "Garron's made-up reason"}
-    accepted = {"verdict": "accept", "reason": ""}
+    changed = {
+        "verdict": "change",
+        "agent_label": "Axis mapping",
+        "garron_label": "Feature substitution",
+        "reason": "Garron's made-up reason",
+    }
+    accepted = {
+        "verdict": "accept",
+        "agent_label": "Axis mapping",
+        "garron_label": "Axis mapping",
+        "reason": "",
+    }
+    # An old change that a merged label turned into agreement publishes the agent's note.
+    merged = {**accepted, "verdict": "change", "reason": "Garron's made-up reason"}
     assert report._evidence(changed) == "Garron's made-up reason"
     assert report._evidence(accepted) == "the agent's note"
+    assert report._evidence(merged) == "the agent's note"
 
 
 # --- the results page, charts and main README ----------------------------------------

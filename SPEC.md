@@ -71,6 +71,11 @@ the wording changes what a model attends to, not only how it formats. Calls cost
   `ground-truth.md`; `data/` was rebuilt and the run re-scored for $0. Disagreement
   between every model and one ground-truth cell is worth a look, but the table stays
   Garron's to change — code never edits it.
+- **Correction from the 141-drawing run (2026-10-09):** 90-100009-A's diameter was
+  recorded as 1.489 but is 1.609. All three models answered 1.609; Garron checked the
+  sheet and corrected `ground-truth.md`. `data/` was rebuilt and the run re-scored for $0,
+  so all three models now pass this drawing. It is not in the 30-set, so only the
+  141-drawing results changed.
 - **Small-sample caveat:** only 4 drawings are `calculated_chain`, and all 4
   are measured from in-between edges (none from a part edge). The report shows these counts but
   never presents them as rates. More chain drawings are a candidate for a later
@@ -233,15 +238,27 @@ that misses Thk for one reason and L for another gets two labels.
 | Label | Definition |
 |---|---|
 | Proximity association (research example 1A) | Found the right dimension line but took a nearby, unrelated number instead of the one that belongs to the line. |
-| Axis mapping | Chose a dimension from the wrong axis. |
-| Section-view selection (research example 1B) | Chose the wrong section view. |
+| Axis mapping (research example 1B) | Chose a dimension from the wrong axis. |
 | Chain aggregation (research example 2A) | Failed to chain dimensions, chained the wrong dimensions, or failed to subtract a dimension that overlapped. |
 | Datum reconstruction (research example 2B) | A chain aggregation failure that happened *because* the dimensions start from an internal datum instead of an outer part edge. The model missed the datum-to-edge segment on the other side of the datum. |
+| Over-aggregation | Added a printed size to one that already includes it, so the size comes out too big (e.g. a flange thickness added to a length that already includes the flange). |
 | Feature substitution | Correctly read a real dimension in the right axis, but that dimension belongs to a feature, not the outer envelope (e.g. main-body Ø instead of a larger flange Ø, pocket depth, hole spacing). |
 | Unclassified | None fit, or the evidence is unclear. Goes to Garron. |
 
+**Changed 2026-10-10 (Garron):**
+- **One label for a wrong axis.** A number read in a view where its page direction is a
+  different axis of the part (201548-013's 85.7) chose a dimension from the wrong axis, so
+  it is Axis mapping; the label list no longer has a separate label for it.
+- **Over-aggregation is its own label.** It was on the watch list (section 5) as
+  Unclassified with `Watch list: over-aggregation`; after the 141-drawing review
+  it covered 7 drawings (201258-012, 201548-030, 90-100012-B, 201007, 201057-002,
+  201258-011, 18202-001), and every such case was relabelled. The agent's own proposals
+  of Unclassified with that tag were relabelled too, since it followed the rule it had.
+
 **Tie-breaks:**
 - Datum reconstruction beats chain aggregation.
+- Chain aggregation is a chain the size needed, missed or built wrong; Over-aggregation is
+  a chain built where none was needed.
 - If two other labels fit equally, use unclassified.
 - One label per missed dimension.
 
@@ -587,7 +604,7 @@ Garron's drawings.
 | Replay mode | The whole pipeline re-runs on saved replies with zero API spend |
 | Cost | Estimated vs. actual cost compared after the first test run |
 | Diagnosis | Cited numbers exist on the drawing; agreement rate with Garron reported |
-| Known-answer | If 201548-013 fails the way the research page shows (85.7 for the thickness), its diagnosis should come out Section-view selection; it did on 2026-09-29. If 201533-020 fails with 6.35, it should come out Feature substitution. (201533-020 was research example 1A, proximity association, until Garron corrected it: on 2026-09-28 to Section-view selection, and on 2026-09-29 to Feature substitution, since the top view could show the thickness and the model gave a hole position.) |
+| Known-answer | If 201548-013 fails the way the research page shows (85.7 for the thickness), its diagnosis should come out Axis mapping; it did on 2026-09-29. If 201533-020 fails with 6.35, it should come out Feature substitution. (201533-020 was research example 1A, proximity association, until Garron corrected it on 2026-09-29 to Feature substitution, since the top view could show the thickness and the model gave a hole position.) |
 | Report | Every number on the results page is recomputed separately from `every-run.csv` and must match |
 
 ---
@@ -861,11 +878,11 @@ reconstruction after Garron changed its Measured From (2.2).
 
 **Checks:**
 - The known-answer drawing 201533-020 came out Proximity association, as expected.
-  (Corrected 2026-09-28: Garron now labels it Section-view selection. His research page
+  (Corrected 2026-09-29: Garron now labels it Feature substitution. His research page
   misread the 6.36 [.251] in the bottom view as the 6.35; the 6.35 [.250] the model gave
-  is printed in the top view, which has no thickness dimension. See Chunk 9.)
+  is printed in the top view. See Chunk 10.)
   201548-013 never failed, so it was tested with a practice case built from research
-  example 1B, which came out Section-view selection.
+  example 1B, which came out as that example's label (now Axis mapping, 2.6).
 - Without the playbook, the same agent labelled those two Feature substitution and Axis
   mapping.
 - Every cited number on a text drawing was found printed. On the 3 picture-only drawings
@@ -890,15 +907,16 @@ reconstruction after Garron changed its Measured From (2.2).
   that wasn't needed is not a failure to build one, so the definition no longer matched
   its name. 201258-012 is Unclassified with `Watch list: over-aggregation`, the same way
   201581-008 is handled.
+  **Changed 2026-10-10 (Garron):** Over-aggregation is now its own label (2.6), and all
+  three Opus runs of 201258-012 carry it: the same mistake each time.
 - **201581-008:** he agrees it is stock-size substitution: the 7.00 in catalogue length of
   a reamer blank, taken from the material note. It stays Unclassified and is on the
   watch list.
 - **201533-020:** that view has no dimension line, only two arrows at the edges, with
   12.700 off on a leader. The model isn't looking for a dimension line; it took the
   number sitting where the thickness line would be.
-  **Changed again 2026-09-29 (Garron): Feature substitution.** See Chunk 10.
-  **Changed 2026-09-28 (Garron):** 201533-020 is Section-view selection. The 6.35 [.250]
-  the model gave is printed in the top view, which has no thickness dimension.
+  **Changed 2026-09-29 (Garron): Feature substitution.** The 6.35 [.250] the model gave
+  is printed in the top view, as a hole position. See Chunk 10.
 - **What the review page needs (Chunk 9):** the list shows only the wrong number. Each
   card must also show Garron's sizes, what the model got right, and what it got wrong.
 
@@ -943,9 +961,9 @@ and agreement rate.
   the playbook and casebook only, not SPEC. SPEC still reaches it through CLAUDE.md, so
   that only stops it opening the file.
 - **Garron's changes this chunk:**
-  - 201533-020 is Section-view selection. Research example 1A misread the 6.36 [.251]
-    in the bottom view as the 6.35; the model's 6.35 [.250] is printed in the top view,
-    which has no thickness dimension.
+  - 201533-020 is not Proximity association. Research example 1A misread the 6.36 [.251]
+    in the bottom view as the 6.35; the model's 6.35 [.250] is printed in the top view.
+    (Settled as Feature substitution in Chunk 10.)
   - Chain aggregation's fourth case was taken back out; 201258-012 is Unclassified with
     `Watch list: over-aggregation`.
   - Playbook: a hole or feature position running the same way as a size the model
@@ -1006,12 +1024,14 @@ sizes match). Same answer every run: GPT 93% of 30 drawings, Opus 87%, Gemini 80
 the agent (15 missed sizes). Garron reviewed them and re-read the older ones. The agent
 agreed with him on 18 of 23 (95% range 56% to 93%); he still reviews every label.
 - **His tests, now in the playbook:** pair a wrong number with the size it replaced by
-  direction, not by the reply's words; right page direction in the wrong view is
-  Section-view selection (201548-013, "classic"); a different axis is Axis mapping; the
+  direction, not by the reply's words; a different axis of the part is Axis mapping,
+  including right page direction in a view where that direction is another axis
+  (201548-013); the
   same axis in a view that could show the size but doesn't, with a feature's number, is
   Feature substitution (201533-020, 201513's 57.8).
 - **Changes:** 201533-020 is Feature substitution (both wrong numbers, 6.35 and 0.250);
-  201258-012's run-3 65.0 is Axis mapping (a diameter given as a length); 201513 run 2
+  201258-012's run-3 65.0 is Axis mapping (a diameter given as a length; **changed
+  2026-10-10 (Garron):** Over-aggregation, the same mistake as runs 1 and 2); 201513 run 2
   was re-paired, Thk <- 78.0 Axis mapping and L <- 57.8 Feature substitution.
 - **Checked against the replies before saving:** on 201581-007 and 201258-020 his first
   reason named the wrong size (the length and width the model had right). Shown that,
@@ -1096,13 +1116,11 @@ report section, and reads the user guide end to end without needing help.
   path to automatic ground truth for much larger evaluations.
 - **More chain and datum-referenced drawings**, so those failure types can be
   reported as rates.
-- **Extra failure labels** (callout misread, stock-size substitution,
-  over-aggregation), if Unclassified shows them recurring. **Watch list:** cases filed
-  under an existing label until there are enough to judge a new one. The agent writes
-  `Watch list: <name>` in the note, so one search finds them all for reclassifying.
-  - over-aggregation: 201258-012 (stock-shape run, Opus, runs 1 and 2), 201548-030 (Opus,
-    run 2), 90-100012-B (Gemini, run 2), filed as Unclassified. Three drawings by
-    2026-09-29; Garron hasn't yet decided whether it earns its own label.
+- **Extra failure labels** (callout misread, stock-size substitution), if Unclassified
+  shows them recurring. **Watch list:** cases filed under an existing label until there
+  are enough to judge a new one. The agent writes `Watch list: <name>` in the note, so
+  one search finds them all for reclassifying. (Over-aggregation started here and became
+  a label on 2026-10-10, 2.6.)
   - stock-size substitution: 201581-008 (stock-shape run, Opus), filed as Unclassified
 - **A second prompt that names the answer's shape** ("...for a part that would be made
   from round stock, give Dia and L..."). Parked 2026-09-20. It was proposed to settle

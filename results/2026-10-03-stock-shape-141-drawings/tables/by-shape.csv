@@ -3,7 +3,7 @@ CUBE,Claude Opus 5,78,78,72,92,84,97
 CUBE,GPT-5.6 Sol,78,78,76,97,91,100
 CUBE,Gemini 3.1 Pro (preview),77,77,61,79,68,88
 CUBE,All three models,78,233,209,90,,
-CYL,Claude Opus 5,62,62,56,90,80,96
-CYL,GPT-5.6 Sol,62,62,61,98,91,100
-CYL,Gemini 3.1 Pro (preview),62,62,59,95,87,99
-CYL,All three models,62,186,176,95,,
+CYL,Claude Opus 5,62,62,57,92,82,97
+CYL,GPT-5.6 Sol,62,62,62,100,94,100
+CYL,Gemini 3.1 Pro (preview),62,62,60,97,89,100
+CYL,All three models,62,186,179,96,,

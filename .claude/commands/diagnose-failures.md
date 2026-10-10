@@ -54,6 +54,7 @@ In plain words:
 - any group still showing a problem
 - that the list is open in his browser at `runs/diagnoses.html`
 
-For the first run on a set, remind him to read 201533-020 if it failed (Section-view
-selection, his correction of research example 1A), 201548-013 if it failed (1B), plus
+For the first run on a set, remind him to read 201533-020 if it failed (Feature
+substitution, his correction of research example 1A), 201548-013 if it failed (Axis
+mapping, research example 1B), plus
 about 5 others, and to say whether the notes make sense.
