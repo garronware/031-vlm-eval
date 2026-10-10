@@ -4,7 +4,7 @@
 
 **Abstract.** This report measures how often 3 vision-language models (VLMs) return the correct bounding dimensions of a machined part from its 2D engineering drawing. The evaluator sent 30 drawings to Claude Opus 5, GPT-5.6 Sol and Gemini 3.1 Pro (preview) with the same one-line prompt, and code graded every answer against sizes the evaluator recorded by hand. On each model's first answer (run 1), GPT-5.6 Sol passed 29 of 30 drawings (97%, 95% range 83% to 100%), Claude Opus 5 passed 26 of 30 drawings (87%, 95% range 69% to 96%) and Gemini 3.1 Pro (preview) passed 26 of 30 drawings (87%, 95% range 69% to 96%). The 95% ranges of all 3 models overlap, so 30 drawings are too few to rank the models. Each model answered each drawing 3 times; each gave the same verdict on every run for between 83% and 93% of the drawings. Of the 10 sizes the models missed in run 1, Axis mapping accounts for 5. An AI model proposed a failure label for each missed size, and the evaluator reviewed every label.
 
-## 1 Introduction
+## 1. Introduction
 
 A part's bounding dimensions are the overall sizes of the stock it is machined from. A part cut from rectangular stock (a cuboid, CUBE in this report) has three: thickness, width and length. A part cut from round stock (a cylinder, CYL) has two: diameter and length. A machinist reads them from the part's engineering drawing before choosing material, workholding and operations. [Why this matters](../../README.md#why-this-matters), in the repository's main README, explains why the evaluator measured them.
 
@@ -12,9 +12,9 @@ This report asks one question: how often does a general-purpose vision-language 
 
 Each model answered each drawing 3 times, so this evaluation also measures whether a model gives the same verdict every time it sees the same drawing. The repository's [main README](../../README.md#results) lists every evaluation and says which drawings and answers they share.
 
-## 2 Method
+## 2. Method
 
-### 2.1 Drawings and recorded sizes
+### 2.1. Drawings and recorded sizes
 
 Each drawing is a PDF of one machined part; none is an assembly. These 30 drawings are a fixed subset of the 141 drawings in the repository, chosen once to mix shapes, units and kinds of PDF and to include every drawing whose size must be added up from printed dimensions. The same drawings are used every time, so runs on different days compare fairly.
 
@@ -22,7 +22,7 @@ Each drawing is a PDF of one machined part; none is an assembly. These 30 drawin
 
 The evaluator recorded each part's bounding dimensions by hand from its drawing, in [`drawings/ground-truth.md`](../../drawings/ground-truth.md). On drawings that print both units, the evaluator recorded the millimetre value, and code found the inch value printed beside it. A chain is recorded as its parts and their sum.
 
-### 2.2 Models and prompt
+### 2.2. Models and prompt
 
 Each model received the drawing's PDF file unchanged and this prompt, with no system prompt and no other instructions:
 
@@ -38,7 +38,7 @@ Each model answered 30 drawings 3 times. Each answer came from a fresh conversat
 | GPT-5.6 Sol | `gpt-5.6-sol` | reasoning effort medium |
 | Gemini 3.1 Pro (preview) | `gemini-3.1-pro-preview` | thinking level high |
 
-### 2.3 Grading
+### 2.3. Grading
 
 Code decides whether an answer passes; no person or AI model judges it. A small AI model (`claude-haiku-4-5-20251001`) copies the numbers out of each free-text reply and never sees the drawing or judges the numbers.
 
@@ -48,15 +48,15 @@ A cuboid's three sizes may come in any order, because stock is ordered by its th
 
 The 95% range given with each pass rate is an exact binomial range: the span of true pass rates that could plausibly produce the count observed. [The grading rules](../../docs/scoring-rules.md) give every detail.
 
-### 2.4 Failure labels
+### 2.4. Failure labels
 
 Each size a model missed gets one label that says why the model missed it. Claude, an AI model made by Anthropic, studied the drawing and proposed a label with evidence from the sheet. The evaluator reviewed every proposed label and kept or changed it. A failure that repeats an earlier one (the same drawing, missed size and wrong number) takes the evaluator's earlier label. Claude also labelled failures by Anthropic's own model, which is one reason the evaluator reviewed every label. The evaluator kept Claude's label on 20 of 24 (83%, 95% range 63% to 95%) and changed the rest. [`tables/label-review.csv`](tables/label-review.csv) holds these counts; it is the one table built from the evaluator's review record rather than from [`every-run.csv`](every-run.csv).
 
 Appendix A defines the labels, and Appendix B gives one example of each.
 
-## 3 Results
+## 3. Results
 
-### 3.1 Pass rate by model
+### 3.1. Pass rate by model
 
 The table counts each model's first answer (run 1) to each drawing, so each drawing counts once per model. GPT-5.6 Sol passed 29 of 30 drawings (97%, 95% range 83% to 100%), Claude Opus 5 passed 26 of 30 drawings (87%, 95% range 69% to 96%) and Gemini 3.1 Pro (preview) passed 26 of 30 drawings (87%, 95% range 69% to 96%). The 95% ranges of all 3 models overlap, so 30 drawings are too few to rank the models.
 
@@ -73,7 +73,7 @@ The table counts each model's first answer (run 1) to each drawing, so each draw
 
 *Figure 1. Drawings passed per model in run 1, with 95% ranges.*
 
-### 3.2 Consistency across runs
+### 3.2. Consistency across runs
 
 A drawing counts as consistent for a model when the model passed it on every run or failed it on every run. A mixed drawing passed on some runs and failed on others. The share of drawings with the same verdict on every run was 93% for GPT-5.6 Sol, 87% for Claude Opus 5 and 83% for Gemini 3.1 Pro (preview), each out of the 30 drawings it answered more than once.
 
@@ -89,7 +89,7 @@ A drawing counts as consistent for a model when the model passed it on every run
 
 *Figure 2. Share of drawings each model passed every run, failed every run, or mixed.*
 
-### 3.3 Missed sizes by failure label
+### 3.3. Missed sizes by failure label
 
 The models missed 10 sizes in run 1. Axis mapping accounts for 5 of them.
 
@@ -107,7 +107,7 @@ The models missed 10 sizes in run 1. Axis mapping accounts for 5 of them.
 
 *Figure 3. Missed sizes in run 1 by failure label.*
 
-### 3.4 Results by kind of drawing
+### 3.4. Results by kind of drawing
 
 Each cell gives drawings passed in run 1, the pass rate and its 95% range. A group with fewer than 5 drawings shows only the count, because a rate from so few drawings would mislead. The column for all models has no range, for the reason given under limitations.
 
@@ -139,7 +139,7 @@ Each cell gives drawings passed in run 1, the pass rate and its 95% range. A gro
 | Millimetres and inches, 27 drawings | 24 of 27, 89% (71% to 98%) | 26 of 27, 96% (81% to 100%) | 23 of 27, 85% (66% to 96%) | 73 of 81, 90% |
 | Inches only, 3 drawings | 2 of 3 | 3 of 3 | 3 of 3 | 8 of 9 |
 
-## 4 Limitations
+## 4. Limitations
 
 - The pass rates use run 1 only, so each drawing counts once per model. Counting every run would count the drawings that ran more than once several times over and make the ranges look narrower than the evidence supports. The later runs feed only the consistency results.
 - The "All three models" row has no 95% range. All the models answered the same drawings, so their answers are not independent tries, and a range that treated them as independent would be too narrow.
@@ -151,7 +151,7 @@ Each cell gives drawings passed in run 1, the pass rate and its 95% range. A gro
 - Code could not grade 1 of 270 replies, because the small AI model that copies out numbers flagged that reply as unreadable. That reply counts as neither pass nor fail, and [`every-run.csv`](every-run.csv) marks it NOT GRADED.
 - No pass in run 1 relied on a model converting a printed number between millimetres and inches, or on a tolerance limit: every passing size matched a printed number.
 
-## 5 Data and code
+## 5. Data and code
 
 - [`every-run.csv`](every-run.csv): one row per reply: the recorded sizes, the values returned, the verdict, sizes right, sizes missed, and the evaluator's label and evidence for each missed size
 - [`tables/`](tables/): every table this report quotes, as CSV

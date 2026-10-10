@@ -4,7 +4,7 @@
 
 **Abstract.** This report measures how often 3 vision-language models (VLMs) return the correct bounding dimensions of a machined part from its 2D engineering drawing. The evaluator sent 141 drawings to Claude Opus 5, GPT-5.6 Sol and Gemini 3.1 Pro (preview) with the same one-line prompt, and code graded every answer against sizes the evaluator recorded by hand. On each model's first answer (run 1), GPT-5.6 Sol passed 138 of 140 drawings (99%, 95% range 95% to 100%), Claude Opus 5 passed 130 of 140 drawings (93%, 95% range 87% to 97%) and Gemini 3.1 Pro (preview) passed 121 of 139 drawings (87%, 95% range 80% to 92%). The 95% ranges separate GPT-5.6 Sol from Gemini 3.1 Pro (preview); the other models' ranges overlap, so 141 drawings are too few to rank them. Of the 35 sizes the models missed in run 1, Axis mapping accounts for 19. An AI model proposed a failure label for each missed size, and the evaluator reviewed every label.
 
-## 1 Introduction
+## 1. Introduction
 
 A part's bounding dimensions are the overall sizes of the stock it is machined from. A part cut from rectangular stock (a cuboid, CUBE in this report) has three: thickness, width and length. A part cut from round stock (a cylinder, CYL) has two: diameter and length. A machinist reads them from the part's engineering drawing before choosing material, workholding and operations. [Why this matters](../../README.md#why-this-matters), in the repository's main README, explains why the evaluator measured them.
 
@@ -12,9 +12,9 @@ This report asks one question: how often does a general-purpose vision-language 
 
 Each model answered each drawing once, so this evaluation does not measure run-to-run consistency. The repository's [main README](../../README.md#results) lists every evaluation and says which drawings and answers they share.
 
-## 2 Method
+## 2. Method
 
-### 2.1 Drawings and recorded sizes
+### 2.1. Drawings and recorded sizes
 
 Each drawing is a PDF of one machined part; none is an assembly. The evaluation uses all 141 drawings in the repository.
 
@@ -22,7 +22,7 @@ Each drawing is a PDF of one machined part; none is an assembly. The evaluation 
 
 The evaluator recorded each part's bounding dimensions by hand from its drawing, in [`drawings/ground-truth.md`](../../drawings/ground-truth.md). On drawings that print both units, the evaluator recorded the millimetre value, and code found the inch value printed beside it. A chain is recorded as its parts and their sum.
 
-### 2.2 Models and prompt
+### 2.2. Models and prompt
 
 Each model received the drawing's PDF file unchanged and this prompt, with no system prompt and no other instructions:
 
@@ -38,7 +38,7 @@ Each model answered 141 drawings once. Each answer came from a fresh conversatio
 | GPT-5.6 Sol | `gpt-5.6-sol` | reasoning effort medium |
 | Gemini 3.1 Pro (preview) | `gemini-3.1-pro-preview` | thinking level high |
 
-### 2.3 Grading
+### 2.3. Grading
 
 Code decides whether an answer passes; no person or AI model judges it. A small AI model (`claude-haiku-4-5-20251001`) copies the numbers out of each free-text reply and never sees the drawing or judges the numbers.
 
@@ -48,15 +48,15 @@ A cuboid's three sizes may come in any order, because stock is ordered by its th
 
 The 95% range given with each pass rate is an exact binomial range: the span of true pass rates that could plausibly produce the count observed. [The grading rules](../../docs/scoring-rules.md) give every detail.
 
-### 2.4 Failure labels
+### 2.4. Failure labels
 
 Each size a model missed gets one label that says why the model missed it. Claude, an AI model made by Anthropic, studied the drawing and proposed a label with evidence from the sheet. The evaluator reviewed every proposed label and kept or changed it. A failure that repeats an earlier one (the same drawing, missed size and wrong number) takes the evaluator's earlier label. Claude also labelled failures by Anthropic's own model, which is one reason the evaluator reviewed every label. The evaluator kept Claude's label on 30 of 33 (91%, 95% range 76% to 98%) and changed the rest. [`tables/label-review.csv`](tables/label-review.csv) holds these counts; it is the one table built from the evaluator's review record rather than from [`every-run.csv`](every-run.csv).
 
 Appendix A defines the labels, and Appendix B gives one example of each.
 
-## 3 Results
+## 3. Results
 
-### 3.1 Pass rate by model
+### 3.1. Pass rate by model
 
 The table counts each model's first answer (run 1) to each drawing, so each drawing counts once per model. GPT-5.6 Sol passed 138 of 140 drawings (99%, 95% range 95% to 100%), Claude Opus 5 passed 130 of 140 drawings (93%, 95% range 87% to 97%) and Gemini 3.1 Pro (preview) passed 121 of 139 drawings (87%, 95% range 80% to 92%). The 95% ranges separate GPT-5.6 Sol from Gemini 3.1 Pro (preview); the other models' ranges overlap, so 141 drawings are too few to rank them.
 
@@ -73,7 +73,7 @@ The table counts each model's first answer (run 1) to each drawing, so each draw
 
 *Figure 1. Drawings passed per model in run 1, with 95% ranges.*
 
-### 3.2 Missed sizes by failure label
+### 3.2. Missed sizes by failure label
 
 The models missed 35 sizes in run 1. Axis mapping accounts for 19 of them.
 
@@ -92,7 +92,7 @@ The models missed 35 sizes in run 1. Axis mapping accounts for 19 of them.
 
 *Figure 2. Missed sizes in run 1 by failure label.*
 
-### 3.3 Results by kind of drawing
+### 3.3. Results by kind of drawing
 
 Each cell gives drawings passed in run 1, the pass rate and its 95% range. A group with fewer than 5 drawings shows only the count, because a rate from so few drawings would mislead. The column for all models has no range, for the reason given under limitations.
 
@@ -124,7 +124,7 @@ Each cell gives drawings passed in run 1, the pass rate and its 95% range. A gro
 | Millimetres and inches, 128 drawings | 120 of 128, 94% (88% to 97%) | 126 of 128, 98% (94% to 100%) | 112 of 128, 88% (80% to 93%) | 358 of 384, 93% |
 | Inches only, 12 drawings | 10 of 12, 83% (52% to 98%) | 12 of 12, 100% (74% to 100%) | 9 of 11, 82% (48% to 98%) | 31 of 35, 89% |
 
-## 4 Limitations
+## 4. Limitations
 
 - The "All three models" row has no 95% range. All the models answered the same drawings, so their answers are not independent tries, and a range that treated them as independent would be too narrow.
 - Only 4 drawings need a chain, so the chain results are counts, not rates.
@@ -135,7 +135,7 @@ Each cell gives drawings passed in run 1, the pass rate and its 95% range. A gro
 - Code could not grade 4 of 423 replies, because the small AI model that copies out numbers flagged those replies as unreadable. Those replies count as neither pass nor fail, and [`every-run.csv`](every-run.csv) marks them NOT GRADED.
 - 1 passes in run 1 relied on a number not printed as written: the model converting a printed number between millimetres and inches itself, or giving a size's upper tolerance limit. Appendix C lists them.
 
-## 5 Data and code
+## 5. Data and code
 
 - [`every-run.csv`](every-run.csv): one row per reply: the recorded sizes, the values returned, the verdict, sizes right, sizes missed, and the evaluator's label and evidence for each missed size
 - [`tables/`](tables/): every table this report quotes, as CSV

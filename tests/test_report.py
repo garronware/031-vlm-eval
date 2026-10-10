@@ -348,14 +348,14 @@ def test_the_page_is_a_report_with_numbered_sections_tables_and_figures(tmp_path
     again = report.write_folder(three_runs, "made-up-run", results=tmp_path / "three")
     for out, consistency in ((folder, False), (again, True)):
         page = (out / "README.md").read_text()
-        assert page.index("**Abstract.**") < page.index("## 1 Introduction")
-        assert _numbers(page, r"^## (\d+) ") == ["1", "2", "3", "4", "5"]
+        assert page.index("**Abstract.**") < page.index("## 1. Introduction")
+        assert _numbers(page, r"^## (\d+)\. ") == ["1", "2", "3", "4", "5"]
         assert _numbers(page, r"^## (\D.*)$") == [
             "Appendix A: Failure labels",
             "Appendix B: One example of each failure label",
             "Appendix C: Tolerance audit",
         ]
-        subs = _numbers(page, r"^### (3\.\d+) ")
+        subs = _numbers(page, r"^### (3\.\d+)\. ")
         assert subs == [f"3.{i}" for i in range(1, len(subs) + 1)]  # no gap
         assert ("Consistency across runs" in page) == consistency
         for kind in ("Table", "Figure"):

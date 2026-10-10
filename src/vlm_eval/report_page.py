@@ -94,11 +94,11 @@ class Numbers:
     def heading(self, title: str) -> str:
         self.section += 1
         self.sub = 0
-        return f"## {self.section} {title}"
+        return f"## {self.section}. {title}"
 
     def subheading(self, title: str) -> str:
         self.sub += 1
-        return f"### {self.section}.{self.sub} {title}"
+        return f"### {self.section}.{self.sub}. {title}"
 
     def next_table(self) -> int:
         self.tables += 1
