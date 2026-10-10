@@ -106,7 +106,7 @@ Each cell gives drawings passed in run 1, the pass rate and its 95% range. A gro
 - Only 4 drawings need a chain, so the chain results are counts, not rates.
 - Claude, an AI model made by Anthropic, proposed a label for each new kind of failure, including failures by Anthropic's own model. A failure that repeats an earlier one takes the evaluator's earlier label. The evaluator reviewed every label Claude proposed. The evaluator kept Claude's label on 20 of 24 (83%, 95% range 63% to 95%) and changed the rest. Every label published here is the evaluator's. [`tables/label-review.csv`](tables/label-review.csv) holds these counts. That table is the one table built from the evaluator's review record rather than from [`every-run.csv`](every-run.csv).
 - Code could not grade 1 of 270 replies, because the small AI model that copies out numbers flagged that reply as unreadable. That reply counts as neither pass nor fail, and [`every-run.csv`](every-run.csv) marks it NOT GRADED.
-- No pass in run 1 relied on a model converting a printed number between millimetres and inches: every passing size matched a printed number.
+- No pass in run 1 relied on a model converting a printed number between millimetres and inches, or on a tolerance limit: every passing size matched a printed number.
 
 ## What's in this folder
 

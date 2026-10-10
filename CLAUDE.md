@@ -24,7 +24,7 @@ Layout from SPEC.md 2.13. Folders marked *(Chunk N)* don't exist yet. Update thi
 ├── pyproject.toml, .env.example, .gitignore, .claude/settings.json
 ├── drawings/            141 PDFs + ground-truth.md (human-edited source) + README.md
 ├── data/                generated, never hand-edited: ground-truth.csv,
-│                        inch-partners.csv, drawing-sets.csv, foundation-summary.md,
+│                        inch-partners.csv, drawing-sets.csv, envelope-tolerances.csv, foundation-summary.md,
 │                        grading-examples.html; plus files Garron's answers write:
 │                        inch-confirmations.csv, casebook.jsonl (his diagnosis labels)
 ├── config/models.yaml   makers, models, thinking levels, prices, on/off (Grok off)
@@ -76,7 +76,7 @@ Layout from SPEC.md 2.13. Folders marked *(Chunk N)* don't exist yet. Update thi
 - **Prompt:** new runs use the `stock-shape` prompt, word for word as SPEC 2.1 gives it (`run_plan.DEFAULT_PROMPT_ID`); the bare `return bounding dimensions for this part` is the baseline only. No system prompt, no other instructions.
 - **PDFs are sent to tested models as-is.** Never rasterize for tested models. If a maker's API won't accept a PDF, stop and ask Garron.
 - **Scores come from code only.** No LLM decides pass/fail. Extraction (Claude Haiku 4.5, text-only) is saved once and reused so re-scoring is identical.
-- **Scoring (SPEC 2.5):** CUBE values match as an unordered set — never compare Thk to Thk, W to W, L to L. Accept any faithful reading (printed mm, printed inch, or either converted) within ±0.02 mm / ±0.0005 in; inch-only prints allow ±0.05 mm for mm answers. Do not reintroduce the starter doc's ±0.20 mm window — it lets wrong printed numbers pass.
+- **Scoring (SPEC 2.5):** CUBE values match as an unordered set — never compare Thk to Thk, W to W, L to L. Accept any faithful reading (printed mm, printed inch, or either converted) within ±0.02 mm / ±0.0005 in; inch-only prints allow ±0.05 mm for mm answers. A size printed with a ± tolerance also accepts its upper limit (`data/envelope-tolerances.csv`), never the lower. Do not reintroduce the starter doc's ±0.20 mm window — it lets wrong printed numbers pass.
 - **Failure labels (SPEC 2.6)** are Garron's list, one label per missed dimension. Don't add, rename, or redefine labels without his approval. One diagnosis agent only; multi-agent diagnosis is parked.
 - **Paid API calls** only after showing the plan and cost estimate and getting Garron's approval. Pause at +25% over the approved estimate.
 - **Drawings are licensed** under DRAWINGS-LICENSE. Send them only to the model APIs under test and the extraction/diagnosis steps in SPEC; don't upload or publish them anywhere else (e.g. artifacts, gists).

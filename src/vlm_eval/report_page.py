@@ -439,14 +439,16 @@ def _limits(f: Facts) -> str:
     audit = f.tables["tolerance-audit"]
     if audit:
         bullets.append(
-            f"{len(audit)} passes in run {f.headline_run} relied on the model converting a "
-            "printed number between millimetres and inches itself. "
+            f"{len(audit)} passes in run {f.headline_run} relied on a number not printed as "
+            "written: the model converting a printed number between millimetres and inches "
+            "itself, or giving a size's upper tolerance limit. "
             "[`tables/tolerance-audit.csv`](tables/tolerance-audit.csv) lists them."
         )
     else:
         bullets.append(
             f"No pass in run {f.headline_run} relied on a model converting a printed number "
-            "between millimetres and inches: every passing size matched a printed number."
+            "between millimetres and inches, or on a tolerance limit: every passing size "
+            "matched a printed number."
         )
     return "## Limits on what these numbers show\n\n" + "\n".join(f"- {b}" for b in bullets)
 

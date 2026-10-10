@@ -22,7 +22,7 @@ from collections import Counter
 from dataclasses import dataclass
 from decimal import Decimal
 
-from vlm_eval import paths
+from vlm_eval import paths, tolerances
 from vlm_eval.answers import (
     Answer,
     AnswerValue,
@@ -80,7 +80,9 @@ class Reading:
 
     @property
     def converted(self) -> bool:
-        return "converted" in self.name
+        """Not a number printed on the sheet: a unit conversion or a tolerance limit.
+        The tolerance audit lists every pass that needed one."""
+        return "converted" in self.name or "tolerance limit" in self.name
 
     def accepts(self, number: Decimal, unit: str) -> bool:
         return unit == self.unit and abs(number - self.value) <= self.tolerance
@@ -268,9 +270,62 @@ def _inch_only_readings(dimension: Dimension) -> list[Reading]:
     ]
 
 
-def build_key(drawing: Drawing, inch_values: dict[tuple[str, str], str]) -> DrawingKey:
+def _upper_limit_readings(
+    dimension: Dimension,
+    inch_text: str | None,
+    mm_tol: Decimal | None,
+    in_tol: Decimal | None,
+) -> list[Reading]:
+    """A size printed with a ± tolerance can be as large as its upper limit, so that limit
+    is a bounding dimension too (Garron, 2026-10-10). Only the upper limit counts: a part
+    can be larger than its lower limit, so the lower limit doesn't bound it."""
+    out = []
+    if inch_text is None:  # inch-only print
+        if in_tol is not None:
+            upper = Decimal(dimension.printed) + in_tol
+            out += [
+                Reading("upper tolerance limit of the printed inch", "in", upper, INCH_TOLERANCE),
+                Reading(
+                    "upper tolerance limit of the printed inch converted to mm",
+                    "mm",
+                    upper * MM_PER_INCH,
+                    INCH_ONLY_MM_TOLERANCE,
+                ),
+            ]
+        return out
+    if mm_tol is not None:
+        upper = Decimal(dimension.printed) + mm_tol
+        out += [
+            Reading("upper tolerance limit of the printed mm", "mm", upper, DUAL_MM_TOLERANCE),
+            Reading(
+                "upper tolerance limit of the printed mm converted to inch",
+                "in",
+                upper / MM_PER_INCH,
+                INCH_TOLERANCE,
+            ),
+        ]
+    if in_tol is not None:
+        upper = Decimal(inch_text) + in_tol
+        out += [
+            Reading("upper tolerance limit of the printed inch", "in", upper, INCH_TOLERANCE),
+            Reading(
+                "upper tolerance limit of the printed inch converted to mm",
+                "mm",
+                upper * MM_PER_INCH,
+                DUAL_MM_TOLERANCE,
+            ),
+        ]
+    return out
+
+
+def build_key(
+    drawing: Drawing,
+    inch_values: dict[tuple[str, str], str],
+    tolerances: dict[tuple[str, str], tuple[Decimal | None, Decimal | None]] | None = None,
+) -> DrawingKey:
     dims = []
     for d in drawing.dimensions:
+        mm_tol, in_tol = (tolerances or {}).get((drawing.file, d.label), (None, None))
         if drawing.print_type == "dual":
             inch_text = inch_values.get((drawing.file, d.label), "")
             if not inch_text:
@@ -278,8 +333,11 @@ def build_key(drawing: Drawing, inch_values: dict[tuple[str, str], str]) -> Draw
             readings = _dual_readings(d, inch_text)
             parts = _chain_parts(d, inch_text)
         else:
+            inch_text = None
             readings = _inch_only_readings(d)
             parts = _chain_parts(d, None)
+        if not parts:  # chains carry no tolerance
+            readings += _upper_limit_readings(d, inch_text, mm_tol, in_tol)
         dims.append(DimensionKey(d.label, d.axis, tuple(readings), d.printed, parts))
     return DrawingKey(drawing.file, drawing.shape, drawing.print_type, tuple(dims))
 
@@ -293,7 +351,10 @@ def _inch_values() -> dict[tuple[str, str], str]:
 def load_answer_key() -> dict[str, DrawingKey]:
     """Every drawing's accepted readings, keyed by PDF file name."""
     inch_values = _inch_values()
-    return {d.file: build_key(d, inch_values) for d in read_ground_truth(classify_pdfs=False)}
+    found = tolerances.load()
+    return {
+        d.file: build_key(d, inch_values, found) for d in read_ground_truth(classify_pdfs=False)
+    }
 
 
 # --- scoring ---------------------------------------------------------------

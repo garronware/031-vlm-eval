@@ -284,7 +284,7 @@ drawing,model,model_version,run,values_returned,result,correct,total_criteria,mi
 201551-023,Claude Opus 5,claude-opus-5,1,Diameter 83.570 mm (3.2902); Length / Thickness 2.485 mm (0.0978),PASS,2,2,,,,CYL,dual,text,explicitly_dimensioned,
 201551-023,GPT-5.6 Sol,gpt-5.6-sol,1,Ø 83.570 mm (3.2902); 2.485 mm (0.0978),PASS,2,2,,,,CYL,dual,text,explicitly_dimensioned,
 201551-023,Gemini 3.1 Pro (preview),gemini-3.1-pro-preview,1,Dia 83.570 mm (3.2902); L 2.485 mm (0.0978),PASS,2,2,,,,CYL,dual,text,explicitly_dimensioned,
-201551-024,Claude Opus 5,claude-opus-5,1,Diameter 83.60 mm (3.291); Length 6.4 mm (0.25),FAIL,1,2,Dia,Dia: Not reviewed by the evaluator yet,,CYL,dual,text,explicitly_dimensioned,
+201551-024,Claude Opus 5,claude-opus-5,1,Diameter 83.60 mm (3.291); Length 6.4 mm (0.25),PASS,2,2,,,,CYL,dual,text,explicitly_dimensioned,Dia: 83.60 mm matched the upper tolerance limit of the printed mm
 201551-024,GPT-5.6 Sol,gpt-5.6-sol,1,Ø 83.570 mm (3.2902); L 6.4 mm (0.25),PASS,2,2,,,,CYL,dual,text,explicitly_dimensioned,
 201551-024,Gemini 3.1 Pro (preview),gemini-3.1-pro-preview,1,Dia 83.570 mm (3.2902); L 6.4 mm (0.25),PASS,2,2,,,,CYL,dual,text,explicitly_dimensioned,
 201551-025,Claude Opus 5,claude-opus-5,1,Diameter 83.57 mm (3.290); Length 33.75 mm (1.329),PASS,2,2,,,,CYL,dual,text,explicitly_dimensioned,

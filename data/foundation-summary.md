@@ -18,6 +18,11 @@ Generated from `drawings/ground-truth.md`. Nothing here is hand-edited.
 - 235 were found from the text layer, 92 were read off image-only sheets
 - 20 automatic pairs were spot-checked
 
+## Envelope tolerances
+
+- **11 envelope sizes are printed with a ± tolerance**, on 9 drawings; each also accepts its upper limit
+- found in the text layer only, so picture-only drawings have none listed
+
 ## First run set
 
 The fixed 30 sits inside the 60, which sits inside the 141. 9 of the 30 are image-only (30%).

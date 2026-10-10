@@ -34,6 +34,16 @@ printed on the sheet. A wider window, like ±0.20 mm, would pass a model that
 grabbed the 19.0. At these widths the only overlaps left are the same size
 printed a second way (19.05 mm is .750 in), which is harmless.
 
+## Sizes printed with a tolerance
+
+A size printed with a ± tolerance also accepts its **upper limit**, because the
+part can be that large. On 201551-024 the diameter is printed `Ø83.570 ±0.025
+[Ø3.2902 ±.0010]`, so 83.595 mm (or 3.2912 in) also counts, within the same
+windows; an answer of 83.60 mm passes. The lower limit, 83.545, fails: the part
+can be bigger than that. Code finds these tolerances in the drawing's text when
+`build-foundation` runs (`data/envelope-tolerances.csv`), so picture-only
+drawings have none.
+
 ## Units
 
 - **A stated unit is trusted.** A number labeled mm that only matches as inches
@@ -85,5 +95,6 @@ Failing the occasional coarse conversion is the smaller problem.
 
 ## Tolerance audit
 
-Every pass that relied on a converted reading, rather than a number printed on
-the sheet, will be listed in the report for reference.
+Every pass that relied on a converted reading or an upper tolerance limit,
+rather than a number printed on the sheet, is listed in the report for
+reference.

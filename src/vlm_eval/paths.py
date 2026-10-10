@@ -11,6 +11,7 @@ DATA = ROOT / "data"
 GROUND_TRUTH_CSV = DATA / "ground-truth.csv"
 INCH_PARTNERS_CSV = DATA / "inch-partners.csv"
 DRAWING_SETS_CSV = DATA / "drawing-sets.csv"
+ENVELOPE_TOLERANCES_CSV = DATA / "envelope-tolerances.csv"
 FOUNDATION_SUMMARY = DATA / "foundation-summary.md"
 GRADING_EXAMPLES = DATA / "grading-examples.html"
 

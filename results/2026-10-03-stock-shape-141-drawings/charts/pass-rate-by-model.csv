@@ -1,4 +1,4 @@
 model,passed,replies_graded,pass_rate_percent,range_low_percent,range_high_percent
-Claude Opus 5,129,140,92,86,96
+Claude Opus 5,130,140,93,87,97
 GPT-5.6 Sol,138,140,99,95,100
 Gemini 3.1 Pro (preview),121,139,87,80,92

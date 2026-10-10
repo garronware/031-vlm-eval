@@ -8,7 +8,7 @@ from __future__ import annotations
 import collections
 import csv
 
-from vlm_eval import drawing_sets, ground_truth, inch_partners, paths
+from vlm_eval import drawing_sets, ground_truth, inch_partners, paths, tolerances
 
 
 def _read(path):
@@ -20,6 +20,7 @@ def write_summary() -> str:
     drawings = _read(paths.GROUND_TRUTH_CSV)
     partners = _read(paths.INCH_PARTNERS_CSV)
     sets = _read(paths.DRAWING_SETS_CSV)
+    toleranced = _read(paths.ENVELOPE_TOLERANCES_CSV)
 
     prints = collections.Counter(d["print_type"] for d in drawings)
     pdfs = collections.Counter(d["pdf_text_type"] for d in drawings)
@@ -58,6 +59,12 @@ def write_summary() -> str:
         f"were read off image-only sheets",
         f"- {len(spot)} automatic pairs were spot-checked",
         "",
+        "## Envelope tolerances",
+        "",
+        f"- **{len(toleranced)} envelope sizes are printed with a ± tolerance**, on "
+        f"{len({t['file'] for t in toleranced})} drawings; each also accepts its upper limit",
+        "- found in the text layer only, so picture-only drawings have none listed",
+        "",
         "## First run set",
         "",
         f"The fixed 30 sits inside the 60, which sits inside the {len(drawings)}. "
@@ -76,5 +83,6 @@ def build() -> str:
     """Rebuild all three data files from scratch and return the summary."""
     ground_truth.write_csv(ground_truth.read_ground_truth())
     inch_partners.build()
+    tolerances.build()
     drawing_sets.build()
     return write_summary()

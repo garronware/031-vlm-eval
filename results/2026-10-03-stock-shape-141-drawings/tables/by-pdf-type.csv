@@ -3,7 +3,7 @@ image_only,Claude Opus 5,42,42,37,88,74,96
 image_only,GPT-5.6 Sol,42,42,42,100,92,100
 image_only,Gemini 3.1 Pro (preview),42,42,36,86,71,95
 image_only,All three models,42,126,115,91,,
-text,Claude Opus 5,98,98,92,94,87,98
+text,Claude Opus 5,98,98,93,95,88,98
 text,GPT-5.6 Sol,98,98,96,98,93,100
 text,Gemini 3.1 Pro (preview),97,97,85,88,79,93
-text,All three models,98,293,273,93,,
+text,All three models,98,293,274,94,,

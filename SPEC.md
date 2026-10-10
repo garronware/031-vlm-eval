@@ -157,6 +157,24 @@ chain that drifts is added later.
   it rounds mm to 1 decimal (e.g. 276.2 [10.88] answered as 276.4 mm), and 54
   of 327 if it rounds inch to 2 decimals (e.g. 10.0 [.394] answered as 0.39 in).
 
+**A toleranced size also accepts its upper limit (Garron, 2026-10-10).** A size printed
+with a ± tolerance can be as large as nominal plus tolerance, so that limit is a bounding
+dimension too. It is accepted in either unit, and converted, within the same windows.
+- **Why:** on 201551-024, Opus read `Ø83.570 ±0.025 [Ø3.2902 ±.0010]` and answered
+  83.60 mm (3.291 in), the upper limit rounded, and said so in its reply. It failed the
+  ±0.02 mm window by 0.005 mm. The match window is unchanged.
+- **How it still rejects wrong answers:** only the nominal and the upper limit count. The
+  lower limit fails (the part can be larger), and so does any other number. A size with
+  no printed tolerance gains nothing.
+- **Where tolerances come from:** code reads them from the text layer at
+  `build-foundation` into `data/envelope-tolerances.csv`: 11 envelope sizes on 9 text
+  drawings, symmetric ± only, chains skipped. The 42 picture-only drawings have none
+  listed. Of the 51 replies on those 9 drawings, this was the only one that gave a
+  tolerance limit; every other reply gave the nominal. Re-scoring changed that one
+  reply and no other (Opus, 141-drawing eval, 129 to 130 of 140).
+- The tolerance audit lists every pass that relied on an upper limit, beside the
+  converted readings.
+
 **Units in a run:**
 - If the model labels its units, the label is trusted. A number labeled mm
   that only matches as inches is wrong, and the run is marked *unit mix-up*.

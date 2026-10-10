@@ -13,6 +13,7 @@ from decimal import ROUND_HALF_UP, Decimal
 
 import pytest
 
+from vlm_eval import tolerances
 from vlm_eval.answers import Answer, AnswerValue
 from vlm_eval.ground_truth import Dimension, Drawing
 from vlm_eval.scoring import (
@@ -362,6 +363,44 @@ def test_chain_segments_that_do_not_add_to_the_printed_total_still_pass():
         if verdict.strict_pass != should_pass:
             bad.append(f"L as {number} {unit}: {summary(verdict)}")
     assert not bad, bad
+
+
+def test_a_toleranced_size_accepts_its_upper_limit_and_nothing_else():
+    """Made-up round part printed 50.000 ±0.025 [1.9685 ±.0010] (SPEC 2.5, 2026-10-10)."""
+    file = "made-up-toleranced.pdf"
+    dims = (Dimension("Dia", "", "50.000", 50.0), Dimension("L", "X", "10.0", 10.0))
+    drawing = Drawing(file, "made-up-toleranced", "CYL", "MM", "", "", "", "", dims)
+    inch = {(file, "Dia"): "1.9685", (file, "L"): ".39"}
+    tolerances = {(file, "Dia"): (Decimal("0.025"), Decimal(".0010"))}
+    made_up_key = build_key(drawing, inch, tolerances)
+    bad = []
+    for number, unit, should_pass in [
+        ("50.000", "mm", True),  # the nominal
+        ("50.03", "mm", True),  # the upper limit, 50.025, rounded
+        ("1.9695", "in", True),  # the inch upper limit
+        ("49.975", "mm", False),  # the lower limit bounds nothing
+        ("50.10", "mm", False),  # made-up, clearly wrong
+        ("1.9750", "in", False),
+    ]:
+        values = (AnswerValue(number, unit, "Dia"), AnswerValue("10.0", "mm", "L"))
+        verdict = score(file, Answer(values), key=made_up_key)
+        if verdict.strict_pass != should_pass:
+            bad.append(f"Dia as {number} {unit}: {summary(verdict)}")
+    assert not bad, bad
+    # Without a tolerance, the upper limit is just a wrong number.
+    plain = build_key(drawing, inch)
+    values = (AnswerValue("50.03", "mm", "Dia"), AnswerValue("10.0", "mm", "L"))
+    assert not score(file, Answer(values), key=plain).strict_pass
+
+
+def test_tolerances_are_read_after_their_number_only():
+    text = "n83.570 `0.025 [n3.2902 `.0010]    76.2 [3.00]    7.530 ±0.001"
+    assert tolerances.tolerance_of("83.570", text) == "0.025"
+    assert tolerances.tolerance_of("3.2902", text) == ".0010"
+    assert tolerances.tolerance_of("0.750", ".750 ±0.002") == "0.002"
+    assert tolerances.tolerance_of("7.530", text) == "0.001"
+    assert tolerances.tolerance_of("76.2", text) == ""
+    assert tolerances.tolerance_of("3.570", text) == ""  # never the tail of 83.570
 
 
 def test_one_right_unit_is_enough_when_a_reply_gives_both(key):
